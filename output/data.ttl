@@ -1,17 +1,18 @@
-@prefix capacoa: <http://capacoa.ca/vocabulary#> .
-@prefix ebu_core: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
-@prefix member: <http://capacoa.ca/member/> .
-@prefix schema: <http://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix wikidata_entity: <http://www.wikidata.org/entity/> .
-@prefix wikidata_property: <http://www.wikidata.org/prop/direct> .
+@prefix capacoa: <https://capacoa.ca/vocabulary#> .
+@prefix ebu_core: <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix member: <https://capacoa.ca/member/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <https://www.w3.org/2004/02/skos/core#> .
+@prefix wikidata_entity: <https://www.wikidata.org/entity/> .
+@prefix wikidata_property: <https://www.wikidata.org/prop/direct> .
 
 member:1 schema:address [a schema:PostalAddress];
   schema:name "admin"@en .
 
 member:100 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -27,6 +28,7 @@ member:100 a schema:Organization;
 member:101 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -45,7 +47,8 @@ member:101 a schema:Organization;
 
 member:102 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -60,7 +63,8 @@ member:102 a schema:Organization;
   wikidata_property:\/P8860 "751675695" .
 
 member:103 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_agen;
+  schema:additionalType capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "Kids and Then Some (KATS)"@en;
   schema:url <https://www.katskids.com/> .
@@ -68,6 +72,7 @@ member:103 a schema:Organization;
 member:104 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -82,6 +87,7 @@ member:104 a schema:Organization;
 
 member:105 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:legalName "Alianait Entertainment Group"@en;
@@ -91,6 +97,7 @@ member:105 a schema:Organization;
 member:106 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -106,6 +113,7 @@ member:106 a schema:Organization;
 
 member:107 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:legalName "Kings Theatre Society"@en;
@@ -116,6 +124,7 @@ member:107 a schema:Organization;
 member:108 a schema:Organization;
   capacoa:memberTerminationDate "2024-04-01";
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Centennial Theatre"@en;
@@ -123,7 +132,8 @@ member:108 a schema:Organization;
 
 member:109 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -139,6 +149,7 @@ member:109 a schema:Organization;
 member:11 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -175,6 +186,7 @@ member:11 a schema:Organization;
 member:110 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -198,6 +210,7 @@ member:110 a schema:Organization;
 member:111 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -214,7 +227,8 @@ member:111 a schema:Organization;
 
 member:112 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "New Vintage Theatre Society";
   schema:identifier "Q112572963";
@@ -223,7 +237,8 @@ member:112 a schema:Organization;
   wikidata_property:\/P8860 "808134241" .
 
 member:113 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_agen;
+  schema:additionalType capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "Fascinator Management"@en;
   schema:url <https://www.fascinatormanagement.com/> .
@@ -231,6 +246,7 @@ member:113 a schema:Organization;
 member:114 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -256,6 +272,7 @@ member:115 a schema:Organization;
   capacoa:memberTerminationDate "2022-04-01";
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "FOTR";
@@ -266,6 +283,7 @@ member:116 a schema:Organization;
   capacoa:memberTerminationDate "2025-04-01";
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -280,7 +298,8 @@ member:116 a schema:Organization;
   wikidata_property:\/P8860 "806417325" .
 
 member:117 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_agen;
+  schema:additionalType capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:identifier "Q112570694";
   schema:name "Bailiwick Booking Agency and Arts Management"@en;
@@ -289,6 +308,7 @@ member:117 a schema:Organization;
 member:118 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -309,6 +329,7 @@ member:118 a schema:Organization;
 member:119 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:Genres_you;
   schema:address [
@@ -325,6 +346,7 @@ member:119 a schema:Organization;
 member:12 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -361,7 +383,8 @@ member:12 a schema:Organization;
 
 member:120 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -377,6 +400,7 @@ member:120 a schema:Organization;
 member:121 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_gran,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -401,6 +425,7 @@ member:121 a schema:Organization;
 member:122 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -420,7 +445,8 @@ member:122 a schema:Organization;
 
 member:123 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -449,6 +475,7 @@ member:124 capacoa:memberTerminationDate "2025-04-01";
 member:125 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -473,6 +500,7 @@ member:125 a schema:Organization;
 member:126 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -517,6 +545,7 @@ member:129 capacoa:memberTerminationDate "2023-04-01";
 member:13 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -556,6 +585,7 @@ member:13 a schema:Organization;
 member:130 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -586,7 +616,8 @@ member:130 a schema:Organization;
 
 member:131 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -602,6 +633,7 @@ member:131 a schema:Organization;
 member:132 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -636,6 +668,7 @@ member:132 a schema:Organization;
 member:133 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -675,6 +708,7 @@ member:133 a schema:Organization;
 member:134 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -700,6 +734,7 @@ member:134 a schema:Organization;
 member:135 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -748,6 +783,7 @@ member:136 capacoa:memberTerminationDate "2025-04-01";
 member:138 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -781,6 +817,7 @@ member:138 a schema:Organization;
 member:139 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -797,6 +834,7 @@ member:139 a schema:Organization;
 member:14 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -822,6 +860,7 @@ member:14 a schema:Organization;
 member:140 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -855,7 +894,8 @@ member:140 a schema:Organization;
 
 member:141 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -872,6 +912,7 @@ member:141 a schema:Organization;
 member:142 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -897,6 +938,7 @@ member:142 a schema:Organization;
 member:143 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -932,6 +974,7 @@ member:144 a schema:Organization;
   capacoa:memberTerminationDate "2024-04-01";
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -964,6 +1007,7 @@ member:144 a schema:Organization;
 member:145 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -984,6 +1028,7 @@ member:146 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -1018,7 +1063,8 @@ member:146 a schema:Organization;
 
 member:147 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_othe;
+    capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1035,6 +1081,7 @@ member:147 a schema:Organization;
 member:148 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1051,6 +1098,7 @@ member:148 a schema:Organization;
 member:149 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -1076,6 +1124,7 @@ member:149 a schema:Organization;
 member:15 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -1089,7 +1138,8 @@ member:15 a schema:Organization;
   wikidata_property:\/P8860 "870305067" .
 
 member:150 a schema:Person;
-  schema:additionalType capacoa:Genres_dan;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:MemberType_ind;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1105,7 +1155,8 @@ member:150 a schema:Person;
 
 member:151 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1116,12 +1167,14 @@ member:151 a schema:Organization;
   schema:url <https://www.corpus.ca/www.corpus.ca> .
 
 member:152 a schema:Person;
+  schema:additionalType capacoa:MemberType_indlife;
   schema:address [a schema:PostalAddress];
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Richard Stoker"@en .
 
 member:153 a schema:Person;
   schema:additionalType capacoa:Genres_film,
+    capacoa:MemberType_ind,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -1137,6 +1190,7 @@ member:153 a schema:Person;
 
 member:154 a schema:Person;
   schema:additionalType capacoa:Genres_film,
+    capacoa:MemberType_ind,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -1153,6 +1207,7 @@ member:154 a schema:Person;
 member:155 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -1182,6 +1237,7 @@ member:155 a schema:Organization;
 member:156 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1209,6 +1265,7 @@ member:156 a schema:Organization;
 member:157 a schema:Organization;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -1232,6 +1289,7 @@ member:157 a schema:Organization;
 
 member:158 a schema:Person;
   schema:additionalType capacoa:Genres_oth,
+    capacoa:MemberType_ind,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -1246,6 +1304,7 @@ member:158 a schema:Person;
 member:159 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -1274,6 +1333,7 @@ member:159 a schema:Organization;
 member:16 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1300,7 +1360,8 @@ member:16 a schema:Organization;
 
 member:160 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1316,7 +1377,8 @@ member:160 a schema:Organization;
 
 member:161 a schema:Person;
   capacoa:memberTerminationDate "2025-04-01";
-  schema:additionalType capacoa:Genres_dan;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:MemberType_ind;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1330,6 +1392,7 @@ member:161 a schema:Person;
 member:162 a schema:Organization;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -1348,6 +1411,7 @@ member:162 a schema:Organization;
 member:163 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1385,6 +1449,7 @@ member:163 a schema:Organization;
 member:164 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1414,6 +1479,7 @@ member:164 a schema:Organization;
 member:165 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1442,7 +1508,8 @@ member:165 a schema:Organization;
 
 member:166 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1462,6 +1529,7 @@ member:166 a schema:Organization;
 member:167 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1493,6 +1561,7 @@ member:168 capacoa:memberTerminationDate "2020-04-01";
 member:169 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -1514,6 +1583,7 @@ member:169 a schema:Organization;
 member:17 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1560,6 +1630,7 @@ member:171 capacoa:memberTerminationDate "2021-04-01";
 member:172 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -1596,6 +1667,7 @@ member:173 schema:address [a schema:PostalAddress];
 member:174 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -1626,6 +1698,7 @@ member:174 a schema:Organization;
 member:175 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -1672,7 +1745,8 @@ member:178 capacoa:memberTerminationDate "2021-04-01";
   schema:name "Harrison Festival of the Arts"@en .
 
 member:179 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_asso;
+  schema:additionalType capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "Le Regroupement artistique francophone de l'Alberta"@en;
   schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
@@ -1681,6 +1755,7 @@ member:179 a schema:Organization;
 member:18 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1718,6 +1793,7 @@ member:180 capacoa:memberTerminationDate "2019-04-01";
 member:181 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -1757,6 +1833,7 @@ member:184 capacoa:memberTerminationDate "2021-04-01";
 member:186 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1802,7 +1879,8 @@ member:189 capacoa:memberTerminationDate "2021-04-01";
 
 member:19 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1823,6 +1901,7 @@ member:190 capacoa:memberTerminationDate "2021-04-01";
 member:191 a schema:Organization;
   capacoa:memberTerminationDate "2024-04-01";
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "The Corporation of Massey Hall and Roy Thomson Hall"@en .
@@ -1830,6 +1909,7 @@ member:191 a schema:Organization;
 member:192 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1864,6 +1944,7 @@ member:192 a schema:Organization;
 member:193 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1902,6 +1983,7 @@ member:193 a schema:Organization;
 member:194 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1940,6 +2022,7 @@ member:194 a schema:Organization;
 member:195 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -1972,6 +2055,7 @@ member:195 a schema:Organization;
 member:196 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -1981,7 +2065,8 @@ member:196 a schema:Organization;
 
 member:197 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Made in BC - Dance on Tour";
   schema:name "Dance West Network"@en;
@@ -1989,7 +2074,8 @@ member:197 a schema:Organization;
 
 member:198 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "MGAM Inc";
   schema:legalName "Marilyn Gilbert Artists Management Inc"@en;
@@ -1998,7 +2084,8 @@ member:198 a schema:Organization;
 
 member:199 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Sursaut Dance Company";
   schema:name "Sursaut"@fr;
@@ -2013,6 +2100,7 @@ member:20 schema:address [a schema:PostalAddress];
 member:200 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2035,6 +2123,7 @@ member:200 a schema:Organization;
 member:201 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2062,7 +2151,8 @@ member:201 a schema:Organization;
 
 member:202 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Debut Atlantic";
   schema:name "Debut Atlantic Society"@en;
@@ -2074,7 +2164,8 @@ member:202 a schema:Organization;
 
 member:203 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2095,12 +2186,13 @@ member:203 a schema:Organization;
   schema:url <https://national.ballet.ca/Homepage>, [
     a schema:Role;
     schema:roleName "Events Webpage";
-    schema:url <http://example.com/base/Season>
+    schema:url <https://example.com/base/Season>
   ] .
 
 member:204 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2139,6 +2231,7 @@ member:204 a schema:Organization;
 member:205 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -2176,7 +2269,8 @@ member:206 schema:additionalType capacoa:Genres_oth;
   schema:url <https://www.capacoa.ca> .
 
 member:207 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_asso;
+  schema:additionalType capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "BC Alliance for Arts + Culture"@en;
   schema:url <https://www.allianceforarts.com/>, [
@@ -2188,6 +2282,7 @@ member:207 a schema:Organization;
 member:208 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_you,
@@ -2219,6 +2314,7 @@ member:208 a schema:Organization;
 member:209 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "TD Winnipeg International Jazz Festival";
@@ -2234,6 +2330,7 @@ member:21 schema:address [a schema:PostalAddress];
 
 member:210 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Theatre Wakefield"@en;
@@ -2241,13 +2338,15 @@ member:210 a schema:Organization;
 
 member:211 a schema:Organization;
   capacoa:memberTerminationDate "2020-04-01";
-  schema:additionalType capacoa:PrimaryActivity_gran;
+  schema:additionalType capacoa:PrimaryActivity_gran,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "Canada Council for the Arts"@en;
   schema:url <https://canadacouncil.ca/> .
 
 member:212 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Le Conseil des Arts de Hearst"@fr;
@@ -2259,6 +2358,7 @@ member:212 a schema:Organization;
 
 member:213 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:location [
@@ -2275,6 +2375,7 @@ member:214 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "FODAR";
@@ -2287,6 +2388,7 @@ member:214 a schema:Organization;
 
 member:215 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Place des Arts"@fr;
@@ -2300,6 +2402,7 @@ member:216 a schema:Organization;
   capacoa:memberTerminationDate "2024-04-01";
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_soci,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_vis;
   schema:address [a schema:PostalAddress], [a schema:PostalAddress], [a schema:PostalAddress];
@@ -2314,7 +2417,8 @@ member:216 a schema:Organization;
 
 member:217 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_othe;
+    capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2330,6 +2434,7 @@ member:217 a schema:Organization;
 member:218 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_the;
   schema:address [
@@ -2348,6 +2453,7 @@ member:218 a schema:Organization;
 member:219 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -2364,6 +2470,7 @@ member:219 a schema:Organization;
 member:22 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -2392,6 +2499,7 @@ member:22 a schema:Organization;
 member:220 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -2434,6 +2542,7 @@ member:221 schema:additionalType capacoa:Genres_cir,
 member:222 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2472,6 +2581,7 @@ member:223 capacoa:memberTerminationDate "2023-04-01";
 member:224 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -2490,7 +2600,8 @@ member:224 a schema:Organization;
 
 member:225 a schema:Organization;
   schema:additionalType capacoa:Genres_mus-th,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2520,6 +2631,7 @@ member:227 schema:address [a schema:PostalAddress];
 member:228 a schema:Organization;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -2537,6 +2649,7 @@ member:228 a schema:Organization;
 member:229 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2573,7 +2686,8 @@ member:229 a schema:Organization;
 
 member:23 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2602,6 +2716,7 @@ member:230 schema:additionalType capacoa:Genres_mus;
 member:231 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -2644,6 +2759,7 @@ member:233 schema:additionalType capacoa:Genres_dan,
 member:234 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_oth;
   schema:address [
@@ -2661,6 +2777,7 @@ member:234 a schema:Organization;
 member:235 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_var,
@@ -2731,6 +2848,7 @@ member:238 schema:additionalType capacoa:Genres_dan,
 member:239 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2755,6 +2873,7 @@ member:239 a schema:Organization;
 member:24 a schema:Organization;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -2785,6 +2904,7 @@ member:240 a schema:Organization;
   capacoa:memberTerminationDate "2023-09-20";
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_soci,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_oth,
@@ -2812,6 +2932,7 @@ member:240 a schema:Organization;
 member:241 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -2833,6 +2954,7 @@ member:241 a schema:Organization;
 member:242 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
@@ -2864,6 +2986,7 @@ member:242 a schema:Organization;
 member:243 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -2890,6 +3013,7 @@ member:244 a schema:Organization;
   capacoa:memberTerminationDate "2023-09-23";
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_vis,
     capacoa:PresenterType_Multidisciplinary;
@@ -2908,7 +3032,8 @@ member:244 a schema:Organization;
 member:245 a schema:Organization;
   capacoa:memberTerminationDate "2023-09-28";
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2928,6 +3053,7 @@ member:246 a schema:Organization;
   capacoa:memberTerminationDate "2023-10-04";
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -2943,7 +3069,8 @@ member:246 a schema:Organization;
 
 member:247 a schema:Organization;
   schema:additionalType capacoa:Genres_you,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2960,6 +3087,7 @@ member:247 a schema:Organization;
 member:248 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2998,6 +3126,7 @@ member:249 a schema:Organization;
   capacoa:memberTerminationDate "2024-07-26";
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_var,
     capacoa:Genres_vis,
@@ -3017,6 +3146,7 @@ member:249 a schema:Organization;
 member:25 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the;
@@ -3080,6 +3210,7 @@ member:252 schema:additionalType capacoa:Genres_mus;
 member:253 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -3114,6 +3245,7 @@ member:254 schema:address [a schema:PostalAddress];
 member:255 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -3140,6 +3272,7 @@ member:255 a schema:Organization;
 member:256 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -3178,6 +3311,7 @@ member:256 a schema:Organization;
 member:257 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3212,7 +3346,8 @@ member:257 a schema:Organization;
 
 member:258 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3231,6 +3366,7 @@ member:259 schema:address [a schema:PostalAddress];
 member:26 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -3264,6 +3400,7 @@ member:260 schema:address [a schema:PostalAddress];
 member:261 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -3298,6 +3435,7 @@ member:261 a schema:Organization;
 member:262 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -3318,6 +3456,7 @@ member:262 a schema:Organization;
 member:263 a schema:Organization;
   capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Stratford Summer Music"@en;
@@ -3328,7 +3467,8 @@ member:263 a schema:Organization;
   ] .
 
 member:264 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_othe;
+  schema:additionalType capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:name "CINARS"@fr;
   schema:url <https://cinars.org/cinars> .
@@ -3336,6 +3476,7 @@ member:264 a schema:Organization;
 member:265 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -3371,6 +3512,7 @@ member:265 a schema:Organization;
 member:266 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_you,
@@ -3395,6 +3537,7 @@ member:266 a schema:Organization;
 member:267 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -3422,6 +3565,7 @@ member:267 a schema:Organization;
 member:269 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -3454,7 +3598,8 @@ member:269 a schema:Organization;
 
 member:27 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3474,6 +3619,7 @@ member:27 a schema:Organization;
 member:270 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -3502,6 +3648,7 @@ member:270 a schema:Organization;
 member:271 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3562,6 +3709,7 @@ member:273 schema:additionalType capacoa:Genres_dan,
 member:274 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -3597,6 +3745,7 @@ member:274 a schema:Organization;
 member:275 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -3630,6 +3779,7 @@ member:275 a schema:Organization;
 member:276 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -3665,6 +3815,7 @@ member:276 a schema:Organization;
 member:277 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3703,6 +3854,7 @@ member:278 schema:additionalType capacoa:Genres_dan;
 member:279 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_you;
   schema:address [
@@ -3729,6 +3881,7 @@ member:279 a schema:Organization;
 member:28 a schema:Organization;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -3760,6 +3913,7 @@ member:280 schema:additionalType capacoa:Genres_dan;
 member:281 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -3784,6 +3938,7 @@ member:281 a schema:Organization;
 member:282 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth;
@@ -3802,6 +3957,7 @@ member:282 a schema:Organization;
 member:283 a schema:Organization;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -3818,6 +3974,7 @@ member:283 a schema:Organization;
 member:284 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
@@ -3838,6 +3995,7 @@ member:284 a schema:Organization;
 member:285 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3872,6 +4030,7 @@ member:285 a schema:Organization;
 member:286 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:PresenterType_Multidisciplinary;
@@ -3902,6 +4061,7 @@ member:286 a schema:Organization;
 member:287 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -3937,7 +4097,8 @@ member:288 schema:address [a schema:PostalAddress];
 
 member:289 a schema:Organization;
   schema:additionalType capacoa:Genres_film,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3965,7 +4126,8 @@ member:289 a schema:Organization;
 
 member:29 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3984,7 +4146,8 @@ member:290 schema:address [a schema:PostalAddress];
 
 member:291 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4006,7 +4169,8 @@ member:291 a schema:Organization;
   wikidata_property:\/P8860 "103309431" .
 
 member:292 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_asso;
+  schema:additionalType capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "APAP";
   schema:identifier "Q4809965";
@@ -4042,6 +4206,7 @@ member:294 schema:additionalType capacoa:Genres_mus,
 member:295 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -4061,6 +4226,7 @@ member:296 schema:address [a schema:PostalAddress];
 member:297 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4096,6 +4262,7 @@ member:297 a schema:Organization;
 member:298 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4120,6 +4287,7 @@ member:298 a schema:Organization;
 member:299 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -4145,6 +4313,7 @@ member:299 a schema:Organization;
 member:30 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_var,
@@ -4162,7 +4331,8 @@ member:30 a schema:Organization;
 
 member:300 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4178,6 +4348,7 @@ member:300 a schema:Organization;
 member:301 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_var;
@@ -4208,6 +4379,7 @@ member:302 schema:additionalType capacoa:Genres_the;
 member:303 a schema:Organization;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -4234,6 +4406,7 @@ member:303 a schema:Organization;
 member:304 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4324,7 +4497,8 @@ member:309 schema:additionalType capacoa:Genres_mus;
 
 member:31 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_trai;
+    capacoa:PrimaryActivity_trai,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4342,7 +4516,7 @@ member:31 a schema:Organization;
     ]
   ];
   schema:name "College of Piping and Celtic Performing Arts"@en;
-  schema:url <http://example.com/base/collegeofpiping.com>;
+  schema:url <https://example.com/base/collegeofpiping.com>;
   wikidata_property:\/P8860 "124138520" .
 
 member:310 schema:additionalType capacoa:Genres_mus;
@@ -4359,7 +4533,8 @@ member:310 schema:additionalType capacoa:Genres_mus;
 
 member:311 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4376,6 +4551,7 @@ member:311 a schema:Organization;
 member:312 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -4415,6 +4591,7 @@ member:312 a schema:Organization;
 member:313 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_soci,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -4462,6 +4639,7 @@ member:315 schema:additionalType capacoa:Genres_mus;
 member:316 a schema:Organization;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
@@ -4495,6 +4673,7 @@ member:316 a schema:Organization;
 member:317 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you,
@@ -4526,7 +4705,8 @@ member:317 a schema:Organization;
 
 member:318 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4554,6 +4734,7 @@ member:319 schema:additionalType capacoa:Genres_mus,
 member:32 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_var,
@@ -4582,6 +4763,7 @@ member:32 a schema:Organization;
 member:320 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4616,6 +4798,7 @@ member:320 a schema:Organization;
 member:321 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -4668,6 +4851,7 @@ member:322 schema:additionalType capacoa:Genres_dan,
 member:323 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4703,6 +4887,7 @@ member:323 a schema:Organization;
 member:324 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4737,7 +4922,8 @@ member:324 a schema:Organization;
 
 member:325 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4749,7 +4935,8 @@ member:325 a schema:Organization;
 
 member:326 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4765,6 +4952,7 @@ member:326 a schema:Organization;
 member:33 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -4804,6 +4992,7 @@ member:33 a schema:Organization;
 member:34 a schema:Organization;
   capacoa:memberTerminationDate "2022-04-01";
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -4828,6 +5017,7 @@ member:34 a schema:Organization;
 member:35 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -4858,6 +5048,7 @@ member:35 a schema:Organization;
 member:36 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -4879,6 +5070,7 @@ member:37 a schema:Organization;
   capacoa:memberTerminationDate "2022-04-01";
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -4891,12 +5083,13 @@ member:37 a schema:Organization;
   ], [a schema:PostalAddress], [a schema:PostalAddress], [a schema:PostalAddress], [a schema:PostalAddress];
   schema:legalName "Résonances, agence de spectacles inc."@en;
   schema:name "Résonances"@fr;
-  schema:url <http://example.com/base/agenceresonances.com>;
+  schema:url <https://example.com/base/agenceresonances.com>;
   wikidata_property:\/P8860 "769076126" .
 
 member:38 a schema:Organization;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_var;
   schema:address [
     a schema:PostalAddress;
@@ -4909,13 +5102,14 @@ member:38 a schema:Organization;
   schema:url <https://whynot.theatre/about/>, [
     a schema:Role;
     schema:roleName "Events Webpage";
-    schema:url <http://example.com/base/whynot.theatre>
+    schema:url <https://example.com/base/whynot.theatre>
   ];
   wikidata_property:\/P8860 "828087932" .
 
 member:39 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -4958,6 +5152,7 @@ member:4 schema:address [a schema:PostalAddress];
 member:40 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4992,6 +5187,7 @@ member:40 a schema:Organization;
 member:42 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5019,6 +5215,7 @@ member:42 a schema:Organization;
 member:43 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -5051,6 +5248,7 @@ member:43 a schema:Organization;
 member:44 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -5072,7 +5270,8 @@ member:44 a schema:Organization;
   wikidata_property:\/P8860 "832876916" .
 
 member:45 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_othe;
+  schema:additionalType capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5087,6 +5286,7 @@ member:45 a schema:Organization;
 member:46 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_vis;
   schema:address [
     a schema:PostalAddress;
@@ -5108,6 +5308,7 @@ member:46 a schema:Organization;
 member:47 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan;
   schema:address [
     a schema:PostalAddress;
@@ -5129,6 +5330,7 @@ member:47 a schema:Organization;
 member:48 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -5161,6 +5363,7 @@ member:48 a schema:Organization;
 member:49 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -5196,6 +5399,7 @@ member:49 a schema:Organization;
 member:50 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -5223,7 +5427,8 @@ member:50 a schema:Organization;
 
 member:51 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5247,6 +5452,7 @@ member:51 a schema:Organization;
 member:52 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -5281,6 +5487,7 @@ member:52 a schema:Organization;
 member:53 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5320,6 +5527,7 @@ member:54 schema:address [a schema:PostalAddress];
 member:55 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5346,6 +5554,7 @@ member:55 a schema:Organization;
 member:56 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -5381,6 +5590,7 @@ member:56 a schema:Organization;
 member:57 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -5417,6 +5627,7 @@ member:57 a schema:Organization;
 member:58 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -5453,6 +5664,7 @@ member:59 a schema:Organization;
   capacoa:memberTerminationDate "2023-01-03";
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5480,7 +5692,8 @@ member:6 schema:address [a schema:PostalAddress];
 
 member:60 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_asso;
+    capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5494,6 +5707,7 @@ member:60 a schema:Organization;
 member:61 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
     capacoa:Genres_you;
@@ -5512,6 +5726,7 @@ member:61 a schema:Organization;
 member:62 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_you;
@@ -5541,6 +5756,7 @@ member:62 a schema:Organization;
 member:63 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5566,6 +5782,7 @@ member:63 a schema:Organization;
 member:64 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -5590,6 +5807,7 @@ member:64 a schema:Organization;
 member:65 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5627,7 +5845,8 @@ member:65 a schema:Organization;
 
 member:66 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5645,6 +5864,7 @@ member:67 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5660,12 +5880,13 @@ member:67 a schema:Organization;
   schema:alternateName "CCF";
   schema:legalName "Conseil culturel fransaskois"@fr;
   schema:name "Conseil culturel fransaskois"@fr;
-  schema:url <http://example.com/base/www.culturel.ca>;
+  schema:url <https://example.com/base/www.culturel.ca>;
   wikidata_property:\/P8860 "121425995" .
 
 member:68 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5693,12 +5914,13 @@ member:68 a schema:Organization;
     ]
   ];
   schema:name "SPEC du Haut-Richelieu"@fr;
-  schema:url <http://example.com/base/www.spec.qc.ca>;
+  schema:url <https://example.com/base/www.spec.qc.ca>;
   wikidata_property:\/P8860 "113117410" .
 
 member:69 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5734,7 +5956,8 @@ member:7 schema:address [a schema:PostalAddress];
   schema:name "Frédéric Julien"@en .
 
 member:70 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_othe;
+  schema:additionalType capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5749,6 +5972,7 @@ member:70 a schema:Organization;
 member:71 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5773,6 +5997,7 @@ member:71 a schema:Organization;
 
 member:72 a schema:Organization;
   schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5802,6 +6027,7 @@ member:72 a schema:Organization;
 member:73 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
@@ -5822,12 +6048,13 @@ member:73 a schema:Organization;
     ]
   ];
   schema:name "NACC (Northern Arts and Cultural Centre)"@en;
-  schema:url <http://example.com/base/naccnt.ca>;
+  schema:url <https://example.com/base/naccnt.ca>;
   wikidata_property:\/P8860 "119059814" .
 
 member:74 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_var,
@@ -5849,6 +6076,7 @@ member:74 a schema:Organization;
 member:75 a schema:Organization;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5874,12 +6102,13 @@ member:75 a schema:Organization;
     ]
   ];
   schema:name "Chester Playhouse"@en;
-  schema:url <http://example.com/base/chesterplayhouse.ca>;
+  schema:url <https://example.com/base/chesterplayhouse.ca>;
   wikidata_property:\/P8860 "127727444" .
 
 member:76 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth;
   schema:address [
     a schema:PostalAddress;
@@ -5901,6 +6130,7 @@ member:76 a schema:Organization;
 member:77 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_var,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
@@ -5914,12 +6144,13 @@ member:77 a schema:Organization;
   schema:identifier "Q112572953";
   schema:legalName "Mission Folk Music Festival Society"@en;
   schema:name "Mission Folk Music Festival"@en;
-  schema:url <http://example.com/base/www.missionfolkmusicfestival.ca>;
+  schema:url <https://example.com/base/www.missionfolkmusicfestival.ca>;
   wikidata_property:\/P8860 "128544509" .
 
 member:78 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5941,6 +6172,7 @@ member:78 a schema:Organization;
 member:80 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5959,12 +6191,13 @@ member:80 a schema:Organization;
   schema:identifier "University of British Columbia Okanagan";
   schema:legalName "Inner Fish Theatre Society"@en;
   schema:name "Inner Fish Performance"@en;
-  schema:url <http://example.com/base/innerfishperformance.ca>;
+  schema:url <https://example.com/base/innerfishperformance.ca>;
   wikidata_property:\/P8860 "000056551" .
 
 member:81 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6005,6 +6238,7 @@ member:82 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6031,13 +6265,14 @@ member:82 a schema:Organization;
     ]
   ];
   schema:name "Centre des arts d'Edmundston"@fr;
-  schema:url <http://example.com/base/www.artsedmundston.ca>;
+  schema:url <https://example.com/base/www.artsedmundston.ca>;
   wikidata_property:\/P8860 "829396308" .
 
 member:83 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_Music,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6056,7 +6291,8 @@ member:83 a schema:Organization;
 
 member:84 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod;
+    capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6080,7 +6316,8 @@ member:84 a schema:Organization;
 
 member:85 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
-  schema:additionalType capacoa:PrimaryActivity_othe;
+  schema:additionalType capacoa:PrimaryActivity_othe,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6095,6 +6332,7 @@ member:85 a schema:Organization;
 member:86 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -6116,6 +6354,7 @@ member:86 a schema:Organization;
 member:87 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6155,6 +6394,7 @@ member:88 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
@@ -6167,12 +6407,13 @@ member:88 a schema:Organization;
   schema:identifier "Q112572956";
   schema:legalName "Ottawa Dragon Boat Festival"@en;
   schema:name "Ottawa Ice Dragon Boat Festival"@en;
-  schema:url <http://example.com/base/icedragonboat.ca>;
+  schema:url <https://example.com/base/icedragonboat.ca>;
   wikidata_property:\/P8860 "139033096" .
 
 member:89 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6202,6 +6443,7 @@ member:9 schema:address [a schema:PostalAddress];
 member:90 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6238,7 +6480,8 @@ member:90 a schema:Organization;
 
 member:91 a schema:Organization;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen;
+    capacoa:PrimaryActivity_agen,
+    capacoa:MemberType_organization;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6255,6 +6498,7 @@ member:91 a schema:Organization;
 member:92 a schema:Organization;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_var,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -6284,6 +6528,7 @@ member:92 a schema:Organization;
 member:93 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -6301,6 +6546,7 @@ member:93 a schema:Organization;
 member:94 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_vis,
@@ -6320,6 +6566,7 @@ member:95 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
+    capacoa:MemberType_organization,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -6333,6 +6580,7 @@ member:95 a schema:Organization;
 member:96 a schema:Organization;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -6356,6 +6604,7 @@ member:97 a schema:Organization;
   capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6388,7 +6637,8 @@ member:97 a schema:Organization;
   wikidata_property:\/P8860 "816143689" .
 
 member:98 a schema:Organization;
-  schema:additionalType capacoa:PrimaryActivity_asso;
+  schema:additionalType capacoa:PrimaryActivity_asso,
+    capacoa:MemberType_organization;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Association RIDEAU";
   schema:identifier "Q87727957";
@@ -6399,6 +6649,7 @@ member:99 a schema:Organization;
   capacoa:memberTerminationDate "2022-04-01";
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Vancouver Island MusicFest";
