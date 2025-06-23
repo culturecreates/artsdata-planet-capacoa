@@ -81,4 +81,4 @@ jobs:
         with:
             artifact: capacoa-members
             publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-            downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/outputs/data.ttl
+            downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/output/data.ttl
