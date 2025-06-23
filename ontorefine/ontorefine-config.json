@@ -463,6 +463,48 @@
                     "typeMappings": [],
                     "propertyMappings": []
                   }
+                },
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "transformation": {
+                    "language": "grel",
+                    "expression": "if(cells[\"_ - usermeta - charitable_status\"].value.contains(\"Not\"), \n  \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"Not a charitable organization\", \n  if(cells[\"_ - usermeta - charitable_status\"].value.contains(\"Charitable\"), \n     \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"Charitable+organization\", \n     \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"empty\"\n  )\n)"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
+                  }
+                },
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "transformation": {
+                    "language": "grel",
+                    "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + if(isBlank(cells[\"_ - usermeta - legal_form\"].value), \"empty\", cells[\"_ - usermeta - legal_form\"].value)"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
+                  }
+                },
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "transformation": {
+                    "language": "grel",
+                    "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + if(isBlank(cells[\"_ - usermeta - terms_conditions\"].value), \"empty\", cells[\"_ - usermeta - terms_conditions\"].value)"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
+                  }
                 }
               ]
             },
