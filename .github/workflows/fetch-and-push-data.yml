@@ -62,15 +62,18 @@ jobs:
         with:
             name: ttl-file
             path: output/
-
-      - name: Commit files to GitHub
+      - name: Push files to GitHub if there are changes
         run: |
             git pull
             git config --global user.email "actions@github.com"
             git config --global user.name "GitHub Actions"
-            git add "output/"
-            git commit -m "Push Entities from CAPACOA"
-            git push
+            git add output/
+            if ! git diff --cached --quiet; then
+              git commit -m "Push Entities from CAPACOA"
+              git push
+            else
+              echo "No changes to commit."
+            fi
 
   artsdata-push:
     runs-on: ubuntu-latest
