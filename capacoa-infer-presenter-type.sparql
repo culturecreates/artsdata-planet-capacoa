@@ -1,0 +1,51 @@
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX capacoa:<http://capacoa.ca/vocabulary#>
+
+INSERT {
+    capacoa:PresenterType a skos:Collection ;
+                          skos:prefLabel "Presenter Type" ;
+                          skos:member capacoa:PresenterType_Specialized ;
+                          skos:member capacoa:PresenterType_Multidisciplinary .
+
+    ?org schema:additionalType capacoa:PresenterType_Specialized .
+    capacoa:PresenterType_Specialized a skos:Concept ;
+                                      skos:inScheme capacoa:InferredTypes .
+
+    ?orgmulti schema:additionalType capacoa:PresenterType_Multidisciplinary .
+    capacoa:PresenterType_Multidisciplinary a skos:Concept ;
+                                            skos:inScheme capacoa:InferredTypes .
+}
+WHERE {
+    {
+        SELECT ?org 
+        WHERE {
+            ?org schema:additionalType capacoa:PrimaryActivity_pres .
+            OPTIONAL {
+                ?org schema:additionalType ?discipline .
+                capacoa:Genres skos:member ?discipline .
+            }
+            FILTER NOT EXISTS {
+                ?org schema:additionalType capacoa:PresentingFormat_occasional 
+            }
+        } 
+        GROUP BY ?org
+        HAVING (COUNT(?discipline) = 1)
+    }
+    UNION
+    {
+        SELECT ?orgmulti 
+        WHERE {
+            ?orgmulti schema:additionalType capacoa:PrimaryActivity_pres .
+            OPTIONAL {
+                ?orgmulti schema:additionalType ?discipline .
+                capacoa:Genres skos:member ?discipline .
+            }
+            FILTER NOT EXISTS {
+                ?orgmulti schema:additionalType capacoa:PresentingFormat_occasional 
+            }
+        } 
+        GROUP BY ?orgmulti
+        HAVING (COUNT(?discipline) > 1)
+    }
+}

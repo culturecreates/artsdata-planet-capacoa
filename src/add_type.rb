@@ -1,0 +1,62 @@
+require 'json'
+
+org_count = 0
+person_count = 0
+
+def safe_get(usermeta, key)
+  value = usermeta[key] || {}
+  value == "" ? {} : value
+end
+
+def get_type(user)
+  usermeta = user['usermeta'] || {}
+
+  operating_name1 = (usermeta['operating_name1'] || '').strip
+  pmpro_approval_13 = safe_get(usermeta, 'pmpro_approval_13')
+  pmpro_approval_12 = safe_get(usermeta, 'pmpro_approval_12')
+
+  if operating_name1 != ''
+    member_type = 'organization'
+  else
+    if pmpro_approval_13['status'] == 'approved'
+      member_type = 'indlife'
+    elsif pmpro_approval_12['status'] == 'approved'
+      member_type = 'ind'
+    else
+      member_type = 'organization'
+    end
+  end
+
+  is_org = operating_name1 != ''
+  is_ind = (pmpro_approval_13['status'] == 'approved' || pmpro_approval_12['status'] == 'approved')
+
+  return [nil, nil, true] unless is_org || is_ind
+
+  schema_type = operating_name1 != '' ? 'Organization' : 'Person'
+
+  [member_type, schema_type, false]
+end
+
+members = JSON.parse(File.read("members.json", encoding: "utf-8"))
+members_with_type = []
+
+members.each do |member|
+  member_type, schema_type, skip = get_type(member)
+  next if skip
+
+  member["member_type"] = member_type
+  member["schema_type"] = schema_type
+
+  org_count += 1 if schema_type == 'Organization'
+  person_count += 1 if schema_type == 'Person'
+
+  members_with_type << member
+end
+
+File.open("members.json", "w:UTF-8") do |f|
+  f.write(JSON.pretty_generate(members))
+end
+
+puts "Processed #{members.length} members with types added"
+puts "Total organizations: #{org_count}"
+puts "Total individuals: #{person_count}"

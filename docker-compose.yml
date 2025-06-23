@@ -1,0 +1,9 @@
+services:
+  onto_refine:
+    container_name: onto_refine
+    image: ontotext/refine:1.2.0
+    platform: linux/amd64
+    ports:
+      - '7333:7333'
+    volumes:
+      - ./:/opt/data
