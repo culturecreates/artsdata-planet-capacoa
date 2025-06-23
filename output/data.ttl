@@ -7,7 +7,8 @@
 
 <https://capacoa.ca/memberv2/1> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "admin"@en .
 
@@ -17,7 +18,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -37,6 +39,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -62,7 +65,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -81,7 +85,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Kids and Then Some (KATS)"@en;
   schema:url <https://www.katskids.com/> .
@@ -93,6 +98,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty,
     capacoa:PresenterType_Multidisciplinary;
@@ -112,6 +118,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:legalName "Alianait Entertainment Group"@en;
@@ -125,6 +132,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -144,6 +152,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:legalName "Kings Theatre Society"@en;
@@ -158,6 +167,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Centennial Theatre"@en;
@@ -169,7 +179,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -189,10 +200,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -232,6 +245,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -259,6 +273,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -279,7 +294,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "New Vintage Theatre Society";
   schema:identifier "Q112572963";
@@ -292,7 +308,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Fascinator Management"@en;
   schema:url <https://www.fascinatormanagement.com/> .
@@ -304,6 +321,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:TermsConditions_empty,
     capacoa:Genres_dan,
@@ -334,6 +352,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_festival,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "FOTR";
@@ -348,6 +367,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -369,7 +389,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:identifier "Q112570694";
   schema:name "Bailiwick Booking Agency and Arts Management"@en;
@@ -382,6 +403,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:TermsConditions_empty;
@@ -408,6 +430,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Sole\%20proprietorship,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
@@ -430,10 +453,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -473,7 +498,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -493,6 +519,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Provincial\%20or\%20territorial\%20government,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -524,6 +551,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -547,7 +575,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -565,7 +594,8 @@
   schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -583,6 +613,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_do\%20not\%20agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -611,10 +642,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -640,7 +673,8 @@
 
 <https://capacoa.ca/memberv2/128> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Dessa Hayes"@en .
 
@@ -649,6 +683,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:TermsConditions_empty,
     capacoa:Genres_oth;
@@ -669,6 +704,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -715,10 +751,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_var,
@@ -752,7 +790,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -772,9 +811,11 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -812,10 +853,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -858,6 +901,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -887,10 +931,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -927,6 +973,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:TermsConditions_empty,
     capacoa:Genres_oth;
@@ -946,10 +993,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_var,
@@ -986,6 +1035,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1006,6 +1056,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1035,10 +1086,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_vis,
@@ -1075,7 +1128,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1096,10 +1150,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_var,
@@ -1128,10 +1184,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -1170,10 +1228,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -1209,10 +1269,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -1236,10 +1298,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -1277,7 +1341,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1298,6 +1363,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1318,6 +1384,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -1350,6 +1417,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -1370,7 +1438,8 @@
     capacoa:MemberType_ind,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1390,7 +1459,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1404,7 +1474,8 @@
   schema:additionalType capacoa:MemberType_indlife,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Richard Stoker"@en .
@@ -1415,6 +1486,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty,
     capacoa:Genres_the,
@@ -1435,6 +1507,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty,
     capacoa:Genres_the,
@@ -1456,6 +1529,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -1492,10 +1566,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1526,10 +1602,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -1556,6 +1634,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -1575,10 +1654,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_vis,
@@ -1610,6 +1691,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1640,7 +1722,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1660,7 +1743,8 @@
     capacoa:MemberType_ind,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1678,10 +1762,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -1703,10 +1789,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1747,6 +1835,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1780,6 +1869,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1812,7 +1902,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1836,6 +1927,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -1863,7 +1955,8 @@
 <https://capacoa.ca/memberv2/168> capacoa:memberTerminationDate "2020-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Magali Monderie-Larouche"@en .
 
@@ -1874,6 +1967,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -1902,6 +1996,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -1935,6 +2030,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -1951,7 +2047,8 @@
 <https://capacoa.ca/memberv2/171> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Jennifer Campbell"@en .
 
@@ -1962,14 +2059,15 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
-    capacoa:Genres_vis,
-    capacoa:PresenterType_Multidisciplinary;
+    capacoa:Genres_vis;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1997,7 +2095,8 @@
 
 <https://capacoa.ca/memberv2/173> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Canadian Music Week"@en .
 
@@ -2008,9 +2107,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -2044,9 +2145,11 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -2082,21 +2185,24 @@
 
 <https://capacoa.ca/memberv2/176> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Katherine Carleton"@en .
 
 <https://capacoa.ca/memberv2/177> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Ann Summers Dossena"@en .
 
 <https://capacoa.ca/memberv2/178> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Harrison Festival of the Arts"@en .
 
@@ -2105,7 +2211,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Le Regroupement artistique francophone de l'Alberta"@en;
   schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
@@ -2118,10 +2225,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -2154,7 +2263,8 @@
 <https://capacoa.ca/memberv2/180> capacoa:memberTerminationDate "2019-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Michele Decottignies"@en .
 
@@ -2165,10 +2275,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus-th,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -2196,20 +2308,23 @@
 <https://capacoa.ca/memberv2/182> capacoa:memberTerminationDate "2022-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Amir Hoss"@en .
 
 <https://capacoa.ca/memberv2/183> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Erin Benjamin"@en .
 
 <https://capacoa.ca/memberv2/184> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Alana Bartol"@en .
 
@@ -2220,9 +2335,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -2257,20 +2374,23 @@
 
 <https://capacoa.ca/memberv2/187> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Charlene Alexander"@en .
 
 <https://capacoa.ca/memberv2/188> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Haley Zalo"@en .
 
 <https://capacoa.ca/memberv2/189> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Robert Kerr"@en .
 
@@ -2280,7 +2400,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2297,7 +2418,8 @@
 <https://capacoa.ca/memberv2/190> capacoa:memberTerminationDate "2021-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Toronto Summer Music"@en .
 
@@ -2308,6 +2430,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "The Corporation of Massey Hall and Roy Thomson Hall"@en .
@@ -2319,9 +2442,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -2359,10 +2484,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -2404,9 +2531,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -2448,10 +2577,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -2487,6 +2618,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -2500,7 +2632,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Made in BC - Dance on Tour";
   schema:name "Dance West Network"@en;
@@ -2512,7 +2645,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "MGAM Inc";
   schema:legalName "Marilyn Gilbert Artists Management Inc"@en;
@@ -2525,7 +2659,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Sursaut Dance Company";
   schema:name "Sursaut"@fr;
@@ -2533,13 +2668,15 @@
 
 <https://capacoa.ca/memberv2/2> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "CAPACOA"@en .
 
 <https://capacoa.ca/memberv2/20> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Margaret Clarkin"@en .
 
@@ -2550,6 +2687,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Other\%20type\%20of\%20legal\%20entity,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -2579,6 +2717,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -2613,7 +2752,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Debut Atlantic";
   schema:name "Debut Atlantic Society"@en;
@@ -2629,7 +2769,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2660,10 +2801,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -2705,6 +2848,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -2733,7 +2877,8 @@
 <https://capacoa.ca/memberv2/206> schema:additionalType capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_do\%20not\%20agree\%20\(v1\.1\);
+    capacoa:TermsConditions_do\%20not\%20agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2749,7 +2894,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "BC Alliance for Arts + Culture"@en;
   schema:url <https://www.allianceforarts.com/>, [
@@ -2765,9 +2911,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Educational\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
@@ -2802,6 +2950,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "TD Winnipeg International Jazz Festival";
@@ -2814,7 +2963,8 @@
 
 <https://capacoa.ca/memberv2/21> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Chandel Gambles"@en .
 
@@ -2824,6 +2974,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Theatre Wakefield"@en;
@@ -2835,7 +2986,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Canada Council for the Arts"@en;
   schema:url <https://canadacouncil.ca/> .
@@ -2846,6 +2998,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Le Conseil des Arts de Hearst"@fr;
@@ -2861,6 +3014,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:location [
@@ -2881,6 +3035,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "FODAR";
@@ -2897,6 +3052,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Place des Arts"@fr;
@@ -2914,6 +3070,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty,
     capacoa:Genres_vis;
@@ -2933,7 +3090,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2953,6 +3111,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
@@ -2977,8 +3136,10 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -2998,6 +3159,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -3030,10 +3192,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis,
@@ -3055,6 +3219,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:TermsConditions_empty,
     capacoa:Genres_dan,
@@ -3083,10 +3248,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3120,7 +3287,8 @@
 <https://capacoa.ca/memberv2/223> capacoa:memberTerminationDate "2023-04-01";
   schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "George Zukerman"@en .
 
@@ -3131,6 +3299,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -3153,7 +3322,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3176,13 +3346,15 @@
 
 <https://capacoa.ca/memberv2/226> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Brittney"@en .
 
 <https://capacoa.ca/memberv2/227> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Victoria Del Mastro"@en .
 
@@ -3193,6 +3365,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:TermsConditions_empty;
@@ -3216,10 +3389,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3259,7 +3434,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3276,7 +3452,8 @@
 <https://capacoa.ca/memberv2/230> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3295,6 +3472,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -3313,6 +3491,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -3330,6 +3509,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty,
     capacoa:Genres_the;
@@ -3350,6 +3530,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3374,10 +3555,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Educational\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_var,
     capacoa:PresenterType_Multidisciplinary;
@@ -3408,7 +3591,8 @@
 <https://capacoa.ca/memberv2/236> schema:additionalType capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3424,6 +3608,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:TermsConditions_empty,
     capacoa:Genres_oth;
@@ -3442,6 +3627,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -3462,6 +3648,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3493,10 +3680,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -3530,6 +3719,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
@@ -3563,6 +3753,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3591,10 +3782,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -3629,6 +3822,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -3659,10 +3853,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_vis,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -3684,7 +3880,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3708,6 +3905,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3730,7 +3928,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3751,10 +3950,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3796,6 +3997,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3822,6 +4024,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -3852,6 +4055,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:TermsConditions_empty,
     capacoa:Genres_you;
@@ -3869,7 +4073,8 @@
 <https://capacoa.ca/memberv2/251> schema:additionalType capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3883,7 +4088,8 @@
 <https://capacoa.ca/memberv2/252> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3902,10 +4108,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -3935,7 +4143,8 @@
 
 <https://capacoa.ca/memberv2/254> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Pamela Feghali"@en .
 
@@ -3946,10 +4155,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
@@ -3979,10 +4190,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -4024,17 +4237,18 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
     capacoa:Genres_var,
     capacoa:Genres_vis,
-    capacoa:Genres_you,
-    capacoa:PresenterType_Multidisciplinary;
+    capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4064,7 +4278,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4079,7 +4294,8 @@
 
 <https://capacoa.ca/memberv2/259> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Dorian VL Jensen"@en .
 
@@ -4090,10 +4306,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -4122,7 +4340,8 @@
 
 <https://capacoa.ca/memberv2/260> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Lynne Bailey"@en .
 
@@ -4133,10 +4352,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
@@ -4174,10 +4395,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -4201,6 +4424,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:name "Stratford Summer Music"@en;
@@ -4215,7 +4439,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "CINARS"@fr;
   schema:url <https://cinars.org/cinars> .
@@ -4227,10 +4452,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -4269,10 +4496,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
@@ -4300,6 +4529,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -4334,10 +4564,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
@@ -4373,7 +4605,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4397,6 +4630,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -4429,10 +4663,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4465,7 +4701,8 @@
 <https://capacoa.ca/memberv2/272> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4481,6 +4718,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:TermsConditions_empty,
     capacoa:Genres_oth,
@@ -4503,10 +4741,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_do\%20not\%20agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -4545,10 +4785,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_var,
@@ -4585,10 +4827,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -4627,10 +4871,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -4656,7 +4902,8 @@
 <https://capacoa.ca/memberv2/278> schema:additionalType capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4675,6 +4922,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -4708,6 +4956,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -4730,7 +4979,8 @@
 <https://capacoa.ca/memberv2/280> schema:additionalType capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4749,10 +4999,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you,
@@ -4780,6 +5032,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -4805,6 +5058,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -4828,9 +5082,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
     capacoa:Genres_you,
@@ -4854,10 +5110,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4895,10 +5153,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -4932,9 +5192,11 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_var,
@@ -4966,7 +5228,8 @@
 
 <https://capacoa.ca/memberv2/288> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Morgan Pannunzio"@en .
 
@@ -4976,7 +5239,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5008,7 +5272,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5024,7 +5289,8 @@
 
 <https://capacoa.ca/memberv2/290> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Julia Felgner"@en .
 
@@ -5034,7 +5300,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5060,7 +5327,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "APAP";
   schema:identifier "Q4809965";
@@ -5071,6 +5339,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -5087,6 +5356,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:TermsConditions_empty,
     capacoa:Genres_the;
@@ -5108,6 +5378,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5123,7 +5394,8 @@
 
 <https://capacoa.ca/memberv2/296> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Gary Mandin"@en .
 
@@ -5134,10 +5406,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
@@ -5176,6 +5450,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_do\%20not\%20agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -5207,6 +5482,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -5236,6 +5512,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -5260,7 +5537,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5280,6 +5558,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
@@ -5300,7 +5579,8 @@
 <https://capacoa.ca/memberv2/302> schema:additionalType capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5319,6 +5599,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -5352,14 +5633,15 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
-    capacoa:Genres_the,
-    capacoa:PresenterType_Multidisciplinary;
+    capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5382,7 +5664,8 @@
 <https://capacoa.ca/memberv2/305> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5398,6 +5681,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:TermsConditions_empty,
     capacoa:Genres_var,
@@ -5416,7 +5700,8 @@
 <https://capacoa.ca/memberv2/307> schema:additionalType capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5432,6 +5717,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -5448,7 +5734,8 @@
 <https://capacoa.ca/memberv2/309> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5466,7 +5753,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5490,7 +5778,8 @@
 <https://capacoa.ca/memberv2/310> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5508,7 +5797,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5529,10 +5819,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -5575,6 +5867,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:TermsConditions_empty,
     capacoa:Genres_mus,
@@ -5599,7 +5892,8 @@
 <https://capacoa.ca/memberv2/314> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "US";
@@ -5614,7 +5908,8 @@
 <https://capacoa.ca/memberv2/315> schema:additionalType capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5633,10 +5928,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Educational\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
     capacoa:Genres_you,
@@ -5673,6 +5970,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -5711,7 +6009,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5728,6 +6027,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:TermsConditions_empty;
   schema:address [
@@ -5747,10 +6047,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus-th,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_var,
     capacoa:PresenterType_Multidisciplinary;
@@ -5782,10 +6084,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_var,
@@ -5823,10 +6127,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -5865,6 +6171,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:TermsConditions_empty,
     capacoa:Genres_oth,
@@ -5886,10 +6193,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5928,10 +6237,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -5969,7 +6280,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5985,7 +6297,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6005,10 +6318,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6051,6 +6366,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -6079,10 +6395,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -6116,6 +6434,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6144,6 +6463,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6169,10 +6489,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Other\%20type\%20of\%20legal\%20entity,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_var,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6195,10 +6517,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6236,7 +6560,8 @@
 
 <https://capacoa.ca/memberv2/4> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Brit Johnston"@en .
 
@@ -6247,10 +6572,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_var,
@@ -6288,10 +6615,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_var;
@@ -6322,10 +6651,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -6361,10 +6692,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -6389,7 +6722,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6408,6 +6742,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_vis,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6436,6 +6771,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6464,10 +6800,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you,
@@ -6503,10 +6841,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -6545,6 +6885,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6579,7 +6920,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6607,10 +6949,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -6648,17 +6992,18 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_var,
-    capacoa:Genres_you,
-    capacoa:PresenterType_Multidisciplinary;
+    capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6686,7 +7031,8 @@
 
 <https://capacoa.ca/memberv2/54> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Gregory Saumier-Finch"@en .
 
@@ -6697,10 +7043,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6730,10 +7078,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Federal\%20government,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -6772,10 +7122,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -6815,10 +7167,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Municipal\%20corporation,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -6858,6 +7212,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -6882,7 +7237,8 @@
 
 <https://capacoa.ca/memberv2/6> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Mélanie Bureau"@en .
 
@@ -6892,7 +7248,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6910,6 +7267,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -6935,10 +7293,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_you;
   schema:address [
@@ -6971,6 +7331,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -7003,6 +7364,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -7034,10 +7396,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7078,7 +7442,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7100,6 +7465,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -7128,10 +7494,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7168,10 +7536,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7204,7 +7574,8 @@
 
 <https://capacoa.ca/memberv2/7> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Frédéric Julien"@en .
 
@@ -7213,7 +7584,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7232,6 +7604,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -7260,6 +7633,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Educational\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -7293,13 +7667,14 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_occasional,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
-    capacoa:Genres_the,
-    capacoa:PresenterType_Multidisciplinary;
+    capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7326,10 +7701,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus-th,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_var,
     capacoa:Genres_vis,
@@ -7354,10 +7731,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_film,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -7392,10 +7771,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7420,10 +7801,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_var,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -7446,6 +7829,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -7471,10 +7855,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7502,10 +7888,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7549,10 +7937,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7588,7 +7978,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7611,7 +8002,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
-    capacoa:TermsConditions_agree\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7639,7 +8031,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Sole\%20proprietorship,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7658,10 +8051,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_you;
@@ -7686,10 +8081,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -7732,10 +8129,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -7757,6 +8156,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
@@ -7785,7 +8185,8 @@
 
 <https://capacoa.ca/memberv2/9> schema:additionalType capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty;
+    capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:name "Rebecca Ford"@en .
 
@@ -7796,10 +8197,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Educational\%20organization,
     capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7839,7 +8242,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Corporation\%20\(for\%20profit\),
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7860,10 +8264,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_festival,
     capacoa:Genres_var,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -7896,6 +8302,7 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -7917,10 +8324,12 @@
     capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_oth,
     capacoa:Genres_vis,
     capacoa:PresenterType_Multidisciplinary;
@@ -7943,6 +8352,7 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\%20\(v1\.0\),
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:CharitableStatus_empty,
     capacoa:TermsConditions_empty;
@@ -7962,10 +8372,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_series,
     capacoa:Genres_oth,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -7992,10 +8404,12 @@
     capacoa:CharitableStatus_Not\%20a\%20charitable\%20organization,
     capacoa:LegalForm_Not-for-profit\%20organization,
     capacoa:TermsConditions_agree\%20\(v1\.1\),
+    capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_empty,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_vis,
@@ -8031,7 +8445,8 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\);
+    capacoa:TermsConditions_agree\%20and\%20disclose\%20\(v1\.1\),
+    capacoa:PresentingFormat_empty;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Association RIDEAU";
   schema:identifier "Q87727957";
@@ -8046,6 +8461,7 @@
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
+    capacoa:PresentingFormat_festival,
     capacoa:PresenterType_Specialized;
   schema:address [a schema:PostalAddress];
   schema:alternateName "Vancouver Island MusicFest";
