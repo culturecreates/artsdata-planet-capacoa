@@ -505,6 +505,20 @@
                     "typeMappings": [],
                     "propertyMappings": []
                   }
+                },
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "transformation": {
+                    "language": "grel",
+                    "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + if(isBlank(cells[\"_ - usermeta - presenting_format\"].value), \"empty\", cells[\"_ - usermeta - presenting_format\"].value)"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
+                  }
                 }
               ]
             },
