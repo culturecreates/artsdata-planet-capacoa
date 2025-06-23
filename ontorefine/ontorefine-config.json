@@ -31,15 +31,15 @@
   {
     "op": "mapping-editor/save-rdf-mapping",
     "mapping": {
-      "baseIRI": "http://example.com/base/",
+      "baseIRI": "https://example.com/base/",
       "namespaces": {
-        "member": "http://capacoa.ca/member/",
-        "schema": "http://schema.org/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "capacoa": "http://capacoa.ca/vocabulary#",
-        "wikidata_property": "http://www.wikidata.org/prop/direct/",
-        "wikidata_entity": "http://www.wikidata.org/entity/",
-        "ebu_core": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+        "member": "https://capacoa.ca/member/",
+        "schema": "https://schema.org/",
+        "skos": "https://www.w3.org/2004/02/skos/core#",
+        "capacoa": "https://capacoa.ca/vocabulary#",
+        "wikidata_property": "https://www.wikidata.org/prop/direct/",
+        "wikidata_entity": "https://www.wikidata.org/entity/",
+        "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
       },
       "subjectMappings": [
         {
@@ -428,7 +428,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"http://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
+                    "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
                   },
                   "valueType": {
                     "type": "iri",
@@ -442,7 +442,21 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"http://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value"
+                    "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
+                  }
+                },
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "transformation": {
+                    "language": "grel",
+                    "expression": "\"https://capacoa.ca/vocabulary#MemberType_\" + cells[\"_ - member_type\"].value"
                   },
                   "valueType": {
                     "type": "iri",
@@ -701,7 +715,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"http://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
+                    "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
                   },
                   "valueType": {
                     "type": "iri",

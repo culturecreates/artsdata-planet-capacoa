@@ -1,6 +1,6 @@
-PREFIX schema: <http://schema.org/>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX capacoa:<http://capacoa.ca/vocabulary#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <https://www.w3.org/2004/02/skos/core#>
+PREFIX capacoa:<https://capacoa.ca/vocabulary#>
 
 INSERT {
     capacoa:PresenterType a skos:Collection ;
