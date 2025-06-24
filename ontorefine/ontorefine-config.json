@@ -39,7 +39,8 @@
         "capacoa": "https://capacoa.ca/vocabulary#",
         "wikidata_property": "https://www.wikidata.org/prop/direct/",
         "wikidata_entity": "https://www.wikidata.org/entity/",
-        "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+        "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+        "artsdata": "http://kg.artsdata.ca/resource/"
       },
       "subjectMappings": [
         {
@@ -104,22 +105,10 @@
                 {
                   "valueSource": {
                     "source": "column",
-                    "columnName": "_ - id"
+                    "columnName": "_ - usermeta - pmpro_bcountry"
                   },
                   "valueType": {
                     "type": "unique_bnode",
-                    "typeMappings": [
-                      {
-                        "valueSource": {
-                          "source": "constant",
-                          "constant": "PostalAddress"
-                        },
-                        "transformation": {
-                          "language": "prefix",
-                          "expression": "schema"
-                        }
-                      }
-                    ],
                     "propertyMappings": [
                       {
                         "property": {
@@ -659,6 +648,29 @@
                             }
                           }
                         ]
+                      },
+                      {
+                        "property": {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "roleName"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        },
+                        "values": [
+                          {
+                            "valueSource": {
+                              "source": "column",
+                              "columnName": "_ - usermeta - venue_relationship"
+                            },
+                            "valueType": {
+                              "type": "literal"
+                            }
+                          }
+                        ]
                       }
                     ]
                   }
@@ -734,6 +746,35 @@
                         "constant": "fr"
                       }
                     }
+                  }
+                }
+              ]
+            },
+            {
+              "property": {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "sameAs"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              },
+              "values": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "_ - usermeta - artsdata_id"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "artsdata"
+                  },
+                  "valueType": {
+                    "type": "iri",
+                    "typeMappings": [],
+                    "propertyMappings": []
                   }
                 }
               ]
