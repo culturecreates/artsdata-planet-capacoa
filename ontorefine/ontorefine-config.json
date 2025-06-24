@@ -459,7 +459,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "if(cells[\"_ - usermeta - charitable_status\"].value.contains(\"Not\"), \n  \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"Not a charitable organization\", \n  if(cells[\"_ - usermeta - charitable_status\"].value.contains(\"Charitable\"), \n     \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"Charitable+organization\", \n     \"https://capacoa.ca/vocabulary#CharitableStatus_\"+\"empty\"\n  )\n)"
+                    "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"+\")"
                   },
                   "valueType": {
                     "type": "iri",
@@ -473,7 +473,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + if(isBlank(cells[\"_ - usermeta - legal_form\"].value), \"empty\", cells[\"_ - usermeta - legal_form\"].value)"
+                    "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value,\" \", \"+\")"
                   },
                   "valueType": {
                     "type": "iri",
@@ -487,7 +487,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + if(isBlank(cells[\"_ - usermeta - terms_conditions\"].value), \"empty\", cells[\"_ - usermeta - terms_conditions\"].value)"
+                    "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(cells[\"_ - usermeta - terms_conditions\"].value, \" \", \"+\")"
                   },
                   "valueType": {
                     "type": "iri",
@@ -501,7 +501,7 @@
                   },
                   "transformation": {
                     "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + if(isBlank(cells[\"_ - usermeta - presenting_format\"].value), \"empty\", cells[\"_ - usermeta - presenting_format\"].value)"
+                    "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace( cells[\"_ - usermeta - presenting_format\"].value, \" \", \"+\")"
                   },
                   "valueType": {
                     "type": "iri",

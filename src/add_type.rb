@@ -46,6 +46,11 @@ members.each do |member|
 
   member["member_type"] = member_type
   member["schema_type"] = schema_type
+  # set empty fields to "empty" if they are blank
+  empty_fields = ["charitable_status", "legal_form", "terms_conditions", "presenting_format"]
+  for field in empty_fields
+    member["usermeta"][field] = "empty" if member["usermeta"][field] == ""
+  end
 
   org_count += 1 if schema_type == 'Organization'
   person_count += 1 if schema_type == 'Person'
@@ -54,9 +59,9 @@ members.each do |member|
 end
 
 File.open("members.json", "w:UTF-8") do |f|
-  f.write(JSON.pretty_generate(members))
+  f.write(JSON.pretty_generate(members_with_type))
 end
 
-puts "Processed #{members.length} members with types added"
+puts "Processed #{members_with_type.length} members."
 puts "Total organizations: #{org_count}"
 puts "Total individuals: #{person_count}"
