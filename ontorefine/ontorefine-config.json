@@ -34,8 +34,8 @@
       "baseIRI": "https://example.com/base/",
       "namespaces": {
         "member": "https://capacoa.ca/memberv2/",
-        "schema": "https://schema.org/",
-        "skos": "https://www.w3.org/2004/02/skos/core#",
+        "schema": "http://schema.org/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
         "capacoa": "https://capacoa.ca/vocabulary#",
         "wikidata_property": "http://www.wikidata.org/prop/direct/",
         "wikidata_entity": "http://www.wikidata.org/entity/",
