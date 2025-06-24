@@ -37,8 +37,8 @@
         "schema": "https://schema.org/",
         "skos": "https://www.w3.org/2004/02/skos/core#",
         "capacoa": "https://capacoa.ca/vocabulary#",
-        "wikidata_property": "https://www.wikidata.org/prop/direct/",
-        "wikidata_entity": "https://www.wikidata.org/entity/",
+        "wikidata_property": "http://www.wikidata.org/prop/direct/",
+        "wikidata_entity": "http://www.wikidata.org/entity/",
         "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
         "artsdata": "http://kg.artsdata.ca/resource/"
       },
