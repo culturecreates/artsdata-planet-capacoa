@@ -30,7 +30,13 @@ def get_type(user)
   is_org = operating_name1 != ''
   is_ind = (pmpro_approval_13['status'] == 'approved' || pmpro_approval_12['status'] == 'approved')
 
+  terms_conditions = safe_get(usermeta, 'terms_conditions')
+
+  # if the user is not an organization or individual, skip
   return [nil, nil, true] unless is_org || is_ind
+
+  # remove users who do not agree to terms and conditions 
+  return [nil, nil, true] if terms_conditions == 'do not agree (v1.1)'
 
   schema_type = operating_name1 != '' ? 'Organization' : 'Person'
 
