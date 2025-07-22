@@ -1,7 +1,9 @@
 name: Fetch and Push CAPACOA data
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  schedule:
+  - cron: 0 8 * * *
 
 jobs:
   fetch-and-format:
