@@ -11,10 +11,15 @@ loop do
   uri = URI(BASE_URL)
   uri.query = URI.encode_www_form({ per_page: PER_PAGE, offset: offset })
 
-  response = Net::HTTP.get_response(uri)
+  request = Net::HTTP::Get.new(uri)
+  request['User-Agent'] = 'artsdata-crawler'
+
+  response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+    http.request(request)
+  end
 
   unless response.is_a?(Net::HTTPSuccess)
-    puts "Error fetching data: #{response.code}"
+    puts "Error fetching data: #{response.code} message: #{response.message}"
     break
   end
 
