@@ -274,7 +274,8 @@
     capacoa:TermsConditions_empty,
     capacoa:PresentingFormat_empty;
   <http://schema.org/name> "Fascinator Management"@en;
-  <http://schema.org/url> <https://www.fascinatormanagement.com/> .
+  <http://schema.org/url> <https://www.fascinatormanagement.com/>;
+  capacoa:memberTerminationDate "2023-04-01" .
 
 <https://capacoa.ca/memberv2/114> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -931,7 +932,8 @@
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://www.festivalafrica.com/events>
   ];
-  <http://www.wikidata.org/prop/direct/P8860> "805750593" .
+  <http://www.wikidata.org/prop/direct/P8860> "805750593";
+  capacoa:memberTerminationDate "2024-04-01" .
 
 <https://capacoa.ca/memberv2/141> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus,
@@ -1253,10 +1255,12 @@
   <http://schema.org/additionalType> capacoa:MemberType_indlife,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty,
+    capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
-  <http://schema.org/name> "Richard Stoker"@en .
+  <http://schema.org/name> "Richard Stoker"@en;
+  ebu_core:hasAgentBiography "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
+    "Richard Stoker a contribué de façon significative aux arts de la scène au Canada. Il a occupé le poste de directeur de la programmation et de la promotion des centres d'arts et de culture de la province de Terre-Neuve-et-Labrador de 1975 à 2010. Pendant trois ans, il a été président du conseil d'administration de CAPACOA, ainsi que membre fondateur et dirigeant de plusieurs autres organisations artistiques."@fr .
 
 <https://capacoa.ca/memberv2/153> a <http://schema.org/Person>;
   <http://schema.org/additionalType> capacoa:Genres_film,
@@ -2221,19 +2225,36 @@
   <http://schema.org/alternateName> "MGAM Inc";
   <http://schema.org/legalName> "Marilyn Gilbert Artists Management Inc"@en;
   <http://schema.org/name> "Marilyn Gilbert Artists Management Inc"@en;
-  <http://schema.org/url> <https://mgam.com/> .
+  <http://schema.org/url> <https://mgam.com/>;
+  capacoa:memberTerminationDate "2023-04-01" .
 
 <https://capacoa.ca/memberv2/199> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:MemberType_organization,
-    capacoa:CharitableStatus_empty,
-    capacoa:LegalForm_empty,
-    capacoa:TermsConditions_empty,
+    capacoa:CharitableStatus_Charitable\+organization,
+    capacoa:LegalForm_Not-for-profit\+organization,
+    capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
-  <http://schema.org/alternateName> "Sursaut Dance Company";
+  <http://schema.org/address> [
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Sherbrooke";
+    <http://schema.org/addressRegion> "QC"
+  ];
+  <http://schema.org/alternateName> "Sursaut dance company";
+  <http://schema.org/legalName> "Compagnie de danse Sursaut"@fr;
+  <http://schema.org/location> [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q114430079";
+      <http://schema.org/name> "centre des arts de la scène Jean-Besré"
+    ];
+    <http://schema.org/roleName> "Resident organization"
+  ];
   <http://schema.org/name> "Sursaut"@fr;
-  <http://schema.org/url> <https://sursaut.ca/> .
+  <http://schema.org/url> <https://sursaut.ca/>;
+  <http://www.wikidata.org/prop/direct/P8860> "132417098" .
 
 <https://capacoa.ca/memberv2/200> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -2959,7 +2980,8 @@
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://voicesincircle.ca>
-  ] .
+  ];
+  capacoa:memberTerminationDate "2023-09-08" .
 
 <https://capacoa.ca/memberv2/239> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -4115,7 +4137,7 @@
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:MemberType_organization,
-    capacoa:CharitableStatus_Not\+a\+charitable\+organization,
+    capacoa:CharitableStatus_Charitable\+organization,
     capacoa:LegalForm_Not-for-profit\+organization,
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_series,
@@ -4946,7 +4968,7 @@
 
 <https://capacoa.ca/memberv2/325> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus,
-    capacoa:PrimaryActivity_prod,
+    capacoa:PrimaryActivity_agen,
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_empty,
     capacoa:LegalForm_Sole\+proprietorship,
@@ -4957,6 +4979,7 @@
     <http://schema.org/addressLocality> "Trois-Rivières";
     <http://schema.org/addressRegion> "QC"
   ];
+  <http://schema.org/identifier> "Q135097983";
   <http://schema.org/legalName> "Bling Square Events by NH"@en;
   <http://schema.org/name> "Bling Square Events by NH"@en .
 
@@ -4978,7 +5001,49 @@
   <http://schema.org/name> "Ballet Kelowna"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5377>;
   <http://schema.org/url> <https://www.balletkelowna.ca/>;
-  <http://www.wikidata.org/prop/direct/P8860> "855746244" .
+  <http://www.wikidata.org/prop/direct/P8860> "855746244";
+  ebu_core:hasAgentBiography "Test \"Member Description (English)\"."@en,
+    "Test « Member Description (français) »."@fr .
+
+<https://capacoa.ca/memberv2/329> a <http://schema.org/Organization>;
+  <http://schema.org/additionalType> capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:MemberType_organization,
+    capacoa:CharitableStatus_Not\+a\+charitable\+organization,
+    capacoa:LegalForm_Municipal\+corporation,
+    capacoa:TermsConditions_agree\+\(v1\.1\),
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_you;
+  <http://schema.org/address> [
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Surrey";
+    <http://schema.org/addressRegion> "BC"
+  ];
+  <http://schema.org/identifier> "Q128243389";
+  <http://schema.org/legalName> "City of Surrey"@en;
+  <http://schema.org/location> [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q130278490";
+      <http://schema.org/name> "Surrey Arts Centre"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ];
+  <http://schema.org/name> "Surrey Civic Theatres"@en;
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5428>;
+  <http://schema.org/url> <https://www.surrey.ca/arts-culture/surrey-civic-theatres>, [
+    a <http://schema.org/Role>;
+    <http://schema.org/roleName> "Events Webpage";
+    <http://schema.org/url> <https://www.surrey.ca/arts-culture/surrey-civic-theatres/surrey-civic-theatres-presentation-series>
+  ];
+  <http://www.wikidata.org/prop/direct/P8860> "121391882" .
 
 <https://capacoa.ca/memberv2/33> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -5538,13 +5603,14 @@
   <http://www.wikidata.org/prop/direct/P8860> "857100556" .
 
 <https://capacoa.ca/memberv2/52> a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:Genres_com,
+  <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\+a\+charitable\+organization,
     capacoa:LegalForm_Municipal\+corporation,
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series,
+    capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6694,7 +6760,7 @@
     capacoa:MemberType_organization,
     capacoa:CharitableStatus_Not\+a\+charitable\+organization,
     capacoa:LegalForm_Not-for-profit\+organization,
-    capacoa:TermsConditions_agree\+\(v1\.0\),
+    capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_festival,
     capacoa:Genres_var;
   <http://schema.org/address> [
