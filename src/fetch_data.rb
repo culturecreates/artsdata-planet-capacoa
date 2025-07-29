@@ -12,7 +12,7 @@ loop do
   uri.query = URI.encode_www_form({ per_page: PER_PAGE, offset: offset })
 
   request = Net::HTTP::Get.new(uri)
-  request['User-Agent'] = 'artsdata-crawler'
+  request['User-Agent'] = 'artsdata-crawler (compatible; +https://kg.artsdata.ca/doc/artsdata-crawler)'
 
   response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
     http.request(request)
@@ -30,6 +30,7 @@ loop do
   all_users.concat(data)
   offset += PER_PAGE
   puts "Fetched #{data.length} users, offset now #{offset}"
+  sleep(2) # Respectful delay to avoid overwhelming the server
 end
 
 File.open("members.json", "w:utf-8") do |file|
