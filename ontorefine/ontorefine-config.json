@@ -783,7 +783,7 @@
               "property": {
                 "valueSource": {
                   "source": "constant",
-                  "constant": " description"
+                  "constant": "description"
                 },
                 "transformation": {
                   "language": "prefix",
