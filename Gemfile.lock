@@ -9,6 +9,7 @@ GEM
     builder (3.3.0)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
+    csv (3.3.5)
     date (3.4.1)
     ebnf (2.6.0)
       base64 (~> 0.2)
@@ -210,6 +211,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  csv
   linkeddata
   nokogiri
   sparql
