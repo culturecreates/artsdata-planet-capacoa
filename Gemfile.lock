@@ -79,6 +79,8 @@ GEM
       connection_pool (~> 2.2, >= 2.2.4)
     nokogiri (1.18.9-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.9-x86_64-linux-gnu)
+      racc (~> 1.4)
     ostruct (0.6.3)
     psych (5.2.6)
       date
@@ -205,6 +207,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   linkeddata
