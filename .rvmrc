@@ -1,1 +1,1 @@
-rvm use 3.1.2@artsdata-planet-capacoa --create
+rvm use 3.4.3@artsdata-planet-capacoa --create
