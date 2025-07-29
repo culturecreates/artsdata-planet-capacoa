@@ -211,6 +211,7 @@ PLATFORMS
 
 DEPENDENCIES
   linkeddata
+  nokogiri
   sparql
 
 BUNDLED WITH
