@@ -1,6 +1,8 @@
 # artsdata-planet-capacoa
 
-This repo runs a workflow on Github that fetches CAPACOA member data (from CAPACOA's Wordpress database), transforms it to RDF and sends it to the Artsdata Databus.
+This repo runs a workflow on Github that fetches CAPACOA member data (from CAPACOA's Wordpress database), transforms it to RDF and sends it to the Artsdata Databus on a schedule.
+
+
 
 Here is a summary of the workflow fetch-and-push-data.yml
 1. Run fetch_data.rb to download data to a JSON file (test locally with >ruby fetch_data.rb)
@@ -9,3 +11,13 @@ Here is a summary of the workflow fetch-and-push-data.yml
 1. Run run_sparql.rb to execute the SPARQL
 1. Commits dump to Github (output/data.ttl)
 1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
+
+# Wordpress plugins
+
+The CAPACOA Wordpress website uses 2 plugins:
+
+## capacoa-artsdata-usermeta
+- [capacoa-artsdata-usermeta](https://github.com/culturecreates/capacoa-artsdata-usermeta) Wordpress plugin that opens specific fields for export to Artsdata at https://capacoa.ca/wp-json/wp/v2/users
+
+## artsdata-shortcode
+- [artsdata-shortcode](https://github.com/culturecreates/artsdata-shortcode) Wordpress plugin that reads data from Artsdata for display on the CAPACAO website 
