@@ -12,9 +12,9 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "sample json",
+      "projectName": "cli-transform-members.json-2025-07-29",
       "projectTags": [],
-      "fileSource": "sample.json",
+      "fileSource": "members.json",
       "archiveFileName": null
     }
   ],
@@ -775,6 +775,50 @@
                     "type": "iri",
                     "typeMappings": [],
                     "propertyMappings": []
+                  }
+                }
+              ]
+            },
+            {
+              "property": {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": " description"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              },
+              "values": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "_ - usermeta - member_description_en"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "en"
+                      }
+                    }
+                  }
+                },
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "_ - usermeta - member_description_fr"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": {
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "fr"
+                      }
+                    }
                   }
                 }
               ]
