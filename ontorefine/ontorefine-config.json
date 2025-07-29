@@ -778,50 +778,6 @@
                   }
                 }
               ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "description"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - member_description_en"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "constant",
-                        "constant": "en"
-                      }
-                    }
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - member_description_fr"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "constant",
-                        "constant": "fr"
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ]
         },
