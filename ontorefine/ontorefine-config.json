@@ -19,814 +19,814 @@
     }
   ],
   "operations": [
-  {
-    "op": "core/fill-down",
-    "engineConfig": {
-      "facets": [],
-      "mode": "record-based"
-    },
-    "columnName": "_ - id",
-    "description": "Fill down cells in column _ - id"
-  },
-  {
-    "op": "mapping-editor/save-rdf-mapping",
-    "mapping": {
-      "baseIRI": "https://example.com/base/",
-      "namespaces": {
-        "member": "https://capacoa.ca/memberv2/",
-        "schema": "http://schema.org/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "capacoa": "https://capacoa.ca/vocabulary#",
-        "wikidata_property": "http://www.wikidata.org/prop/direct/",
-        "wikidata_entity": "http://www.wikidata.org/entity/",
-        "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
-        "artsdata": "http://kg.artsdata.ca/resource/"
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
       },
-      "subjectMappings": [
-        {
-          "subject": {
-            "valueSource": {
-              "source": "column",
-              "columnName": "_ - id"
-            },
-            "transformation": {
-              "language": "prefix",
-              "expression": "member"
-            }
-          },
-          "typeMappings": [
-            {
+      "columnName": "_ - id",
+      "description": "Fill down cells in column _ - id"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://example.com/base/",
+        "namespaces": {
+          "member": "https://capacoa.ca/memberv2/",
+          "schema": "http://schema.org/",
+          "skos": "http://www.w3.org/2004/02/skos/core#",
+          "capacoa": "https://capacoa.ca/vocabulary#",
+          "wikidata_property": "http://www.wikidata.org/prop/direct/",
+          "wikidata_entity": "http://www.wikidata.org/entity/",
+          "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+          "artsdata": "http://kg.artsdata.ca/resource/"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
               "valueSource": {
                 "source": "column",
-                "columnName": "_ - schema_type"
+                "columnName": "_ - id"
               },
               "transformation": {
                 "language": "prefix",
-                "expression": "schema"
+                "expression": "member"
               }
-            }
-          ],
-          "propertyMappings": [
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "identifier"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - wikidata_id"
-                  },
-                  "valueType": {
-                    "type": "literal"
-                  }
-                }
-              ]
             },
-            {
-              "property": {
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "constant",
-                  "constant": "address"
+                  "source": "column",
+                  "columnName": "_ - schema_type"
                 },
                 "transformation": {
                   "language": "prefix",
                   "expression": "schema"
                 }
-              },
-              "values": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - pmpro_bcountry"
-                  },
-                  "valueType": {
-                    "type": "unique_bnode",
-                    "propertyMappings": [
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "addressCountry"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        },
-                        "values": [
-                          {
-                            "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - pmpro_bcountry"
-                            },
-                            "valueType": {
-                              "type": "literal"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "addressLocality"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        },
-                        "values": [
-                          {
-                            "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - pmpro_bcity"
-                            },
-                            "valueType": {
-                              "type": "literal"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "addressRegion"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        },
-                        "values": [
-                          {
-                            "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - pmpro_bstate"
-                            },
-                            "valueType": {
-                              "type": "literal"
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "legalName"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - legal_name"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "row_index"
-                      },
-                      "transformation": {
-                        "language": "grel",
-                        "expression": "if(isBlank(cells[\"_ - usermeta - legal_name_language\"].value), \"en\", cells[\"_ - usermeta - legal_name_language\"].value)"
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "name"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "row_index"
+                    "source": "constant",
+                    "constant": "identifier"
                   },
                   "transformation": {
-                    "language": "grel",
-                    "expression": "if(cells['schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name1'].value, cells[\"_ - name\"].value)"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "row_index"
-                      },
-                      "transformation": {
-                        "language": "grel",
-                        "expression": "if(isBlank(cells[\"_ - usermeta - operating_name1_language\"].value), \"en\", cells[\"_ - usermeta - operating_name1_language\"].value)"
-                      }
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - wikidata_id"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
                   }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "url"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
+                ]
               },
-              "values": [
-                {
+              {
+                "property": {
                   "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - website_official"
+                    "source": "constant",
+                    "constant": "address"
                   },
                   "transformation": {
-                    "language": "raw"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
+                    "language": "prefix",
+                    "expression": "schema"
                   }
                 },
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - events_page"
-                  },
-                  "valueType": {
-                    "type": "unique_bnode",
-                    "typeMappings": [
-                      {
-                        "valueSource": {
-                          "source": "constant",
-                          "constant": "Role"
-                        },
-                        "transformation": {
-                          "language": "prefix",
-                          "expression": "schema"
-                        }
-                      }
-                    ],
-                    "propertyMappings": [
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "roleName"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        },
-                        "values": [
-                          {
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - pmpro_bcountry"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "propertyMappings": [
+                        {
+                          "property": {
                             "valueSource": {
                               "source": "constant",
-                              "constant": "Events Webpage"
-                            },
-                            "valueType": {
-                              "type": "literal"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "url"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        },
-                        "values": [
-                          {
-                            "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - events_page"
+                              "constant": "addressCountry"
                             },
                             "transformation": {
-                              "language": "raw"
-                            },
-                            "valueType": {
-                              "type": "iri",
-                              "typeMappings": [],
-                              "propertyMappings": []
+                              "language": "prefix",
+                              "expression": "schema"
                             }
-                          }
-                        ]
-                      }
-                    ]
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - pmpro_bcountry"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "addressLocality"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - pmpro_bcity"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "addressRegion"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - pmpro_bstate"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "P8860"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "wikidata_property"
-                }
+                ]
               },
-              "values": [
-                {
+              {
+                "property": {
                   "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - business_number"
-                  },
-                  "valueType": {
-                    "type": "literal"
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "alternateName"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - also_known_as"
-                  },
-                  "valueType": {
-                    "type": "literal"
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "additionalType"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "row_index"
+                    "source": "constant",
+                    "constant": "legalName"
                   },
                   "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
+                    "language": "prefix",
+                    "expression": "schema"
                   }
                 },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#MemberType_\" + cells[\"_ - member_type\"].value"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"+\")"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value,\" \", \"+\")"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(cells[\"_ - usermeta - terms_conditions\"].value, \" \", \"+\")"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                },
-                {
-                  "valueSource": {
-                    "source": "row_index"
-                  },
-                  "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace( cells[\"_ - usermeta - presenting_format\"].value, \" \", \"+\")"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "memberTerminationDate"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "capacoa"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - MemberTerminationDate"
-                  },
-                  "valueType": {
-                    "type": "literal"
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "location"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - venue_relationship"
-                  },
-                  "valueType": {
-                    "type": "unique_bnode",
-                    "typeMappings": [
-                      {
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - legal_name"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
                         "valueSource": {
-                          "source": "constant",
-                          "constant": "Role"
+                          "source": "row_index"
                         },
                         "transformation": {
-                          "language": "prefix",
-                          "expression": "schema"
+                          "language": "grel",
+                          "expression": "if(isBlank(cells[\"_ - usermeta - legal_name_language\"].value), \"en\", cells[\"_ - usermeta - legal_name_language\"].value)"
                         }
                       }
-                    ],
-                    "propertyMappings": [
-                      {
-                        "property": {
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(cells['schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name1'].value, cells[\"_ - name\"].value)"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "row_index"
+                        },
+                        "transformation": {
+                          "language": "grel",
+                          "expression": "if(isBlank(cells[\"_ - usermeta - operating_name1_language\"].value), \"en\", cells[\"_ - usermeta - operating_name1_language\"].value)"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "url"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - website_official"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - events_page"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
                           "valueSource": {
                             "source": "constant",
-                            "constant": "location"
+                            "constant": "Role"
                           },
                           "transformation": {
                             "language": "prefix",
                             "expression": "schema"
                           }
-                        },
-                        "values": [
-                          {
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
                             "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - venue_name"
+                              "source": "constant",
+                              "constant": "roleName"
                             },
-                            "valueType": {
-                              "type": "unique_bnode",
-                              "typeMappings": [
-                                {
-                                  "valueSource": {
-                                    "source": "constant",
-                                    "constant": "Place"
-                                  },
-                                  "transformation": {
-                                    "language": "prefix",
-                                    "expression": "schema"
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "Events Webpage"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "url"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - events_page"
+                              },
+                              "transformation": {
+                                "language": "raw"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "P8860"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "wikidata_property"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - business_number"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "alternateName"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - also_known_as"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "additionalType"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#MemberType_\" + cells[\"_ - member_type\"].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"+\")"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value,\" \", \"+\")"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(cells[\"_ - usermeta - terms_conditions\"].value, \" \", \"+\")"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace( cells[\"_ - usermeta - presenting_format\"].value, \" \", \"+\")"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "memberTerminationDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "capacoa"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - MemberTerminationDate"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "location"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - venue_relationship"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Role"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "location"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - venue_name"
+                              },
+                              "valueType": {
+                                "type": "unique_bnode",
+                                "typeMappings": [
+                                  {
+                                    "valueSource": {
+                                      "source": "constant",
+                                      "constant": "Place"
+                                    },
+                                    "transformation": {
+                                      "language": "prefix",
+                                      "expression": "schema"
+                                    }
                                   }
-                                }
-                              ],
-                              "propertyMappings": [
-                                {
-                                  "property": {
-                                    "valueSource": {
-                                      "source": "constant",
-                                      "constant": "identifier"
-                                    },
-                                    "transformation": {
-                                      "language": "prefix",
-                                      "expression": "schema"
-                                    }
-                                  },
-                                  "values": [
-                                    {
+                                ],
+                                "propertyMappings": [
+                                  {
+                                    "property": {
                                       "valueSource": {
-                                        "source": "column",
-                                        "columnName": "_ - usermeta - wikidata_id_venue"
+                                        "source": "constant",
+                                        "constant": "identifier"
                                       },
-                                      "valueType": {
-                                        "type": "literal"
+                                      "transformation": {
+                                        "language": "prefix",
+                                        "expression": "schema"
                                       }
-                                    }
-                                  ]
-                                },
-                                {
-                                  "property": {
-                                    "valueSource": {
-                                      "source": "constant",
-                                      "constant": "name"
                                     },
-                                    "transformation": {
-                                      "language": "prefix",
-                                      "expression": "schema"
-                                    }
-                                  },
-                                  "values": [
-                                    {
-                                      "valueSource": {
-                                        "source": "column",
-                                        "columnName": "_ - usermeta - venue_name"
-                                      },
-                                      "valueType": {
-                                        "type": "literal"
+                                    "values": [
+                                      {
+                                        "valueSource": {
+                                          "source": "column",
+                                          "columnName": "_ - usermeta - wikidata_id_venue"
+                                        },
+                                        "valueType": {
+                                          "type": "literal"
+                                        }
                                       }
-                                    }
-                                  ]
-                                }
-                              ]
+                                    ]
+                                  },
+                                  {
+                                    "property": {
+                                      "valueSource": {
+                                        "source": "constant",
+                                        "constant": "name"
+                                      },
+                                      "transformation": {
+                                        "language": "prefix",
+                                        "expression": "schema"
+                                      }
+                                    },
+                                    "values": [
+                                      {
+                                        "valueSource": {
+                                          "source": "column",
+                                          "columnName": "_ - usermeta - venue_name"
+                                        },
+                                        "valueType": {
+                                          "type": "literal"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
                             }
-                          }
-                        ]
-                      },
-                      {
-                        "property": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "roleName"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
+                          ]
                         },
-                        "values": [
-                          {
+                        {
+                          "property": {
                             "valueSource": {
-                              "source": "column",
-                              "columnName": "_ - usermeta - venue_relationship"
+                              "source": "constant",
+                              "constant": "roleName"
                             },
-                            "valueType": {
-                              "type": "literal"
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
                             }
-                          }
-                        ]
-                      }
-                    ]
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - venue_relationship"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "hasOccupation"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
+                ]
               },
-              "values": [
-                {
+              {
+                "property": {
                   "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - occupation"
+                    "source": "constant",
+                    "constant": "hasOccupation"
                   },
                   "transformation": {
                     "language": "prefix",
-                    "expression": "wikidata_entity"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
+                    "expression": "schema"
                   }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "hasAgentBiography"
                 },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "ebu_core"
-                }
-              },
-              "values": [
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - member_description_en"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "constant",
-                        "constant": "en"
-                      }
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - occupation"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "wikidata_entity"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
                     }
                   }
-                },
-                {
-                  "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - member_description_fr"
-                  },
-                  "valueType": {
-                    "type": "language_literal",
-                    "language": {
-                      "valueSource": {
-                        "source": "constant",
-                        "constant": "fr"
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "sameAs"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
-                }
+                ]
               },
-              "values": [
-                {
+              {
+                "property": {
                   "valueSource": {
-                    "source": "column",
-                    "columnName": "_ - usermeta - artsdata_id"
+                    "source": "constant",
+                    "constant": "hasAgentBiography"
                   },
                   "transformation": {
                     "language": "prefix",
-                    "expression": "artsdata"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
+                    "expression": "ebu_core"
                   }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "subject": {
-            "valueSource": {
-              "source": "constant",
-              "constant": "Genres"
-            },
-            "transformation": {
-              "language": "prefix",
-              "expression": "capacoa"
-            }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - member_description_en"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "en"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - member_description_fr"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "sameAs"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - artsdata_id"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "artsdata"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
           },
-          "typeMappings": [],
-          "propertyMappings": [
-            {
-              "property": {
-                "valueSource": {
-                  "source": "constant",
-                  "constant": "member"
-                },
-                "transformation": {
-                  "language": "prefix",
-                  "expression": "skos"
-                }
+          {
+            "subject": {
+              "valueSource": {
+                "source": "constant",
+                "constant": "Genres"
               },
-              "values": [
-                {
+              "transformation": {
+                "language": "prefix",
+                "expression": "capacoa"
+              }
+            },
+            "typeMappings": [],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
-                    "source": "row_index"
+                    "source": "constant",
+                    "constant": "member"
                   },
                   "transformation": {
-                    "language": "grel",
-                    "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
-                  },
-                  "valueType": {
-                    "type": "iri",
-                    "typeMappings": [],
-                    "propertyMappings": []
+                    "language": "prefix",
+                    "expression": "skos"
                   }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "description": "Save RDF Mapping"
-  }
-]
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
 }
