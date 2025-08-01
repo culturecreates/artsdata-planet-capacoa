@@ -248,6 +248,21 @@
                         }
                       }
                     }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - operating_name2"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "column",
+                          "columnName": "_ - usermeta - operating_name2_language"
+                        }
+                      }
+                    }
                   }
                 ]
               },
