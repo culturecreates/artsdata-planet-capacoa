@@ -18,7 +18,9 @@
   <http://schema.org/identifier> "Q4851638";
   <http://schema.org/legalName> "Ballet Jörgen Canada"@en;
   <http://schema.org/name> "Ballet Jörgen Canada"@en;
-  <http://schema.org/url> <https://www.jorgendance.ca/> .
+  <http://schema.org/url> <https://www.jorgendance.ca/>;
+  ebu_core:hasAgentBiography "Jörgen Dance has brought the joy of dance to communities across Canada. From world-class performances to inclusive training and outreach, we make dance accessible to all. Join us—experience, learn, and connect through Dance for All."@en,
+    "Jörgen Dance partage la joie de la danse à travers le Canada. De spectacles de calibre mondial à des programmes inclusifs, nous rendons la danse accessible à tous. Joignez-vous à nous pour vivre, apprendre et partager la Danse pour tous."@fr .
 
 <https://capacoa.ca/memberv2/101> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -1881,8 +1883,7 @@
     capacoa:TermsConditions_empty,
     capacoa:PresentingFormat_empty;
   <http://schema.org/name> "Le Regroupement artistique francophone de l'Alberta"@en;
-  <http://schema.org/url> <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
-  ebu_core:hasAgentBiography "received PCBP in 23/24 season."@en .
+  <http://schema.org/url> <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php> .
 
 <https://capacoa.ca/memberv2/18> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_com,
@@ -3678,7 +3679,11 @@
   ];
   <http://schema.org/name> "Théâtre Capitol Theatre"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-197>;
-  <http://schema.org/url> <https://www.capitol.nb.ca>;
+  <http://schema.org/url> <https://www.capitol.nb.ca>, [
+    a <http://schema.org/Role>;
+    <http://schema.org/roleName> "Events Webpage";
+    <http://schema.org/url> <https://capitol.nb.ca/en/tickets-events>
+  ];
   <http://www.wikidata.org/prop/direct/P8860> "135529949" .
 
 <https://capacoa.ca/memberv2/266> a <http://schema.org/Organization>;
@@ -4276,7 +4281,10 @@
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://digitalartsresourcecentre.ca/events/>
   ];
-  <http://www.wikidata.org/prop/direct/P8860> "867857641" .
+  <http://www.wikidata.org/prop/direct/P8860> "867857641";
+  ebu_core:hasAgentBiography """Digital Arts Resource Centre (formerly SAW Video) is a not-for-profit, artist-run media art centre that fosters the growth and development of artists through access to equipment, training, mentorship, and programming. Our mission is to support a diverse community of media artists empowered by technology, programming and the exchange of ideas.
+
+Our core principles are independence of expression, affordable access to all, and paying artists for their work. Digital Arts Resource Centre values diversity and actively promotes equity for all artists regardless of race, age, class, gender, sexual orientation, language, or ability."""@en .
 
 <https://capacoa.ca/memberv2/29> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -5002,8 +5010,8 @@
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5377>;
   <http://schema.org/url> <https://www.balletkelowna.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "855746244";
-  ebu_core:hasAgentBiography "Test \"Member Description (English)\"."@en,
-    "Test « Member Description (français) »."@fr .
+  ebu_core:hasAgentBiography "Test WP Biographical Info."@en,
+    "Test WP Biographical Info - Français."@fr .
 
 <https://capacoa.ca/memberv2/329> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -5043,7 +5051,11 @@
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://www.surrey.ca/arts-culture/surrey-civic-theatres/surrey-civic-theatres-presentation-series>
   ];
-  <http://www.wikidata.org/prop/direct/P8860> "121391882" .
+  <http://www.wikidata.org/prop/direct/P8860> "121391882";
+  ebu_core:hasAgentBiography """Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
+Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0–Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
+Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0-12 and their families. Performances include a range of music, theatre, puppetry, storytelling and circus performances from a range of diverse cultures, including Indigenous, Australian, African, Asian and South-East Asian presenters.
+All performances and activities take place at the Surrey Arts Centre Main Stage, Studio Theatre and Program Room, as well as Centre Stage at City Hall and Clayton Community Centre Performing Arts Studio."""@en .
 
 <https://capacoa.ca/memberv2/33> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
