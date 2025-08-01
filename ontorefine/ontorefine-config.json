@@ -39,7 +39,7 @@
           "capacoa": "https://capacoa.ca/vocabulary#",
           "wikidata_property": "http://www.wikidata.org/prop/direct/",
           "wikidata_entity": "http://www.wikidata.org/entity/",
-          "ebu_core": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+          "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
           "artsdata": "http://kg.artsdata.ca/resource/"
         },
         "subjectMappings": [
@@ -714,7 +714,7 @@
                   },
                   "transformation": {
                     "language": "prefix",
-                    "expression": "ebu_core"
+                    "expression": "ebucore"
                   }
                 },
                 "values": [
