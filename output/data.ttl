@@ -1,5 +1,4 @@
 @prefix capacoa: <https://capacoa.ca/vocabulary#> .
-@prefix ebu_core: <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
 
 <https://capacoa.ca/memberv2/100> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -19,7 +18,7 @@
   <http://schema.org/legalName> "Ballet Jörgen Canada"@en;
   <http://schema.org/name> "Ballet Jörgen Canada"@en;
   <http://schema.org/url> <https://www.jorgendance.ca/>;
-  ebu_core:hasAgentBiography "Jörgen Dance has brought the joy of dance to communities across Canada. From world-class performances to inclusive training and outreach, we make dance accessible to all. Join us—experience, learn, and connect through Dance for All."@en,
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Jörgen Dance has brought the joy of dance to communities across Canada. From world-class performances to inclusive training and outreach, we make dance accessible to all. Join us—experience, learn, and connect through Dance for All."@en,
     "Jörgen Dance partage la joie de la danse à travers le Canada. De spectacles de calibre mondial à des programmes inclusifs, nous rendons la danse accessible à tous. Joignez-vous à nous pour vivre, apprendre et partager la Danse pour tous."@fr .
 
 <https://capacoa.ca/memberv2/101> a <http://schema.org/Organization>;
@@ -1233,7 +1232,7 @@
   <http://schema.org/identifier> "Q114868316";
   <http://schema.org/name> "Rhodnie Désir"@en;
   <http://schema.org/url> <http://rhodniedesir.com/>;
-  ebu_core:hasAgentBiography "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
     "Rhodnie Désir a créé une quinzaine d’œuvres chorégraphiques. Sa pièce phare BOW’T TRAIL Rétrospek et son parcours de mémoire pionnier BOW’T TRAIL  lui ont valu deux Prix de la danse de Montréal (2020) : le Prix Envol et le convoité Grand Prix de la danse."@fr .
 
 <https://capacoa.ca/memberv2/151> a <http://schema.org/Organization>;
@@ -1261,7 +1260,7 @@
     capacoa:PresentingFormat_empty;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
   <http://schema.org/name> "Richard Stoker"@en;
-  ebu_core:hasAgentBiography "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
     "Richard Stoker a contribué de façon significative aux arts de la scène au Canada. Il a occupé le poste de directeur de la programmation et de la promotion des centres d'arts et de culture de la province de Terre-Neuve-et-Labrador de 1975 à 2010. Pendant trois ans, il a été président du conseil d'administration de CAPACOA, ainsi que membre fondateur et dirigeant de plusieurs autres organisations artistiques."@fr .
 
 <https://capacoa.ca/memberv2/153> a <http://schema.org/Person>;
@@ -3684,6 +3683,8 @@
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://capitol.nb.ca/en/tickets-events>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Test description."@en,
+    "Description test."@fr;
   <http://www.wikidata.org/prop/direct/P8860> "135529949" .
 
 <https://capacoa.ca/memberv2/266> a <http://schema.org/Organization>;
@@ -4281,10 +4282,10 @@
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://digitalartsresourcecentre.ca/events/>
   ];
-  <http://www.wikidata.org/prop/direct/P8860> "867857641";
-  ebu_core:hasAgentBiography """Digital Arts Resource Centre (formerly SAW Video) is a not-for-profit, artist-run media art centre that fosters the growth and development of artists through access to equipment, training, mentorship, and programming. Our mission is to support a diverse community of media artists empowered by technology, programming and the exchange of ideas.
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Digital Arts Resource Centre (formerly SAW Video) is a not-for-profit, artist-run media art centre that fosters the growth and development of artists through access to equipment, training, mentorship, and programming. Our mission is to support a diverse community of media artists empowered by technology, programming and the exchange of ideas.
 
-Our core principles are independence of expression, affordable access to all, and paying artists for their work. Digital Arts Resource Centre values diversity and actively promotes equity for all artists regardless of race, age, class, gender, sexual orientation, language, or ability."""@en .
+Our core principles are independence of expression, affordable access to all, and paying artists for their work. Digital Arts Resource Centre values diversity and actively promotes equity for all artists regardless of race, age, class, gender, sexual orientation, language, or ability."""@en;
+  <http://www.wikidata.org/prop/direct/P8860> "867857641" .
 
 <https://capacoa.ca/memberv2/29> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -5009,9 +5010,9 @@ Our core principles are independence of expression, affordable access to all, an
   <http://schema.org/name> "Ballet Kelowna"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5377>;
   <http://schema.org/url> <https://www.balletkelowna.ca/>;
-  <http://www.wikidata.org/prop/direct/P8860> "855746244";
-  ebu_core:hasAgentBiography "Test WP Biographical Info."@en,
-    "Test WP Biographical Info - Français."@fr .
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Test WP Biographical Info."@en,
+    "Test WP Biographical Info - Français."@fr;
+  <http://www.wikidata.org/prop/direct/P8860> "855746244" .
 
 <https://capacoa.ca/memberv2/329> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
@@ -5051,11 +5052,11 @@ Our core principles are independence of expression, affordable access to all, an
     <http://schema.org/roleName> "Events Webpage";
     <http://schema.org/url> <https://www.surrey.ca/arts-culture/surrey-civic-theatres/surrey-civic-theatres-presentation-series>
   ];
-  <http://www.wikidata.org/prop/direct/P8860> "121391882";
-  ebu_core:hasAgentBiography """Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
 Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0–Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
 Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0-12 and their families. Performances include a range of music, theatre, puppetry, storytelling and circus performances from a range of diverse cultures, including Indigenous, Australian, African, Asian and South-East Asian presenters.
-All performances and activities take place at the Surrey Arts Centre Main Stage, Studio Theatre and Program Room, as well as Centre Stage at City Hall and Clayton Community Centre Performing Arts Studio."""@en .
+All performances and activities take place at the Surrey Arts Centre Main Stage, Studio Theatre and Program Room, as well as Centre Stage at City Hall and Clayton Community Centre Performing Arts Studio."""@en;
+  <http://www.wikidata.org/prop/direct/P8860> "121391882" .
 
 <https://capacoa.ca/memberv2/33> a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
