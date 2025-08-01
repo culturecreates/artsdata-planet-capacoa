@@ -6726,11 +6726,11 @@
     ];
     <http://schema.org/roleName> "Owner"
   ];
-  <http://schema.org/name> "Keyano Theatre &amp; Arts Centre"@en;
+  <http://schema.org/name> "Keyano Theatre"@en;
   <http://schema.org/url> <https://keyano.ca/theatre>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
-    <http://schema.org/url> <https://keyano.ca/theatre>
+    <http://schema.org/url> <https://ticket.keyano.ca>
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107566218" .
 
