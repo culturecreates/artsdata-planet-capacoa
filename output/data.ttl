@@ -1227,8 +1227,6 @@
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
   ];
-  <http://schema.org/description> "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
-    "Rhodnie Désir a créé une quinzaine d’œuvres chorégraphiques. Sa pièce phare BOW’T TRAIL Rétrospek et son parcours de mémoire pionnier BOW’T TRAIL  lui ont valu deux Prix de la danse de Montréal (2020) : le Prix Envol et le convoité Grand Prix de la danse."@fr;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q114868316";
   <http://schema.org/name> "Rhodnie Désir"@en;
@@ -1259,8 +1257,6 @@
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
-  <http://schema.org/description> "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
-    "Richard Stoker a contribué de façon significative aux arts de la scène au Canada. Il a occupé le poste de directeur de la programmation et de la promotion des centres d'arts et de culture de la province de Terre-Neuve-et-Labrador de 1975 à 2010. Pendant trois ans, il a été président du conseil d'administration de CAPACOA, ainsi que membre fondateur et dirigeant de plusieurs autres organisations artistiques."@fr;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
   <http://schema.org/name> "Richard Stoker"@en;
   ebu_core:hasAgentBiography "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
@@ -1884,7 +1880,6 @@
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
     capacoa:PresentingFormat_empty;
-  <http://schema.org/description> "received PCBP in 23/24 season."@en;
   <http://schema.org/name> "Le Regroupement artistique francophone de l'Alberta"@en;
   <http://schema.org/url> <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
   ebu_core:hasAgentBiography "received PCBP in 23/24 season."@en .
@@ -5001,8 +4996,6 @@
     <http://schema.org/addressLocality> "Kelowna";
     <http://schema.org/addressRegion> "BC"
   ];
-  <http://schema.org/description> "Test \"Member Description (English)\"."@en,
-    "Test « Member Description (français) »."@fr;
   <http://schema.org/identifier> "Q126952113";
   <http://schema.org/legalName> "Kelowna Ballet Society"@en;
   <http://schema.org/name> "Ballet Kelowna"@en;
@@ -6733,11 +6726,11 @@
     ];
     <http://schema.org/roleName> "Owner"
   ];
-  <http://schema.org/name> "Keyano Theatre &amp; Arts Centre"@en;
+  <http://schema.org/name> "Keyano Theatre"@en;
   <http://schema.org/url> <https://keyano.ca/theatre>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
-    <http://schema.org/url> <https://keyano.ca/theatre>
+    <http://schema.org/url> <https://ticket.keyano.ca>
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107566218" .
 
