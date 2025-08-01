@@ -12,6 +12,15 @@ Here is a summary of the workflow fetch-and-push-data.yml
 1. Commits dump to Github (output/data.ttl)
 1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
+# How to test locally
+1. Install RVM to manage Ruby
+1. clone and cd into the project directory
+1. run >bundle install
+1. run >ruby src/featch_data.rb
+1. Once the data is downloaded from Wordpress...
+1. run >./run_ontorefine.sh --> check the output RDF
+1. if needed you can edit the RDF Mapping using OntoRefine, export the changes and replace ontorefine-config.json.
+
 # Wordpress plugins
 
 The CAPACOA Wordpress website uses 2 plugins:
