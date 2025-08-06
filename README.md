@@ -15,10 +15,10 @@ Here is a summary of the workflow fetch-and-push-data.yml
 # How to test locally
 1. Clone and cd into the project directory
 1. `bundle install`
-1. `ruby src/featch_data.rb`
-1. Once the data is downloaded from Wordpress...
-1. `./run_ontorefine.sh` --> check the output RDF
-1. if needed you can edit the RDF Mapping using OntoRefine, export the changes and replace `ontorefine-config.json`.
+1. `ruby src/fetch_data.rb`
+1. `ruby src/add_type.rb`
+1. `./run_ontorefine.sh` --> opens your browser to OpenRefine with the data loaded
+1. You can edit the RDF Mapping using OntoRefine, export the changes and replace `ontorefine-config.json`.
 
 # Wordpress plugins
 
