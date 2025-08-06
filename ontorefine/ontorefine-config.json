@@ -33,7 +33,7 @@
       "mapping": {
         "baseIRI": "https://example.com/base/",
         "namespaces": {
-          "member": "https://capacoa.ca/memberv2/",
+          "member": "https://capacoa.ca/member/",
           "schema": "http://schema.org/",
           "skos": "http://www.w3.org/2004/02/skos/core#",
           "capacoa": "https://capacoa.ca/vocabulary#",
