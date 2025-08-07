@@ -1,4 +1,4 @@
-name: Push Event Types to Artsdata
+name: Push CAPACOA Controlled Vocabulary to Artsdata
 on:
   workflow_dispatch:
   push:
