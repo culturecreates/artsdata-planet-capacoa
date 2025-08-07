@@ -12,9 +12,9 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "sample json",
+      "projectName": "cli-transform-members.json-2025-08-07",
       "projectTags": [],
-      "fileSource": "sample.json",
+      "fileSource": "members.json",
       "archiveFileName": null
     }
   ],
@@ -471,7 +471,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"+\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"-\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -485,7 +485,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value,\" \", \"+\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value,\" \", \"-\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -499,7 +499,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(cells[\"_ - usermeta - terms_conditions\"].value, \" \", \"+\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(replace(replace(cells[\"_ - usermeta - terms_conditions\"].value, \")\", \"\"), \"(\", \"\"), \" \", \"-\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -911,49 +911,6 @@
                     "transformation": {
                       "language": "prefix",
                       "expression": "artsdata"
-                    },
-                    "valueType": {
-                      "type": "iri",
-                      "typeMappings": [],
-                      "propertyMappings": []
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "subject": {
-              "valueSource": {
-                "source": "constant",
-                "constant": "Genres"
-              },
-              "transformation": {
-                "language": "prefix",
-                "expression": "capacoa"
-              }
-            },
-            "typeMappings": [],
-            "propertyMappings": [
-              {
-                "property": {
-                  "valueSource": {
-                    "source": "constant",
-                    "constant": "member"
-                  },
-                  "transformation": {
-                    "language": "prefix",
-                    "expression": "skos"
-                  }
-                },
-                "values": [
-                  {
-                    "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value"
                     },
                     "valueType": {
                       "type": "iri",
