@@ -10,6 +10,7 @@ member:100 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -33,6 +34,7 @@ member:101 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -53,6 +55,7 @@ member:102 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -85,6 +88,7 @@ member:104 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_oth;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Tecumseh";
     <http://schema.org/addressRegion> "ON"
@@ -113,6 +117,7 @@ member:106 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -142,6 +147,7 @@ member:107 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Annapolis Royal";
     <http://schema.org/addressRegion> "NS"
@@ -184,6 +190,7 @@ member:109 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival-equal;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Waterloo";
     <http://schema.org/addressRegion> "ON"
@@ -211,6 +218,7 @@ member:11 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fredericton";
     <http://schema.org/addressRegion> "NB"
@@ -243,6 +251,7 @@ member:110 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Repentigny";
     <http://schema.org/addressRegion> "QC"
@@ -270,6 +279,7 @@ member:111 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -325,6 +335,7 @@ member:114 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Alliston";
     <http://schema.org/addressRegion> "ON"
@@ -358,6 +369,7 @@ member:116 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "St-Jérôme";
     <http://schema.org/addressRegion> "QC"
@@ -389,6 +401,7 @@ member:118 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_mus;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -414,6 +427,7 @@ member:119 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Whitehorse";
     <http://schema.org/addressRegion> "YT"
@@ -440,6 +454,7 @@ member:12 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fort Saskatchewan";
     <http://schema.org/addressRegion> "AB"
@@ -474,6 +489,7 @@ member:120 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -504,6 +520,7 @@ member:121 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fredericton";
     <http://schema.org/addressRegion> "NB"
@@ -522,6 +539,7 @@ member:122 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Halifax";
     <http://schema.org/addressRegion> "NS"
@@ -546,6 +564,7 @@ member:123 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -568,6 +587,7 @@ member:126 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -581,6 +601,14 @@ member:126 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q115439892";
       <http://schema.org/name> "Metro Theatre"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q115440751";
+      <http://schema.org/name> "Intrepid Studio"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -608,6 +636,7 @@ member:13 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Whitehorse";
     <http://schema.org/addressRegion> "YT"
@@ -647,6 +676,7 @@ member:130 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -677,6 +707,7 @@ member:131 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -702,6 +733,7 @@ member:132 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Burlington";
     <http://schema.org/addressRegion> "ON"
@@ -745,6 +777,7 @@ member:133 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "St. Albert";
     <http://schema.org/addressRegion> "AB"
@@ -758,6 +791,13 @@ member:133 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q113329578";
       <http://schema.org/name> "The Arden Theatre"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "City Art Space"
     ];
     <http://schema.org/roleName> "Owner"
   ];
@@ -778,6 +818,7 @@ member:134 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -814,6 +855,7 @@ member:135 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Markham";
     <http://schema.org/addressRegion> "ON"
@@ -853,6 +895,7 @@ member:138 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Nanaimo";
     <http://schema.org/addressRegion> "BC"
@@ -885,6 +928,7 @@ member:139 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -904,6 +948,7 @@ member:14 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -917,6 +962,14 @@ member:14 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q7914233";
       <http://schema.org/name> "Vancouver Playhouse"
+    ];
+    <http://schema.org/roleName> "Main presentation venue (as rental client)"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q42988288";
+      <http://schema.org/name> "The Fei and Milton Wong Experimental Theatre"
     ];
     <http://schema.org/roleName> "Main presentation venue (as rental client)"
   ];
@@ -938,6 +991,7 @@ member:140 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Surrey";
     <http://schema.org/addressRegion> "BC"
@@ -973,6 +1027,7 @@ member:141 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -999,6 +1054,7 @@ member:142 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Duncan";
     <http://schema.org/addressRegion> "BC"
@@ -1033,6 +1089,7 @@ member:143 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -1067,6 +1124,7 @@ member:144 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Peterborough";
     <http://schema.org/addressRegion> "ON"
@@ -1102,6 +1160,7 @@ member:145 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -1130,6 +1189,7 @@ member:146 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Wells";
     <http://schema.org/addressRegion> "BC"
@@ -1142,6 +1202,13 @@ member:146 a <http://schema.org/Organization>;
     <http://schema.org/location> [
       a <http://schema.org/Place>;
       <http://schema.org/name> "IMA Public Gallery"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "The Nest (Artist Residence Building)"
     ];
     <http://schema.org/roleName> "Owner"
   ];
@@ -1163,6 +1230,7 @@ member:147 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -1184,6 +1252,7 @@ member:148 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1206,6 +1275,7 @@ member:149 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1235,6 +1305,7 @@ member:15 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_mus;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1252,6 +1323,7 @@ member:150 a <http://schema.org/Person>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -1272,6 +1344,7 @@ member:151 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -1302,6 +1375,7 @@ member:153 a <http://schema.org/Person>;
     capacoa:Genres_the,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1321,6 +1395,7 @@ member:154 a <http://schema.org/Person>;
     capacoa:Genres_the,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1343,6 +1418,7 @@ member:155 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa, Ontario";
     <http://schema.org/addressRegion> "ON"
@@ -1383,6 +1459,7 @@ member:156 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sault Ste. Marie";
     <http://schema.org/addressRegion> "ON"
@@ -1406,6 +1483,7 @@ member:157 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Dartmouth";
     <http://schema.org/addressRegion> "NS"
@@ -1433,6 +1511,7 @@ member:158 a <http://schema.org/Person>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -1454,6 +1533,7 @@ member:159 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -1483,6 +1563,7 @@ member:16 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1514,6 +1595,7 @@ member:160 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -1533,6 +1615,7 @@ member:161 a <http://schema.org/Person>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -1553,6 +1636,7 @@ member:162 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "North Saanich";
     <http://schema.org/addressRegion> "BC"
@@ -1583,6 +1667,7 @@ member:163 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Saint John";
     <http://schema.org/addressRegion> "NB"
@@ -1615,6 +1700,7 @@ member:164 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1649,6 +1735,7 @@ member:165 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1683,6 +1770,7 @@ member:166 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Edmonton";
     <http://schema.org/addressRegion> "AB"
@@ -1707,6 +1795,7 @@ member:167 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -1745,6 +1834,7 @@ member:169 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -1772,6 +1862,7 @@ member:17 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Regina";
     <http://schema.org/addressRegion> "SK"
@@ -1800,6 +1891,7 @@ member:172 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Charlottetown";
     <http://schema.org/addressRegion> "PE"
@@ -1813,6 +1905,14 @@ member:172 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q5159778";
       <http://schema.org/name> "Confederation Centre of the Arts"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "https://www.wikidata.org/wiki/Q111746052";
+      <http://schema.org/name> "The Mack"
     ];
     <http://schema.org/roleName> "Owner"
   ];
@@ -1840,6 +1940,7 @@ member:174 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -1853,6 +1954,14 @@ member:174 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q5062693";
       <http://schema.org/name> "Meridian Theatres at Centrepointe"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q118096240";
+      <http://schema.org/name> "Shenkman Arts Centre"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -1878,6 +1987,7 @@ member:175 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -1892,6 +2002,14 @@ member:175 a <http://schema.org/Organization>;
       <http://schema.org/name> "Meridian Hall"
     ];
     <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q7589476";
+      <http://schema.org/name> "St. Lawrence Centre for the Arts"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
   ];
   <http://schema.org/name> "TO Live"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-146>;
@@ -1931,6 +2049,7 @@ member:18 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -1944,6 +2063,14 @@ member:18 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q7270389";
       <http://schema.org/name> "Queen Elizabeth Theatre / Vancouver Playhouse"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q7103961";
+      <http://schema.org/name> "Orpheum / ANNEX"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -1961,6 +2088,7 @@ member:181 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus-th;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sherwood Park";
     <http://schema.org/addressRegion> "AB"
@@ -2003,6 +2131,7 @@ member:186 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Medicine Hat";
     <http://schema.org/addressRegion> "AB"
@@ -2033,6 +2162,7 @@ member:19 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Trois-Rivières";
     <http://schema.org/addressRegion> "QC"
@@ -2071,6 +2201,7 @@ member:192 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Burnaby";
     <http://schema.org/addressRegion> "BC"
@@ -2113,6 +2244,7 @@ member:193 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Coquitlam";
     <http://schema.org/addressRegion> "BC"
@@ -2156,6 +2288,7 @@ member:194 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "North Cowichan";
     <http://schema.org/addressRegion> "BC"
@@ -2188,6 +2321,7 @@ member:195 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Québec";
     <http://schema.org/addressRegion> "QC"
@@ -2262,6 +2396,7 @@ member:199 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sherbrooke";
     <http://schema.org/addressRegion> "QC"
@@ -2298,6 +2433,7 @@ member:200 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -2325,6 +2461,7 @@ member:201 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Edmonton";
     <http://schema.org/addressRegion> "AB"
@@ -2366,6 +2503,7 @@ member:203 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2407,6 +2545,7 @@ member:204 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2441,6 +2580,7 @@ member:205 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -2491,6 +2631,7 @@ member:208 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Halifax";
     <http://schema.org/addressRegion> "NS"
@@ -2644,6 +2785,7 @@ member:217 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2666,6 +2808,7 @@ member:218 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ohsweken";
     <http://schema.org/addressRegion> "ON"
@@ -2688,6 +2831,7 @@ member:219 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -2707,6 +2851,7 @@ member:22 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2743,6 +2888,7 @@ member:220 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2774,6 +2920,7 @@ member:222 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Happy Valley-Goose Bay";
     <http://schema.org/addressRegion> "NL"
@@ -2802,6 +2949,7 @@ member:224 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -2824,6 +2972,7 @@ member:225 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -2836,6 +2985,14 @@ member:225 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q54336881";
       <http://schema.org/name> "Majestic Theatre"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q38371928";
+      <http://schema.org/name> "Regent Theatre"
     ];
     <http://schema.org/roleName> "Owner"
   ];
@@ -2854,6 +3011,7 @@ member:228 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -2883,6 +3041,7 @@ member:229 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Oakville";
     <http://schema.org/addressRegion> "ON"
@@ -2917,6 +3076,7 @@ member:23 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -2938,6 +3098,7 @@ member:231 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_mus;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Burlington";
     <http://schema.org/addressRegion> "ON"
@@ -2960,6 +3121,7 @@ member:234 a <http://schema.org/Organization>;
     capacoa:Genres_dan,
     capacoa:Genres_oth;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -2983,6 +3145,7 @@ member:235 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -3026,6 +3189,7 @@ member:239 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ste-Thérèse";
     <http://schema.org/addressRegion> "QC"
@@ -3047,6 +3211,7 @@ member:24 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_series,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Richmond";
     <http://schema.org/addressRegion> "BC"
@@ -3084,6 +3249,7 @@ member:240 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sutton";
     <http://schema.org/addressRegion> "QC"
@@ -3118,6 +3284,7 @@ member:241 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -3139,6 +3306,7 @@ member:242 a <http://schema.org/Organization>;
     capacoa:Genres_dan,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Welland";
     <http://schema.org/addressRegion> "ON"
@@ -3172,6 +3340,7 @@ member:243 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -3187,6 +3356,13 @@ member:243 a <http://schema.org/Organization>;
       <http://schema.org/name> "Royal Theatre"
     ];
     <http://schema.org/roleName> "Main presentation venue (as rental client)"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "Quadra Village Studios"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
   ];
   <http://schema.org/name> "Dance Victoria"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-308>;
@@ -3204,6 +3380,7 @@ member:244 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3225,6 +3402,7 @@ member:245 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -3250,6 +3428,7 @@ member:246 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -3270,6 +3449,7 @@ member:247 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3299,6 +3479,7 @@ member:248 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Brampton";
     <http://schema.org/addressRegion> "ON"
@@ -3312,6 +3493,14 @@ member:248 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q7367952";
       <http://schema.org/name> "The Rose Theatre"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q123080445";
+      <http://schema.org/name> "Lester B Pearson Theatre"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -3335,6 +3524,7 @@ member:249 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -3358,6 +3548,7 @@ member:25 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -3392,6 +3583,7 @@ member:253 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Aurora";
     <http://schema.org/addressRegion> "ON"
@@ -3426,6 +3618,7 @@ member:255 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3460,6 +3653,7 @@ member:256 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fort Nelson";
     <http://schema.org/addressRegion> "BC"
@@ -3501,6 +3695,7 @@ member:257 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Huntsville";
     <http://schema.org/addressRegion> "ON"
@@ -3533,6 +3728,7 @@ member:258 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Castlegar";
     <http://schema.org/addressRegion> "BC"
@@ -3554,6 +3750,7 @@ member:26 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -3593,6 +3790,7 @@ member:261 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "West Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3630,6 +3828,7 @@ member:262 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3685,6 +3884,7 @@ member:265 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Moncton";
     <http://schema.org/addressRegion> "NB"
@@ -3722,6 +3922,7 @@ member:266 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3751,6 +3952,7 @@ member:267 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3783,6 +3985,7 @@ member:269 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -3817,6 +4020,7 @@ member:27 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -3841,6 +4045,7 @@ member:270 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -3879,6 +4084,7 @@ member:271 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Lavaltrie";
     <http://schema.org/addressRegion> "QC"
@@ -3916,6 +4122,7 @@ member:275 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Edmonton";
     <http://schema.org/addressRegion> "AB"
@@ -3957,6 +4164,7 @@ member:276 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -3996,6 +4204,7 @@ member:277 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -4022,6 +4231,7 @@ member:279 a <http://schema.org/Organization>;
     capacoa:Genres_dan,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -4055,6 +4265,7 @@ member:28 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Wakefield";
     <http://schema.org/addressRegion> "QC"
@@ -4079,6 +4290,7 @@ member:281 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -4106,6 +4318,7 @@ member:282 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_oth;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -4128,6 +4341,7 @@ member:283 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Gatineau";
     <http://schema.org/addressRegion> "QC"
@@ -4151,6 +4365,7 @@ member:284 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Quebec";
     <http://schema.org/addressRegion> "QC"
@@ -4177,6 +4392,7 @@ member:285 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Regina";
     <http://schema.org/addressRegion> "SK"
@@ -4212,6 +4428,7 @@ member:286 a <http://schema.org/Organization>;
     capacoa:Genres_dan,
     capacoa:Genres_mus;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sidney";
     <http://schema.org/addressRegion> "BC"
@@ -4249,6 +4466,7 @@ member:287 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Orillia";
     <http://schema.org/addressRegion> "ON"
@@ -4282,6 +4500,7 @@ member:289 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -4316,6 +4535,7 @@ member:29 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Chester";
     <http://schema.org/addressRegion> "NS"
@@ -4336,6 +4556,7 @@ member:291 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Québec";
     <http://schema.org/addressRegion> "QC"
@@ -4378,6 +4599,7 @@ member:295 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -4404,6 +4626,7 @@ member:297 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Brandon";
     <http://schema.org/addressRegion> "MB"
@@ -4438,6 +4661,7 @@ member:299 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Mississauga";
     <http://schema.org/addressRegion> "ON"
@@ -4472,6 +4696,7 @@ member:30 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -4490,6 +4715,7 @@ member:300 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -4513,6 +4739,7 @@ member:301 a <http://schema.org/Organization>;
     capacoa:Genres_mus,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Quebec";
     <http://schema.org/addressRegion> "QC"
@@ -4535,6 +4762,7 @@ member:303 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -4548,6 +4776,14 @@ member:303 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q131749443";
       <http://schema.org/name> "SKAM Satellite Studio"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q131749480";
+      <http://schema.org/name> "Studio 846"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -4569,6 +4805,7 @@ member:304 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "MISSION";
     <http://schema.org/addressRegion> "BC"
@@ -4597,6 +4834,7 @@ member:31 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_occasional;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Summerside";
     <http://schema.org/addressRegion> "PE"
@@ -4625,6 +4863,7 @@ member:311 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Québec";
     <http://schema.org/addressRegion> "QC"
@@ -4656,6 +4895,7 @@ member:312 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "WOLFE ISLAND";
     <http://schema.org/addressRegion> "ON"
@@ -4695,6 +4935,7 @@ member:313 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Oshawa";
     <http://schema.org/addressRegion> "ON"
@@ -4722,6 +4963,7 @@ member:316 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Kingston";
     <http://schema.org/addressRegion> "ON"
@@ -4759,6 +5001,7 @@ member:317 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "North Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -4772,6 +5015,14 @@ member:317 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q134296633";
       <http://schema.org/name> "Presentation House Arts Centre"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q134467670";
+      <http://schema.org/name> "Anne MacDonald Studio"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -4793,6 +5044,7 @@ member:318 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -4816,6 +5068,7 @@ member:32 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Kensington";
     <http://schema.org/addressRegion> "PE"
@@ -4850,6 +5103,7 @@ member:320 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Kingston";
     <http://schema.org/addressRegion> "ON"
@@ -4893,6 +5147,7 @@ member:321 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Chilliwack";
     <http://schema.org/addressRegion> "BC"
@@ -4933,6 +5188,7 @@ member:323 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sherbrooke";
     <http://schema.org/addressRegion> "QC"
@@ -4945,6 +5201,14 @@ member:323 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q3469868";
       <http://schema.org/name> "Salle Maurice-O'Bready"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q111668871";
+      <http://schema.org/name> "Petite Salle du Centre culturel de l'Université de Sherbrooke"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -4972,6 +5236,7 @@ member:324 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Sault Ste Marie";
     <http://schema.org/addressRegion> "ON"
@@ -5004,6 +5269,7 @@ member:325 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Trois-Rivières";
     <http://schema.org/addressRegion> "QC"
@@ -5021,6 +5287,7 @@ member:326 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Kelowna";
     <http://schema.org/addressRegion> "BC"
@@ -5050,6 +5317,7 @@ member:329 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Surrey";
     <http://schema.org/addressRegion> "BC"
@@ -5062,6 +5330,14 @@ member:329 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q130278490";
       <http://schema.org/name> "Surrey Arts Centre"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q135467290";
+      <http://schema.org/name> "Centre Stage at City Hall"
     ];
     <http://schema.org/roleName> "Owner"
   ];
@@ -5093,6 +5369,7 @@ member:33 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Cranbrook";
     <http://schema.org/addressRegion> "BC"
@@ -5125,6 +5402,7 @@ member:34 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.0\),
     capacoa:PresentingFormat_series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Prince Albert";
     <http://schema.org/addressRegion> "SK"
@@ -5160,6 +5438,7 @@ member:35 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Summerside";
     <http://schema.org/addressRegion> "PE"
@@ -5193,6 +5472,7 @@ member:36 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -5216,6 +5496,7 @@ member:37 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Saint-Bruno-de-Montarville";
     <http://schema.org/addressRegion> "QC"
@@ -5236,6 +5517,7 @@ member:38 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "TORONTO C";
     <http://schema.org/addressRegion> "ON"
@@ -5268,6 +5550,7 @@ member:39 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Camrose";
     <http://schema.org/addressRegion> "AB"
@@ -5306,6 +5589,7 @@ member:40 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Leduc";
     <http://schema.org/addressRegion> "AB"
@@ -5343,6 +5627,7 @@ member:42 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "St Catharines";
     <http://schema.org/addressRegion> "ON"
@@ -5374,6 +5659,7 @@ member:43 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Peterborough";
     <http://schema.org/addressRegion> "ON"
@@ -5415,6 +5701,7 @@ member:44 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Halifax";
     <http://schema.org/addressRegion> "NS"
@@ -5434,6 +5721,7 @@ member:45 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Westmount";
     <http://schema.org/addressRegion> "QC"
@@ -5454,6 +5742,7 @@ member:46 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Winnipeg";
     <http://schema.org/addressRegion> "MB"
@@ -5479,6 +5768,7 @@ member:47 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_dan;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -5508,6 +5798,7 @@ member:48 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Spruce Grove";
     <http://schema.org/addressRegion> "AB"
@@ -5546,6 +5837,7 @@ member:49 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Salt Spring Island";
     <http://schema.org/addressRegion> "BC"
@@ -5588,6 +5880,7 @@ member:50 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Halifax";
     <http://schema.org/addressRegion> "NS"
@@ -5612,6 +5905,7 @@ member:51 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_occasional;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -5650,6 +5944,7 @@ member:52 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "St. Catharines";
     <http://schema.org/addressRegion> "ON"
@@ -5686,6 +5981,7 @@ member:53 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Victoria";
     <http://schema.org/addressRegion> "BC"
@@ -5699,6 +5995,14 @@ member:53 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q7374917";
       <http://schema.org/name> "Royal Theatre and McPherson Playhouse"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q6802599";
+      <http://schema.org/name> "McPherson Playhouse"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -5729,6 +6033,7 @@ member:55 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Drummondville";
     <http://schema.org/addressRegion> "QC"
@@ -5755,6 +6060,7 @@ member:56 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -5795,6 +6101,7 @@ member:57 a <http://schema.org/Organization>;
     capacoa:Genres_the,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -5808,6 +6115,14 @@ member:57 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q109742483";
       <http://schema.org/name> "The Cultch/The Historic Theatre, The Vancity Culture Lab"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q38378460";
+      <http://schema.org/name> "York Theatre"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -5834,6 +6149,7 @@ member:58 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Brantford";
     <http://schema.org/addressRegion> "ON"
@@ -5867,6 +6183,7 @@ member:59 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.0\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Niagara-on-the-Lake";
     <http://schema.org/addressRegion> "ON"
@@ -5897,6 +6214,7 @@ member:60 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.0\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -5917,6 +6235,7 @@ member:61 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -5939,6 +6258,7 @@ member:62 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Riverview";
     <http://schema.org/addressRegion> "NB"
@@ -5979,6 +6299,7 @@ member:63 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Haliburton";
     <http://schema.org/addressRegion> "ON"
@@ -6007,6 +6328,7 @@ member:64 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Nelson";
     <http://schema.org/addressRegion> "BC"
@@ -6037,6 +6359,7 @@ member:65 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -6069,6 +6392,7 @@ member:66 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montréal";
     <http://schema.org/addressRegion> "QC"
@@ -6096,6 +6420,7 @@ member:67 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Regina";
     <http://schema.org/addressRegion> "SK"
@@ -6125,6 +6450,7 @@ member:68 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Saint-Jean-sur-Richelieu";
     <http://schema.org/addressRegion> "QC"
@@ -6137,6 +6463,14 @@ member:68 a <http://schema.org/Organization>;
       a <http://schema.org/Place>;
       <http://schema.org/identifier> "Q107015560";
       <http://schema.org/name> "Théâtre des Deux Rives"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q107015527";
+      <http://schema.org/name> "Cabaret-Théâtre du Vieux-Saint-Jean et Pôle culturel de Chambly"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -6163,6 +6497,7 @@ member:69 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6192,6 +6527,7 @@ member:70 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Whitehorse";
     <http://schema.org/addressRegion> "YT"
@@ -6210,6 +6546,7 @@ member:71 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.1\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -6238,6 +6575,7 @@ member:72 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.0\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -6274,6 +6612,7 @@ member:73 a <http://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Yellowknife";
     <http://schema.org/addressRegion> "NT"
@@ -6285,6 +6624,13 @@ member:73 a <http://schema.org/Organization>;
     <http://schema.org/location> [
       a <http://schema.org/Place>;
       <http://schema.org/name> "NACC"
+    ];
+    <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "Second space"
     ];
     <http://schema.org/roleName> "Manager/Operator"
   ];
@@ -6306,6 +6652,7 @@ member:74 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fort St John";
     <http://schema.org/addressRegion> "BC"
@@ -6333,6 +6680,7 @@ member:75 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Chester";
     <http://schema.org/addressRegion> "NS"
@@ -6362,6 +6710,7 @@ member:76 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_oth;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6388,6 +6737,7 @@ member:77 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "US";
     <http://schema.org/addressLocality> "Seattle";
     <http://schema.org/addressRegion> "WA"
@@ -6408,6 +6758,7 @@ member:78 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_series-festival;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Winnipeg";
     <http://schema.org/addressRegion> "MB"
@@ -6441,6 +6792,7 @@ member:80 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Kelowna";
     <http://schema.org/addressRegion> "BC"
@@ -6470,6 +6822,7 @@ member:81 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vernon";
     <http://schema.org/addressRegion> "BC"
@@ -6511,6 +6864,7 @@ member:82 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Edmundston";
     <http://schema.org/addressRegion> "NB"
@@ -6525,6 +6879,14 @@ member:82 a <http://schema.org/Organization>;
       <http://schema.org/name> "Centre des arts d'Edmundston"
     ];
     <http://schema.org/roleName> "Manager/Operator"
+  ], [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q112768291";
+      <http://schema.org/name> "Salle Léo-Poulin"
+    ];
+    <http://schema.org/roleName> "Main presentation venue (as rental client)"
   ];
   <http://schema.org/name> "Centre des arts d'Edmundston"@fr;
   <http://schema.org/url> <https://example.com/base/www.artsedmundston.ca>;
@@ -6540,6 +6902,7 @@ member:83 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.0\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Dartmouth";
     <http://schema.org/addressRegion> "NS"
@@ -6564,6 +6927,7 @@ member:84 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Calgary";
     <http://schema.org/addressRegion> "AB"
@@ -6592,6 +6956,7 @@ member:85 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.0\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6615,6 +6980,7 @@ member:86 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Québec";
     <http://schema.org/addressRegion> "QC"
@@ -6646,6 +7012,7 @@ member:87 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Maple Ridge";
     <http://schema.org/addressRegion> "BC"
@@ -6681,6 +7048,7 @@ member:88 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Ottawa";
     <http://schema.org/addressRegion> "ON"
@@ -6708,6 +7076,7 @@ member:89 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Tracadie";
     <http://schema.org/addressRegion> "NB"
@@ -6739,6 +7108,7 @@ member:90 a <http://schema.org/Organization>;
     capacoa:Genres_var,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Fort McMurray";
     <http://schema.org/addressRegion> "AB"
@@ -6772,6 +7142,7 @@ member:91 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+and\+disclose\+\(v1\.0\),
     capacoa:PresentingFormat_empty;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Montreal";
     <http://schema.org/addressRegion> "QC"
@@ -6793,6 +7164,7 @@ member:92 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_festival,
     capacoa:Genres_var;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Edmonton";
     <http://schema.org/addressRegion> "AB"
@@ -6825,6 +7197,7 @@ member:93 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree\+\(v1\.1\),
     capacoa:PresentingFormat_festival-series;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6849,6 +7222,7 @@ member:94 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_vis;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
@@ -6868,6 +7242,7 @@ member:95 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6887,6 +7262,7 @@ member:96 a <http://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
@@ -6915,6 +7291,7 @@ member:97 a <http://schema.org/Organization>;
     capacoa:Genres_vis,
     capacoa:Genres_you;
   <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Mississauga";
     <http://schema.org/addressRegion> "ON"
