@@ -30,21 +30,21 @@ capacoa:MemberType_organization  a skos:Concept   ; skos:prefLabel  "organizatio
 capacoa:MemberType_indartist  a skos:Concept   ; skos:prefLabel  "artist"@en  ;     skos:prefLabel  "artiste"@fr ; skos:hiddenLabel "indartist"; skos:inScheme capacoa:MemberType;   skos:definition  "A member that is a person, with the occupation 'artist': occupation = Q483501"@en ;   skos:definition  "Personne dont l'occupation principale est de diriger, et chorégraphier et/ou d'interpréter des spectacles sur scène."@fr   . 
 capacoa:PresenterType_Specialized  a skos:Concept   ; skos:prefLabel  "specialized"@en  ;     skos:prefLabel  "spécialisé"@fr ; skos:inScheme capacoa:PresenterType  . 
 capacoa:PresenterType_Multidisciplinary  a skos:Concept   ; skos:prefLabel  "multi-disciplinary"@en  ;     skos:prefLabel  "pluridisciplinaire"@fr ; skos:inScheme capacoa:PresenterType  . 
-capacoa:CharitableStatus_Charitable-organization  a skos:Concept ; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:CharitableStatus_empty  a skos:Concept ; skos:hiddenLabel "empty"; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:CharitableStatus_Not-a-charitable-organization  a skos:Concept ; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:LegalForm_empty  a skos:Concept ; skos:hiddenLabel "empty"; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Not-for-profit-0organization  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Municipal-corporation  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Corporation-for-profit  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Sole-proprietorship  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Other-type-of-legal-entity  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Federal-government  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Educational-organization  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Provincial-or-territorial-government  a skos:Concept ; skos:inScheme capacoa:LegalForm  . 
-capacoa:TermsConditions_empty  a skos:Concept ; skos:hiddenLabel "empty"; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-v1.1  a skos:Concept ; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-v1.0  a skos:Concept ; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-and-disclose-v1.1  a skos:Concept ; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_do-not-agree-v1.1  a skos:Concept ; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-and-disclose-v1.0  a skos:Concept ; skos:inScheme capacoa:TermsConditions  . 
+capacoa:CharitableStatus_Charitable-organization  a skos:Concept   ; skos:prefLabel  "charitable organization"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:CharitableStatus  . 
+capacoa:CharitableStatus_empty  a skos:Concept   ; skos:prefLabel  "not applicable"@en  ;     skos:prefLabel  "; skos:hiddenLabel "empty"; skos:inScheme capacoa:CharitableStatus  . 
+capacoa:CharitableStatus_Not-a-charitable-organization  a skos:Concept   ; skos:prefLabel  "not a charitable organization"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:CharitableStatus  . 
+capacoa:LegalForm_empty  a skos:Concept   ; skos:prefLabel  "not applicable"@en  ;     skos:prefLabel  "; skos:hiddenLabel "empty"; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Not-for-profit-organization  a skos:Concept   ; skos:prefLabel  "not for profit organization"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Municipal-corporation  a skos:Concept   ; skos:prefLabel  "municipal organization"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Corporation-for-profit  a skos:Concept   ; skos:prefLabel  "corporation for profit"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Sole-proprietorship  a skos:Concept   ; skos:prefLabel  "sole proprietorship"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Other-type-of-legal-entity  a skos:Concept   ; skos:prefLabel  "other type of legal entity"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Federal-government  a skos:Concept   ; skos:prefLabel  "federal government"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Educational-organization  a skos:Concept   ; skos:prefLabel  "educational organization"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:LegalForm_Provincial-or-territorial-government  a skos:Concept   ; skos:prefLabel  "provincial or territorial government"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:LegalForm  . 
+capacoa:TermsConditions_empty  a skos:Concept   ; skos:prefLabel  "not applicable"@en  ;     skos:prefLabel  "; skos:hiddenLabel "empty"; skos:inScheme capacoa:TermsConditions  . 
+capacoa:TermsConditions_agree-v1.1  a skos:Concept   ; skos:prefLabel  "agree"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:TermsConditions  . 
+capacoa:TermsConditions_agree-v1.0  a skos:Concept   ; skos:prefLabel  "agree"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:TermsConditions  . 
+capacoa:TermsConditions_agree-and-disclose-v1.1  a skos:Concept   ; skos:prefLabel  "agree and disclose"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:TermsConditions  . 
+capacoa:TermsConditions_do-not-agree-v1.1  a skos:Concept   ; skos:prefLabel  "do not agree to disclose"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:TermsConditions  . 
+capacoa:TermsConditions_agree-and-disclose-v1.0  a skos:Concept   ; skos:prefLabel  "agree and disclose"@en  ;     skos:prefLabel  "; skos:inScheme capacoa:TermsConditions  . 
