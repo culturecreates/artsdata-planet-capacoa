@@ -1,0 +1,19 @@
+name: Push Event Types to Artsdata
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'controlled-vocabulary/capacoa-controlled-vocab_skos.ttl'
+jobs:
+  artsdata-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+            artifact: capacoa-vocabulary
+            publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+            downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/controlled-vocabulary/capacoa-controlled-vocab-skos.ttl,
+            shacl: skos

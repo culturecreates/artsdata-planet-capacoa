@@ -1,1 +1,0 @@
-<http://kg.artsdata.ca/culture-creates/workbench/capacoa-vocabulary> a prov:Entity ; schema:name  "CAPACOA Controlled Vocabulary Translations" ; prov:generatedAtTime "2025-08-07T08:56:12Z"^^xsd:dateTime ; prov:wasAttributedTo  adr:K1-8 ; prov:wasDerivedFrom  <https://docs.google.com/spreadsheets/d/1kzujMClBYcjWpoXJ2_fz30rrrKuGceqDE76rnjMNw_E/edit#gid=0>   .
