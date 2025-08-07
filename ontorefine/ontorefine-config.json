@@ -109,6 +109,18 @@
                     },
                     "valueType": {
                       "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "PostalAddress"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
                       "propertyMappings": [
                         {
                           "property": {
@@ -665,6 +677,135 @@
                               "valueSource": {
                                 "source": "column",
                                 "columnName": "_ - usermeta - venue_relationship"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - usermeta - venue_other_relationship"
+                    },
+                    "valueType": {
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Role"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "location"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - venue_other_name"
+                              },
+                              "valueType": {
+                                "type": "unique_bnode",
+                                "typeMappings": [
+                                  {
+                                    "valueSource": {
+                                      "source": "constant",
+                                      "constant": "Place"
+                                    },
+                                    "transformation": {
+                                      "language": "prefix",
+                                      "expression": "schema"
+                                    }
+                                  }
+                                ],
+                                "propertyMappings": [
+                                  {
+                                    "property": {
+                                      "valueSource": {
+                                        "source": "constant",
+                                        "constant": "identifier"
+                                      },
+                                      "transformation": {
+                                        "language": "prefix",
+                                        "expression": "schema"
+                                      }
+                                    },
+                                    "values": [
+                                      {
+                                        "valueSource": {
+                                          "source": "column",
+                                          "columnName": "_ - usermeta - wikidata_id_venue_other"
+                                        },
+                                        "valueType": {
+                                          "type": "literal"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "property": {
+                                      "valueSource": {
+                                        "source": "constant",
+                                        "constant": "name"
+                                      },
+                                      "transformation": {
+                                        "language": "prefix",
+                                        "expression": "schema"
+                                      }
+                                    },
+                                    "values": [
+                                      {
+                                        "valueSource": {
+                                          "source": "column",
+                                          "columnName": "_ - usermeta - venue_other_name"
+                                        },
+                                        "valueType": {
+                                          "type": "literal"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "roleName"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - usermeta - venue_other_relationship"
                               },
                               "valueType": {
                                 "type": "literal"
