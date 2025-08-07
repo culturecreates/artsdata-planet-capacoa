@@ -10,9 +10,9 @@ The controlled vocabulary, derived from the questionnaire when members create th
 # Workflow to fetch CAPACOA's Wordpress database
 Here is a summary of the workflow fetch-and-push-data.yml
 1. Run fetch_data.rb to download data to a JSON file (test locally with >ruby fetch_data.rb)
-1. Run add_type.rb
+1. Run add_type.rb (adds type and removes members who do not agree to terms and conditions to share data)
 1. Run Ontotext Openrefine to convert to RDF (test locally > ./run_ontorefine.sh)
-1. Run run_sparql.rb to execute the SPARQL
+1. Run run_sparql.rb to execute the SPARQL (indfer presenter type)
 1. Commits dump to Github (output/data.ttl)
 1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
