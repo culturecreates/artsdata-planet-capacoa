@@ -3,18 +3,11 @@ PREFIX skos: <https://www.w3.org/2004/02/skos/core#>
 PREFIX capacoa:<https://capacoa.ca/vocabulary#>
 
 INSERT {
-    capacoa:PresenterType a skos:Collection ;
-                          skos:prefLabel "Presenter Type" ;
-                          skos:member capacoa:PresenterType_Specialized ;
-                          skos:member capacoa:PresenterType_Multidisciplinary .
-
     ?org schema:additionalType capacoa:PresenterType_Specialized .
-    capacoa:PresenterType_Specialized a skos:Concept ;
-                                      skos:inScheme capacoa:InferredTypes .
+    capacoa:PresenterType_Specialized a skos:Concept  .
 
     ?orgmulti schema:additionalType capacoa:PresenterType_Multidisciplinary .
-    capacoa:PresenterType_Multidisciplinary a skos:Concept ;
-                                            skos:inScheme capacoa:InferredTypes .
+    capacoa:PresenterType_Multidisciplinary a skos:Concept .
 }
 WHERE {
     {
