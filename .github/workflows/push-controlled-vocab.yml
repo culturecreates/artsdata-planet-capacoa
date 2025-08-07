@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'controlled-vocabulary/capacoa-controlled-vocab_skos.ttl'
+      - 'controlled-vocabulary/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
