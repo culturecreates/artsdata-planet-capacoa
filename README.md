@@ -2,8 +2,12 @@
 
 This repo runs a workflow on Github that fetches CAPACOA member data (from CAPACOA's Wordpress database), transforms it to RDF and sends it to the Artsdata Databus on a schedule.
 
+It also contains the CAPACOA controlled vocabulary derived from the questionnaire when members create their account. 
 
+# Controlled Vocabulary
+The controlled vocabulary, derived from the questionnaire when members create their account, is modeled using SKOS and the triples are stored in Github. To update the triples please use this [spreadsheet](https://docs.google.com/spreadsheets/d/1kzujMClBYcjWpoXJ2_fz30rrrKuGceqDE76rnjMNw_E/edit#gid=0) to edit the CAPACOA vocabulary and copy/paste the generated SKOS from the "Export" tab into the Github controlled-vocabulary directory. The commit will trigger a workflow to publish to Artsdata.
 
+# Workflow to fetch CAPACOA's Wordpress database
 Here is a summary of the workflow fetch-and-push-data.yml
 1. Run fetch_data.rb to download data to a JSON file (test locally with >ruby fetch_data.rb)
 1. Run add_type.rb
@@ -12,7 +16,7 @@ Here is a summary of the workflow fetch-and-push-data.yml
 1. Commits dump to Github (output/data.ttl)
 1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
-# How to test locally
+## How to test locally
 1. Clone and cd into the project directory
 1. `bundle install`
 1. `ruby src/fetch_data.rb`
