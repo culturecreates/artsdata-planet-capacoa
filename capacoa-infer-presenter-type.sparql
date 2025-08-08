@@ -4,10 +4,18 @@ PREFIX capacoa:<https://capacoa.ca/vocabulary#>
 
 INSERT {
     ?org schema:additionalType capacoa:PresenterType_Specialized .
-    capacoa:PresenterType_Specialized a skos:Concept  .
+    capacoa:PresenterType_Specialized a skos:Concept  ;
+    prov:wasGeneratedBy [
+        prov:label "Infer presenter type SPARQL"@en ;
+        prov:used  <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql> ;
+    ] .
 
     ?orgmulti schema:additionalType capacoa:PresenterType_Multidisciplinary .
-    capacoa:PresenterType_Multidisciplinary a skos:Concept .
+    capacoa:PresenterType_Multidisciplinary a skos:Concept ;
+    prov:wasGeneratedBy [
+        prov:label "Infer presenter type SPARQL"@en ;
+        prov:used  <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql> ;
+    ] .
 }
 WHERE {
     {
