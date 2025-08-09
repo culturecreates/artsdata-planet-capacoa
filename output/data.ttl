@@ -2884,6 +2884,7 @@ member:220 a <http://schema.org/Organization>;
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -2893,10 +2894,10 @@ member:220 a <http://schema.org/Organization>;
     <http://schema.org/addressLocality> "Toronto";
     <http://schema.org/addressRegion> "ON"
   ];
-  <http://schema.org/alternateName> "Luminato Festival Toronto";
+  <http://schema.org/alternateName> "Luminato Festival";
   <http://schema.org/identifier> "Q3267304";
   <http://schema.org/legalName> "Toronto Festival of Arts, Culture and Creativity"@en;
-  <http://schema.org/name> "Luminato Festival Toronto"@en;
+  <http://schema.org/name> "Luminato Festival"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-95>;
   <http://schema.org/url> <https://luminatofestival.com>;
   <http://www.wikidata.org/prop/direct/P8860> "811637347" .
