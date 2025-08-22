@@ -246,7 +246,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(cells['schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name1'].value, cells[\"_ - name\"].value)"
+                      "expression": "if(cells['_ - schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name1'].value, cells[\"_ - name\"].value)"
                     },
                     "valueType": {
                       "type": "language_literal",
@@ -257,6 +257,27 @@
                         "transformation": {
                           "language": "grel",
                           "expression": "if(isBlank(cells[\"_ - usermeta - operating_name1_language\"].value), \"en\", cells[\"_ - usermeta - operating_name1_language\"].value)"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(cells['_ - schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name2'].value, cells[\"_ - name\"].value)"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "row_index"
+                        },
+                        "transformation": {
+                          "language": "grel",
+                          "expression": "if(isBlank(cells[\"_ - usermeta - operating_name2_language\"].value), \"en\", cells[\"_ - usermeta - operating_name2_language\"].value)"
                         }
                       }
                     }
