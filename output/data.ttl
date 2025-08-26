@@ -473,7 +473,7 @@ member:12 a <http://schema.org/Organization>;
     <http://schema.org/roleName> "Owner"
   ];
   <http://schema.org/name> "Shell Theatre"@en;
-  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-310>;
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-194>;
   <http://schema.org/url> <http://www.shelltheatre.ca>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
