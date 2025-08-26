@@ -18,7 +18,8 @@ member:100 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "Jörgen Dance";
   <http://schema.org/identifier> "Q4851638";
   <http://schema.org/legalName> "Ballet Jörgen Canada"@en;
-  <http://schema.org/name> "Ballet Jörgen Canada"@en;
+  <http://schema.org/name> "Ballet Jörgen Canada"@en,
+    "Ballet Jörgen du Canada"@fr;
   <http://schema.org/url> <https://www.jorgendance.ca/> .
 
 member:101 a <http://schema.org/Organization>;
@@ -1238,7 +1239,8 @@ member:147 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "Le réseau canadien des diffuseurs de danse";
   <http://schema.org/identifier> "Q54912657";
   <http://schema.org/legalName> "The Canadian Network of Dance Presenters"@en;
-  <http://schema.org/name> "The CanDance Network"@en;
+  <http://schema.org/name> "The CanDance Network"@en,
+    "Le réseau CanDanse"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-68>;
   <http://schema.org/url> <https://www.candance.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "885724419" .
@@ -1435,7 +1437,8 @@ member:155 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Resident organization"
   ];
-  <http://schema.org/name> "Arts Network Ottawa"@en;
+  <http://schema.org/name> "Arts Network Ottawa"@en,
+    "Réseau des arts d'Ottawa"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-125>;
   <http://schema.org/url> <https://artsnetottawa.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "121777023" .
@@ -1842,7 +1845,8 @@ member:169 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "CITT/ICTS";
   <http://schema.org/identifier> "Q130320447";
   <http://schema.org/legalName> "Canadian Institute for Theatre Technology"@en;
-  <http://schema.org/name> "CITT/ICTS"@en;
+  <http://schema.org/name> "CITT/ICTS"@en,
+    "Institut canadien des technologies scènographiques"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-217>;
   <http://schema.org/url> <https://www.citt.org> .
 
@@ -2170,7 +2174,8 @@ member:19 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "ADL";
   <http://schema.org/identifier> "Q105695159";
   <http://schema.org/legalName> "Agence d'artistes et de concerts Danielle Lefebvre"@fr;
-  <http://schema.org/name> "Danielle Lefebvre Agency (ADL)"@en;
+  <http://schema.org/name> "Danielle Lefebvre Agency (ADL)"@en,
+    "Agence Danielle Lefebvre (ADL)"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-49>;
   <http://schema.org/url> <http://www.agencedlefebvre.com/fr>;
   <http://www.wikidata.org/prop/direct/P8860> "829653682" .
@@ -2412,7 +2417,8 @@ member:199 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Resident organization"
   ];
-  <http://schema.org/name> "Sursaut"@fr;
+  <http://schema.org/name> "Sursaut"@fr,
+    "Sursaut"@en;
   <http://schema.org/url> <https://sursaut.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "132417098" .
 
@@ -2679,7 +2685,8 @@ member:210 a <http://schema.org/Organization>;
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
     capacoa:PresentingFormat_empty;
-  <http://schema.org/name> "Theatre Wakefield"@en;
+  <http://schema.org/name> "Theatre Wakefield"@en,
+    "Théâtre Wakefield"@fr;
   <http://schema.org/url> <https://theatrewakefield.ca/> .
 
 member:211 a <http://schema.org/Organization>;
@@ -2689,7 +2696,8 @@ member:211 a <http://schema.org/Organization>;
     capacoa:LegalForm_empty,
     capacoa:TermsConditions_empty,
     capacoa:PresentingFormat_empty;
-  <http://schema.org/name> "Canada Council for the Arts"@en;
+  <http://schema.org/name> "Canada Council for the Arts"@en,
+    "Conseil des arts du Canada"@fr;
   <http://schema.org/url> <https://canadacouncil.ca/>;
   capacoa:memberTerminationDate "2020-04-01" .
 
@@ -2792,7 +2800,8 @@ member:217 a <http://schema.org/Organization>;
   ];
   <http://schema.org/identifier> "Q21188761";
   <http://schema.org/legalName> "Re:Sound"@en;
-  <http://schema.org/name> "Re:Sound"@en;
+  <http://schema.org/name> "Re:Sound"@en,
+    "Ré:Sonne"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-164>;
   <http://schema.org/url> <https://www.resound.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "877510586" .
@@ -3265,7 +3274,8 @@ member:240 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Owner"
   ];
-  <http://schema.org/name> "École d'art de Sutton"@fr;
+  <http://schema.org/name> "École d'art de Sutton"@fr,
+    "Sutton school of art"@en;
   <http://schema.org/url> <https://ecoleartsutton.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "771980067";
   capacoa:memberTerminationDate "2023-09-20" .
@@ -3768,7 +3778,8 @@ member:26 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Main presentation venue (as rental client)"
   ];
-  <http://schema.org/name> "Kabir Centre for Arts &amp; Culture"@en;
+  <http://schema.org/name> "Kabir Centre for Arts & Culture"@en,
+    "Le centre Kabir pour les arts & la culture"@fr;
   <http://schema.org/url> <https://www.centrekabir.com/>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
@@ -4062,7 +4073,8 @@ member:270 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Owner"
   ];
-  <http://schema.org/name> "Citadel + Compagnie"@en;
+  <http://schema.org/name> "Citadel + Compagnie"@en,
+    "Compagnie de la Citadelle"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-201>;
   <http://schema.org/url> <https://www.citadelcie.com/>, [
     a <http://schema.org/Role>;
@@ -4573,7 +4585,8 @@ member:291 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Resident organization"
   ];
-  <http://schema.org/name> "Les Violons du Roy"@fr;
+  <http://schema.org/name> "Les Violons du Roy"@fr,
+    "Les Violons du Roy"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-94>;
   <http://schema.org/url> <https://www.violonsduroy.com/fr/>;
   <http://www.wikidata.org/prop/direct/P8860> "103309431" .
@@ -4723,7 +4736,8 @@ member:300 a <http://schema.org/Organization>;
   ];
   <http://schema.org/identifier> "Q131322828";
   <http://schema.org/legalName> "Ottawa Music Industry Coalition/Coalition de l'industrie de la musique d'Ottawa"@en;
-  <http://schema.org/name> "Ottawa Music Industry Coalition"@en;
+  <http://schema.org/name> "Ottawa Music Industry Coalition"@en,
+    "Coalition de l'industrie musicale d'Ottawa"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5550>;
   <http://schema.org/url> <https://ottawamic.com>;
   <http://www.wikidata.org/prop/direct/P8860> "807305966" .
@@ -4747,7 +4761,8 @@ member:301 a <http://schema.org/Organization>;
   ];
   <http://schema.org/identifier> "Q131471560";
   <http://schema.org/legalName> "PVB Productions inc."@fr;
-  <http://schema.org/name> "Agence BAM"@fr;
+  <http://schema.org/name> "Agence BAM"@fr,
+    "BAM Agency"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5560>;
   <http://schema.org/url> <https://agencebam.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "829464122" .
@@ -5277,7 +5292,8 @@ member:325 a <http://schema.org/Organization>;
   ];
   <http://schema.org/identifier> "Q135097983";
   <http://schema.org/legalName> "Bling Square Events by NH"@en;
-  <http://schema.org/name> "Bling Square Events by NH"@en .
+  <http://schema.org/name> "Bling Square Events by NH"@en,
+    "Carré événementiel"@fr .
 
 member:326 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -5728,7 +5744,8 @@ member:45 a <http://schema.org/Organization>;
     <http://schema.org/addressRegion> "QC"
   ];
   <http://schema.org/legalName> "Culture Crée TL Inc"@en;
-  <http://schema.org/name> "Culture Creates"@en;
+  <http://schema.org/name> "Culture Creates"@en,
+    "La culture crée"@fr;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K1-5>;
   <http://schema.org/url> <https://culturecreates.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "801228875" .
@@ -6078,7 +6095,8 @@ member:56 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Owner"
   ];
-  <http://schema.org/name> "National Arts Centre"@en;
+  <http://schema.org/name> "National Arts Centre"@en,
+    "Centre national des Arts"@fr;
   <http://schema.org/url> <https://www.nac-cna.ca>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
@@ -6221,7 +6239,8 @@ member:60 a <http://schema.org/Organization>;
     <http://schema.org/addressRegion> "ON"
   ];
   <http://schema.org/legalName> "The Canadian Network of Dance Presenters CanDance / CanDanse le Réseau canadien des diffuseurs de danse"@en;
-  <http://schema.org/name> "The CanDance Network"@en;
+  <http://schema.org/name> "The CanDance Network"@en,
+    "le Réseau CanDanse"@fr;
   <http://schema.org/url> <https://www.candance.ca/> .
 
 member:61 a <http://schema.org/Organization>;
@@ -6308,7 +6327,8 @@ member:63 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "SPARC";
   <http://schema.org/identifier> "Q112570775";
   <http://schema.org/legalName> "Réseau SPARC Network"@en;
-  <http://schema.org/name> "Réseau SPARC Network"@en;
+  <http://schema.org/name> "Réseau SPARC Network"@en,
+    "Réseau SPARC"@fr;
   <http://schema.org/url> <https://www.sparcperformingarts.com>;
   <http://www.wikidata.org/prop/direct/P8860> "742972532" .
 
@@ -6401,7 +6421,8 @@ member:66 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "Boulevart";
   <http://schema.org/identifier> "Q107093494";
   <http://schema.org/legalName> "Boulev'Art inc."@fr;
-  <http://schema.org/name> "Boulev'Art"@fr;
+  <http://schema.org/name> "Boulev'Art"@fr,
+    "Boulev'Art"@en;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-40>;
   <http://schema.org/url> <https://www.boulevart.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "858175607" .
@@ -6428,7 +6449,8 @@ member:67 a <http://schema.org/Organization>;
   ];
   <http://schema.org/alternateName> "CCF";
   <http://schema.org/legalName> "Conseil culturel fransaskois"@fr;
-  <http://schema.org/name> "Conseil culturel fransaskois"@fr;
+  <http://schema.org/name> "Conseil culturel fransaskois"@fr,
+    "Fransaskois cultural council"@en;
   <http://schema.org/url> <https://example.com/base/www.culturel.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "121425995";
   capacoa:memberTerminationDate "2023-04-01" .
@@ -6593,7 +6615,8 @@ member:72 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Resident organization"
   ];
-  <http://schema.org/name> "SFU Woodward's Cultural Programs"@en;
+  <http://schema.org/name> "SFU Woodward's Cultural Programs"@en,
+    "SFU Woodward's"@fr;
   <http://schema.org/url> <https://www.sfu.ca/sfuwoodwards.html>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
@@ -6767,7 +6790,8 @@ member:78 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "Home Routes/Chemin Chez Nous";
   <http://schema.org/identifier> "Home Routes/Chemin Chez Nous";
   <http://schema.org/legalName> "Home Routes Inc"@en;
-  <http://schema.org/name> "Home Routes"@en;
+  <http://schema.org/name> "Home Routes"@en,
+    "Chemin Chez Nous"@fr;
   <http://schema.org/url> <https://homeroutes.ca>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
@@ -6889,7 +6913,8 @@ member:82 a <http://schema.org/Organization>;
     ];
     <http://schema.org/roleName> "Main presentation venue (as rental client)"
   ];
-  <http://schema.org/name> "Centre des arts d'Edmundston"@fr;
+  <http://schema.org/name> "Centre des arts d'Edmundston"@fr,
+    "Edmundston Arts Centre"@en;
   <http://schema.org/url> <https://example.com/base/www.artsedmundston.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "829396308";
   capacoa:memberTerminationDate "2023-04-01" .
@@ -7151,7 +7176,8 @@ member:91 a <http://schema.org/Organization>;
   <http://schema.org/alternateName> "Fleming Artist Management";
   <http://schema.org/identifier> "FAMGroup";
   <http://schema.org/legalName> "9021-3109 Québec Inc"@fr;
-  <http://schema.org/name> "Famgroup"@en;
+  <http://schema.org/name> "Famgroup"@en,
+    "Direction d'Artistes Fleming"@fr;
   <http://schema.org/url> <https://famgroup.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "895399756" .
 
@@ -7327,7 +7353,8 @@ member:98 a <http://schema.org/Organization>;
     capacoa:PresentingFormat_empty;
   <http://schema.org/alternateName> "Association RIDEAU";
   <http://schema.org/identifier> "Q87727957";
-  <http://schema.org/name> "RIDEAU"@fr;
+  <http://schema.org/name> "RIDEAU"@fr,
+    "RIDEAU"@en;
   <http://schema.org/url> <https://associationrideau.ca/fr> .
 
 member:99 a <http://schema.org/Organization>;
