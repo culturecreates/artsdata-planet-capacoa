@@ -15,30 +15,29 @@ def get_type(user)
   pmpro_approval_13 = safe_get(usermeta, 'pmpro_approval_13')
   pmpro_approval_12 = safe_get(usermeta, 'pmpro_approval_12')
 
-  if operating_name1 != ''
-    member_type = 'organization'
-  else
-    if pmpro_approval_13['status'] == 'approved'
-      member_type = 'indlife'
-    elsif pmpro_approval_12['status'] == 'approved'
-      member_type = 'ind'
-    else
-      member_type = 'organization'
-    end
-  end
 
   is_org = operating_name1 != ''
-  is_ind = (pmpro_approval_13['status'] == 'approved' || pmpro_approval_12['status'] == 'approved')
-
-  terms_conditions = safe_get(usermeta, 'terms_conditions')
+  is_ind = pmpro_approval_12['status'] == 'approved'
+  is_indlife = pmpro_approval_13['status'] == 'approved'
 
   # if the user is not an organization or individual, skip
-  return [nil, nil, true] unless is_org || is_ind
+  return [nil, nil, true] unless is_org || is_ind || is_indlife
 
   # remove users who do not agree to terms and conditions 
+  terms_conditions = safe_get(usermeta, 'terms_conditions')
   return [nil, nil, true] if terms_conditions == 'do not agree (v1.1)'
 
-  schema_type = operating_name1 != '' ? 'Organization' : 'Person'
+  member_type = if is_org
+                  'organization'
+                elsif is_indlife
+                  'indlife'
+                elsif is_ind
+                  'ind'
+                else
+                  'organization'
+                end
+
+  schema_type =  is_org ? 'Organization' : 'Person'
 
   [member_type, schema_type, false]
 end
