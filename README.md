@@ -9,10 +9,13 @@ The controlled vocabulary, derived from the questionnaire when members create th
 
 # Workflow to fetch CAPACOA's Wordpress database
 Here is a summary of the workflow fetch-and-push-data.yml
-1. Run fetch_data.rb to download data to a JSON file (test locally with >ruby fetch_data.rb)
-1. Run filter_and_add_type.rb (adds type and removes members who do not agree to terms and conditions to share data)
-1. Run Ontotext Openrefine to convert to RDF (test locally > ./run_ontorefine.sh)
-1. Run run_sparql.rb to execute the SPARQL (indfer presenter type)
+1. Run fetch_data.rb to download data to a JSON file
+1. Run filter_and_add_type.rb to modify JSON file:
+  - removes members who are missing either "operating_name1", "pmpro_approval_12" or "pmpro_approval_13"
+  - removes members who do not agree to terms and conditions to share data
+  - adds member type (organization|ind|indlife) and schema type (Organization|Person) to each remaining member
+1. Run Ontotext Openrefine to convert to RDF
+1. Run run_sparql.rb to execute the SPARQL (infer presenter type)
 1. Commits dump to Github (output/data.ttl)
 1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
