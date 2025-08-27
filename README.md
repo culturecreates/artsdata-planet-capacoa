@@ -16,8 +16,8 @@ Here is a summary of the workflow fetch-and-push-data.yml
     - add member type (organization|ind|indlife) and schema type (Organization|Person) to each remaining member
 1. Run Ontotext Openrefine to convert to RDF
 1. Run run_sparql.rb to execute the SPARQL (infer presenter type)
-1. Commits dump to Github (output/data.ttl)
-1. Uploads dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
+1. Commit dump to Github (output/data.ttl)
+1. Upload dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
 ## How to test locally
 1. Clone and cd into the project directory
