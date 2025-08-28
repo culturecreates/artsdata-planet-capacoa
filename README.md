@@ -4,6 +4,8 @@ This repo runs a workflow on Github that fetches CAPACOA member data (from CAPAC
 
 It also contains the CAPACOA controlled vocabulary derived from the questionnaire when members create their account. 
 
+This workflow replaces the previous data pipeline running on Huginn that was in operation for several years up to August 2025.
+
 # Controlled Vocabulary
 The controlled vocabulary, derived from the questionnaire when members create their account, is modeled using SKOS and the triples are stored in Github. To update the triples please use this [spreadsheet](https://docs.google.com/spreadsheets/d/1kzujMClBYcjWpoXJ2_fz30rrrKuGceqDE76rnjMNw_E/edit#gid=0) to edit the CAPACOA vocabulary and copy/paste the generated SKOS from the "Export" tab into the Github controlled-vocabulary directory. The commit will trigger a workflow to publish to Artsdata.
 
