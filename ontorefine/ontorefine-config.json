@@ -12,7 +12,7 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "cli-transform-members.json-2025-08-07",
+      "projectName": "cli-transform-members.json-2025-08-29",
       "projectTags": [],
       "fileSource": "members.json",
       "archiveFileName": null
@@ -58,11 +58,10 @@
               {
                 "valueSource": {
                   "source": "column",
-                  "columnName": "_ - schema_type"
+                  "columnName": "_ - usermeta - type"
                 },
                 "transformation": {
-                  "language": "prefix",
-                  "expression": "schema"
+                  "language": "raw"
                 }
               }
             ],
@@ -281,6 +280,15 @@
                         }
                       }
                     }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - name"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
                   }
                 ]
               },
@@ -465,20 +473,6 @@
                     "transformation": {
                       "language": "grel",
                       "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value"
-                    },
-                    "valueType": {
-                      "type": "iri",
-                      "typeMappings": [],
-                      "propertyMappings": []
-                    }
-                  },
-                  {
-                    "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#MemberType_\" + cells[\"_ - member_type\"].value"
                     },
                     "valueType": {
                       "type": "iri",
@@ -946,6 +940,63 @@
         ]
       },
       "description": "Save RDF Mapping"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - usermeta - terms_conditions",
+            "expression": "value",
+            "columnName": "_ - usermeta - terms_conditions",
+            "invert": true,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "do not agree (v1.1)",
+                  "l": "do not agree (v1.1)"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "_ - usermeta - terms_conditions",
+      "description": "Fill down cells in column _ - usermeta - terms_conditions"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - usermeta - terms_conditions",
+            "expression": "value",
+            "columnName": "_ - usermeta - terms_conditions",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "do not agree (v1.1)",
+                  "l": "do not agree (v1.1)"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "description": "Remove rows"
     }
   ]
 }

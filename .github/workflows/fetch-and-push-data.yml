@@ -19,9 +19,6 @@ jobs:
 
       - name: Fetch data
         run: bundle exec ruby src/fetch_data.rb
-        
-      - name: Add schema and member type
-        run: bundle exec ruby src/filter_and_add_type.rb
 
       - name: Start OntoRefine with Docker Compose
         run: docker compose up -d
