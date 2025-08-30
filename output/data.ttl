@@ -2,7 +2,7 @@
 @prefix member: <https://capacoa.ca/member/> .
 @prefix schema: <https://schema.org/> .
 
-member:1 a <http://schema.org/Organization>;
+member:1 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "admin"@en,
     "admin" .
@@ -2500,11 +2500,6 @@ member:2 a <http://schema.org/Organization>;
   <http://schema.org/name> "CAPACOA"@en,
     "CAPACOA" .
 
-member:20 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Margaret Clarkin"@en,
-    "Margaret Clarkin" .
-
 member:200 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
@@ -3089,11 +3084,6 @@ member:225 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-170>;
   <http://schema.org/url> <https://terrabruce.com>;
   <http://www.wikidata.org/prop/direct/P8860> "765940515" .
-
-member:226 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.0;
-  <http://schema.org/name> "Brittney"@en,
-    "Brittney" .
 
 member:227 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -6200,11 +6190,6 @@ member:39 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "839007432" .
 
-member:4 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.0;
-  <http://schema.org/name> "Brit Johnston"@en,
-    "Brit Johnston" .
-
 member:40 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -6838,11 +6823,6 @@ member:59 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.bravoniagara.org/>;
   <http://www.wikidata.org/prop/direct/P8860> "804203636";
   capacoa:memberTerminationDate "2023-01-03" .
-
-member:6 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Mélanie Bureau"@en,
-    "Mélanie Bureau" .
 
 member:60 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -7733,11 +7713,6 @@ member:89 a <http://schema.org/Organization>;
     <http://schema.org/url> <http://www.radarts.ca/francofete>
   ];
   <http://www.wikidata.org/prop/direct/P8860> "857321242" .
-
-member:9 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Rebecca Ford"@en,
-    "Rebecca Ford" .
 
 member:90 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
