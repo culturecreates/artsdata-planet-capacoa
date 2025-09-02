@@ -605,7 +605,7 @@ member:126 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://intrepidtheatre.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "123822777" .
 
-member:128 a <http://schema.org/Organization>;
+member:128 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Dessa Hayes"@en,
     "Dessa Hayes" .
@@ -2054,12 +2054,12 @@ member:175 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119216406" .
 
-member:176 a <http://schema.org/Organization>;
+member:176 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Katherine Carleton"@en,
-    "Katherine Carleton" .
+  <http://schema.org/name> "Orchestras Canada"@en,
+    "Orchestras Canada" .
 
-member:177 a <http://schema.org/Organization>;
+member:177 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Ann Summers Dossena"@en,
     "Ann Summers Dossena";
@@ -2173,9 +2173,9 @@ member:182 a <http://schema.org/Organization>;
   capacoa:memberTerminationDate "2022-04-01" .
 
 member:183 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Erin Benjamin"@en,
-    "Erin Benjamin" .
+  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/name> "Canadian Live Music Association"@en,
+    "Canadian Live Music Association" .
 
 member:184 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
@@ -2495,7 +2495,7 @@ member:199 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://sursaut.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "132417098" .
 
-member:2 a <http://schema.org/Organization>;
+member:2 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.0;
   <http://schema.org/name> "CAPACOA"@en,
     "CAPACOA" .
@@ -2743,7 +2743,7 @@ member:209 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
   ] .
 
-member:21 a <http://schema.org/Organization>;
+member:21 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.0;
   <http://schema.org/name> "Chandel Gambles"@en,
     "Chandel Gambles" .
@@ -3020,12 +3020,6 @@ member:222 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.obrienartscentre.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "860473479" .
 
-member:223 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "George Zukerman"@en,
-    "George Zukerman";
-  capacoa:memberTerminationDate "2023-04-01" .
-
 member:224 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
@@ -3085,7 +3079,7 @@ member:225 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://terrabruce.com>;
   <http://www.wikidata.org/prop/direct/P8860> "765940515" .
 
-member:227 a <http://schema.org/Organization>;
+member:227 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Victoria Del Mastro"@en,
     "Victoria Del Mastro" .
@@ -3823,10 +3817,6 @@ member:253 a <http://schema.org/Organization>;
     "Aurora Cultural Centre";
   <http://schema.org/url> <https://auroraculturalcentre.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "808239693" .
-
-member:254 <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Pamela Feghali"@en,
-    "Pamela Feghali" .
 
 member:255 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -6345,7 +6335,8 @@ member:45 a <http://schema.org/Organization>;
     "Culture Creates";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K1-5>;
   <http://schema.org/url> <https://culturecreates.com/>;
-  <http://www.wikidata.org/prop/direct/P8860> "801228875" .
+  <http://www.wikidata.org/prop/direct/P8860> "801228875";
+  capacoa:memberTerminationDate "2024-03-31" .
 
 member:46 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus,
@@ -6626,7 +6617,7 @@ member:53 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119036044" .
 
-member:54 a <http://schema.org/Organization>;
+member:54 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Gregory Saumier-Finch"@en,
     "Gregory Saumier-Finch" .
@@ -7137,7 +7128,7 @@ member:69 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.crowstheatre.com>;
   <http://www.wikidata.org/prop/direct/P8860> "118880475" .
 
-member:7 a <http://schema.org/Organization>;
+member:7 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Frédéric Julien"@en,
     "Frédéric Julien" .
