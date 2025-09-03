@@ -5978,9 +5978,10 @@ member:332 a schema:Person;
     <http://schema.org/addressRegion> "NS"
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
+  <http://schema.org/identifier> "Q126952762";
   <http://schema.org/name> "Lisa Langley"@en,
     "Lisa Langley";
-  <http://schema.org/url> <https://www.phin.ca> .
+  <http://schema.org/url> <https://phin.ca> .
 
 member:333 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
@@ -5996,6 +5997,7 @@ member:333 a schema:Person;
     <http://schema.org/addressRegion> "QC"
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
+  <http://schema.org/identifier> "Q136085288";
   <http://schema.org/name> "Meghan Moe Beitiks"@en,
     "Meghan Moe Beitiks";
   <http://schema.org/url> <https://www.meghanmoebeitiks.com/> .
