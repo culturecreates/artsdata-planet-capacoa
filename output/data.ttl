@@ -5591,7 +5591,7 @@ member:320 a <http://schema.org/Organization>;
     <http://schema.org/addressRegion> "ON"
   ];
   <http://schema.org/alternateName> "Kingston Grand Theatre";
-  <http://schema.org/identifier> "Grand Theatre";
+  <http://schema.org/identifier> "Q128278487";
   <http://schema.org/legalName> "Corporation of the City of Kingston"@en;
   <http://schema.org/location> [
     a <http://schema.org/Role>;
@@ -5605,6 +5605,7 @@ member:320 a <http://schema.org/Organization>;
   <http://schema.org/name> "Kingston Grand Theatre"@en,
     "Kingston Grand Theatre"@fr,
     "Kingston Grand Theatre";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-295>;
   <http://schema.org/url> <https://www.kingstongrand.ca/>, [
     a <http://schema.org/Role>;
     <http://schema.org/roleName> "Events Webpage";
