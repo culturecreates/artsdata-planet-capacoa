@@ -538,8 +538,8 @@ member:123 a <http://schema.org/Organization>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Vancouver";
-    <http://schema.org/addressRegion> "BC"
+    <http://schema.org/addressLocality> "Hubbards";
+    <http://schema.org/addressRegion> "NS"
   ];
   <http://schema.org/alternateName> "JFC";
   <http://schema.org/identifier> "Q134552151";
@@ -6002,6 +6002,10 @@ member:333 a schema:Person;
   <http://schema.org/name> "Meghan Moe Beitiks"@en,
     "Meghan Moe Beitiks";
   <http://schema.org/url> <https://www.meghanmoebeitiks.com/> .
+
+member:334 <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/name> "Dessa Hayes"@en,
+    "Dessa Hayes" .
 
 member:34 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
