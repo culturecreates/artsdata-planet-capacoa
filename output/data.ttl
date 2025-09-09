@@ -2229,9 +2229,9 @@ member:187 a <http://schema.org/Organization>;
     "Charlene Alexander" .
 
 member:188 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Haley Zalo"@en,
-    "Haley Zalo" .
+  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/name> "Kings Playhouse"@en,
+    "Kings Playhouse" .
 
 member:189 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
