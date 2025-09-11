@@ -6654,6 +6654,14 @@ member:55 a <http://schema.org/Organization>;
   ];
   <http://schema.org/identifier> "Maison des arts Desjardins Drummondville";
   <http://schema.org/legalName> "Corporation Maison des arts Desjardins Drummondville"@fr;
+  <http://schema.org/location> [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "Maison des arts Desjardins Drummondville"
+    ];
+    <http://schema.org/roleName> "Main presentation venue (as rental client)"
+  ];
   <http://schema.org/name> "Maison des arts Desjardins Drummondville"@fr,
     "Maison des arts Desjardins Drummondville"@en,
     "Maison des arts Desjardins Drummondville";
