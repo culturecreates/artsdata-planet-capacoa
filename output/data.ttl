@@ -5218,8 +5218,8 @@ member:307 a schema:Person;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q116220681";
-  <http://schema.org/name> "Yvon Soglo"@en,
-    "Yvon Soglo";
+  <http://schema.org/name> "Crazy Smooth"@en,
+    "Crazy Smooth";
   <http://schema.org/url> <https://bboyizm.ca/> .
 
 member:308 a <http://schema.org/Organization>;
@@ -7298,8 +7298,9 @@ member:75 a <http://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.0,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7313,8 +7314,9 @@ member:75 a <http://schema.org/Organization>;
     <http://schema.org/addressLocality> "Chester";
     <http://schema.org/addressRegion> "NS"
   ];
+  <http://schema.org/alternateName> "CPH";
   <http://schema.org/identifier> "Q111724395";
-  <http://schema.org/legalName> "Chester Theatre Council Society"@en;
+  <http://schema.org/legalName> "Chester Playhouse Society"@en;
   <http://schema.org/location> [
     a <http://schema.org/Role>;
     <http://schema.org/location> [
@@ -7326,7 +7328,11 @@ member:75 a <http://schema.org/Organization>;
   ];
   <http://schema.org/name> "Chester Playhouse"@en,
     "Chester Playhouse";
-  <http://schema.org/url> <https://example.com/base/chesterplayhouse.ca>;
+  <http://schema.org/url> <https://chesterplayhouse.ca/>, [
+    a <http://schema.org/Role>;
+    <http://schema.org/roleName> "Events Webpage";
+    <http://schema.org/url> <https://chesterplayhouse.ca/upcoming-events/>
+  ];
   <http://www.wikidata.org/prop/direct/P8860> "127727444" .
 
 member:76 a <http://schema.org/Organization>;
