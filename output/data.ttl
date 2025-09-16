@@ -27,7 +27,7 @@ member:100 a <http://schema.org/Organization>;
     "Ballet Jörgen Canada";
   <http://schema.org/url> <https://www.jorgendance.ca/> .
 
-member:101 a <http://schema.org/Organization>;
+member:101 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
