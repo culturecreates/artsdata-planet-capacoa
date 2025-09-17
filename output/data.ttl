@@ -27,7 +27,7 @@ member:100 a <http://schema.org/Organization>;
     "Ballet Jörgen Canada";
   <http://schema.org/url> <https://www.jorgendance.ca/> .
 
-member:101 a schema:Organization;
+member:101 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1901,10 +1901,10 @@ member:170 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://dolcevitaspectacles.com/en/>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:171 a <http://schema.org/Organization>;
+member:171 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Jennifer Campbell"@en,
-    "Jennifer Campbell";
+  <http://schema.org/name> "Small Halls Inc."@en,
+    "Small Halls Inc.";
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:172 a <http://schema.org/Organization>;
@@ -2126,7 +2126,7 @@ member:18 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-69>;
   <http://schema.org/url> <https://vancouvercivictheatres.com/> .
 
-member:180 a <http://schema.org/Organization>;
+member:180 a schema:Person;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Michele Decottignies"@en,
     "Michele Decottignies";
@@ -6006,6 +6006,37 @@ member:333 a schema:Person;
 member:334 <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Dessa Hayes"@en,
     "Dessa Hayes" .
+
+member:335 a <http://schema.org/Organization>;
+  <http://schema.org/additionalType> capacoa:Genres_the,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:PresentingFormat_series;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "St. John's";
+    <http://schema.org/addressRegion> "NL"
+  ];
+  <http://schema.org/alternateName> "RCA";
+  <http://schema.org/identifier> "Q129448069";
+  <http://schema.org/legalName> "Resource Centre for the Arts"@en;
+  <http://schema.org/location> [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q15241073";
+      <http://schema.org/name> "LSPU Hall"
+    ];
+    <http://schema.org/roleName> "Owner"
+  ];
+  <http://schema.org/name> "Resource Centre for the Arts"@en,
+    "Resource Centre for the Arts";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5231>;
+  <http://schema.org/url> <http://www.lspuhall.ca>;
+  <http://www.wikidata.org/prop/direct/P8860> "119117349" .
 
 member:34 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
