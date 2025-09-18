@@ -2073,7 +2073,7 @@ member:178 a <http://schema.org/Organization>;
 
 member:179 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Le Regroupement artistique francophone de l'Alberta"@en,
     "Le Regroupement artistique francophone de l'Alberta";
   <http://schema.org/url> <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
@@ -4911,8 +4911,8 @@ member:294 a schema:Person;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q129295631";
-  <http://schema.org/name> "Kong Kie Njo"@en,
-    "Kong Kie Njo";
+  <http://schema.org/name> "Njo Kong Kie"@en,
+    "Njo Kong Kie";
   <http://schema.org/url> <http://musicpicnic.com> .
 
 member:295 a <http://schema.org/Organization>;
@@ -5535,8 +5535,8 @@ member:319 a schema:Person;
     <http://schema.org/addressRegion> "QC"
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
-  <http://schema.org/name> "Troubadours &amp; Vagabonds Productions"@en,
-    "Troubadours &amp; Vagabonds Productions";
+  <http://schema.org/name> "Troubadours and Vagabonds Productions"@en,
+    "Troubadours and Vagabonds Productions";
   <http://schema.org/url> <https://troubadoursandvagabonds.com/> .
 
 member:32 a <http://schema.org/Organization>;
@@ -6037,6 +6037,34 @@ member:335 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5231>;
   <http://schema.org/url> <http://www.lspuhall.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "119117349" .
+
+member:336 a <http://schema.org/Organization>;
+  <http://schema.org/additionalType> capacoa:Genres_the,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:Genres_you;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Sherbrooke";
+    <http://schema.org/addressRegion> "QC"
+  ];
+  <http://schema.org/legalName> "Petit Théâtre de Sherbrooke inc."@fr;
+  <http://schema.org/location> [
+    a <http://schema.org/Role>;
+    <http://schema.org/location> [
+      a <http://schema.org/Place>;
+      <http://schema.org/name> "Centre des arts de la scène Jean-Besré"
+    ];
+    <http://schema.org/roleName> "Resident organization"
+  ];
+  <http://schema.org/name> "Le Petit Théâtre de Sherbrooke"@fr,
+    "Le Petit Théâtre de Sherbrooke"@en,
+    "Le Petit Théâtre de Sherbrooke";
+  <http://schema.org/url> <https://www.petittheatre.qc.ca/>;
+  <http://www.wikidata.org/prop/direct/P8860> "123045510" .
 
 member:34 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
