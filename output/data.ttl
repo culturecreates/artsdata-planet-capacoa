@@ -610,8 +610,9 @@ member:128 a <https://example.com/base/null>;
   <http://schema.org/name> "Dessa Hayes"@en,
     "Dessa Hayes" .
 
-member:129 a <http://schema.org/Organization>;
+member:129 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_film,
     capacoa:Genres_oth;
@@ -888,8 +889,9 @@ member:135 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "122702319" .
 
-member:136 a <http://schema.org/Organization>;
+member:136 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_mus,
+    capacoa:PrimaryActivity_soci,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth;
@@ -1336,8 +1338,9 @@ member:15 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.eponymous.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "870305067" .
 
-member:150 a <http://schema.org/Organization>;
+member:150 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -1368,16 +1371,18 @@ member:151 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-171>;
   <http://schema.org/url> <https://www.corpus.ca/www.corpus.ca> .
 
-member:152 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
+member:152 a schema:Person;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
   <http://schema.org/name> "Richard Stoker"@en,
     "Richard Stoker";
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
     "Richard Stoker a contribué de façon significative aux arts de la scène au Canada. Il a occupé le poste de directeur de la programmation et de la promotion des centres d'arts et de culture de la province de Terre-Neuve-et-Labrador de 1975 à 2010. Pendant trois ans, il a été président du conseil d'administration de CAPACOA, ainsi que membre fondateur et dirigeant de plusieurs autres organisations artistiques."@fr .
 
-member:153 a <http://schema.org/Organization>;
+member:153 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_film,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -1393,8 +1398,9 @@ member:153 a <http://schema.org/Organization>;
     "Milton Lim";
   <http://schema.org/url> <https://www.miltonlim.com> .
 
-member:154 a <http://schema.org/Organization>;
+member:154 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_film,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -1508,8 +1514,9 @@ member:157 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.easternfronttheatre.com>;
   <http://www.wikidata.org/prop/direct/P8860> "140150772" .
 
-member:158 a <http://schema.org/Organization>;
+member:158 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_oth,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_the;
   <http://schema.org/address> [
@@ -1609,8 +1616,9 @@ member:160 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.pldanse.com>;
   <http://www.wikidata.org/prop/direct/P8860> "741460083" .
 
-member:161 a <http://schema.org/Organization>;
+member:161 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -1819,9 +1827,10 @@ member:167 a <http://schema.org/Organization>;
   ] .
 
 member:168 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Magali Monderie-Larouche"@en,
-    "Magali Monderie-Larouche";
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/name> "Festival Musique Emergente"@en,
+    "Festival Musique Emergente";
   capacoa:memberTerminationDate "2020-04-01" .
 
 member:169 a <http://schema.org/Organization>;
@@ -1895,14 +1904,15 @@ member:170 a <http://schema.org/Organization>;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q3104508>;
   <http://schema.org/identifier> "Q132133102";
-  <http://schema.org/name> "Vincent Messager"@en,
-    "Vincent Messager";
+  <http://schema.org/name> "Dolce Vita Productions"@en,
+    "Dolce Vita Productions";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5731>;
   <http://schema.org/url> <https://dolcevitaspectacles.com/en/>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:171 a <https://example.com/base/null>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+member:171 a <http://schema.org/Organization>;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Small Halls Inc."@en,
     "Small Halls Inc.";
   capacoa:memberTerminationDate "2021-04-01" .
@@ -2127,7 +2137,8 @@ member:18 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://vancouvercivictheatres.com/> .
 
 member:180 a schema:Person;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Michele Decottignies"@en,
     "Michele Decottignies";
   capacoa:memberTerminationDate "2019-04-01" .
@@ -2167,9 +2178,10 @@ member:181 a <http://schema.org/Organization>;
   ] .
 
 member:182 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "Amir Hoss"@en,
-    "Amir Hoss";
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/name> "Blackout Theater Production"@en,
+    "Blackout Theater Production";
   capacoa:memberTerminationDate "2022-04-01" .
 
 member:183 a <http://schema.org/Organization>;
@@ -2177,8 +2189,9 @@ member:183 a <http://schema.org/Organization>;
   <http://schema.org/name> "Canadian Live Music Association"@en,
     "Canadian Live Music Association" .
 
-member:184 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
+member:184 a schema:Person;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Alana Bartol"@en,
     "Alana Bartol";
   capacoa:memberTerminationDate "2021-04-01" .
@@ -2224,9 +2237,10 @@ member:186 a <http://schema.org/Organization>;
   ] .
 
 member:187 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Charlene Alexander"@en,
-    "Charlene Alexander" .
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/name> "YFNCT"@en,
+    "YFNCT" .
 
 member:188 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -2234,9 +2248,10 @@ member:188 a <http://schema.org/Organization>;
     "Kings Playhouse" .
 
 member:189 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Robert Kerr"@en,
-    "Robert Kerr";
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/name> "City of Toronto Cultural Events"@en,
+    "City of Toronto Cultural Events";
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:19 a <http://schema.org/Organization>;
@@ -3148,7 +3163,7 @@ member:229 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "121742456" .
 
-member:23 a schema:Person;
+member:23 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3220,6 +3235,7 @@ member:232 a schema:Person;
 
 member:233 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_oth,
     capacoa:Genres_the;
@@ -3755,6 +3771,7 @@ member:250 a <http://schema.org/Organization>;
 
 member:251 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_oth,
+    capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -4486,6 +4503,7 @@ member:277 a <http://schema.org/Organization>;
 
 member:278 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -4554,8 +4572,9 @@ member:28 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://stounion.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "890739139" .
 
-member:280 a schema:Person;
+member:280 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -4565,8 +4584,8 @@ member:280 a schema:Person;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q126393592";
-  <http://schema.org/name> "brandy leary"@en,
-    "brandy leary";
+  <http://schema.org/name> "Anandam"@en,
+    "Anandam";
   <http://schema.org/url> <https://www.anandam.ca> .
 
 member:281 a <http://schema.org/Organization>;
@@ -4885,6 +4904,7 @@ member:292 a <http://schema.org/Organization>;
 
 member:293 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_the;
   <http://schema.org/address> [
@@ -5088,6 +5108,7 @@ member:301 a <http://schema.org/Organization>;
 
 member:302 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_the,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -5097,8 +5118,8 @@ member:302 a <http://schema.org/Organization>;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q128269667";
-  <http://schema.org/name> "Kirk Dunn"@en,
-    "Kirk Dunn";
+  <http://schema.org/name> "A Yarn Or Two Arts Collective"@en,
+    "A Yarn Or Two Arts Collective";
   <http://schema.org/url> <https://www.kirkdunn.com/> .
 
 member:303 a <http://schema.org/Organization>;
@@ -5390,8 +5411,9 @@ member:313 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.oshawa.ca/en/parks-recreation-and-culture/city-events.aspx>
   ] .
 
-member:314 a schema:Person;
+member:314 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus,
+    capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -5941,6 +5963,7 @@ member:33 a <http://schema.org/Organization>;
 
 member:330 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -5950,8 +5973,8 @@ member:330 a <http://schema.org/Organization>;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q109018886";
-  <http://schema.org/name> "Myriam Allard"@en,
-    "Myriam Allard";
+  <http://schema.org/name> "Compagnie La Otra Orilla"@en,
+    "Compagnie La Otra Orilla";
   <http://schema.org/url> <https://laotraorilla.net> .
 
 member:331 a schema:Person;
@@ -7589,7 +7612,7 @@ member:82 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "829396308";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:83 a <http://schema.org/Organization>;
+member:83 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_Music,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7926,7 +7949,7 @@ member:94 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://fullcircle.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "134191816" .
 
-member:95 a schema:Person;
+member:95 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
