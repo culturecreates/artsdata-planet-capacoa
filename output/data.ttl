@@ -6074,11 +6074,13 @@ member:336 a <http://schema.org/Organization>;
     <http://schema.org/addressLocality> "Sherbrooke";
     <http://schema.org/addressRegion> "QC"
   ];
+  <http://schema.org/identifier> "Q100523813";
   <http://schema.org/legalName> "Petit Théâtre de Sherbrooke inc."@fr;
   <http://schema.org/location> [
     a <http://schema.org/Role>;
     <http://schema.org/location> [
       a <http://schema.org/Place>;
+      <http://schema.org/identifier> "Q2945524";
       <http://schema.org/name> "Centre des arts de la scène Jean-Besré"
     ];
     <http://schema.org/roleName> "Resident organization"
