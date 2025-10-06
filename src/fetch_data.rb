@@ -33,6 +33,18 @@ loop do
   sleep(2) # Respectful delay to avoid overwhelming the server
 end
 
+allowed_terms = [
+  "agree (v1.1)",
+  "agree (v1.2)",
+  "agree and disclose (v1.1)",
+  "agree and disclose (v1.2)"
+]
+
+all_users.select! do |user|
+  terms = user['usermeta']['terms_conditions']
+  allowed_terms.include?(terms)
+end
+
 File.open("members.json", "w:utf-8") do |file|
   file.write(JSON.pretty_generate(all_users))
 end
