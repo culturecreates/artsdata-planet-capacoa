@@ -634,6 +634,7 @@ member:13 a <http://schema.org/Organization>;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0,
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2240,7 +2241,8 @@ member:187 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "YFNCT"@en,
-    "YFNCT" .
+    "YFNCT";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-274> .
 
 member:188 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -3752,6 +3754,7 @@ member:25 a <http://schema.org/Organization>;
 
 member:250 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3767,7 +3770,8 @@ member:250 a <http://schema.org/Organization>;
   <http://schema.org/identifier> "Q128122999";
   <http://schema.org/name> "Scrap Arts Music"@en,
     "Scrap Arts Music";
-  <http://schema.org/url> <https://www.scrapartsmusic.com> .
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6118>;
+  <http://schema.org/url> <https://scrapartsmusic.com> .
 
 member:251 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_oth,
@@ -4504,6 +4508,7 @@ member:277 a <http://schema.org/Organization>;
 member:278 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
+    capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -4511,10 +4516,13 @@ member:278 a <http://schema.org/Organization>;
     <http://schema.org/addressLocality> "Vancouver";
     <http://schema.org/addressRegion> "BC"
   ];
+  <http://schema.org/alternateName> "Inverso Productions";
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q127414237";
+  <http://schema.org/legalName> "Inverso Productions Society"@en;
   <http://schema.org/name> "Lesley Telford"@en,
     "Lesley Telford";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5187>;
   <http://schema.org/url> <https://inverso.ca> .
 
 member:279 a <http://schema.org/Organization>;
@@ -5245,6 +5253,8 @@ member:307 a schema:Person;
 
 member:308 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_the;
   <http://schema.org/address> [
@@ -5255,9 +5265,12 @@ member:308 a <http://schema.org/Organization>;
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q483501>;
   <http://schema.org/identifier> "Q66317760";
-  <http://schema.org/name> "Alon Nashman"@en,
-    "Alon Nashman";
-  <http://schema.org/url> <https://theaturtle.com> .
+  <http://schema.org/legalName> "Theaturtle"@en;
+  <http://schema.org/name> "Theaturtle"@en,
+    "Theaturtle";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5992>;
+  <http://schema.org/url> <https://theaturtle.com>;
+  <http://www.wikidata.org/prop/direct/P8860> "791975261" .
 
 member:309 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_mus,
@@ -5797,11 +5810,11 @@ member:325 a <http://schema.org/Organization>;
     <http://schema.org/addressLocality> "Trois-Rivières";
     <http://schema.org/addressRegion> "QC"
   ];
-  <http://schema.org/identifier> "Q135097983";
   <http://schema.org/legalName> "Bling Square Events by NH"@en;
   <http://schema.org/name> "Bling Square Events by NH"@en,
     "Bling Square Events by NH"@fr,
-    "Bling Square Events by NH" .
+    "Bling Square Events by NH";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5955> .
 
 member:326 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:Genres_dan,
