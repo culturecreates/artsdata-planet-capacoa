@@ -1829,9 +1829,14 @@ member:167 a <http://schema.org/Organization>;
 
 member:168 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  <http://schema.org/name> "Festival Musique Emergente"@en,
-    "Festival Musique Emergente";
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:PresentingFormat_festival;
+  <http://schema.org/alternateName> "Festival de musique émergente en Abitibi-Témiscamingue";
+  <http://schema.org/name> "Festival Musique Émergente"@fr,
+    "Festival Musique Émergente"@en,
+    "Festival Musique Émergente";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6122>;
   capacoa:memberTerminationDate "2020-04-01" .
 
 member:169 a <http://schema.org/Organization>;
@@ -1966,10 +1971,14 @@ member:172 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "121807929" .
 
-member:173 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+member:173 a <https://example.com/base/null>;
+  <http://schema.org/additionalType> capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:PresentingFormat_festival;
   <http://schema.org/name> "Canadian Music Week"@en,
     "Canadian Music Week";
+  <http://schema.org/url> <http://www.cmw.net>;
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:174 a <http://schema.org/Organization>;
@@ -2077,9 +2086,16 @@ member:177 a <https://example.com/base/null>;
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:178 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:PresentingFormat_festival-series;
+  <http://schema.org/legalName> "Harrison Festival Society"@en;
   <http://schema.org/name> "Harrison Festival of the Arts"@en,
     "Harrison Festival of the Arts";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6121>;
+  <http://www.wikidata.org/prop/direct/P8860> "127699684";
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:179 a <http://schema.org/Organization>;
@@ -2180,15 +2196,24 @@ member:181 a <http://schema.org/Organization>;
 
 member:182 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
+    capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/legalName> "Blackout Art Society"@en;
   <http://schema.org/name> "Blackout Theater Production"@en,
     "Blackout Theater Production";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6119>;
   capacoa:memberTerminationDate "2022-04-01" .
 
 member:183 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+  <http://schema.org/alternateName> "CLMA";
   <http://schema.org/name> "Canadian Live Music Association"@en,
-    "Canadian Live Music Association" .
+    "Canadian Live Music Association"@fr,
+    "Canadian Live Music Association";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6120>;
+  capacoa:memberTerminationDate "2024-04-01" .
 
 member:184 a schema:Person;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
@@ -2239,10 +2264,13 @@ member:186 a <http://schema.org/Organization>;
 
 member:187 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1\.1;
-  <http://schema.org/name> "YFNCT"@en,
-    "YFNCT";
-  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-274> .
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.0;
+  <http://schema.org/alternateName> "YFNCT";
+  <http://schema.org/name> "Yukon First Nations Culture and Tourism Association"@en,
+    "Yukon First Nations Culture and Tourism Association";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-274>;
+  capacoa:memberTerminationDate "2022-04-01" .
 
 member:188 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -2251,9 +2279,12 @@ member:188 a <http://schema.org/Organization>;
 
 member:189 a <http://schema.org/Organization>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/legalName> "City of Toronto"@en;
   <http://schema.org/name> "City of Toronto Cultural Events"@en,
     "City of Toronto Cultural Events";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6123>;
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:19 a <http://schema.org/Organization>;
