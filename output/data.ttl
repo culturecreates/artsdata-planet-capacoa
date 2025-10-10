@@ -2215,11 +2215,12 @@ member:183 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6120>;
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:184 a schema:Person;
+member:184 a <http://schema.org/Person>;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Alana Bartol"@en,
     "Alana Bartol";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6124>;
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:186 a <http://schema.org/Organization>;
@@ -2310,9 +2311,16 @@ member:19 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "829653682" .
 
 member:190 a <http://schema.org/Organization>;
-  <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:PresentingFormat_festival;
+  <http://schema.org/alternateName> "TSM";
+  <http://schema.org/legalName> "Toronto Summer Music Foundation"@en;
   <http://schema.org/name> "Toronto Summer Music"@en,
     "Toronto Summer Music";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6125>;
+  <http://www.wikidata.org/prop/direct/P8860> "884157900";
   capacoa:memberTerminationDate "2021-04-01" .
 
 member:191 a <http://schema.org/Organization>;
