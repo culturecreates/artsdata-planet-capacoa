@@ -7,7 +7,7 @@ member:1 a <https://example.com/base/null>;
   <http://schema.org/name> "admin"@en,
     "admin" .
 
-member:100 a <http://schema.org/Organization>;
+member:100 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -27,7 +27,7 @@ member:100 a <http://schema.org/Organization>;
     "Ballet Jörgen Canada";
   <http://schema.org/url> <https://www.jorgendance.ca/> .
 
-member:101 a <http://schema.org/Organization>;
+member:101 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -52,7 +52,7 @@ member:101 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-85>;
   <http://schema.org/url> <https://stationbleue.com/> .
 
-member:102 a <http://schema.org/Organization>;
+member:102 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -73,14 +73,14 @@ member:102 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.aimbookingagency.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "751675695" .
 
-member:103 a <http://schema.org/Organization>;
+member:103 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Kids and Then Some (KATS)"@en,
     "Kids and Then Some (KATS)";
   <http://schema.org/url> <https://www.katskids.com/> .
 
-member:104 a <http://schema.org/Organization>;
+member:104 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1,
@@ -96,7 +96,7 @@ member:104 a <http://schema.org/Organization>;
     "Riverfront InterArts";
   <http://schema.org/url> <https://www.riverfrontinterarts.ca/> .
 
-member:105 a <http://schema.org/Organization>;
+member:105 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_festival-series;
@@ -105,7 +105,7 @@ member:105 a <http://schema.org/Organization>;
     "Alianait Arts Festival";
   <http://schema.org/url> <https://alianait.ca/> .
 
-member:106 a <http://schema.org/Organization>;
+member:106 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -125,7 +125,7 @@ member:106 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://springboardperformance.com>;
   <http://www.wikidata.org/prop/direct/P8860> "888267242" .
 
-member:107 a <http://schema.org/Organization>;
+member:107 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -166,7 +166,7 @@ member:107 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "118981901" .
 
-member:108 a <http://schema.org/Organization>;
+member:108 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Centennial Theatre"@en,
@@ -174,7 +174,7 @@ member:108 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.nvrc.ca/centennial-theatre>;
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:109 a <http://schema.org/Organization>;
+member:109 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -194,7 +194,7 @@ member:109 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://mtspace.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "862192291" .
 
-member:11 a <http://schema.org/Organization>;
+member:11 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -235,7 +235,7 @@ member:11 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "866721566" .
 
-member:110 a <http://schema.org/Organization>;
+member:110 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -264,7 +264,7 @@ member:110 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.aramusique.org/>;
   <http://www.wikidata.org/prop/direct/P8860> "125111781" .
 
-member:111 a <http://schema.org/Organization>;
+member:111 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -285,7 +285,7 @@ member:111 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.newworks.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "890250178" .
 
-member:112 a <http://schema.org/Organization>;
+member:112 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -297,7 +297,7 @@ member:112 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://newvintagetheatre.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "808134241" .
 
-member:113 a <http://schema.org/Organization>;
+member:113 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.0;
   <http://schema.org/name> "Fascinator Management"@en,
@@ -305,7 +305,7 @@ member:113 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.fascinatormanagement.com/>;
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:114 a <http://schema.org/Organization>;
+member:114 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
@@ -331,7 +331,7 @@ member:114 a <http://schema.org/Organization>;
     "BAM! Baird Artists Management";
   <http://schema.org/url> <http://www.bairdartists.com/> .
 
-member:115 a <http://schema.org/Organization>;
+member:115 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1,
@@ -342,7 +342,7 @@ member:115 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.folkontherocks.com/>;
   capacoa:memberTerminationDate "2022-04-01" .
 
-member:116 a <http://schema.org/Organization>;
+member:116 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -363,7 +363,7 @@ member:116 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "806417325";
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:117 a <http://schema.org/Organization>;
+member:117 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/identifier> "Q112570694";
@@ -371,7 +371,7 @@ member:117 a <http://schema.org/Organization>;
     "Bailiwick Booking Agency and Arts Management";
   <http://schema.org/url> <https://bailiwick.biz> .
 
-member:118 a <http://schema.org/Organization>;
+member:118 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -394,7 +394,7 @@ member:118 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "814654406" .
 
-member:119 a <http://schema.org/Organization>;
+member:119 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
@@ -413,7 +413,7 @@ member:119 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://maverickcooperative.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "854413374" .
 
-member:12 a <http://schema.org/Organization>;
+member:12 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -456,7 +456,7 @@ member:12 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "124060203" .
 
-member:120 a <http://schema.org/Organization>;
+member:120 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -476,7 +476,7 @@ member:120 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://portermusic.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "853524544" .
 
-member:121 a <http://schema.org/Organization>;
+member:121 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_gran,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -504,7 +504,7 @@ member:121 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www2.gnb.ca/content/gnb/en/departments/thc/culture.html>;
   <http://www.wikidata.org/prop/direct/P8860> "107863888" .
 
-member:122 a <http://schema.org/Organization>;
+member:122 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -529,7 +529,7 @@ member:122 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "894903012" .
 
-member:123 a <http://schema.org/Organization>;
+member:123 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -564,7 +564,7 @@ member:124 a schema:Person;
   <http://schema.org/url> <https://www.xlimusic.com>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:126 a <http://schema.org/Organization>;
+member:126 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -628,7 +628,7 @@ member:129 a schema:Person;
   <http://schema.org/url> <https://www.georgestamos.com/>;
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:13 a <http://schema.org/Organization>;
+member:13 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -672,7 +672,7 @@ member:13 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "132938655" .
 
-member:130 a <http://schema.org/Organization>;
+member:130 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -709,7 +709,7 @@ member:130 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://werklundcentre.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "118823269" .
 
-member:131 a <http://schema.org/Organization>;
+member:131 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -729,7 +729,7 @@ member:131 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://adelheid.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "819056888" .
 
-member:132 a <http://schema.org/Organization>;
+member:132 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -767,7 +767,7 @@ member:132 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "824613020" .
 
-member:133 a <http://schema.org/Organization>;
+member:133 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -818,7 +818,7 @@ member:133 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "122012735" .
 
-member:134 a <http://schema.org/Organization>;
+member:134 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -849,7 +849,7 @@ member:134 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://bc.cmccanada.org>;
   <http://www.wikidata.org/prop/direct/P8860> "118834563" .
 
-member:135 a <http://schema.org/Organization>;
+member:135 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -907,7 +907,7 @@ member:136 a schema:Person;
   <http://schema.org/url> <https://aureasvoces.ca>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:138 a <http://schema.org/Organization>;
+member:138 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -945,7 +945,7 @@ member:138 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "130318330" .
 
-member:139 a <http://schema.org/Organization>;
+member:139 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -965,7 +965,7 @@ member:139 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.mundialmontreal.com>;
   <http://www.wikidata.org/prop/direct/P8860> "802447300" .
 
-member:14 a <http://schema.org/Organization>;
+member:14 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1003,7 +1003,7 @@ member:14 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://dancehouse.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "861284255" .
 
-member:140 a <http://schema.org/Organization>;
+member:140 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1044,7 +1044,7 @@ member:140 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "805750593";
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:141 a <http://schema.org/Organization>;
+member:141 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1065,7 +1065,7 @@ member:141 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.andrewkwanartists.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "130867971" .
 
-member:142 a <http://schema.org/Organization>;
+member:142 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1096,7 +1096,7 @@ member:142 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119301091" .
 
-member:143 a <http://schema.org/Organization>;
+member:143 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1136,7 +1136,7 @@ member:143 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://ottawafringe.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "897771721" .
 
-member:144 a <http://schema.org/Organization>;
+member:144 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1174,7 +1174,7 @@ member:144 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "867267692";
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:145 a <http://schema.org/Organization>;
+member:145 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1198,7 +1198,7 @@ member:145 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://fta.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "101787554" .
 
-member:146 a <http://schema.org/Organization>;
+member:146 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1247,7 +1247,7 @@ member:146 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "128982345";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:147 a <http://schema.org/Organization>;
+member:147 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1269,7 +1269,7 @@ member:147 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.candance.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "885724419" .
 
-member:148 a <http://schema.org/Organization>;
+member:148 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1290,7 +1290,7 @@ member:148 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-124>;
   <http://schema.org/url> <https://vimhouse.ca> .
 
-member:149 a <http://schema.org/Organization>;
+member:149 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1320,7 +1320,7 @@ member:149 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://neworldtheatre.com>;
   <http://www.wikidata.org/prop/direct/P8860> "866434699" .
 
-member:15 a <http://schema.org/Organization>;
+member:15 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1357,7 +1357,7 @@ member:150 a schema:Person;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
     "Rhodnie Désir a créé une quinzaine d’œuvres chorégraphiques. Sa pièce phare BOW’T TRAIL Rétrospek et son parcours de mémoire pionnier BOW’T TRAIL  lui ont valu deux Prix de la danse de Montréal (2020) : le Prix Envol et le convoité Grand Prix de la danse."@fr .
 
-member:151 a <http://schema.org/Organization>;
+member:151 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -1378,6 +1378,7 @@ member:152 a schema:Person;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
   <http://schema.org/name> "Richard Stoker"@en,
     "Richard Stoker";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-141>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "As a major contributor to the performing arts in Canada, Richard Stoker held the position of Manager of Programming and Promotion for the Arts and Culture Centres in the province of Newfoundland and Labrador from 1975-2010. For 3 years, he led the CAPACOA board as President and was a founding member and leader for several arts organizations."@en,
     "Richard Stoker a contribué de façon significative aux arts de la scène au Canada. Il a occupé le poste de directeur de la programmation et de la promotion des centres d'arts et de culture de la province de Terre-Neuve-et-Labrador de 1975 à 2010. Pendant trois ans, il a été président du conseil d'administration de CAPACOA, ainsi que membre fondateur et dirigeant de plusieurs autres organisations artistiques."@fr .
 
@@ -1417,7 +1418,7 @@ member:154 a schema:Person;
     "Patrick Blenkarn";
   <http://schema.org/url> <https://www.patrickblenkarn.com> .
 
-member:155 a <http://schema.org/Organization>;
+member:155 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1453,7 +1454,7 @@ member:155 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://artsnetottawa.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "121777023" .
 
-member:156 a <http://schema.org/Organization>;
+member:156 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1485,7 +1486,7 @@ member:156 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.saultfringe.com>;
   <http://www.wikidata.org/prop/direct/P8860> "773424726" .
 
-member:157 a <http://schema.org/Organization>;
+member:157 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1531,7 +1532,7 @@ member:158 a schema:Person;
     "Laurel Green";
   <http://schema.org/url> <https://www.assesmasses.work/> .
 
-member:159 a <http://schema.org/Organization>;
+member:159 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1565,7 +1566,7 @@ member:159 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://umanota.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "766101935" .
 
-member:16 a <http://schema.org/Organization>;
+member:16 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1597,7 +1598,7 @@ member:16 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119281988" .
 
-member:160 a <http://schema.org/Organization>;
+member:160 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1633,7 +1634,7 @@ member:161 a schema:Person;
   <http://schema.org/url> <https://www.linkedin.com/in/amanda-bon-02625b191>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:162 a <http://schema.org/Organization>;
+member:162 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1657,7 +1658,7 @@ member:162 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://kaleidoscope.bc.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "118976885" .
 
-member:163 a <http://schema.org/Organization>;
+member:163 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1699,7 +1700,7 @@ member:163 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "100504687" .
 
-member:164 a <http://schema.org/Organization>;
+member:164 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1734,7 +1735,7 @@ member:164 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119282150" .
 
-member:165 a <http://schema.org/Organization>;
+member:165 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1769,7 +1770,7 @@ member:165 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119258754" .
 
-member:166 a <http://schema.org/Organization>;
+member:166 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1793,7 +1794,7 @@ member:166 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "836199976" .
 
-member:167 a <http://schema.org/Organization>;
+member:167 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1827,19 +1828,20 @@ member:167 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://smcq.qc.ca/smcq/fr/programmation>
   ] .
 
-member:168 a <http://schema.org/Organization>;
+member:168 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_festival;
   <http://schema.org/alternateName> "Festival de musique émergente en Abitibi-Témiscamingue";
+  <http://schema.org/identifier> "Q136459735";
   <http://schema.org/name> "Festival Musique Émergente"@fr,
     "Festival Musique Émergente"@en,
     "Festival Musique Émergente";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6122>;
   capacoa:memberTerminationDate "2020-04-01" .
 
-member:169 a <http://schema.org/Organization>;
+member:169 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -1866,7 +1868,7 @@ member:169 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-217>;
   <http://schema.org/url> <https://www.citt.org> .
 
-member:17 a <http://schema.org/Organization>;
+member:17 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1897,7 +1899,7 @@ member:17 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107803389" .
 
-member:170 a <http://schema.org/Organization>;
+member:170 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
@@ -1916,14 +1918,14 @@ member:170 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://dolcevitaspectacles.com/en/>;
   capacoa:memberTerminationDate "2025-04-01" .
 
-member:171 a <http://schema.org/Organization>;
+member:171 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Small Halls Inc."@en,
     "Small Halls Inc.";
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:172 a <http://schema.org/Organization>;
+member:172 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -1976,12 +1978,13 @@ member:173 a <https://example.com/base/null>;
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_festival;
+  <http://schema.org/identifier> "Q136458481";
   <http://schema.org/name> "Canadian Music Week"@en,
     "Canadian Music Week";
   <http://schema.org/url> <http://www.cmw.net>;
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:174 a <http://schema.org/Organization>;
+member:174 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -2024,7 +2027,7 @@ member:174 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-203>;
   <http://schema.org/url> <https://meridiancentrepointe.com/> .
 
-member:175 a <http://schema.org/Organization>;
+member:175 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2085,12 +2088,13 @@ member:177 a <https://example.com/base/null>;
     "Ann Summers Dossena";
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:178 a <http://schema.org/Organization>;
+member:178 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival-series;
+  <http://schema.org/identifier> "Q136459644";
   <http://schema.org/legalName> "Harrison Festival Society"@en;
   <http://schema.org/name> "Harrison Festival of the Arts"@en,
     "Harrison Festival of the Arts";
@@ -2098,7 +2102,7 @@ member:178 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "127699684";
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:179 a <http://schema.org/Organization>;
+member:179 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Le Regroupement artistique francophone de l'Alberta"@en,
@@ -2106,7 +2110,7 @@ member:179 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "received PCBP in 23/24 season."@en .
 
-member:18 a <http://schema.org/Organization>;
+member:18 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2160,7 +2164,7 @@ member:180 a schema:Person;
     "Michele Decottignies";
   capacoa:memberTerminationDate "2019-04-01" .
 
-member:181 a <http://schema.org/Organization>;
+member:181 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2194,36 +2198,39 @@ member:181 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://festivalplace.ca/events/>
   ] .
 
-member:182 a <http://schema.org/Organization>;
+member:182 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/identifier> "Q136458180";
   <http://schema.org/legalName> "Blackout Art Society"@en;
   <http://schema.org/name> "Blackout Theater Production"@en,
     "Blackout Theater Production";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6119>;
   capacoa:memberTerminationDate "2022-04-01" .
 
-member:183 a <http://schema.org/Organization>;
+member:183 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/alternateName> "CLMA";
+  <http://schema.org/identifier> "Q136458359";
   <http://schema.org/name> "Canadian Live Music Association"@en,
     "Canadian Live Music Association"@fr,
     "Canadian Live Music Association";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6120>;
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:184 a <http://schema.org/Person>;
+member:184 a schema:Person;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/identifier> "Q50505690";
   <http://schema.org/name> "Alana Bartol"@en,
     "Alana Bartol";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6124>;
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:186 a <http://schema.org/Organization>;
+member:186 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -2263,32 +2270,34 @@ member:186 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://tixx.ca/#top>
   ] .
 
-member:187 a <http://schema.org/Organization>;
+member:187 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0;
   <http://schema.org/alternateName> "YFNCT";
+  <http://schema.org/identifier> "Q114996825";
   <http://schema.org/name> "Yukon First Nations Culture and Tourism Association"@en,
     "Yukon First Nations Culture and Tourism Association";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-274>;
   capacoa:memberTerminationDate "2022-04-01" .
 
-member:188 a <http://schema.org/Organization>;
+member:188 a schema:Organization;
   <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Kings Playhouse"@en,
     "Kings Playhouse" .
 
-member:189 a <http://schema.org/Organization>;
+member:189 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1;
+  <http://schema.org/identifier> "Q136459800";
   <http://schema.org/legalName> "City of Toronto"@en;
   <http://schema.org/name> "City of Toronto Cultural Events"@en,
     "City of Toronto Cultural Events";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6123>;
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:19 a <http://schema.org/Organization>;
+member:19 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2310,12 +2319,13 @@ member:19 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.agencedlefebvre.com/fr>;
   <http://www.wikidata.org/prop/direct/P8860> "829653682" .
 
-member:190 a <http://schema.org/Organization>;
+member:190 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival;
   <http://schema.org/alternateName> "TSM";
+  <http://schema.org/identifier> "Q136464732";
   <http://schema.org/legalName> "Toronto Summer Music Foundation"@en;
   <http://schema.org/name> "Toronto Summer Music"@en,
     "Toronto Summer Music";
@@ -2323,14 +2333,14 @@ member:190 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "884157900";
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:191 a <http://schema.org/Organization>;
+member:191 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "The Corporation of Massey Hall and Roy Thomson Hall"@en,
     "The Corporation of Massey Hall and Roy Thomson Hall";
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:192 a <http://schema.org/Organization>;
+member:192 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -2369,7 +2379,7 @@ member:192 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://tickets.shadboltcentre.com/TheatreManager/1/online?event=0>
   ] .
 
-member:193 a <http://schema.org/Organization>;
+member:193 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2413,7 +2423,7 @@ member:193 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "893668491" .
 
-member:194 a <http://schema.org/Organization>;
+member:194 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -2452,7 +2462,7 @@ member:194 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-186>;
   <http://schema.org/url> <https://cowichanpac.ca/> .
 
-member:195 a <http://schema.org/Organization>;
+member:195 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2491,7 +2501,7 @@ member:195 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "843116484" .
 
-member:196 a <http://schema.org/Organization>;
+member:196 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1,
@@ -2502,7 +2512,7 @@ member:196 a <http://schema.org/Organization>;
     "Red Sky Performance";
   <http://schema.org/url> <https://www.redskyperformance.com/> .
 
-member:197 a <http://schema.org/Organization>;
+member:197 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-v1\.1;
@@ -2511,7 +2521,7 @@ member:197 a <http://schema.org/Organization>;
     "Dance West Network";
   <http://schema.org/url> <https://dancewest.net/> .
 
-member:198 a <http://schema.org/Organization>;
+member:198 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-v1\.1;
@@ -2522,7 +2532,7 @@ member:198 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://mgam.com/>;
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:199 a <http://schema.org/Organization>;
+member:199 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2556,7 +2566,7 @@ member:2 a <https://example.com/base/null>;
   <http://schema.org/name> "CAPACOA"@en,
     "CAPACOA" .
 
-member:200 a <http://schema.org/Organization>;
+member:200 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2584,7 +2594,7 @@ member:200 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-149>;
   <http://schema.org/url> <https://www.scenesfrancophones.ca/> .
 
-member:201 a <http://schema.org/Organization>;
+member:201 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2617,7 +2627,7 @@ member:201 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "127116242" .
 
-member:202 a <http://schema.org/Organization>;
+member:202 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -2630,7 +2640,7 @@ member:202 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.debutatlantic.ca/concerts>
   ] .
 
-member:203 a <http://schema.org/Organization>;
+member:203 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
@@ -2660,7 +2670,7 @@ member:203 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://example.com/base/Season>
   ] .
 
-member:204 a <http://schema.org/Organization>;
+member:204 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2704,7 +2714,7 @@ member:204 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "118798024" .
 
-member:205 a <http://schema.org/Organization>;
+member:205 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -2738,7 +2748,7 @@ member:205 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://tohu.ca/en/season/shows?type=events>
   ] .
 
-member:207 a <http://schema.org/Organization>;
+member:207 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "BC Alliance for Arts + Culture"@en,
@@ -2749,7 +2759,7 @@ member:207 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.allianceforarts.com/whats-on>
   ] .
 
-member:208 a <http://schema.org/Organization>;
+member:208 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Educational-organization,
@@ -2785,7 +2795,7 @@ member:208 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.dal.ca/dept/arts-centre/events-schedule.html>
   ] .
 
-member:209 a <http://schema.org/Organization>;
+member:209 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2804,7 +2814,7 @@ member:21 a <https://example.com/base/null>;
   <http://schema.org/name> "Chandel Gambles"@en,
     "Chandel Gambles" .
 
-member:210 a <http://schema.org/Organization>;
+member:210 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Theatre Wakefield"@en,
@@ -2812,7 +2822,7 @@ member:210 a <http://schema.org/Organization>;
     "Theatre Wakefield";
   <http://schema.org/url> <https://theatrewakefield.ca/> .
 
-member:211 a <http://schema.org/Organization>;
+member:211 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_gran,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Canada Council for the Arts"@en,
@@ -2821,7 +2831,7 @@ member:211 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://canadacouncil.ca/>;
   capacoa:memberTerminationDate "2020-04-01" .
 
-member:212 a <http://schema.org/Organization>;
+member:212 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/name> "Le Conseil des Arts de Hearst"@fr,
@@ -2833,7 +2843,7 @@ member:212 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.conseildesartsdehearst.ca/evenements>
   ] .
 
-member:213 a <http://schema.org/Organization>;
+member:213 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/location> [
@@ -2848,7 +2858,7 @@ member:213 a <http://schema.org/Organization>;
     "Arts and Culture Centres";
   <http://schema.org/url> <https://artsandculturecentre.com> .
 
-member:214 a <http://schema.org/Organization>;
+member:214 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -2862,7 +2872,7 @@ member:214 a <http://schema.org/Organization>;
   ];
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:215 a <http://schema.org/Organization>;
+member:215 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Place des Arts"@fr,
@@ -2874,7 +2884,7 @@ member:215 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://placedesarts.com/fr/evenements>
   ] .
 
-member:216 a <http://schema.org/Organization>;
+member:216 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_soci,
     capacoa:TermsConditions_agree-v1\.1,
@@ -2891,7 +2901,7 @@ member:216 a <http://schema.org/Organization>;
   ];
   capacoa:memberTerminationDate "2024-04-01" .
 
-member:217 a <http://schema.org/Organization>;
+member:217 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -2912,7 +2922,7 @@ member:217 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.resound.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "877510586" .
 
-member:218 a <http://schema.org/Organization>;
+member:218 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -2934,7 +2944,7 @@ member:218 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://ipaa.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "834480675" .
 
-member:219 a <http://schema.org/Organization>;
+member:219 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1,
@@ -2953,7 +2963,7 @@ member:219 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-166>;
   <http://schema.org/url> <http://www.matriarchsuprising.com> .
 
-member:22 a <http://schema.org/Organization>;
+member:22 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -2986,7 +2996,7 @@ member:22 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "880787213" .
 
-member:220 a <http://schema.org/Organization>;
+member:220 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3013,7 +3023,7 @@ member:220 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://luminatofestival.com>;
   <http://www.wikidata.org/prop/direct/P8860> "811637347" .
 
-member:221 a schema:Person;
+member:221 a <https://example.com/base/null>;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
@@ -3035,9 +3045,10 @@ member:221 a schema:Person;
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
   <http://schema.org/name> "Fazil Chouakri"@en,
     "Fazil Chouakri";
-  <http://schema.org/url> <https://vasistas.ca> .
+  <http://schema.org/url> <https://vasistas.ca>;
+  capacoa:memberTerminationDate "2024-04-01" .
 
-member:222 a <http://schema.org/Organization>;
+member:222 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3076,7 +3087,7 @@ member:222 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.obrienartscentre.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "860473479" .
 
-member:224 a <http://schema.org/Organization>;
+member:224 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -3098,7 +3109,7 @@ member:224 a <http://schema.org/Organization>;
     <http://schema.org/url> <http://calgarybluesfest.com>
   ] .
 
-member:225 a <http://schema.org/Organization>;
+member:225 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3140,7 +3151,7 @@ member:227 a <https://example.com/base/null>;
   <http://schema.org/name> "Victoria Del Mastro"@en,
     "Victoria Del Mastro" .
 
-member:228 a <http://schema.org/Organization>;
+member:228 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3161,7 +3172,7 @@ member:228 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.theonlyanimal.com>;
   <http://www.wikidata.org/prop/direct/P8860> "845261544" .
 
-member:229 a <http://schema.org/Organization>;
+member:229 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3204,7 +3215,7 @@ member:229 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "121742456" .
 
-member:23 a <http://schema.org/Organization>;
+member:23 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3239,7 +3250,7 @@ member:230 a schema:Person;
     "Melanie Dekker";
   <http://schema.org/url> <https://www.melaniedekker.com> .
 
-member:231 a <http://schema.org/Organization>;
+member:231 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
@@ -3276,7 +3287,7 @@ member:232 a schema:Person;
 
 member:233 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod,
+    capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_oth,
     capacoa:Genres_the;
@@ -3287,11 +3298,14 @@ member:233 a schema:Person;
     <http://schema.org/addressRegion> "ON"
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q55107540>;
+  <http://schema.org/identifier> "Q136471562";
   <http://schema.org/name> "Freelance Producer and Production Manager"@en,
     "Freelance Producer and Production Manager";
-  <http://schema.org/url> <https://www.lauraphilipps.com/> .
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6127>;
+  <http://schema.org/url> <https://www.lauraphilipps.com/>;
+  capacoa:memberTerminationDate "2024-04-01" .
 
-member:234 a <http://schema.org/Organization>;
+member:234 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3314,7 +3328,7 @@ member:234 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://nadereartsvivants.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "834007775" .
 
-member:235 a <http://schema.org/Organization>;
+member:235 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3386,6 +3400,7 @@ member:237 a schema:Person;
 
 member:238 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_oth;
   <http://schema.org/address> [
@@ -3398,9 +3413,10 @@ member:238 a schema:Person;
   <http://schema.org/identifier> "Q112602688";
   <http://schema.org/name> "petrikor danse"@en,
     "petrikor danse";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-4320>;
   <http://schema.org/url> <https://www.petrikordanse.com> .
 
-member:239 a <http://schema.org/Organization>;
+member:239 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3430,7 +3446,7 @@ member:239 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://lerefrain.com/fr>;
   <http://www.wikidata.org/prop/direct/P8860> "794800862" .
 
-member:24 a <http://schema.org/Organization>;
+member:24 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3464,7 +3480,7 @@ member:24 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119118875" .
 
-member:240 a <http://schema.org/Organization>;
+member:240 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_soci,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -3497,7 +3513,7 @@ member:240 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "771980067";
   capacoa:memberTerminationDate "2023-09-20" .
 
-member:241 a <http://schema.org/Organization>;
+member:241 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3522,7 +3538,7 @@ member:241 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://masconline.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "880561832" .
 
-member:242 a <http://schema.org/Organization>;
+member:242 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3559,7 +3575,7 @@ member:242 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "713583086" .
 
-member:243 a <http://schema.org/Organization>;
+member:243 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3597,7 +3613,7 @@ member:243 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.dancevictoria.com>;
   <http://www.wikidata.org/prop/direct/P8860> "873775522" .
 
-member:244 a <http://schema.org/Organization>;
+member:244 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3621,7 +3637,7 @@ member:244 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "788434900";
   capacoa:memberTerminationDate "2023-09-23" .
 
-member:245 a <http://schema.org/Organization>;
+member:245 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3645,7 +3661,7 @@ member:245 a <http://schema.org/Organization>;
   ];
   capacoa:memberTerminationDate "2023-09-28" .
 
-member:246 a <http://schema.org/Organization>;
+member:246 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3666,7 +3682,7 @@ member:246 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "126027275";
   capacoa:memberTerminationDate "2023-10-04" .
 
-member:247 a <http://schema.org/Organization>;
+member:247 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_you,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3686,7 +3702,7 @@ member:247 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.pebblestarartists.com>;
   <http://www.wikidata.org/prop/direct/P8860> "724758925" .
 
-member:248 a <http://schema.org/Organization>;
+member:248 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3737,7 +3753,7 @@ member:248 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://tickets.brampton.ca/Online/default.asp>
   ] .
 
-member:249 a <http://schema.org/Organization>;
+member:249 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3760,7 +3776,7 @@ member:249 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "702481730";
   capacoa:memberTerminationDate "2024-07-26" .
 
-member:25 a <http://schema.org/Organization>;
+member:25 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3791,7 +3807,7 @@ member:25 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.canadianstage.com>;
   <http://www.wikidata.org/prop/direct/P8860> "119220028" .
 
-member:250 a <http://schema.org/Organization>;
+member:250 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
@@ -3842,7 +3858,7 @@ member:252 a schema:Person;
     "Marie Josee Simard";
   <http://schema.org/url> <https://mariejoseesimard.com/> .
 
-member:253 a <http://schema.org/Organization>;
+member:253 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -3878,7 +3894,7 @@ member:253 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://auroraculturalcentre.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "808239693" .
 
-member:255 a <http://schema.org/Organization>;
+member:255 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3909,7 +3925,7 @@ member:255 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "856311907" .
 
-member:256 a <http://schema.org/Organization>;
+member:256 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -3952,7 +3968,7 @@ member:256 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "137467403" .
 
-member:257 a <http://schema.org/Organization>;
+member:257 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -3992,7 +4008,7 @@ member:257 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://tickets.algonquintheatre.ca/TheatreManager/1/online?event=0>
   ] .
 
-member:258 a <http://schema.org/Organization>;
+member:258 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4016,7 +4032,7 @@ member:259 <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-
   <http://schema.org/name> "Dorian VL Jensen"@en,
     "Dorian VL Jensen" .
 
-member:26 a <http://schema.org/Organization>;
+member:26 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4057,7 +4073,7 @@ member:260 a schema:Person;
   <http://schema.org/name> "Lynne Bailey"@en,
     "Lynne Bailey" .
 
-member:261 a <http://schema.org/Organization>;
+member:261 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4097,7 +4113,7 @@ member:261 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119296010" .
 
-member:262 a <http://schema.org/Organization>;
+member:262 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4122,7 +4138,7 @@ member:262 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://pushfestival.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "829549948" .
 
-member:263 a <http://schema.org/Organization>;
+member:263 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "Stratford Summer Music"@en,
@@ -4134,7 +4150,7 @@ member:263 a <http://schema.org/Organization>;
   ];
   capacoa:memberTerminationDate "2021-04-01" .
 
-member:264 a <http://schema.org/Organization>;
+member:264 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/name> "CINARS"@fr,
@@ -4142,7 +4158,7 @@ member:264 a <http://schema.org/Organization>;
     "CINARS";
   <http://schema.org/url> <https://cinars.org/cinars> .
 
-member:265 a <http://schema.org/Organization>;
+member:265 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4188,7 +4204,7 @@ member:265 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "135529949" .
 
-member:266 a <http://schema.org/Organization>;
+member:266 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4217,7 +4233,7 @@ member:266 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "118833532" .
 
-member:267 a <http://schema.org/Organization>;
+member:267 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4249,7 +4265,7 @@ member:267 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://bocadellupo.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "899497127" .
 
-member:269 a <http://schema.org/Organization>;
+member:269 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4312,7 +4328,7 @@ member:27 a schema:Person;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "867993495" .
 
-member:270 a <http://schema.org/Organization>;
+member:270 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4347,7 +4363,7 @@ member:270 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "822475729" .
 
-member:271 a <http://schema.org/Organization>;
+member:271 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -4432,7 +4448,7 @@ member:274 <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:Genres_vis,
     capacoa:Genres_you .
 
-member:275 a <http://schema.org/Organization>;
+member:275 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4471,7 +4487,7 @@ member:275 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "120549795" .
 
-member:276 a <http://schema.org/Organization>;
+member:276 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4513,7 +4529,7 @@ member:276 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "851639054" .
 
-member:277 a <http://schema.org/Organization>;
+member:277 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4544,7 +4560,7 @@ member:277 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "888532231" .
 
-member:278 a <http://schema.org/Organization>;
+member:278 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -4564,7 +4580,7 @@ member:278 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5187>;
   <http://schema.org/url> <https://inverso.ca> .
 
-member:279 a <http://schema.org/Organization>;
+member:279 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4596,7 +4612,7 @@ member:279 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://threeleftfeet.ca/index.html>;
   <http://www.wikidata.org/prop/direct/P8860> "867083859" .
 
-member:28 a <http://schema.org/Organization>;
+member:28 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -4619,7 +4635,7 @@ member:28 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://stounion.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "890739139" .
 
-member:280 a <http://schema.org/Organization>;
+member:280 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
@@ -4635,7 +4651,7 @@ member:280 a <http://schema.org/Organization>;
     "Anandam";
   <http://schema.org/url> <https://www.anandam.ca> .
 
-member:281 a <http://schema.org/Organization>;
+member:281 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4664,7 +4680,7 @@ member:281 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107466575" .
 
-member:282 a <http://schema.org/Organization>;
+member:282 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4687,7 +4703,7 @@ member:282 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.thefranktheatre.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "861728061" .
 
-member:283 a <http://schema.org/Organization>;
+member:283 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -4709,7 +4725,7 @@ member:283 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K10-150>;
   <http://schema.org/url> <https://www.voyageursimmobiles.ca> .
 
-member:284 a <http://schema.org/Organization>;
+member:284 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
@@ -4734,7 +4750,7 @@ member:284 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://carrefourtheatre.qc.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "131668766" .
 
-member:285 a <http://schema.org/Organization>;
+member:285 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4774,7 +4790,7 @@ member:285 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "773201306" .
 
-member:286 a <http://schema.org/Organization>;
+member:286 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4809,7 +4825,7 @@ member:286 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "886363993" .
 
-member:287 a <http://schema.org/Organization>;
+member:287 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
@@ -4851,7 +4867,7 @@ member:288 <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.
   <http://schema.org/name> "Morgan Pannunzio"@en,
     "Morgan Pannunzio" .
 
-member:289 a <http://schema.org/Organization>;
+member:289 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4885,7 +4901,7 @@ member:289 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "867857641" .
 
-member:29 a <http://schema.org/Organization>;
+member:29 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -4909,7 +4925,7 @@ member:290 <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-
   <http://schema.org/name> "Julia Felgner"@en,
     "Julia Felgner" .
 
-member:291 a <http://schema.org/Organization>;
+member:291 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -4939,7 +4955,7 @@ member:291 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.violonsduroy.com/fr/>;
   <http://www.wikidata.org/prop/direct/P8860> "103309431" .
 
-member:292 a <http://schema.org/Organization>;
+member:292 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-v1\.1;
   <http://schema.org/alternateName> "APAP";
@@ -4951,7 +4967,7 @@ member:292 a <http://schema.org/Organization>;
 
 member:293 a schema:Person;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
-    capacoa:PrimaryActivity_prod,
+    capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_the;
   <http://schema.org/address> [
@@ -4961,8 +4977,10 @@ member:293 a schema:Person;
     <http://schema.org/addressRegion> "ON"
   ];
   <http://schema.org/hasOccupation> <http://www.wikidata.org/entity/Q15978655>;
+  <http://schema.org/identifier> "Q136471511";
   <http://schema.org/name> "Derrick Chua Entertainment"@en,
     "Derrick Chua Entertainment";
+  <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-6126>;
   <http://schema.org/url> <http://derrickchua.com/> .
 
 member:294 a schema:Person;
@@ -4982,7 +5000,7 @@ member:294 a schema:Person;
     "Njo Kong Kie";
   <http://schema.org/url> <http://musicpicnic.com> .
 
-member:295 a <http://schema.org/Organization>;
+member:295 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5008,7 +5026,7 @@ member:296 <http://schema.org/additionalType> capacoa:TermsConditions_agree-v1\.
   <http://schema.org/name> "Gary Mandin"@en,
     "Gary Mandin" .
 
-member:297 a <http://schema.org/Organization>;
+member:297 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5056,7 +5074,7 @@ member:298 <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:Genres_the,
     capacoa:Genres_var .
 
-member:299 a <http://schema.org/Organization>;
+member:299 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5087,7 +5105,7 @@ member:299 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://raagmala.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "119108264" .
 
-member:30 a <http://schema.org/Organization>;
+member:30 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5109,7 +5127,7 @@ member:30 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.youwillloveitlive.com>;
   <http://www.wikidata.org/prop/direct/P8860> "260719133" .
 
-member:300 a <http://schema.org/Organization>;
+member:300 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5130,7 +5148,7 @@ member:300 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://ottawamic.com>;
   <http://www.wikidata.org/prop/direct/P8860> "807305966" .
 
-member:301 a <http://schema.org/Organization>;
+member:301 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Corporation-\(for-profit\),
@@ -5153,7 +5171,7 @@ member:301 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://agencebam.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "829464122" .
 
-member:302 a <http://schema.org/Organization>;
+member:302 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -5169,7 +5187,7 @@ member:302 a <http://schema.org/Organization>;
     "A Yarn Or Two Arts Collective";
   <http://schema.org/url> <https://www.kirkdunn.com/> .
 
-member:303 a <http://schema.org/Organization>;
+member:303 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5209,7 +5227,7 @@ member:303 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://skam.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "868484627" .
 
-member:304 a <http://schema.org/Organization>;
+member:304 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5290,7 +5308,7 @@ member:307 a schema:Person;
     "Crazy Smooth";
   <http://schema.org/url> <https://bboyizm.ca/> .
 
-member:308 a <http://schema.org/Organization>;
+member:308 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5326,7 +5344,7 @@ member:309 a schema:Person;
     "Bria Rose";
   <http://schema.org/url> <http://www.briarosemusic.com> .
 
-member:31 a <http://schema.org/Organization>;
+member:31 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_trai,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5370,7 +5388,7 @@ member:310 a schema:Person;
     "Travis Dolter";
   <http://schema.org/url> <https://travisdolter.com/> .
 
-member:311 a <http://schema.org/Organization>;
+member:311 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5392,7 +5410,7 @@ member:311 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.rapail.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "732655477" .
 
-member:312 a <http://schema.org/Organization>;
+member:312 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5437,7 +5455,7 @@ member:312 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "770577203" .
 
-member:313 a <http://schema.org/Organization>;
+member:313 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_soci,
     capacoa:TermsConditions_agree-v1\.1,
@@ -5463,7 +5481,7 @@ member:313 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.oshawa.ca/en/parks-recreation-and-culture/city-events.aspx>
   ] .
 
-member:314 a <http://schema.org/Organization>;
+member:314 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
@@ -5494,7 +5512,7 @@ member:315 a schema:Person;
     "Scarlett Butler";
   <http://schema.org/url> <https://scarlettbutler.com/> .
 
-member:316 a <http://schema.org/Organization>;
+member:316 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5533,7 +5551,7 @@ member:316 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107868705" .
 
-member:317 a <http://schema.org/Organization>;
+member:317 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5578,7 +5596,7 @@ member:317 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107857146" .
 
-member:318 a <http://schema.org/Organization>;
+member:318 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5613,7 +5631,7 @@ member:319 a schema:Person;
     "Troubadours and Vagabonds Productions";
   <http://schema.org/url> <https://troubadoursandvagabonds.com/> .
 
-member:32 a <http://schema.org/Organization>;
+member:32 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5646,7 +5664,7 @@ member:32 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://underthespire.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "894496231" .
 
-member:320 a <http://schema.org/Organization>;
+member:320 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5687,7 +5705,7 @@ member:320 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "873300495" .
 
-member:321 a <http://schema.org/Organization>;
+member:321 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5730,7 +5748,7 @@ member:321 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "805742897" .
 
-member:322 a <http://schema.org/Organization>;
+member:322 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_mus,
@@ -5748,7 +5766,7 @@ member:322 a <http://schema.org/Organization>;
     "Chimerik";
   <http://schema.org/url> <https://chimerik.com> .
 
-member:323 a <http://schema.org/Organization>;
+member:323 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5798,7 +5816,7 @@ member:323 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.centrecultureludes.ca/programmation/>
   ] .
 
-member:324 a <http://schema.org/Organization>;
+member:324 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5838,7 +5856,7 @@ member:324 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://saultctc.ca/upcoming-events/>
   ] .
 
-member:325 a <http://schema.org/Organization>;
+member:325 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
@@ -5855,7 +5873,7 @@ member:325 a <http://schema.org/Organization>;
     "Bling Square Events by NH";
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K2-5955> .
 
-member:326 a <http://schema.org/Organization>;
+member:326 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -5920,7 +5938,7 @@ member:328 a schema:Person;
     "Charity Chan";
   <http://schema.org/url> <https://www.charitychan.com> .
 
-member:329 a <http://schema.org/Organization>;
+member:329 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -5969,7 +5987,7 @@ member:329 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "121391882" .
 
-member:33 a <http://schema.org/Organization>;
+member:33 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6013,7 +6031,7 @@ member:33 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "132514829" .
 
-member:330 a <http://schema.org/Organization>;
+member:330 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.1;
@@ -6082,7 +6100,7 @@ member:334 <http://schema.org/additionalType> capacoa:TermsConditions_agree-and-
   <http://schema.org/name> "Dessa Hayes"@en,
     "Dessa Hayes" .
 
-member:335 a <http://schema.org/Organization>;
+member:335 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6113,7 +6131,7 @@ member:335 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.lspuhall.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "119117349" .
 
-member:336 a <http://schema.org/Organization>;
+member:336 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6143,7 +6161,7 @@ member:336 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.petittheatre.qc.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "123045510" .
 
-member:34 a <http://schema.org/Organization>;
+member:34 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
@@ -6172,7 +6190,7 @@ member:34 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "121683239";
   capacoa:memberTerminationDate "2022-04-01" .
 
-member:35 a <http://schema.org/Organization>;
+member:35 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6207,7 +6225,7 @@ member:35 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.harbourfronttheatre.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "887829463" .
 
-member:36 a <http://schema.org/Organization>;
+member:36 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6231,7 +6249,7 @@ member:36 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://ontariopresents.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "000775083" .
 
-member:37 a <http://schema.org/Organization>;
+member:37 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6255,7 +6273,7 @@ member:37 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "769076126";
   capacoa:memberTerminationDate "2022-04-01" .
 
-member:38 a <http://schema.org/Organization>;
+member:38 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6279,7 +6297,7 @@ member:38 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "828087932" .
 
-member:39 a <http://schema.org/Organization>;
+member:39 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6323,7 +6341,7 @@ member:39 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "839007432" .
 
-member:40 a <http://schema.org/Organization>;
+member:40 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6362,7 +6380,7 @@ member:40 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "106930258" .
 
-member:42 a <http://schema.org/Organization>;
+member:42 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6395,7 +6413,7 @@ member:42 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.wpccaconcert.org>;
   <http://www.wikidata.org/prop/direct/P8860> "122349186" .
 
-member:43 a <http://schema.org/Organization>;
+member:43 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6433,7 +6451,7 @@ member:43 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "894811058" .
 
-member:44 a <http://schema.org/Organization>;
+member:44 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6461,7 +6479,7 @@ member:44 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.prismaticfestival.com>;
   <http://www.wikidata.org/prop/direct/P8860> "832876916" .
 
-member:45 a <http://schema.org/Organization>;
+member:45 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Corporation-\(for-profit\),
@@ -6481,7 +6499,7 @@ member:45 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "801228875";
   capacoa:memberTerminationDate "2024-03-31" .
 
-member:46 a <http://schema.org/Organization>;
+member:46 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6506,7 +6524,7 @@ member:46 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "103480802" .
 
-member:47 a <http://schema.org/Organization>;
+member:47 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6532,7 +6550,7 @@ member:47 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "123763625" .
 
-member:48 a <http://schema.org/Organization>;
+member:48 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6569,7 +6587,7 @@ member:48 a <http://schema.org/Organization>;
     <http://schema.org/url> <https://www.horizonstage.com>
   ] .
 
-member:49 a <http://schema.org/Organization>;
+member:49 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6610,7 +6628,7 @@ member:49 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "132864414" .
 
-member:50 a <http://schema.org/Organization>;
+member:50 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6642,7 +6660,7 @@ member:50 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "886108919" .
 
-member:51 a <http://schema.org/Organization>;
+member:51 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6671,7 +6689,7 @@ member:51 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.propellerdance.com>;
   <http://www.wikidata.org/prop/direct/P8860> "857100556" .
 
-member:52 a <http://schema.org/Organization>;
+member:52 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6711,7 +6729,7 @@ member:52 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.firstontariopac.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "775203672" .
 
-member:53 a <http://schema.org/Organization>;
+member:53 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6765,7 +6783,7 @@ member:54 a <https://example.com/base/null>;
   <http://schema.org/name> "Gregory Saumier-Finch"@en,
     "Gregory Saumier-Finch" .
 
-member:55 a <http://schema.org/Organization>;
+member:55 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6805,7 +6823,7 @@ member:55 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.artsdrummondville.com/spectacles-drummondville/index.aspx>;
   <http://www.wikidata.org/prop/direct/P8860> "119382976" .
 
-member:56 a <http://schema.org/Organization>;
+member:56 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6846,7 +6864,7 @@ member:56 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119051407" .
 
-member:57 a <http://schema.org/Organization>;
+member:57 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6895,7 +6913,7 @@ member:57 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "119281574" .
 
-member:58 a <http://schema.org/Organization>;
+member:58 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -6935,7 +6953,7 @@ member:58 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "122686793" .
 
-member:59 a <http://schema.org/Organization>;
+member:59 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6966,7 +6984,7 @@ member:59 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "804203636";
   capacoa:memberTerminationDate "2023-01-03" .
 
-member:60 a <http://schema.org/Organization>;
+member:60 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
@@ -6984,7 +7002,7 @@ member:60 a <http://schema.org/Organization>;
     "The CanDance Network";
   <http://schema.org/url> <https://www.candance.ca/> .
 
-member:61 a <http://schema.org/Organization>;
+member:61 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7006,7 +7024,7 @@ member:61 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.latitude45arts.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "140017526" .
 
-member:62 a <http://schema.org/Organization>;
+member:62 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7041,7 +7059,7 @@ member:62 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "856431564" .
 
-member:63 a <http://schema.org/Organization>;
+member:63 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7071,7 +7089,7 @@ member:63 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.sparcperformingarts.com>;
   <http://www.wikidata.org/prop/direct/P8860> "742972532" .
 
-member:64 a <http://schema.org/Organization>;
+member:64 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7099,7 +7117,7 @@ member:64 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://bctouring.org/>;
   <http://www.wikidata.org/prop/direct/P8860> "106812223" .
 
-member:65 a <http://schema.org/Organization>;
+member:65 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7142,7 +7160,7 @@ member:65 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "505029306" .
 
-member:66 a <http://schema.org/Organization>;
+member:66 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7164,7 +7182,7 @@ member:66 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.boulevart.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "858175607" .
 
-member:67 a <http://schema.org/Organization>;
+member:67 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7191,7 +7209,7 @@ member:67 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "121425995";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:68 a <http://schema.org/Organization>;
+member:68 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7238,7 +7256,7 @@ member:68 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://example.com/base/www.spec.qc.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "113117410" .
 
-member:69 a <http://schema.org/Organization>;
+member:69 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7284,7 +7302,7 @@ member:7 a <https://example.com/base/null>;
   <http://schema.org/name> "Frédéric Julien"@en,
     "Frédéric Julien" .
 
-member:70 a <http://schema.org/Organization>;
+member:70 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
@@ -7301,7 +7319,7 @@ member:70 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://strategicmoves.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "827533761" .
 
-member:71 a <http://schema.org/Organization>;
+member:71 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7331,7 +7349,7 @@ member:71 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.chamberfest.com/>;
   <http://www.wikidata.org/prop/direct/P8860> "897274437" .
 
-member:72 a <http://schema.org/Organization>;
+member:72 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
@@ -7365,7 +7383,7 @@ member:72 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "118520725" .
 
-member:73 a <http://schema.org/Organization>;
+member:73 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7403,7 +7421,7 @@ member:73 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://example.com/base/naccnt.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "119059814" .
 
-member:74 a <http://schema.org/Organization>;
+member:74 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7429,7 +7447,7 @@ member:74 a <http://schema.org/Organization>;
   <http://schema.org/sameAs> <http://kg.artsdata.ca/resource/K14-48>;
   <http://schema.org/url> <https://fortstjohn.ca> .
 
-member:75 a <http://schema.org/Organization>;
+member:75 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7471,7 +7489,7 @@ member:75 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "127727444" .
 
-member:76 a <http://schema.org/Organization>;
+member:76 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7497,7 +7515,7 @@ member:76 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "868387770" .
 
-member:77 a <http://schema.org/Organization>;
+member:77 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7520,7 +7538,7 @@ member:77 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://example.com/base/www.missionfolkmusicfestival.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "128544509" .
 
-member:78 a <http://schema.org/Organization>;
+member:78 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7546,7 +7564,7 @@ member:78 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "860891381" .
 
-member:80 a <http://schema.org/Organization>;
+member:80 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7575,7 +7593,7 @@ member:80 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://example.com/base/innerfishperformance.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "000056551" .
 
-member:81 a <http://schema.org/Organization>;
+member:81 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7619,7 +7637,7 @@ member:81 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "130877855" .
 
-member:82 a <http://schema.org/Organization>;
+member:82 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7690,7 +7708,7 @@ member:83 a schema:Person;
   <http://www.wikidata.org/prop/direct/P8860> "703674929";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:84 a <http://schema.org/Organization>;
+member:84 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7719,7 +7737,7 @@ member:84 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.decidedlyjazz.com>;
   <http://www.wikidata.org/prop/direct/P8860> "118883545" .
 
-member:85 a <http://schema.org/Organization>;
+member:85 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
@@ -7737,7 +7755,7 @@ member:85 a <http://schema.org/Organization>;
   <http://schema.org/url> <http://www.okeefeacoustics.com/>;
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:86 a <http://schema.org/Organization>;
+member:86 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7764,7 +7782,7 @@ member:86 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.strada.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "123456789" .
 
-member:87 a <http://schema.org/Organization>;
+member:87 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7808,7 +7826,7 @@ member:87 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107336612" .
 
-member:88 a <http://schema.org/Organization>;
+member:88 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7831,7 +7849,7 @@ member:88 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "139033096";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:89 a <http://schema.org/Organization>;
+member:89 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7862,7 +7880,7 @@ member:89 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "857321242" .
 
-member:90 a <http://schema.org/Organization>;
+member:90 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7904,7 +7922,7 @@ member:90 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "107566218" .
 
-member:91 a <http://schema.org/Organization>;
+member:91 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7925,7 +7943,7 @@ member:91 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://famgroup.ca>;
   <http://www.wikidata.org/prop/direct/P8860> "895399756" .
 
-member:92 a <http://schema.org/Organization>;
+member:92 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -7959,7 +7977,7 @@ member:92 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "880760913" .
 
-member:93 a <http://schema.org/Organization>;
+member:93 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -7981,7 +7999,7 @@ member:93 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://www.ffdnorth.com>;
   <http://www.wikidata.org/prop/direct/P8860> "842701179" .
 
-member:94 a <http://schema.org/Organization>;
+member:94 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
@@ -8003,7 +8021,7 @@ member:94 a <http://schema.org/Organization>;
   <http://schema.org/url> <https://fullcircle.ca/>;
   <http://www.wikidata.org/prop/direct/P8860> "134191816" .
 
-member:95 a <http://schema.org/Organization>;
+member:95 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -8020,7 +8038,7 @@ member:95 a <http://schema.org/Organization>;
     "Modern Classic Theatre";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:96 a <http://schema.org/Organization>;
+member:96 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -8046,7 +8064,7 @@ member:96 a <http://schema.org/Organization>;
   ];
   <http://www.wikidata.org/prop/direct/P8860> "798264263" .
 
-member:97 a <http://schema.org/Organization>;
+member:97 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
@@ -8086,7 +8104,7 @@ member:97 a <http://schema.org/Organization>;
   <http://www.wikidata.org/prop/direct/P8860> "816143689";
   capacoa:memberTerminationDate "2023-04-01" .
 
-member:98 a <http://schema.org/Organization>;
+member:98 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_asso,
     capacoa:TermsConditions_agree-and-disclose-v1\.1;
   <http://schema.org/alternateName> "Association RIDEAU";
@@ -8096,7 +8114,7 @@ member:98 a <http://schema.org/Organization>;
     "RIDEAU";
   <http://schema.org/url> <https://associationrideau.ca/fr> .
 
-member:99 a <http://schema.org/Organization>;
+member:99 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1,
