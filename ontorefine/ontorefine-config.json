@@ -77,37 +77,35 @@
       "starred": true,
       "description": "Star rows"
     },
-    [
-      {
-        "op": "core/row-star",
-        "engineConfig": {
-          "facets": [
-            {
-              "type": "list",
-              "name": "_ - usermeta - MemberTerminationDate",
-              "expression": "isBlank(value)",
-              "columnName": "_ - usermeta - MemberTerminationDate",
-              "invert": false,
-              "omitBlank": false,
-              "omitError": false,
-              "selection": [
-                {
-                  "v": {
-                    "v": false,
-                    "l": "false"
-                  }
+    {
+      "op": "core/row-star",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - usermeta - MemberTerminationDate",
+            "expression": "isBlank(value)",
+            "columnName": "_ - usermeta - MemberTerminationDate",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
                 }
-              ],
-              "selectBlank": false,
-              "selectError": false
-            }
-          ],
-          "mode": "record-based"
-        },
-        "starred": true,
-        "description": "Star rows"
-      }
-    ],
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "starred": true,
+      "description": "Star rows"
+    },
     {
       "op": "core/row-removal",
       "engineConfig": {
