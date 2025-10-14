@@ -6,13 +6,13 @@
         "_"
       ],
       "limit": -1,
-      "trimStrings": false,
+      "trimStrings": true,
       "guessCellValueTypes": false,
       "storeEmptyStrings": false,
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "cli-transform-members.json-2025-08-29",
+      "projectName": "cli-transform-members.json-2025-10-14",
       "projectTags": [],
       "fileSource": "members.json",
       "archiveFileName": null
@@ -20,13 +20,90 @@
   ],
   "operations": [
     {
-      "op": "core/fill-down",
+      "op": "core/row-star",
       "engineConfig": {
-        "facets": [],
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - usermeta - terms_conditions",
+            "expression": "value",
+            "columnName": "_ - usermeta - terms_conditions",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "do not agree (v1.1)",
+                  "l": "do not agree (v1.1)"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
         "mode": "record-based"
       },
-      "columnName": "_ - id",
-      "description": "Fill down cells in column _ - id"
+      "starred": true,
+      "description": "Star rows"
+    },
+    {
+      "op": "core/row-star",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - usermeta - type",
+            "expression": "value",
+            "columnName": "_ - usermeta - type",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "null",
+                  "l": "null"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "starred": true,
+      "description": "Star rows"
+    },
+    {
+      "op": "core/row-removal",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "Starred Rows",
+            "expression": "row.starred",
+            "columnName": "",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": true,
+                  "l": "true"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "description": "Remove rows"
     },
     {
       "op": "mapping-editor/save-rdf-mapping",
@@ -216,7 +293,8 @@
                       "type": "language_literal",
                       "language": {
                         "valueSource": {
-                          "source": "row_index"
+                          "source": "column",
+                          "columnName": "_ - usermeta - legal_name_language"
                         },
                         "transformation": {
                           "language": "grel",
@@ -241,11 +319,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "if(cells['_ - schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name1'].value, cells[\"_ - name\"].value)"
+                      "source": "column",
+                      "columnName": "_ - usermeta - operating_name1"
                     },
                     "valueType": {
                       "type": "language_literal",
@@ -262,11 +337,8 @@
                   },
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "if(cells['_ - schema_type'].value == \"Organization\" ,cells['_ - usermeta - operating_name2'].value, cells[\"_ - name\"].value)"
+                      "source": "column",
+                      "columnName": "_ - usermeta - operating_name2"
                     },
                     "valueType": {
                       "type": "language_literal",
@@ -528,7 +600,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace( cells[\"_ - usermeta - presenting_format\"].value, \" \", \"+\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace( cells[\"_ - usermeta - presenting_format\"].value, \" \", \"-\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -940,63 +1012,6 @@
         ]
       },
       "description": "Save RDF Mapping"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "list",
-            "name": "_ - usermeta - terms_conditions",
-            "expression": "value",
-            "columnName": "_ - usermeta - terms_conditions",
-            "invert": true,
-            "omitBlank": false,
-            "omitError": false,
-            "selection": [
-              {
-                "v": {
-                  "v": "do not agree (v1.1)",
-                  "l": "do not agree (v1.1)"
-                }
-              }
-            ],
-            "selectBlank": false,
-            "selectError": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "columnName": "_ - usermeta - terms_conditions",
-      "description": "Fill down cells in column _ - usermeta - terms_conditions"
-    },
-    {
-      "op": "core/row-removal",
-      "engineConfig": {
-        "facets": [
-          {
-            "type": "list",
-            "name": "_ - usermeta - terms_conditions",
-            "expression": "value",
-            "columnName": "_ - usermeta - terms_conditions",
-            "invert": false,
-            "omitBlank": false,
-            "omitError": false,
-            "selection": [
-              {
-                "v": {
-                  "v": "do not agree (v1.1)",
-                  "l": "do not agree (v1.1)"
-                }
-              }
-            ],
-            "selectBlank": false,
-            "selectError": false
-          }
-        ],
-        "mode": "row-based"
-      },
-      "description": "Remove rows"
     }
   ]
 }
