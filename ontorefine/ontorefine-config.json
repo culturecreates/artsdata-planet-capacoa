@@ -20,6 +20,15 @@
   ],
   "operations": [
     {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - id",
+      "description": "Fill down cells in column _ - id"
+    },
+    {
       "op": "core/row-star",
       "engineConfig": {
         "facets": [
