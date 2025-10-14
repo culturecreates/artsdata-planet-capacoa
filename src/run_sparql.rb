@@ -3,6 +3,7 @@ require 'sparql'
 
 
 graph = RDF::Graph.load("ontorefine-output.ttl")
+graph << RDF::Graph.load("controlled-vocabulary/capacoa-controlled-vocab-skos.ttl")
 file = File.read("capacoa-infer-presenter-type.sparql")
 graph.query(SPARQL.parse(file, update: true))
 prefixes = {
