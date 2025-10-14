@@ -72,7 +72,8 @@ member:103 a schema:Organization;
 member:104 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -86,7 +87,8 @@ member:104 a schema:Organization;
 
 member:105 a schema:Organization;
   <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/legalName> "Alianait Entertainment Group"@en;
   <http://schema.org/name> "Alianait Arts Festival"@en,
     "Alianait Arts Festival";
@@ -98,7 +100,8 @@ member:106 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -117,7 +120,8 @@ member:107 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -169,7 +173,8 @@ member:11 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -202,7 +207,8 @@ member:110 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -230,7 +236,8 @@ member:111 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -325,7 +332,8 @@ member:12 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -398,7 +406,8 @@ member:122 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -443,7 +452,8 @@ member:126 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -482,7 +492,8 @@ member:13 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -516,7 +527,8 @@ member:130 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -566,7 +578,8 @@ member:132 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -600,7 +613,8 @@ member:133 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -641,7 +655,8 @@ member:134 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -672,7 +687,8 @@ member:135 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -707,7 +723,8 @@ member:138 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -739,7 +756,8 @@ member:139 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -759,7 +777,8 @@ member:14 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -844,7 +863,8 @@ member:143 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -875,7 +895,8 @@ member:145 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -918,7 +939,8 @@ member:148 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1085,7 +1107,8 @@ member:156 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1149,7 +1172,8 @@ member:159 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1179,7 +1203,8 @@ member:16 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1253,7 +1278,8 @@ member:163 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1286,7 +1312,8 @@ member:164 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1321,7 +1348,8 @@ member:165 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1380,7 +1408,8 @@ member:167 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1500,7 +1529,8 @@ member:174 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1537,7 +1567,8 @@ member:175 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1586,7 +1617,8 @@ member:18 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1624,7 +1656,8 @@ member:181 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1656,7 +1689,8 @@ member:186 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1711,7 +1745,8 @@ member:192 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1744,7 +1779,8 @@ member:193 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1777,7 +1813,8 @@ member:194 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1807,7 +1844,8 @@ member:195 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -1972,7 +2010,8 @@ member:204 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2006,7 +2045,8 @@ member:205 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2049,7 +2089,8 @@ member:208 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Educational-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2080,7 +2121,8 @@ member:208 a schema:Organization;
 member:209 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
-    capacoa:CharitableStatus_Charitable-organization;
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/alternateName> "TD Winnipeg International Jazz Festival";
   <http://schema.org/name> "Jazz Winnipeg"@en,
     "Jazz Winnipeg";
@@ -2091,14 +2133,16 @@ member:209 a schema:Organization;
   ] .
 
 member:210 a schema:Organization;
-  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/name> "Theatre Wakefield"@en,
     "Théâtre Wakefield"@fr,
     "Theatre Wakefield";
   <http://schema.org/url> <https://theatrewakefield.ca/> .
 
 member:212 a schema:Organization;
-  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/name> "Le Conseil des Arts de Hearst"@fr,
     "Le Conseil des Arts de Hearst";
   <http://schema.org/url> <https://www.conseildesartsdehearst.ca/>, [
@@ -2108,7 +2152,8 @@ member:212 a schema:Organization;
   ] .
 
 member:213 a schema:Organization;
-  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/location> [
     a <http://schema.org/Role>;
     <http://schema.org/location> [
@@ -2122,7 +2167,8 @@ member:213 a schema:Organization;
   <http://schema.org/url> <https://artsandculturecentre.com> .
 
 member:215 a schema:Organization;
-  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres;
+  <http://schema.org/additionalType> capacoa:PrimaryActivity_pres,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/name> "Place des Arts"@fr,
     "Place des Arts";
   <http://schema.org/url> <https://placedesarts.com>, [
@@ -2176,7 +2222,8 @@ member:219 a schema:Organization;
   <http://schema.org/additionalType> capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2196,7 +2243,8 @@ member:22 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2229,7 +2277,8 @@ member:220 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2251,7 +2300,8 @@ member:222 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2279,7 +2329,8 @@ member:224 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2359,7 +2410,8 @@ member:229 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2544,7 +2596,8 @@ member:24 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2596,7 +2649,8 @@ member:242 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2630,7 +2684,8 @@ member:243 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2688,7 +2743,8 @@ member:248 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2803,7 +2859,8 @@ member:253 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2833,7 +2890,8 @@ member:255 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2859,7 +2917,8 @@ member:256 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2947,7 +3006,8 @@ member:26 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -2985,7 +3045,8 @@ member:261 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3019,7 +3080,8 @@ member:262 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3046,7 +3108,8 @@ member:265 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3081,7 +3144,8 @@ member:266 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3135,7 +3199,8 @@ member:269 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3194,7 +3259,8 @@ member:270 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3229,7 +3295,8 @@ member:271 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3291,7 +3358,8 @@ member:275 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3326,7 +3394,8 @@ member:276 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3360,7 +3429,8 @@ member:277 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3470,7 +3540,8 @@ member:281 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3533,7 +3604,8 @@ member:284 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3554,7 +3626,8 @@ member:285 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3588,7 +3661,8 @@ member:286 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3620,7 +3694,8 @@ member:287 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3782,7 +3857,8 @@ member:295 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3805,7 +3881,8 @@ member:297 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -3840,7 +3917,8 @@ member:299 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4152,7 +4230,8 @@ member:312 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4237,7 +4316,8 @@ member:316 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4271,7 +4351,8 @@ member:317 a schema:Organization;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4347,7 +4428,8 @@ member:32 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4377,7 +4459,8 @@ member:320 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4412,7 +4495,8 @@ member:321 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4459,7 +4543,8 @@ member:323 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4500,7 +4585,8 @@ member:324 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4600,7 +4686,8 @@ member:329 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4642,7 +4729,8 @@ member:33 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4734,7 +4822,8 @@ member:335 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4793,7 +4882,8 @@ member:35 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4864,7 +4954,8 @@ member:39 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4898,7 +4989,8 @@ member:40 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4961,7 +5053,8 @@ member:43 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -4996,7 +5089,8 @@ member:44 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5066,7 +5160,8 @@ member:48 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5099,7 +5194,8 @@ member:49 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5187,7 +5283,8 @@ member:52 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5259,7 +5356,8 @@ member:55 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5288,7 +5386,8 @@ member:56 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Federal-government,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5323,7 +5422,8 @@ member:57 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5365,7 +5465,8 @@ member:58 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5509,7 +5610,8 @@ member:65 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.0,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5564,7 +5666,8 @@ member:68 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5649,7 +5752,8 @@ member:71 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5678,7 +5782,8 @@ member:72 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
     capacoa:TermsConditions_agree-v1\.0,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5748,7 +5853,8 @@ member:74 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5769,7 +5875,8 @@ member:75 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5828,7 +5935,8 @@ member:77 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.0,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "US";
@@ -5849,7 +5957,8 @@ member:78 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5895,7 +6004,8 @@ member:81 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series-festival;
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -5980,7 +6090,8 @@ member:87 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6037,7 +6148,8 @@ member:90 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6092,7 +6204,8 @@ member:92 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival;
+    capacoa:PresentingFormat_festival,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6125,7 +6238,8 @@ member:93 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_festival-series;
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6147,7 +6261,8 @@ member:94 a schema:Organization;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series-festival-equal;
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6166,7 +6281,8 @@ member:96 a schema:Organization;
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.1,
-    capacoa:PresentingFormat_series;
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
@@ -6193,3 +6309,272 @@ member:98 a schema:Organization;
     "RIDEAU"@en,
     "RIDEAU";
   <http://schema.org/url> <https://associationrideau.ca/fr> .
+
+capacoa:Genres_var a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "var";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "variety"@en,
+    "variétés"@fr .
+
+capacoa:Genres_vis a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "vis";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "visual arts"@en,
+    "arts visuels"@fr .
+
+capacoa:LegalForm_Corporation-for-profit a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "corporation for profit"@en .
+
+capacoa:PresenterType_Multidisciplinary a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresenterType;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "multi-disciplinary"@en,
+    "pluridisciplinaire"@fr;
+  <http://www.w3.org/ns/prov#wasGeneratedBy> [
+    <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
+    <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
+  ] .
+
+capacoa:PrimaryActivity_labo a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You regulate labour relations between unionized employees and employers"@en,
+    "Vous régissez les relations de travail entre employés syndiqués et employeurs"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "labo";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "promoting employees' interests"@en,
+    "promotion des intérêts d'employés"@fr .
+
+capacoa:TermsConditions_do-not-agree-v1\.1 a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:TermsConditions;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "did not agree with the terms of the open data strategy"@en .
+
+capacoa:Genres_you a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "you";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "young audience/family"@en,
+    "jeune public/famille"@fr .
+
+capacoa:LegalForm_Federal-government a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "federal government"@en .
+
+capacoa:LegalForm_Provincial-or-territorial-government a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "provincial or territorial government"@en .
+
+capacoa:PrimaryActivity_gran a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You offer financial assistance to support cultural activities"@en,
+    "Vous donnez de l'aide financière afin de soutenir des activités culturelles"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "gran";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#note> "Grant-making. Excludes public administration"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "grant-making"@en,
+    "octroi d'aide financière"@fr .
+
+capacoa:PrimaryActivity_trai a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You provide instruction in dance, drama, music or other technical/professional skills in the arts"@en,
+    "Vous donnez une formation dans la danse, l'art dramatique, la musique ou autres compétences techniques/professionnelles dans le domaine des arts"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "trai";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#note> "training/education"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "training/educating students"@en,
+    "formation des étudiants"@fr .
+
+capacoa:CharitableStatus a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Charitable Status"@en .
+
+capacoa:LegalForm_Other-type-of-legal-entity a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "other type of legal entity"@en .
+
+capacoa:PresenterType a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Presenter Type"@en .
+
+capacoa:LegalForm_Educational-organization a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "educational organization"@en .
+
+capacoa:Genres_film a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "film";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "film"@en,
+    "film"@fr .
+
+capacoa:Genres_oth a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "oth";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "other performing arts"@en,
+    "autres arts de la scène"@fr .
+
+capacoa:TermsConditions a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Open Data Strategy Consent Options"@en .
+
+capacoa:TermsConditions_agree-v1\.0 a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:TermsConditions;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "open data strategy terms basic consent"@en .
+
+capacoa:Genres_mus-th a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "mus-th";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "musical theatre/opera"@en,
+    "théâtre musical/opéra"@fr .
+
+capacoa:PresentingFormat a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "If a presenting organization, how are your arts presenting activities organized?"@en .
+
+capacoa:PrimaryActivity_othe a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You do not fit other primary activity descriptions"@en,
+    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "othe";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "providing other arts services"@en,
+    "fourniture d'autres services des arts"@fr .
+
+capacoa:LegalForm_Sole-proprietorship a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "sole proprietorship"@en .
+
+capacoa:TermsConditions_agree-and-disclose-v1\.0 a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:TermsConditions;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "open data strategy extended consent"@en .
+
+capacoa:LegalForm a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Legal Form"@en .
+
+capacoa:PrimaryActivity a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Primary Activity of Organization"@en .
+
+capacoa:Genres_the a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "the";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "theatre/spoken word"@en,
+    "théâtre/arts de la parole"@fr .
+
+capacoa:PresentingFormat_occasional a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "occasional";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "occasional presentations/one-offs"@en,
+    "présentations occasionnelles/événements uniques"@fr .
+
+capacoa:PresentingFormat_series-festival-equal a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "series-festival-equal";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "series and festival, equally"@en,
+    "série et festival, également"@fr .
+
+capacoa:PresentingFormat_festival a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "festival";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "festival"@en,
+    "festival"@fr .
+
+capacoa:Genres a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
+
+capacoa:PresentingFormat_series-festival a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "series-festival";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "series (mainly) plus festival"@en,
+    "série (principalement) et festival"@fr .
+
+capacoa:PresentingFormat_festival-series a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "series-festival";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "festival (mainly) plus series"@en,
+    "festival (principalement) et série"@fr .
+
+capacoa:LegalForm_Municipal-corporation a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "municipal organization"@en .
+
+capacoa:PrimaryActivity_agen a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
+    "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "agen";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#note> "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "representing performing artists, groups or companies"@en,
+    "représentation d'artistes, de groupes ou de compagnies"@fr .
+
+capacoa:Genres_com a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "com";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "comedy"@en,
+    "humour"@fr .
+
+capacoa:PrimaryActivity_asso a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
+    "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "asso";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "providing services to individual and/or organizational members"@en,
+    "fourniture de services aux membres individuels et/ou organisationnels"@fr .
+
+capacoa:Genres_mus a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "mus";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "music"@en,
+    "musique"@fr .
+
+capacoa:PrimaryActivity_prod a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You create and perform your own theatrical and/or dance productions, concerts, or other performing arts presentations"@en,
+    "Vous créez et interprétez vos propres productions de théâtre et/ou de danse, des concerts, ou d'autres présentations des arts de la scène"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "prod";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "creating/performing live productions"@en,
+    "création/interprétation de spectacles"@fr .
+
+capacoa:CharitableStatus_Not-a-charitable-organization a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:CharitableStatus;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "not a charitable organization"@en .
+
+capacoa:Genres_dan a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "dan";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "dance"@en,
+    "danse"@fr .
+
+capacoa:Genres_cir a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "cir";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:Genres;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "circus"@en,
+    "cirque"@fr .
+
+capacoa:PresentingFormat_series a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "series";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresentingFormat;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "series/season/regular presentations"@en,
+    "série/saison régulière de spectacles"@fr .
+
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:TermsConditions;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "open data strategy extended consent"@en .
+
+capacoa:CharitableStatus_Charitable-organization a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:CharitableStatus;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "charitable organization"@en .
+
+capacoa:PresenterType_Specialized a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PresenterType;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "specialized"@en,
+    "spécialisé"@fr;
+  <http://www.w3.org/ns/prov#wasGeneratedBy> [
+    <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
+    <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
+  ] .
+
+capacoa:PrimaryActivity_pres a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#definition> "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
+    "Vous organisez et/ou promouvez les spectacles qui sont crées par des autres, sois dans vos propres installations ou des installations exploitées par d'autres"@fr;
+  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "pres";
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:PrimaryActivity;
+  <http://www.w3.org/2004/02/skos/core#note> "The term 'promoter' is preferred in the live music industry, whereas presenter is preferred in the rest of the performing arts domain. From an economic perspective, it is however the same activity."@en;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "presenting/promoting live performances and/or operating venues"@en,
+    "présentation/promotion de spectacles et/ou gestion de lieux"@fr .
+
+capacoa:TermsConditions_agree-v1\.1 a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:TermsConditions;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "open data strategy terms basic consent"@en .
+
+capacoa:LegalForm_Not-for-profit-organization a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://www.w3.org/2004/02/skos/core#inScheme> capacoa:LegalForm;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "not for profit organization"@en .
