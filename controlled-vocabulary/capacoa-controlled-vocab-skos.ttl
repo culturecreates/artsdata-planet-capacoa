@@ -1,43 +1,234 @@
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .@prefix owl: <http://www.w3.org/2002/07/owl#> .@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .@prefix schema: <http://schema.org/> .@prefix skos: <http://www.w3.org/2004/02/skos/core#> .@prefix capacoa: <https://capacoa.ca/vocabulary#> .  capacoa:Genres a skos:ConceptScheme ; skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization." @en . capacoa:PresentingFormat a skos:ConceptScheme ; skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?" @en . capacoa:PrimaryActivity a skos:ConceptScheme ; skos:prefLabel "Primary Activity of Organization" @en . capacoa:PresenterType a skos:ConceptScheme ; skos:prefLabel "Presenter Type" @en . capacoa:CharitableStatus a skos:ConceptScheme ; skos:prefLabel "Charitable Status" @en . capacoa:LegalForm a skos:ConceptScheme ; skos:prefLabel "Legal Form" @en . capacoa:TermsConditions a skos:ConceptScheme ; skos:prefLabel "Open Data Strategy Consent Options" @en . 
-capacoa:Genres_cir  a skos:Concept   ; skos:prefLabel  "circus"@en  ;     skos:prefLabel  "cirque"@fr ; skos:hiddenLabel "cir"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_com  a skos:Concept   ; skos:prefLabel  "comedy"@en  ;     skos:prefLabel  "humour"@fr ; skos:hiddenLabel "com"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_dan  a skos:Concept   ; skos:prefLabel  "dance"@en  ;     skos:prefLabel  "danse"@fr ; skos:hiddenLabel "dan"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_film  a skos:Concept   ; skos:prefLabel  "film"@en  ;     skos:prefLabel  "film"@fr ; skos:hiddenLabel "film"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_mus  a skos:Concept   ; skos:prefLabel  "music"@en  ;     skos:prefLabel  "musique"@fr ; skos:hiddenLabel "mus"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_mus-th  a skos:Concept   ; skos:prefLabel  "musical theatre/opera"@en  ;     skos:prefLabel  "théâtre musical/opéra"@fr ; skos:hiddenLabel "mus-th"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_oth  a skos:Concept   ; skos:prefLabel  "other performing arts"@en  ;     skos:prefLabel  "autres arts de la scène"@fr ; skos:hiddenLabel "oth"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_the  a skos:Concept   ; skos:prefLabel  "theatre/spoken word"@en  ;     skos:prefLabel  "théâtre/arts de la parole"@fr ; skos:hiddenLabel "the"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_var  a skos:Concept   ; skos:prefLabel  "variety"@en  ;     skos:prefLabel  "variétés"@fr ; skos:hiddenLabel "var"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_vis  a skos:Concept   ; skos:prefLabel  "visual arts"@en  ;     skos:prefLabel  "arts visuels"@fr ; skos:hiddenLabel "vis"; skos:inScheme capacoa:Genres  . 
-capacoa:Genres_you  a skos:Concept   ; skos:prefLabel  "young audience/family"@en  ;     skos:prefLabel  "jeune public/famille"@fr ; skos:hiddenLabel "you"; skos:inScheme capacoa:Genres  . 
-capacoa:PresentingFormat_festival  a skos:Concept   ; skos:prefLabel  "festival"@en  ;     skos:prefLabel  "festival"@fr ; skos:hiddenLabel "festival"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PresentingFormat_festival-series  a skos:Concept   ; skos:prefLabel  "festival (mainly) plus series"@en  ;     skos:prefLabel  "festival (principalement) et série"@fr ; skos:hiddenLabel "series-festival"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PresentingFormat_occasional  a skos:Concept   ; skos:prefLabel  "occasional presentations/one-offs"@en  ;     skos:prefLabel  "présentations occasionnelles/événements uniques"@fr ; skos:hiddenLabel "occasional"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PresentingFormat_series  a skos:Concept   ; skos:prefLabel  "series/season/regular presentations"@en  ;     skos:prefLabel  "série/saison régulière de spectacles"@fr ; skos:hiddenLabel "series"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PresentingFormat_series-festival  a skos:Concept   ; skos:prefLabel  "series (mainly) plus festival"@en  ;     skos:prefLabel  "série (principalement) et festival"@fr ; skos:hiddenLabel "series-festival"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PresentingFormat_series-festival-equal  a skos:Concept   ; skos:prefLabel  "series and festival, equally"@en  ;     skos:prefLabel  "série et festival, également"@fr ; skos:hiddenLabel "series-festival-equal"; skos:inScheme capacoa:PresentingFormat  . 
-capacoa:PrimaryActivity_agen  a skos:Concept   ; skos:prefLabel  "representing performing artists, groups or companies"@en  ;     skos:prefLabel  "représentation d'artistes, de groupes ou de compagnies"@fr ; skos:hiddenLabel "agen"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en ;   skos:definition  "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr ;   skos:note  "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en   . 
-capacoa:PrimaryActivity_asso  a skos:Concept   ; skos:prefLabel  "providing services to individual and/or organizational members"@en  ;     skos:prefLabel  "fourniture de services aux membres individuels et/ou organisationnels"@fr ; skos:hiddenLabel "asso"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en ;   skos:definition  "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr   . 
-capacoa:PrimaryActivity_othe  a skos:Concept   ; skos:prefLabel  "providing other arts services"@en  ;     skos:prefLabel  "fourniture d'autres services des arts"@fr ; skos:hiddenLabel "othe"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You do not fit other primary activity descriptions"@en ;   skos:definition  "Vous ne correspondez à aucune des descriptions des activités principales"@fr   . 
-capacoa:PrimaryActivity_pres  a skos:Concept   ; skos:prefLabel  "presenting/promoting live performances and/or operating venues"@en  ;     skos:prefLabel  "présentation/promotion de spectacles et/ou gestion de lieux"@fr ; skos:hiddenLabel "pres"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en ;   skos:definition  "Vous organisez et/ou promouvez les spectacles qui sont crées par des autres, sois dans vos propres installations ou des installations exploitées par d'autres"@fr ;   skos:note  "The term 'promoter' is preferred in the live music industry, whereas presenter is preferred in the rest of the performing arts domain. From an economic perspective, it is however the same activity."@en   . 
-capacoa:PrimaryActivity_prod  a skos:Concept   ; skos:prefLabel  "creating/performing live productions"@en  ;     skos:prefLabel  "création/interprétation de spectacles"@fr ; skos:hiddenLabel "prod"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You create and perform your own theatrical and/or dance productions, concerts, or other performing arts presentations"@en ;   skos:definition  "Vous créez et interprétez vos propres productions de théâtre et/ou de danse, des concerts, ou d'autres présentations des arts de la scène"@fr   . 
-capacoa:PrimaryActivity_trai  a skos:Concept   ; skos:prefLabel  "training/educating students"@en  ;     skos:prefLabel  "formation des étudiants"@fr ; skos:hiddenLabel "trai"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You provide instruction in dance, drama, music or other technical/professional skills in the arts"@en ;   skos:definition  "Vous donnez une formation dans la danse, l'art dramatique, la musique ou autres compétences techniques/professionnelles dans le domaine des arts"@fr ;   skos:note  "training/education"@en   . 
-capacoa:PrimaryActivity_gran  a skos:Concept   ; skos:prefLabel  "grant-making"@en  ;     skos:prefLabel  "octroi d'aide financière"@fr ; skos:hiddenLabel "gran"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You offer financial assistance to support cultural activities"@en ;   skos:definition  "Vous donnez de l'aide financière afin de soutenir des activités culturelles"@fr ;   skos:note  "Grant-making. Excludes public administration"@en   . 
-capacoa:PrimaryActivity_labo  a skos:Concept   ; skos:prefLabel  "promoting employees' interests"@en  ;     skos:prefLabel  "promotion des intérêts d'employés"@fr ; skos:hiddenLabel "labo"; skos:inScheme capacoa:PrimaryActivity;   skos:definition  "You regulate labour relations between unionized employees and employers"@en ;   skos:definition  "Vous régissez les relations de travail entre employés syndiqués et employeurs"@fr   . 
-capacoa:PresenterType_Specialized  a skos:Concept   ; skos:prefLabel  "specialized"@en  ;     skos:prefLabel  "spécialisé"@fr ; skos:inScheme capacoa:PresenterType  . 
-capacoa:PresenterType_Multidisciplinary  a skos:Concept   ; skos:prefLabel  "multi-disciplinary"@en  ;     skos:prefLabel  "pluridisciplinaire"@fr ; skos:inScheme capacoa:PresenterType  . 
-capacoa:CharitableStatus_Charitable-organization  a skos:Concept   ; skos:prefLabel  "charitable organization"@en; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:CharitableStatus_Not-a-charitable-organization  a skos:Concept   ; skos:prefLabel  "not a charitable organization"@en; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:LegalForm_Not-for-profit-organization  a skos:Concept   ; skos:prefLabel  "not for profit organization"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Municipal-corporation  a skos:Concept   ; skos:prefLabel  "municipal organization"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Corporation-for-profit  a skos:Concept   ; skos:prefLabel  "corporation for profit"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Sole-proprietorship  a skos:Concept   ; skos:prefLabel  "sole proprietorship"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Other-type-of-legal-entity  a skos:Concept   ; skos:prefLabel  "other type of legal entity"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Federal-government  a skos:Concept   ; skos:prefLabel  "federal government"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Educational-organization  a skos:Concept   ; skos:prefLabel  "educational organization"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:LegalForm_Provincial-or-territorial-government  a skos:Concept   ; skos:prefLabel  "provincial or territorial government"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:TermsConditions_agree-v1.1  a skos:Concept   ; skos:prefLabel  "open data strategy terms basic consent"@en; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-v1.0  a skos:Concept   ; skos:prefLabel  "open data strategy terms basic consent"@en; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-and-disclose-v1.1  a skos:Concept   ; skos:prefLabel  "open data strategy extended consent"@en; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_do-not-agree-v1.1  a skos:Concept   ; skos:prefLabel  "did not agree with the terms of the open data strategy"@en; skos:inScheme capacoa:TermsConditions  . 
-capacoa:TermsConditions_agree-and-disclose-v1.0  a skos:Concept   ; skos:prefLabel  "open data strategy extended consent"@en; skos:inScheme capacoa:TermsConditions  . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix capacoa: <https://capacoa.ca/vocabulary#> .
+
+capacoa:CharitableStatus rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Charitable Status"@en .
+
+capacoa:CharitableStatus_Charitable-organization rdf:type skos:Concept ;
+	skos:inScheme capacoa:CharitableStatus ;
+	skos:prefLabel "charitable organization"@en .
+
+capacoa:CharitableStatus_Not-a-charitable-organization rdf:type skos:Concept ;
+	skos:inScheme capacoa:CharitableStatus ;
+	skos:prefLabel "not a charitable organization"@en .
+
+capacoa:Genres rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
+
+capacoa:Genres_cir rdf:type skos:Concept ;
+	skos:hiddenLabel "cir" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "circus"@en, "cirque"@fr .
+
+capacoa:Genres_com rdf:type skos:Concept ;
+	skos:hiddenLabel "com" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "comedy"@en, "humour"@fr .
+
+capacoa:Genres_dan rdf:type skos:Concept ;
+	skos:hiddenLabel "dan" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "dance"@en, "danse"@fr .
+
+capacoa:Genres_film rdf:type skos:Concept ;
+	skos:hiddenLabel "film" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "film"@en, "film"@fr .
+
+capacoa:Genres_mus rdf:type skos:Concept ;
+	skos:hiddenLabel "mus" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "music"@en, "musique"@fr .
+
+capacoa:Genres_mus-th rdf:type skos:Concept ;
+	skos:hiddenLabel "mus-th" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "musical theatre/opera"@en, "théâtre musical/opéra"@fr .
+
+capacoa:Genres_oth rdf:type skos:Concept ;
+	skos:hiddenLabel "oth" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "other performing arts"@en, "autres arts de la scène"@fr .
+
+capacoa:Genres_the rdf:type skos:Concept ;
+	skos:hiddenLabel "the" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "theatre/spoken word"@en, "théâtre/arts de la parole"@fr .
+
+capacoa:Genres_var rdf:type skos:Concept ;
+	skos:hiddenLabel "var" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "variety"@en, "variétés"@fr .
+
+capacoa:Genres_vis rdf:type skos:Concept ;
+	skos:hiddenLabel "vis" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "visual arts"@en, "arts visuels"@fr .
+
+capacoa:Genres_you rdf:type skos:Concept ;
+	skos:hiddenLabel "you" ;
+	skos:inScheme capacoa:Genres ;
+	skos:prefLabel "young audience/family"@en, "jeune public/famille"@fr .
+
+capacoa:LegalForm rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Legal Form"@en .
+
+capacoa:LegalForm_Corporation-for-profit rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "corporation for profit"@en .
+
+capacoa:LegalForm_Educational-organization rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "educational organization"@en .
+
+capacoa:LegalForm_Federal-government rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "federal government"@en .
+
+capacoa:LegalForm_Municipal-corporation rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "municipal organization"@en .
+
+capacoa:LegalForm_Not-for-profit-organization rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "not for profit organization"@en .
+
+capacoa:LegalForm_Other-type-of-legal-entity rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "other type of legal entity"@en .
+
+capacoa:LegalForm_Provincial-or-territorial-government rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "provincial or territorial government"@en .
+
+capacoa:LegalForm_Sole-proprietorship rdf:type skos:Concept ;
+	skos:inScheme capacoa:LegalForm ;
+	skos:prefLabel "sole proprietorship"@en .
+
+capacoa:PresenterType rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Presenter Type"@en .
+
+capacoa:PresenterType_Multidisciplinary rdf:type skos:Concept ;
+	skos:inScheme capacoa:PresenterType ;
+	skos:prefLabel "multi-disciplinary"@en, "pluridisciplinaire"@fr .
+
+capacoa:PresenterType_Specialized rdf:type skos:Concept ;
+	skos:inScheme capacoa:PresenterType ;
+	skos:prefLabel "specialized"@en, "spécialisé"@fr .
+
+capacoa:PresentingFormat rdf:type skos:ConceptScheme ;
+	skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
+
+capacoa:PresentingFormat_festival rdf:type skos:Concept ;
+	skos:hiddenLabel "festival" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "festival"@en, "festival"@fr .
+
+capacoa:PresentingFormat_festival-series rdf:type skos:Concept ;
+	skos:hiddenLabel "series-festival" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "festival (mainly) plus series"@en, "festival (principalement) et série"@fr .
+
+capacoa:PresentingFormat_occasional rdf:type skos:Concept ;
+	skos:hiddenLabel "occasional" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "occasional presentations/one-offs"@en, "présentations occasionnelles/événements uniques"@fr .
+
+capacoa:PresentingFormat_series rdf:type skos:Concept ;
+	skos:hiddenLabel "series" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "series/season/regular presentations"@en, "série/saison régulière de spectacles"@fr .
+
+capacoa:PresentingFormat_series-festival rdf:type skos:Concept ;
+	skos:hiddenLabel "series-festival" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "series (mainly) plus festival"@en, "série (principalement) et festival"@fr .
+
+capacoa:PresentingFormat_series-festival-equal rdf:type skos:Concept ;
+	skos:hiddenLabel "series-festival-equal" ;
+	skos:inScheme capacoa:PresentingFormat ;
+	skos:prefLabel "series and festival, equally"@en, "série et festival, également"@fr .
+
+capacoa:PrimaryActivity rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Primary Activity of Organization"@en .
+
+capacoa:PrimaryActivity_agen rdf:type skos:Concept ;
+	skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en, "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr ;
+	skos:hiddenLabel "agen" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:note "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en ;
+	skos:prefLabel "representing performing artists, groups or companies"@en, "représentation d'artistes, de groupes ou de compagnies"@fr .
+
+capacoa:PrimaryActivity_asso rdf:type skos:Concept ;
+	skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en, "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr ;
+	skos:hiddenLabel "asso" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:prefLabel "providing services to individual and/or organizational members"@en, "fourniture de services aux membres individuels et/ou organisationnels"@fr .
+
+capacoa:PrimaryActivity_gran rdf:type skos:Concept ;
+	skos:definition "You offer financial assistance to support cultural activities"@en, "Vous donnez de l'aide financière afin de soutenir des activités culturelles"@fr ;
+	skos:hiddenLabel "gran" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:note "Grant-making. Excludes public administration"@en ;
+	skos:prefLabel "grant-making"@en, "octroi d'aide financière"@fr .
+
+capacoa:PrimaryActivity_labo rdf:type skos:Concept ;
+	skos:definition "You regulate labour relations between unionized employees and employers"@en, "Vous régissez les relations de travail entre employés syndiqués et employeurs"@fr ;
+	skos:hiddenLabel "labo" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:prefLabel "promoting employees' interests"@en, "promotion des intérêts d'employés"@fr .
+
+capacoa:PrimaryActivity_othe rdf:type skos:Concept ;
+	skos:definition "You do not fit other primary activity descriptions"@en, "Vous ne correspondez à aucune des descriptions des activités principales"@fr ;
+	skos:hiddenLabel "othe" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:prefLabel "providing other arts services"@en, "fourniture d'autres services des arts"@fr .
+
+capacoa:PrimaryActivity_pres rdf:type skos:Concept ;
+	skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en, "Vous organisez et/ou promouvez les spectacles qui sont crées par des autres, sois dans vos propres installations ou des installations exploitées par d'autres"@fr ;
+	skos:hiddenLabel "pres" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:note "The term 'promoter' is preferred in the live music industry, whereas presenter is preferred in the rest of the performing arts domain. From an economic perspective, it is however the same activity."@en ;
+	skos:prefLabel "presenting/promoting live performances and/or operating venues"@en, "présentation/promotion de spectacles et/ou gestion de lieux"@fr .
+
+capacoa:PrimaryActivity_prod rdf:type skos:Concept ;
+	skos:definition "You create and perform your own theatrical and/or dance productions, concerts, or other performing arts presentations"@en, "Vous créez et interprétez vos propres productions de théâtre et/ou de danse, des concerts, ou d'autres présentations des arts de la scène"@fr ;
+	skos:hiddenLabel "prod" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:prefLabel "creating/performing live productions"@en, "création/interprétation de spectacles"@fr .
+
+capacoa:PrimaryActivity_trai rdf:type skos:Concept ;
+	skos:definition "You provide instruction in dance, drama, music or other technical/professional skills in the arts"@en, "Vous donnez une formation dans la danse, l'art dramatique, la musique ou autres compétences techniques/professionnelles dans le domaine des arts"@fr ;
+	skos:hiddenLabel "trai" ;
+	skos:inScheme capacoa:PrimaryActivity ;
+	skos:note "training/education"@en ;
+	skos:prefLabel "training/educating students"@en, "formation des étudiants"@fr .
+
+capacoa:TermsConditions rdf:type skos:ConceptScheme ;
+	skos:prefLabel "Open Data Strategy Consent Options"@en .
+
+capacoa:TermsConditions_agree-and-disclose-v1.0 rdf:type skos:Concept ;
+	skos:inScheme capacoa:TermsConditions ;
+	skos:prefLabel "open data strategy extended consent"@en .
+
+capacoa:TermsConditions_agree-and-disclose-v1.1 rdf:type skos:Concept ;
+	skos:inScheme capacoa:TermsConditions ;
+	skos:prefLabel "open data strategy extended consent"@en .
+
+capacoa:TermsConditions_agree-v1.0 rdf:type skos:Concept ;
+	skos:inScheme capacoa:TermsConditions ;
+	skos:prefLabel "open data strategy terms basic consent"@en .
+
+capacoa:TermsConditions_agree-v1.1 rdf:type skos:Concept ;
+	skos:inScheme capacoa:TermsConditions ;
+	skos:prefLabel "open data strategy terms basic consent"@en .
+
+capacoa:TermsConditions_do-not-agree-v1.1 rdf:type skos:Concept ;
+	skos:inScheme capacoa:TermsConditions ;
+	skos:prefLabel "did not agree with the terms of the open data strategy"@en .
+
