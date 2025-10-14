@@ -27,9 +27,7 @@ capacoa:PrimaryActivity_labo  a skos:Concept   ; skos:prefLabel  "promoting empl
 capacoa:PresenterType_Specialized  a skos:Concept   ; skos:prefLabel  "specialized"@en  ;     skos:prefLabel  "spécialisé"@fr ; skos:inScheme capacoa:PresenterType  . 
 capacoa:PresenterType_Multidisciplinary  a skos:Concept   ; skos:prefLabel  "multi-disciplinary"@en  ;     skos:prefLabel  "pluridisciplinaire"@fr ; skos:inScheme capacoa:PresenterType  . 
 capacoa:CharitableStatus_Charitable-organization  a skos:Concept   ; skos:prefLabel  "charitable organization"@en; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:CharitableStatus_empty  a skos:Concept   ; skos:prefLabel  "Charitable status not specified"@en; skos:hiddenLabel "empty"; skos:inScheme capacoa:CharitableStatus  . 
 capacoa:CharitableStatus_Not-a-charitable-organization  a skos:Concept   ; skos:prefLabel  "not a charitable organization"@en; skos:inScheme capacoa:CharitableStatus  . 
-capacoa:LegalForm_empty  a skos:Concept   ; skos:prefLabel  "Legal form not specified"@en; skos:hiddenLabel "empty"; skos:inScheme capacoa:LegalForm  . 
 capacoa:LegalForm_Not-for-profit-organization  a skos:Concept   ; skos:prefLabel  "not for profit organization"@en; skos:inScheme capacoa:LegalForm  . 
 capacoa:LegalForm_Municipal-corporation  a skos:Concept   ; skos:prefLabel  "municipal organization"@en; skos:inScheme capacoa:LegalForm  . 
 capacoa:LegalForm_Corporation-for-profit  a skos:Concept   ; skos:prefLabel  "corporation for profit"@en; skos:inScheme capacoa:LegalForm  . 
@@ -38,7 +36,6 @@ capacoa:LegalForm_Other-type-of-legal-entity  a skos:Concept   ; skos:prefLabel 
 capacoa:LegalForm_Federal-government  a skos:Concept   ; skos:prefLabel  "federal government"@en; skos:inScheme capacoa:LegalForm  . 
 capacoa:LegalForm_Educational-organization  a skos:Concept   ; skos:prefLabel  "educational organization"@en; skos:inScheme capacoa:LegalForm  . 
 capacoa:LegalForm_Provincial-or-territorial-government  a skos:Concept   ; skos:prefLabel  "provincial or territorial government"@en; skos:inScheme capacoa:LegalForm  . 
-capacoa:TermsConditions_empty  a skos:Concept   ; skos:prefLabel  "data sharing terms and conditions not specified"@en; skos:hiddenLabel "empty"; skos:inScheme capacoa:TermsConditions  . 
 capacoa:TermsConditions_agree-v1.1  a skos:Concept   ; skos:prefLabel  "open data strategy terms basic consent"@en; skos:inScheme capacoa:TermsConditions  . 
 capacoa:TermsConditions_agree-v1.0  a skos:Concept   ; skos:prefLabel  "open data strategy terms basic consent"@en; skos:inScheme capacoa:TermsConditions  . 
 capacoa:TermsConditions_agree-and-disclose-v1.1  a skos:Concept   ; skos:prefLabel  "open data strategy extended consent"@en; skos:inScheme capacoa:TermsConditions  . 
