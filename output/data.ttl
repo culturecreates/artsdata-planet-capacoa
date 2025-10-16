@@ -4454,11 +4454,33 @@ member:297 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "122781040" .
 
-member:298 schema:additionalType capacoa:Genres_dan,
+member:298 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_asso,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_do-not-agree-v1\.2,
+    capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
-    capacoa:Genres_var .
+    capacoa:Genres_var;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Winnipeg";
+    schema:addressRegion "MB"
+  ];
+  schema:alternateName "RGE";
+  schema:legalName "Réseau des grands espaces"@fr;
+  schema:name "Réseau des grands espaces"@fr,
+    "Réseau des grands espaces";
+  schema:url <https://www.reseaugrandsespaces.ca>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.reseaugrandsespaces.ca>
+  ];
+  wikidata_property:\/P8860 "543820000" .
 
 member:299 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -5513,7 +5535,7 @@ member:336 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -5534,8 +5556,43 @@ member:336 a <https://schema.org/Organization>;
   ];
   schema:name "Le Petit Théâtre de Sherbrooke"@fr,
     "Le Petit Théâtre de Sherbrooke";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-425>;
   schema:url <https://www.petittheatre.qc.ca/>;
   wikidata_property:\/P8860 "123045510" .
+
+member:337 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:LegalForm_Educational-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_occasional,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_var,
+    capacoa:Genres_you;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Hamilton";
+    schema:addressRegion "ON"
+  ];
+  schema:identifier "Q136510155";
+  schema:legalName "Mohawk College"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q135903549";
+      schema:name "Mohawk College"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "McIntyre Performing Arts Centre"@en,
+    "McIntyre Performing Arts Centre";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6145>;
+  schema:url <https://mcintyrepac.ca/> .
 
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -7323,12 +7380,6 @@ capacoa:LegalForm a skos:ConceptScheme;
 capacoa:PrimaryActivity a skos:ConceptScheme;
   skos:prefLabel "Primary Activity of Organization"@en .
 
-capacoa:PresentingFormat_occasional a skos:Concept;
-  skos:hiddenLabel "occasional";
-  skos:inScheme capacoa:PresentingFormat;
-  skos:prefLabel "occasional presentations/one-offs"@en,
-    "présentations occasionnelles/événements uniques"@fr .
-
 capacoa:PresentingFormat_series-festival-equal a skos:Concept;
   skos:hiddenLabel "series-festival-equal";
   skos:inScheme capacoa:PresentingFormat;
@@ -7340,6 +7391,12 @@ capacoa:PresentingFormat_festival a skos:Concept;
   skos:inScheme capacoa:PresentingFormat;
   skos:prefLabel "festival"@en,
     "festival"@fr .
+
+capacoa:PresentingFormat_occasional a skos:Concept;
+  skos:hiddenLabel "occasional";
+  skos:inScheme capacoa:PresentingFormat;
+  skos:prefLabel "occasional presentations/one-offs"@en,
+    "présentations occasionnelles/événements uniques"@fr .
 
 capacoa:Genres a skos:ConceptScheme;
   skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
@@ -7469,6 +7526,12 @@ capacoa:CharitableStatus_Charitable-organization a skos:Concept;
   skos:inScheme capacoa:CharitableStatus;
   skos:prefLabel "charitable organization"@en .
 
+capacoa:Genres_the a skos:Concept;
+  skos:hiddenLabel "the";
+  skos:inScheme capacoa:Genres;
+  skos:prefLabel "theatre/spoken word"@en,
+    "théâtre/arts de la parole"@fr .
+
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
     "Vous organisez et/ou promouvez les spectacles qui sont crées par des autres, sois dans vos propres installations ou des installations exploitées par d'autres"@fr;
@@ -7477,12 +7540,6 @@ capacoa:PrimaryActivity_pres a skos:Concept;
   skos:note "The term 'promoter' is preferred in the live music industry, whereas presenter is preferred in the rest of the performing arts domain. From an economic perspective, it is however the same activity."@en;
   skos:prefLabel "presenting/promoting live performances and/or operating venues"@en,
     "présentation/promotion de spectacles et/ou gestion de lieux"@fr .
-
-capacoa:Genres_the a skos:Concept;
-  skos:hiddenLabel "the";
-  skos:inScheme capacoa:Genres;
-  skos:prefLabel "theatre/spoken word"@en,
-    "théâtre/arts de la parole"@fr .
 
 capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
