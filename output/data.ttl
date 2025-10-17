@@ -5450,9 +5450,11 @@ member:330 a <https://schema.org/Organization>;
   schema:name "Compagnie La Otra Orilla";
   schema:url <https://laotraorilla.net> .
 
-member:331 a <https://schema.org/Person>;
+member:331 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:PrimaryActivity_agen,
+    capacoa:LegalForm_Sole-proprietorship,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th;
   schema:address [
     a schema:PostalAddress;
@@ -5460,8 +5462,12 @@ member:331 a <https://schema.org/Person>;
     schema:addressLocality "Ottawa";
     schema:addressRegion "ON"
   ];
+  schema:alternateName "TAM";
   schema:hasOccupation wikidata_entity:Q3104508;
-  schema:name "Truant Artist Management (TAM)";
+  schema:identifier "Q135989032";
+  schema:name "Truant Artist Management"@en,
+    "Truant Artist Management";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6083>;
   schema:url <https://www.truantartistmanagement.com/> .
 
 member:332 a <https://schema.org/Person>;
@@ -7366,16 +7372,16 @@ capacoa:PrimaryActivity_othe a skos:Concept;
   skos:prefLabel "providing other arts services"@en,
     "fourniture d'autres services des arts"@fr .
 
-capacoa:LegalForm_Sole-proprietorship a skos:Concept;
-  skos:inScheme capacoa:LegalForm;
-  skos:prefLabel "sole proprietorship"@en .
-
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
 capacoa:LegalForm a skos:ConceptScheme;
   skos:prefLabel "Legal Form"@en .
+
+capacoa:LegalForm_Sole-proprietorship a skos:Concept;
+  skos:inScheme capacoa:LegalForm;
+  skos:prefLabel "sole proprietorship"@en .
 
 capacoa:PrimaryActivity a skos:ConceptScheme;
   skos:prefLabel "Primary Activity of Organization"@en .
