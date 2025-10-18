@@ -5600,6 +5600,20 @@ member:337 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6145>;
   schema:url <https://mcintyrepac.ca/> .
 
+member:338 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "SA";
+    schema:addressLocality "Al Khobar";
+    schema:addressRegion "Easternn"
+  ];
+  schema:hasOccupation wikidata_entity:Q483501;
+  schema:name "Aleem Zafar";
+  schema:url <https://www.aleemzafar.com> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
