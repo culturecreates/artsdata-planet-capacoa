@@ -5,6 +5,8 @@
 @prefix wikidata_entity: <http://www.wikidata.org/entity/> .
 @prefix wikidata_property: <http://www.wikidata.org/prop/direct> .
 
+member:1 schema:name "admin" .
+
 member:100 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
@@ -547,6 +549,8 @@ member:126 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-110>;
   schema:url <https://intrepidtheatre.com/>;
   wikidata_property:\/P8860 "123822777" .
+
+member:128 schema:name "Dessa Hayes" .
 
 member:129 schema:additionalType capacoa:Genres_film,
     capacoa:Genres_oth .
@@ -1826,6 +1830,8 @@ member:175 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119216406" .
 
+member:176 schema:name "Orchestras Canada" .
+
 member:179 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_asso;
   schema:name "Le Regroupement artistique francophone de l'Alberta"@en,
@@ -2193,6 +2199,9 @@ member:199 a <https://schema.org/Organization>;
   schema:url <https://sursaut.ca/>;
   wikidata_property:\/P8860 "132417098" .
 
+member:2 schema:additionalType capacoa:TermsConditions_agree-v1\.0;
+  schema:name "CAPACOA" .
+
 member:200 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
@@ -2434,6 +2443,8 @@ member:209 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
   ] .
+
+member:21 schema:name "Chandel Gambles" .
 
 member:210 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
@@ -2718,6 +2729,8 @@ member:225 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-170>;
   schema:url <https://terrabruce.com>;
   wikidata_property:\/P8860 "765940515" .
+
+member:227 schema:name "Victoria Del Mastro" .
 
 member:228 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_oth,
@@ -5614,6 +5627,104 @@ member:338 a <https://schema.org/Person>;
   schema:name "Aleem Zafar";
   schema:url <https://www.aleemzafar.com> .
 
+member:339 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Kitchener";
+    schema:addressRegion "ON"
+  ];
+  schema:alternateName "CITS";
+  schema:legalName "Centre In The Square Inc."@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Centre In The Square"
+    ];
+    schema:roleName "Resident organization"
+  ];
+  schema:name "Centre In The Square"@en,
+    "Centre In The Square";
+  schema:url <https://centreinthesquare.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://centreinthesquare.com/event/>
+  ] .
+
+member:340 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Montréal";
+    schema:addressRegion "QC"
+  ];
+  schema:alternateName "Groupe Le Vivier";
+  schema:legalName "Le Vivier"@fr;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Espace Wilder"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Saint-Hilda, espace sonore"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Le Vivier"@fr,
+    "Le Vivier"@en,
+    "Le Vivier";
+  schema:url <https://levivier.ca/fr>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://levivier.ca/fr/concerts/saison-2025-26>
+  ];
+  wikidata_property:\/P8860 "892658253" .
+
+member:341 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_vis,
+    capacoa:Genres_you;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Rosemère";
+    schema:addressRegion "QC"
+  ];
+  schema:hasOccupation wikidata_entity:Q55107540;
+  schema:name "Percumédia";
+  schema:url <https://percumedia.com> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -6171,6 +6282,8 @@ member:53 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119036044" .
 
+member:54 schema:name "Gregory Saumier-Finch" .
+
 member:55 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -6637,6 +6750,8 @@ member:69 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K10-42>;
   schema:url <http://www.crowstheatre.com>;
   wikidata_property:\/P8860 "118880475" .
+
+member:7 schema:name "Frédéric Julien" .
 
 member:70 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_othe,
@@ -7371,10 +7486,6 @@ capacoa:LegalForm_Educational-organization a skos:Concept;
 capacoa:TermsConditions a skos:ConceptScheme;
   skos:prefLabel "Open Data Strategy Consent Options"@en .
 
-capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy terms basic consent"@en .
-
 capacoa:PresentingFormat a skos:ConceptScheme;
   skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
 
@@ -7385,6 +7496,10 @@ capacoa:PrimaryActivity_othe a skos:Concept;
   skos:inScheme capacoa:PrimaryActivity;
   skos:prefLabel "providing other arts services"@en,
     "fourniture d'autres services des arts"@fr .
+
+capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy terms basic consent"@en .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
@@ -7400,12 +7515,6 @@ capacoa:LegalForm_Sole-proprietorship a skos:Concept;
 capacoa:PrimaryActivity a skos:ConceptScheme;
   skos:prefLabel "Primary Activity of Organization"@en .
 
-capacoa:PresentingFormat_series-festival-equal a skos:Concept;
-  skos:hiddenLabel "series-festival-equal";
-  skos:inScheme capacoa:PresentingFormat;
-  skos:prefLabel "series and festival, equally"@en,
-    "série et festival, également"@fr .
-
 capacoa:PresentingFormat_festival a skos:Concept;
   skos:hiddenLabel "festival";
   skos:inScheme capacoa:PresentingFormat;
@@ -7417,6 +7526,12 @@ capacoa:PresentingFormat_occasional a skos:Concept;
   skos:inScheme capacoa:PresentingFormat;
   skos:prefLabel "occasional presentations/one-offs"@en,
     "présentations occasionnelles/événements uniques"@fr .
+
+capacoa:PresentingFormat_series-festival-equal a skos:Concept;
+  skos:hiddenLabel "series-festival-equal";
+  skos:inScheme capacoa:PresentingFormat;
+  skos:prefLabel "series and festival, equally"@en,
+    "série et festival, également"@fr .
 
 capacoa:Genres a skos:ConceptScheme;
   skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
@@ -7520,15 +7635,15 @@ capacoa:PresenterType_Multidisciplinary a skos:Concept;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
 
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy extended consent"@en .
+
 capacoa:Genres_mus-th a skos:Concept;
   skos:hiddenLabel "mus-th";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "musical theatre/opera"@en,
     "théâtre musical/opéra"@fr .
-
-capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy extended consent"@en .
 
 capacoa:Genres_oth a skos:Concept;
   skos:hiddenLabel "oth";
