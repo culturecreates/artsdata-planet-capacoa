@@ -5,8 +5,6 @@
 @prefix wikidata_entity: <http://www.wikidata.org/entity/> .
 @prefix wikidata_property: <http://www.wikidata.org/prop/direct> .
 
-member:1 schema:name "admin" .
-
 member:100 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
@@ -72,12 +70,6 @@ member:102 a <https://schema.org/Organization>;
   schema:url <https://www.aimbookingagency.com/>;
   wikidata_property:\/P8860 "751675695" .
 
-member:103 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_agen;
-  schema:name "Kids and Then Some (KATS)"@en,
-    "Kids and Then Some (KATS)";
-  schema:url <https://www.katskids.com/> .
-
 member:104 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -94,15 +86,6 @@ member:104 a <https://schema.org/Organization>;
   schema:name "Riverfront InterArts"@en,
     "Riverfront InterArts";
   schema:url <https://www.riverfrontinterarts.ca/> .
-
-member:105 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:PresentingFormat_festival-series,
-    capacoa:PresenterType_Specialized;
-  schema:legalName "Alianait Entertainment Group"@en;
-  schema:name "Alianait Arts Festival"@en,
-    "Alianait Arts Festival";
-  schema:url <https://alianait.ca/> .
 
 member:106 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -280,17 +263,6 @@ member:111 a <https://schema.org/Organization>;
   schema:url <https://www.newworks.ca/>;
   wikidata_property:\/P8860 "890250178" .
 
-member:112 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod,
-    capacoa:CharitableStatus_Charitable-organization;
-  schema:alternateName "New Vintage Theatre Society";
-  schema:identifier "Q112572963";
-  schema:name "New Vintage Theatre"@en,
-    "New Vintage Theatre";
-  schema:url <https://newvintagetheatre.com/>;
-  wikidata_property:\/P8860 "808134241" .
-
 member:114 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
@@ -316,9 +288,6 @@ member:114 a <https://schema.org/Organization>;
   schema:name "BAM! Baird Artists Management"@en,
     "BAM! Baird Artists Management";
   schema:url <http://www.bairdartists.com/> .
-
-member:116 schema:additionalType capacoa:Genres_the,
-    capacoa:Genres_you .
 
 member:117 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_agen,
@@ -549,11 +518,6 @@ member:126 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-110>;
   schema:url <https://intrepidtheatre.com/>;
   wikidata_property:\/P8860 "123822777" .
-
-member:128 schema:name "Dessa Hayes" .
-
-member:129 schema:additionalType capacoa:Genres_film,
-    capacoa:Genres_oth .
 
 member:13 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -823,9 +787,6 @@ member:135 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "122702319" .
 
-member:136 schema:additionalType capacoa:Genres_mus-th,
-    capacoa:Genres_oth .
-
 member:138 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -924,12 +885,6 @@ member:14 a <https://schema.org/Organization>;
   schema:url <https://dancehouse.ca/>;
   wikidata_property:\/P8860 "861284255" .
 
-member:140 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_mus,
-    capacoa:Genres_oth,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
-
 member:141 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
@@ -1023,11 +978,6 @@ member:143 a <https://schema.org/Organization>;
   schema:url <https://ottawafringe.com/>;
   wikidata_property:\/P8860 "897771721" .
 
-member:144 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_the .
-
 member:145 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -1051,15 +1001,6 @@ member:145 a <https://schema.org/Organization>;
     "FTA";
   schema:url <https://fta.ca/>;
   wikidata_property:\/P8860 "101787554" .
-
-member:146 schema:additionalType capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_oth,
-    capacoa:Genres_the,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
 
 member:147 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -1686,8 +1627,6 @@ member:17 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "107803389" .
 
-member:170 schema:additionalType capacoa:Genres_mus .
-
 member:172 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -1830,15 +1769,6 @@ member:175 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119216406" .
 
-member:176 schema:name "Orchestras Canada" .
-
-member:179 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_asso;
-  schema:name "Le Regroupement artistique francophone de l'Alberta"@en,
-    "Le Regroupement artistique francophone de l'Alberta";
-  schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "received PCBP in 23/24 season."@en .
-
 member:18 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -1962,9 +1892,6 @@ member:186 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://tixx.ca/#top>
   ] .
-
-member:188 a <https://schema.org/Organization>;
-  schema:name "Kings Playhouse" .
 
 member:19 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -2152,24 +2079,6 @@ member:195 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "843116484" .
 
-member:196 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod,
-    capacoa:Genres_mus,
-    capacoa:Genres_the,
-    capacoa:Genres_you;
-  schema:name "Red Sky Performance"@en,
-    "Red Sky Performance";
-  schema:url <https://www.redskyperformance.com/> .
-
-member:197 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_asso;
-  schema:alternateName "Made in BC - Dance on Tour";
-  schema:name "Dance West Network"@en,
-    "Dance West Network";
-  schema:url <https://dancewest.net/> .
-
 member:199 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
@@ -2198,9 +2107,6 @@ member:199 a <https://schema.org/Organization>;
     "Sursaut";
   schema:url <https://sursaut.ca/>;
   wikidata_property:\/P8860 "132417098" .
-
-member:2 schema:additionalType capacoa:TermsConditions_agree-v1\.0;
-  schema:name "CAPACOA" .
 
 member:200 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -2261,18 +2167,6 @@ member:201 a <https://schema.org/Organization>;
     schema:url <https://www.artstouring.com/>
   ];
   wikidata_property:\/P8860 "127116242" .
-
-member:202 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso;
-  schema:alternateName "Debut Atlantic";
-  schema:name "Debut Atlantic Society"@en,
-    "Debut Atlantic Society";
-  schema:url <https://www.debutatlantic.ca/>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://www.debutatlantic.ca/concerts>
-  ] .
 
 member:203 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -2383,16 +2277,6 @@ member:205 a <https://schema.org/Organization>;
     schema:url <https://tohu.ca/en/season/shows?type=events>
   ] .
 
-member:207 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_asso;
-  schema:name "BC Alliance for Arts + Culture"@en,
-    "BC Alliance for Arts + Culture";
-  schema:url <https://www.allianceforarts.com/>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://www.allianceforarts.com/whats-on>
-  ] .
-
 member:208 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -2429,70 +2313,6 @@ member:208 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.dal.ca/dept/arts-centre/events-schedule.html>
   ] .
-
-member:209 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_pres,
-    capacoa:CharitableStatus_Charitable-organization,
-    capacoa:PresenterType_Specialized;
-  schema:alternateName "TD Winnipeg International Jazz Festival";
-  schema:name "Jazz Winnipeg"@en,
-    "Jazz Winnipeg";
-  schema:url <https://www.jazzwinnipeg.com/>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
-  ] .
-
-member:21 schema:name "Chandel Gambles" .
-
-member:210 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:PresenterType_Specialized;
-  schema:name "Theatre Wakefield"@en,
-    "Théâtre Wakefield"@fr,
-    "Theatre Wakefield";
-  schema:url <https://theatrewakefield.ca/> .
-
-member:212 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:PresenterType_Specialized;
-  schema:name "Le Conseil des Arts de Hearst"@fr,
-    "Le Conseil des Arts de Hearst";
-  schema:url <https://www.conseildesartsdehearst.ca/>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://www.conseildesartsdehearst.ca/evenements>
-  ] .
-
-member:213 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:PresenterType_Specialized;
-  schema:location [
-    a schema:Role;
-    schema:location [
-      a schema:Place;
-      schema:name "Six different Arts and Culture Centress"
-    ];
-    schema:roleName "Owner"
-  ];
-  schema:name "Arts and Culture Centres"@en,
-    "Arts and Culture Centres";
-  schema:url <https://artsandculturecentre.com> .
-
-member:215 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:PresenterType_Specialized;
-  schema:name "Place des Arts"@fr,
-    "Place des Arts";
-  schema:url <https://placedesarts.com>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://placedesarts.com/fr/evenements>
-  ] .
-
-member:216 schema:additionalType capacoa:Genres_oth,
-    capacoa:Genres_vis .
 
 member:217 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -2619,17 +2439,6 @@ member:220 a <https://schema.org/Organization>;
   schema:url <https://luminatofestival.com>;
   wikidata_property:\/P8860 "811637347" .
 
-member:221 schema:additionalType capacoa:Genres_com,
-    capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_oth,
-    capacoa:Genres_the,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
-
 member:222 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -2729,8 +2538,6 @@ member:225 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-170>;
   schema:url <https://terrabruce.com>;
   wikidata_property:\/P8860 "765940515" .
-
-member:227 schema:name "Victoria Del Mastro" .
 
 member:228 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_oth,
@@ -2865,9 +2672,6 @@ member:232 a <https://schema.org/Person>;
   schema:name "Valerie Buddle";
   schema:url <https://www.lepatinlibre.com/en> .
 
-member:233 schema:additionalType capacoa:Genres_oth,
-    capacoa:Genres_the .
-
 member:234 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
@@ -2889,10 +2693,6 @@ member:234 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5178>;
   schema:url <https://nadereartsvivants.com/>;
   wikidata_property:\/P8860 "834007775" .
-
-member:235 schema:additionalType capacoa:Genres_mus,
-    capacoa:Genres_oth,
-    capacoa:Genres_var .
 
 member:236 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
@@ -3005,12 +2805,6 @@ member:24 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119118875" .
 
-member:240 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_oth,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
-
 member:241 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
@@ -3112,11 +2906,6 @@ member:243 a <https://schema.org/Organization>;
   schema:url <https://www.dancevictoria.com>;
   wikidata_property:\/P8860 "873775522" .
 
-member:244 schema:additionalType capacoa:Genres_mus,
-    capacoa:Genres_vis .
-
-member:246 schema:additionalType capacoa:Genres_you .
-
 member:247 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_you,
     capacoa:PrimaryActivity_agen,
@@ -3188,10 +2977,6 @@ member:248 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://tickets.brampton.ca/Online/default.asp>
   ] .
-
-member:249 schema:additionalType capacoa:Genres_mus,
-    capacoa:Genres_var,
-    capacoa:Genres_vis .
 
 member:25 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -3446,8 +3231,6 @@ member:258 a <https://schema.org/Organization>;
   schema:url <https://sqxdance.org>;
   wikidata_property:\/P8860 "813604683" .
 
-member:259 schema:name "Dorian VL Jensen" .
-
 member:26 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -3484,9 +3267,6 @@ member:26 a <https://schema.org/Organization>;
     schema:url <https://www.centrekabir.com/events/>
   ];
   wikidata_property:\/P8860 "809771470" .
-
-member:260 a <https://schema.org/Person>;
-  schema:name "Lynne Bailey" .
 
 member:261 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -3554,12 +3334,6 @@ member:262 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-190>;
   schema:url <https://pushfestival.ca/>;
   wikidata_property:\/P8860 "829549948" .
-
-member:264 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_othe;
-  schema:name "CINARS"@fr,
-    "CINARS";
-  schema:url <https://cinars.org/cinars> .
 
 member:265 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -3839,17 +3613,6 @@ member:273 a <https://schema.org/Person>;
   schema:identifier "Q128034482";
   schema:name "Meagan O'Shea";
   schema:url <Http://www.standupdance.com> .
-
-member:274 schema:additionalType capacoa:Genres_com,
-    capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_oth,
-    capacoa:Genres_the,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
 
 member:275 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -4270,8 +4033,6 @@ member:287 a <https://schema.org/Organization>;
     schema:url <http://www.orilliaoperahouse.ca/en/Events.aspx>
   ] .
 
-member:288 schema:name "Morgan Pannunzio" .
-
 member:289 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
@@ -4324,8 +4085,6 @@ member:29 a <https://schema.org/Organization>;
   schema:name "Felix Productions"@en,
     "Felix Productions";
   schema:url <https://bboyizm.ca/> .
-
-member:290 schema:name "Julia Felgner" .
 
 member:291 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -4422,8 +4181,6 @@ member:295 a <https://schema.org/Organization>;
   schema:url <https://quartiersdanses.com/>;
   wikidata_property:\/P8860 "893331165" .
 
-member:296 schema:name "Gary Mandin" .
-
 member:297 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -4465,34 +4222,6 @@ member:297 a <https://schema.org/Organization>;
     schema:url <https://www.wmca.ca/events>
   ];
   wikidata_property:\/P8860 "122781040" .
-
-member:298 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_cir,
-    capacoa:PrimaryActivity_asso,
-    capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_do-not-agree-v1\.2,
-    capacoa:Genres_dan,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_the,
-    capacoa:Genres_var;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Winnipeg";
-    schema:addressRegion "MB"
-  ];
-  schema:alternateName "RGE";
-  schema:legalName "Réseau des grands espaces"@fr;
-  schema:name "Réseau des grands espaces"@fr,
-    "Réseau des grands espaces";
-  schema:url <https://www.reseaugrandsespaces.ca>, [
-    a schema:Role;
-    schema:roleName "Events Webpage";
-    schema:url <https://www.reseaugrandsespaces.ca>
-  ];
-  wikidata_property:\/P8860 "543820000" .
 
 member:299 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -5514,8 +5243,6 @@ member:333 a <https://schema.org/Person>;
   schema:name "Meghan Moe Beitiks";
   schema:url <https://www.meghanmoebeitiks.com/> .
 
-member:334 schema:name "Dessa Hayes" .
-
 member:335 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_pres,
@@ -5822,11 +5549,6 @@ member:36 a <https://schema.org/Organization>;
     "Ontario Presents";
   schema:url <https://ontariopresents.ca/>;
   wikidata_property:\/P8860 "000775083" .
-
-member:37 schema:additionalType capacoa:Genres_mus,
-    capacoa:Genres_oth,
-    capacoa:Genres_the,
-    capacoa:Genres_you .
 
 member:38 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
@@ -6320,8 +6042,6 @@ member:53 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119036044" .
 
-member:54 schema:name "Gregory Saumier-Finch" .
-
 member:55 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -6694,13 +6414,6 @@ member:66 a <https://schema.org/Organization>;
   schema:url <https://www.boulevart.ca/>;
   wikidata_property:\/P8860 "858175607" .
 
-member:67 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
-
 member:68 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -6788,8 +6501,6 @@ member:69 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K10-42>;
   schema:url <http://www.crowstheatre.com>;
   wikidata_property:\/P8860 "118880475" .
-
-member:7 schema:name "Frédéric Julien" .
 
 member:70 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_othe,
@@ -7133,15 +6844,6 @@ member:81 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "130877855" .
 
-member:82 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_the,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
-
 member:84 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
@@ -7241,9 +6943,6 @@ member:87 a <https://schema.org/Organization>;
     schema:url <https://theactmapleridge.org/act-presents>
   ];
   wikidata_property:\/P8860 "107336612" .
-
-member:88 schema:additionalType capacoa:Genres_oth,
-    capacoa:Genres_you .
 
 member:89 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -7420,8 +7119,6 @@ member:94 a <https://schema.org/Organization>;
   schema:url <https://fullcircle.ca/>;
   wikidata_property:\/P8860 "134191816" .
 
-member:95 schema:additionalType capacoa:Genres_the .
-
 member:96 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -7448,12 +7145,6 @@ member:96 a <https://schema.org/Organization>;
     schema:url <https://windintheleavescollective.com/>
   ];
   wikidata_property:\/P8860 "798264263" .
-
-member:97 schema:additionalType capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_vis,
-    capacoa:Genres_you .
 
 member:98 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_asso,
@@ -7521,12 +7212,6 @@ capacoa:LegalForm_Educational-organization a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "educational organization"@en .
 
-capacoa:TermsConditions a skos:ConceptScheme;
-  skos:prefLabel "Open Data Strategy Consent Options"@en .
-
-capacoa:PresentingFormat a skos:ConceptScheme;
-  skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
-
 capacoa:PrimaryActivity_othe a skos:Concept;
   skos:definition "You do not fit other primary activity descriptions"@en,
     "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
@@ -7535,9 +7220,15 @@ capacoa:PrimaryActivity_othe a skos:Concept;
   skos:prefLabel "providing other arts services"@en,
     "fourniture d'autres services des arts"@fr .
 
+capacoa:TermsConditions a skos:ConceptScheme;
+  skos:prefLabel "Open Data Strategy Consent Options"@en .
+
 capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
+
+capacoa:PresentingFormat a skos:ConceptScheme;
+  skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
@@ -7590,6 +7281,14 @@ capacoa:LegalForm_Municipal-corporation a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "municipal organization"@en .
 
+capacoa:PrimaryActivity_asso a skos:Concept;
+  skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
+    "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
+  skos:hiddenLabel "asso";
+  skos:inScheme capacoa:PrimaryActivity;
+  skos:prefLabel "providing services to individual and/or organizational members"@en,
+    "fourniture de services aux membres individuels et/ou organisationnels"@fr .
+
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
     "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
@@ -7598,14 +7297,6 @@ capacoa:PrimaryActivity_agen a skos:Concept;
   skos:note "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en;
   skos:prefLabel "representing performing artists, groups or companies"@en,
     "représentation d'artistes, de groupes ou de compagnies"@fr .
-
-capacoa:PrimaryActivity_asso a skos:Concept;
-  skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
-    "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
-  skos:hiddenLabel "asso";
-  skos:inScheme capacoa:PrimaryActivity;
-  skos:prefLabel "providing services to individual and/or organizational members"@en,
-    "fourniture de services aux membres individuels et/ou organisationnels"@fr .
 
 capacoa:PresenterType_Specialized a skos:Concept;
   skos:inScheme capacoa:PresenterType;
@@ -7624,10 +7315,6 @@ capacoa:PrimaryActivity_prod a skos:Concept;
   skos:prefLabel "creating/performing live productions"@en,
     "création/interprétation de spectacles"@fr .
 
-capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "not a charitable organization"@en .
-
 capacoa:Genres_vis a skos:Concept;
   skos:hiddenLabel "vis";
   skos:inScheme capacoa:Genres;
@@ -7639,6 +7326,10 @@ capacoa:Genres_film a skos:Concept;
   skos:inScheme capacoa:Genres;
   skos:prefLabel "film"@en,
     "film"@fr .
+
+capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "not a charitable organization"@en .
 
 capacoa:Genres_cir a skos:Concept;
   skos:hiddenLabel "cir";
@@ -7652,17 +7343,17 @@ capacoa:PresentingFormat_series a skos:Concept;
   skos:prefLabel "series/season/regular presentations"@en,
     "série/saison régulière de spectacles"@fr .
 
-capacoa:Genres_com a skos:Concept;
-  skos:hiddenLabel "com";
-  skos:inScheme capacoa:Genres;
-  skos:prefLabel "comedy"@en,
-    "humour"@fr .
-
 capacoa:Genres_var a skos:Concept;
   skos:hiddenLabel "var";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "variety"@en,
     "variétés"@fr .
+
+capacoa:Genres_com a skos:Concept;
+  skos:hiddenLabel "com";
+  skos:inScheme capacoa:Genres;
+  skos:prefLabel "comedy"@en,
+    "humour"@fr .
 
 capacoa:PresenterType_Multidisciplinary a skos:Concept;
   skos:inScheme capacoa:PresenterType;
@@ -7673,15 +7364,15 @@ capacoa:PresenterType_Multidisciplinary a skos:Concept;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
 
-capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy extended consent"@en .
-
 capacoa:Genres_mus-th a skos:Concept;
   skos:hiddenLabel "mus-th";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "musical theatre/opera"@en,
     "théâtre musical/opéra"@fr .
+
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy extended consent"@en .
 
 capacoa:Genres_oth a skos:Concept;
   skos:hiddenLabel "oth";
@@ -7695,15 +7386,15 @@ capacoa:Genres_you a skos:Concept;
   skos:prefLabel "young audience/family"@en,
     "jeune public/famille"@fr .
 
-capacoa:CharitableStatus_Charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "charitable organization"@en .
-
 capacoa:Genres_the a skos:Concept;
   skos:hiddenLabel "the";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "theatre/spoken word"@en,
     "théâtre/arts de la parole"@fr .
+
+capacoa:CharitableStatus_Charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "charitable organization"@en .
 
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
