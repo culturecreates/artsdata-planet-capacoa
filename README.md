@@ -13,8 +13,8 @@ The controlled vocabulary, derived from the questionnaire when members create th
 Here is a summary of the workflow fetch-and-push-data.yml
 1. Run fetch_data.rb to download data from the CAPACOA Wordpress API to a JSON file (https://www.capacoa.ca/wp-json/wp/v2/users?per_page=100&offset=1)
 1. Run Ontotext Openrefine
-    - remove members unless they "agree..." to share data [New consent rules #8](https://github.com/culturecreates/artsdata-planet-capacoa/issues/8) 
-    - remove members unless they have "type": "https://schema.org/Organization" or "https://schema.org/Person" [Update the logic](https://github.com/culturecreates/capacoa-artsdata-usermeta/issues/9)
+    - remove members unless they "agree" to share data. See issue [#8](https://github.com/culturecreates/artsdata-planet-capacoa/issues/8) 
+    - remove members unless they have "type": `https://schema.org/Organization` or `https://schema.org/Person`. See issue [#9](https://github.com/culturecreates/capacoa-artsdata-usermeta/issues/9)
     - remove members with a MemberTerminationDate (active members have a MemberTerminationDate='')
     - map JSON to RDF using ontorefine-config.json
 1. Run run_sparql.rb to execute the SPARQL to infer presenter type
