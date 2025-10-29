@@ -3268,6 +3268,10 @@ member:26 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "809771470" .
 
+member:260 a <https://schema.org/Person>;
+  schema:additionalType capacoa:TermsConditions_agree-v1\.2;
+  schema:name "Lynne Bailey" .
+
 member:261 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -5376,17 +5380,20 @@ member:339 a <https://schema.org/Organization>;
     schema:addressRegion "ON"
   ];
   schema:alternateName "CITS";
+  schema:identifier "Q136663001";
   schema:legalName "Centre In The Square Inc."@en;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q5062273";
       schema:name "Centre In The Square"
     ];
     schema:roleName "Resident organization"
   ];
   schema:name "Centre In The Square"@en,
     "Centre In The Square";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6167>;
   schema:url <https://centreinthesquare.com/>, [
     a schema:Role;
     schema:roleName "Events Webpage";
