@@ -4764,9 +4764,10 @@ member:318 a <https://schema.org/Organization>;
   schema:url <https://bptheatre.ca>;
   wikidata_property:\/P8860 "890767924" .
 
-member:319 a <https://schema.org/Person>;
+member:319 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:PrimaryActivity_othe,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth;
   schema:address [
     a schema:PostalAddress;
@@ -4774,8 +4775,12 @@ member:319 a <https://schema.org/Person>;
     schema:addressLocality "Rigaud";
     schema:addressRegion "QC"
   ];
+  schema:alternateName "Troubadours & Vagabonds Productions";
   schema:hasOccupation wikidata_entity:Q15978655;
-  schema:name "Troubadours and Vagabonds Productions";
+  schema:identifier "Q136670218";
+  schema:name "Troubadours and Vagabonds Productions"@en,
+    "Troubadours and Vagabonds Productions";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6173>;
   schema:url <https://troubadoursandvagabonds.com/> .
 
 member:32 a <https://schema.org/Organization>;
@@ -5415,11 +5420,13 @@ member:340 a <https://schema.org/Organization>;
     schema:addressRegion "QC"
   ];
   schema:alternateName "Groupe Le Vivier";
-  schema:legalName "Le Vivier"@fr;
+  schema:identifier "Q111857160";
+  schema:legalName "Groupe Le Vivier"@fr;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q105529724";
       schema:name "Espace Wilder"
     ];
     schema:roleName "Main presentation venue (as rental client)"
@@ -5427,6 +5434,7 @@ member:340 a <https://schema.org/Organization>;
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q136670463";
       schema:name "Saint-Hilda, espace sonore"
     ];
     schema:roleName "Manager/Operator"
@@ -5434,6 +5442,7 @@ member:340 a <https://schema.org/Organization>;
   schema:name "Le Vivier"@fr,
     "Le Vivier"@en,
     "Le Vivier";
+  schema:sameAs <http://kg.artsdata.ca/resource/K16-56>;
   schema:url <https://levivier.ca/fr>, [
     a schema:Role;
     schema:roleName "Events Webpage";
@@ -7219,14 +7228,6 @@ capacoa:LegalForm_Educational-organization a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "educational organization"@en .
 
-capacoa:PrimaryActivity_othe a skos:Concept;
-  skos:definition "You do not fit other primary activity descriptions"@en,
-    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
-  skos:hiddenLabel "othe";
-  skos:inScheme capacoa:PrimaryActivity;
-  skos:prefLabel "providing other arts services"@en,
-    "fourniture d'autres services des arts"@fr .
-
 capacoa:TermsConditions a skos:ConceptScheme;
   skos:prefLabel "Open Data Strategy Consent Options"@en .
 
@@ -7236,6 +7237,14 @@ capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
 
 capacoa:PresentingFormat a skos:ConceptScheme;
   skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
+
+capacoa:PrimaryActivity_othe a skos:Concept;
+  skos:definition "You do not fit other primary activity descriptions"@en,
+    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
+  skos:hiddenLabel "othe";
+  skos:inScheme capacoa:PrimaryActivity;
+  skos:prefLabel "providing other arts services"@en,
+    "fourniture d'autres services des arts"@fr .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
