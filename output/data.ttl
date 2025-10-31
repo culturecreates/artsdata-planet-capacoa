@@ -5488,11 +5488,13 @@ member:342 a <https://schema.org/Organization>;
     schema:addressLocality "Campbell River";
     schema:addressRegion "BC"
   ];
+  schema:identifier "Q128243461";
   schema:legalName "Tidemark Theatre Society"@en;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q38394691";
       schema:name "Tidemark Theatre"
     ];
     schema:roleName "Manager/Operator"
