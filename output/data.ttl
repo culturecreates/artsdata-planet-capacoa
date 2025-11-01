@@ -5359,8 +5359,10 @@ member:338 a <https://schema.org/Person>;
     schema:addressRegion "Easternn"
   ];
   schema:hasOccupation wikidata_entity:Q483501;
+  schema:identifier "Q136680919";
   schema:name "Aleem Zafar";
-  schema:url <https://www.aleemzafar.com> .
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6181>;
+  schema:url <https://aleemzafar.com> .
 
 member:339 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -5450,9 +5452,9 @@ member:340 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "892658253" .
 
-member:341 a <https://schema.org/Person>;
+member:341 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_asso,
+    capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
@@ -5463,9 +5465,11 @@ member:341 a <https://schema.org/Person>;
     schema:addressLocality "Rosemère";
     schema:addressRegion "QC"
   ];
+  schema:alternateName "Percumedia";
   schema:hasOccupation wikidata_entity:Q55107540;
-  schema:name "Percumédia";
-  schema:url <https://percumedia.com> .
+  schema:name "Percumédia"@fr,
+    "Percumédia";
+  schema:url <https://percumedia.com/fr> .
 
 member:342 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
@@ -5501,6 +5505,7 @@ member:342 a <https://schema.org/Organization>;
   ];
   schema:name "Tidemark Theatre"@en,
     "Tidemark Theatre";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5461>;
   schema:url <https://tidemarktheatre.com>, [
     a schema:Role;
     schema:roleName "Events Webpage";
