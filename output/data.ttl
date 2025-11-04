@@ -3032,8 +3032,8 @@ member:250 a <https://schema.org/Organization>;
 
 member:251 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_oth,
-    capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:PrimaryActivity_othe,
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3042,7 +3042,7 @@ member:251 a <https://schema.org/Person>;
   ];
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Arts and Non-Profit Management / Gestion des arts et des OBNLs";
-  schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/> .
+  schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/?originalSubdomain=ca> .
 
 member:252 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
@@ -3269,7 +3269,11 @@ member:26 a <https://schema.org/Organization>;
   wikidata_property:\/P8860 "809771470" .
 
 member:260 a <https://schema.org/Person>;
-  schema:additionalType capacoa:TermsConditions_agree-v1\.2;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresenterType_Specialized;
+  schema:hasOccupation wikidata_entity:Q64825398;
   schema:name "Lynne Bailey" .
 
 member:261 a <https://schema.org/Organization>;
@@ -5222,7 +5226,8 @@ member:331 a <https://schema.org/Organization>;
 
 member:332 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5232,6 +5237,7 @@ member:332 a <https://schema.org/Person>;
   schema:hasOccupation wikidata_entity:Q483501;
   schema:identifier "Q126952762";
   schema:name "Lisa Langley";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6089>;
   schema:url <https://phin.ca> .
 
 member:333 a <https://schema.org/Person>;
@@ -5469,6 +5475,7 @@ member:341 a <https://schema.org/Organization>;
   schema:hasOccupation wikidata_entity:Q55107540;
   schema:name "Percumédia"@fr,
     "Percumédia";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-218>;
   schema:url <https://percumedia.com/fr> .
 
 member:342 a <https://schema.org/Organization>;
@@ -7245,14 +7252,6 @@ capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
 capacoa:PresentingFormat a skos:ConceptScheme;
   skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
 
-capacoa:PrimaryActivity_othe a skos:Concept;
-  skos:definition "You do not fit other primary activity descriptions"@en,
-    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
-  skos:hiddenLabel "othe";
-  skos:inScheme capacoa:PrimaryActivity;
-  skos:prefLabel "providing other arts services"@en,
-    "fourniture d'autres services des arts"@fr .
-
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
@@ -7266,6 +7265,14 @@ capacoa:LegalForm_Sole-proprietorship a skos:Concept;
 
 capacoa:PrimaryActivity a skos:ConceptScheme;
   skos:prefLabel "Primary Activity of Organization"@en .
+
+capacoa:PrimaryActivity_othe a skos:Concept;
+  skos:definition "You do not fit other primary activity descriptions"@en,
+    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
+  skos:hiddenLabel "othe";
+  skos:inScheme capacoa:PrimaryActivity;
+  skos:prefLabel "providing other arts services"@en,
+    "fourniture d'autres services des arts"@fr .
 
 capacoa:PresentingFormat_festival a skos:Concept;
   skos:hiddenLabel "festival";
