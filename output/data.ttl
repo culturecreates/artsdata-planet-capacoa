@@ -2314,6 +2314,30 @@ member:208 a <https://schema.org/Organization>;
     schema:url <https://www.dal.ca/dept/arts-centre/events-schedule.html>
   ] .
 
+member:213 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_the,
+    capacoa:Genres_vis,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:identifier "Q129448006";
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Six different Arts and Culture Centres"
+    ];
+    schema:roleName "Owner"
+  ];
+  schema:name "Arts and Culture Centres"@en,
+    "Arts and Culture Centres";
+  schema:url <https://artsandculturecentre.com> .
+
 member:217 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
@@ -3274,7 +3298,8 @@ member:260 a <https://schema.org/Person>;
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresenterType_Specialized;
   schema:hasOccupation wikidata_entity:Q64825398;
-  schema:name "Lynne Bailey" .
+  schema:name "Lynne Bailey";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-219> .
 
 member:261 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
