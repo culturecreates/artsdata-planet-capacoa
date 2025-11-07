@@ -3065,7 +3065,7 @@ member:251 a <https://schema.org/Person>;
     schema:addressRegion "ON"
   ];
   schema:hasOccupation wikidata_entity:Q15978655;
-  schema:name "Arts and Non-Profit Management / Gestion des arts et des OBNLs";
+  schema:name "Victoria Steele";
   schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/?originalSubdomain=ca> .
 
 member:252 a <https://schema.org/Person>;
