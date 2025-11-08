@@ -3066,6 +3066,7 @@ member:251 a <https://schema.org/Person>;
   ];
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Victoria Steele";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-220>;
   schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/?originalSubdomain=ca> .
 
 member:252 a <https://schema.org/Person>;
@@ -4732,7 +4733,7 @@ member:317 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you,
