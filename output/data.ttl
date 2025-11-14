@@ -5546,6 +5546,34 @@ member:342 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "121711725" .
 
+member:343 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_agen,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_mus,
+    capacoa:Genres_the;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Ottawa";
+    schema:addressRegion "ON"
+  ];
+  schema:legalName "Menno Plukker Theatre Agent, Inc."@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "n/a"
+    ];
+    schema:roleName "None"
+  ];
+  schema:name "Menno Plukker Theatre Agent, Inc."@en,
+    "Menno Plukker Theatre Agent, Inc.";
+  schema:url <https://www.mennoplukker.com/>;
+  wikidata_property:\/P8860 "881124168" .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -7442,15 +7470,15 @@ capacoa:Genres_you a skos:Concept;
   skos:prefLabel "young audience/family"@en,
     "jeune public/famille"@fr .
 
+capacoa:CharitableStatus_Charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "charitable organization"@en .
+
 capacoa:Genres_the a skos:Concept;
   skos:hiddenLabel "the";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "theatre/spoken word"@en,
     "théâtre/arts de la parole"@fr .
-
-capacoa:CharitableStatus_Charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "charitable organization"@en .
 
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
