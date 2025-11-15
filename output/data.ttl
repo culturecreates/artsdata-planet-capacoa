@@ -5574,6 +5574,32 @@ member:343 a <https://schema.org/Organization>;
   schema:url <https://www.mennoplukker.com/>;
   wikidata_property:\/P8860 "881124168" .
 
+member:344 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_agen,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Montréal";
+    schema:addressRegion "QC"
+  ];
+  schema:alternateName "CAPAS";
+  schema:legalName "CAPAS (COMMUNICATION, ADMINISTRATION ET PRODUCTION DES ARTS DE LA SCENE) INC.,"@fr;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "NA"
+    ];
+    schema:roleName "None"
+  ];
+  schema:name "CAPAS"@fr,
+    "CAPAS";
+  schema:url <https://www.capas.ca/> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
