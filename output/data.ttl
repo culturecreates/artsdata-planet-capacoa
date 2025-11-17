@@ -5600,6 +5600,20 @@ member:344 a <https://schema.org/Organization>;
     "CAPAS";
   schema:url <https://www.capas.ca/> .
 
+member:345 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Ottawa";
+    schema:addressRegion "ON"
+  ];
+  schema:hasOccupation wikidata_entity:Q483501;
+  schema:name "Chairman George";
+  schema:url <https://chairmangeorge.com/> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
