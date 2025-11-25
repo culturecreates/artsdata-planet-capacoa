@@ -2079,6 +2079,17 @@ member:195 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "843116484" .
 
+member:197 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:alternateName "Made in BC - Dance on Tour";
+  schema:identifier "Q126952126";
+  schema:name "Dance West Network"@en,
+    "Dance West Network";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-324>;
+  schema:url <https://dancewest.net/> .
+
 member:199 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
@@ -2275,6 +2286,25 @@ member:205 a <https://schema.org/Organization>;
     a schema:Role;
     schema:roleName "Events Webpage";
     schema:url <https://tohu.ca/en/season/shows?type=events>
+  ] .
+
+member:207 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_mus,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_vis,
+    capacoa:Genres_you;
+  schema:identifier "Q136959611";
+  schema:name "BC Alliance for Arts + Culture"@en,
+    "BC Alliance for Arts + Culture";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-156>;
+  schema:url <https://www.allianceforarts.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.allianceforarts.com/whats-on>
   ] .
 
 member:208 a <https://schema.org/Organization>;
@@ -3368,6 +3398,15 @@ member:262 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-190>;
   schema:url <https://pushfestival.ca/>;
   wikidata_property:\/P8860 "829549948" .
+
+member:264 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_othe,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:identifier "Q100523742";
+  schema:name "CINARS"@fr,
+    "CINARS";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-191>;
+  schema:url <https://cinars.org/cinars> .
 
 member:265 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
