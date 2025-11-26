@@ -2179,6 +2179,21 @@ member:201 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "127116242" .
 
+member:202 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:alternateName "Debut Atlantic";
+  schema:identifier "Q129448503";
+  schema:name "Debut Atlantic Society"@en,
+    "Debut Atlantic Society";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-151>;
+  schema:url <https://www.debutatlantic.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.debutatlantic.ca/concerts>
+  ] .
+
 member:203 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
