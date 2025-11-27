@@ -1893,6 +1893,16 @@ member:186 a <https://schema.org/Organization>;
     schema:url <https://tixx.ca/#top>
   ] .
 
+member:188 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresenterType_Specialized;
+  schema:identifier "Q129448933";
+  schema:name "Kings Playhouse"@en,
+    "Kings Playhouse";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5284>;
+  schema:url <https://www.kingsplayhouse.com/> .
+
 member:19 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
@@ -2357,6 +2367,24 @@ member:208 a <https://schema.org/Organization>;
     a schema:Role;
     schema:roleName "Events Webpage";
     schema:url <https://www.dal.ca/dept/arts-centre/events-schedule.html>
+  ] .
+
+member:209 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
+  schema:alternateName "TD Winnipeg International Jazz Festival";
+  schema:identifier "Q137041192";
+  schema:name "Jazz Winnipeg"@en,
+    "Jazz Winnipeg";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-154>;
+  schema:url <https://www.jazzwinnipeg.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
   ] .
 
 member:213 a <https://schema.org/Organization>;
@@ -7496,6 +7524,10 @@ capacoa:PrimaryActivity_agen a skos:Concept;
   skos:prefLabel "representing performing artists, groups or companies"@en,
     "représentation d'artistes, de groupes ou de compagnies"@fr .
 
+capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy terms basic consent"@en .
+
 capacoa:PresenterType_Specialized a skos:Concept;
   skos:inScheme capacoa:PresenterType;
   skos:prefLabel "specialized"@en,
@@ -7504,10 +7536,6 @@ capacoa:PresenterType_Specialized a skos:Concept;
     <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
-
-capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy terms basic consent"@en .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
