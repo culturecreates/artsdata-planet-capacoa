@@ -2411,6 +2411,31 @@ member:213 a <https://schema.org/Organization>;
     "Arts and Culture Centres";
   schema:url <https://artsandculturecentre.com> .
 
+member:215 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_vis,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:identifier "Q99984516";
+  schema:name "Place des Arts"@fr,
+    "Place des Arts";
+  schema:sameAs <http://kg.artsdata.ca/resource/K16-94>;
+  schema:url <https://placedesarts.com>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://placedesarts.com/fr/evenements>
+  ] .
+
 member:217 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
