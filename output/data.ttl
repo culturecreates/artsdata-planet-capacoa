@@ -5741,6 +5741,22 @@ member:346 a <https://schema.org/Person>;
   schema:name "Yasmina Ramzy";
   schema:url <https://www.yasminaramzyarts.com/> .
 
+member:347 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_dan,
+    capacoa:Genres_vis;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Montréal";
+    schema:addressRegion "QC"
+  ];
+  schema:hasOccupation wikidata_entity:Q483501;
+  schema:name "Mathilde Heuzé";
+  schema:url <https://mathildeheuze.com/> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
