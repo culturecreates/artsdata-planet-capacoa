@@ -1769,6 +1769,16 @@ member:175 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119216406" .
 
+member:179 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:identifier "Q125564604";
+  schema:name "Le Regroupement artistique francophone de l'Alberta"@en,
+    "Le Regroupement artistique francophone de l'Alberta";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-134>;
+  schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "received PCBP in 23/24 season."@en .
+
 member:18 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -2089,6 +2099,19 @@ member:195 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "843116484" .
 
+member:196 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_mus,
+    capacoa:Genres_the,
+    capacoa:Genres_you;
+  schema:identifier "Q7305049";
+  schema:name "Red Sky Performance"@en,
+    "Red Sky Performance";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-179>;
+  schema:url <https://www.redskyperformance.com/> .
+
 member:197 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
@@ -2105,7 +2128,7 @@ member:199 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2113,12 +2136,13 @@ member:199 a <https://schema.org/Organization>;
     schema:addressRegion "QC"
   ];
   schema:alternateName "Sursaut dance company";
+  schema:identifier "Q114429981";
   schema:legalName "Compagnie de danse Sursaut"@fr;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
-      schema:identifier "Q114430079";
+      schema:identifier "Q2945524";
       schema:name "centre des arts de la scène Jean-Besré"
     ];
     schema:roleName "Resident organization"
@@ -2126,6 +2150,7 @@ member:199 a <https://schema.org/Organization>;
   schema:name "Sursaut"@fr,
     "Sursaut"@en,
     "Sursaut";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-148>;
   schema:url <https://sursaut.ca/>;
   wikidata_property:\/P8860 "132417098" .
 
@@ -2385,6 +2410,55 @@ member:209 a <https://schema.org/Organization>;
     a schema:Role;
     schema:roleName "Events Webpage";
     schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
+  ] .
+
+member:210 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
+  schema:identifier "Q137178794";
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q137178883";
+      schema:name "Centre Wakefield La Pêche"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ];
+  schema:name "Theatre Wakefield"@en,
+    "Théâtre Wakefield"@fr,
+    "Theatre Wakefield";
+  schema:sameAs <http://kg.artsdata.ca/resource/K5-170>;
+  schema:url <https://theatrewakefield.ca/> .
+
+member:212 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_mus,
+    capacoa:Genres_oth,
+    capacoa:Genres_var,
+    capacoa:Genres_vis,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:identifier "Q137177108";
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q137177490";
+      schema:name "Conseil des Arts de Hearst –Performance Hall"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Le Conseil des Arts de Hearst"@fr,
+    "Le Conseil des Arts de Hearst";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-159>;
+  schema:url <https://www.conseildesartsdehearst.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.conseildesartsdehearst.ca/evenements>
   ] .
 
 member:213 a <https://schema.org/Organization>;
@@ -4960,7 +5034,7 @@ member:320 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7569,6 +7643,10 @@ capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy extended consent"@en .
+
 capacoa:PresenterType_Specialized a skos:Concept;
   skos:inScheme capacoa:PresenterType;
   skos:prefLabel "specialized"@en,
@@ -7577,10 +7655,6 @@ capacoa:PresenterType_Specialized a skos:Concept;
     <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
-
-capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy extended consent"@en .
 
 capacoa:PrimaryActivity_prod a skos:Concept;
   skos:definition "You create and perform your own theatrical and/or dance productions, concerts, or other performing arts presentations"@en,
