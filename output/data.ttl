@@ -2465,6 +2465,7 @@ member:213 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -2477,12 +2478,14 @@ member:213 a <https://schema.org/Organization>;
     a schema:Role;
     schema:location [
       a schema:Place;
-      schema:name "Six different Arts and Culture Centres"
+      schema:identifier "Q136708962";
+      schema:name "John C Perlin Arts and Culture Centre"
     ];
     schema:roleName "Owner"
   ];
   schema:name "Arts and Culture Centres"@en,
     "Arts and Culture Centres";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-160>;
   schema:url <https://artsandculturecentre.com> .
 
 member:215 a <https://schema.org/Organization>;
