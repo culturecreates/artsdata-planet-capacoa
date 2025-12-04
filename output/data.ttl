@@ -5834,6 +5834,34 @@ member:347 a <https://schema.org/Person>;
   schema:name "Mathilde Heuzé";
   schema:url <https://mathildeheuze.com/> .
 
+member:348 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Coquitlam";
+    schema:addressRegion "BC"
+  ];
+  schema:legalName "re:Naissance Opera"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "DigiBC Creative Tech Studio"
+    ];
+    schema:roleName "Resident organization"
+  ];
+  schema:name "re:Naissance"@en,
+    "re:Naissance";
+  schema:url <HTTP://www.reopera.com> .
+
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
