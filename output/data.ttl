@@ -23,7 +23,9 @@ member:100 a <https://schema.org/Organization>;
   schema:name "Ballet Jörgen Canada"@en,
     "Ballet Jörgen du Canada"@fr,
     "Ballet Jörgen Canada";
-  schema:url <https://www.jorgendance.ca/> .
+  schema:url <https://www.jorgendance.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Jörgen Dance has brought the joy of dance to communities across Canada. From world-class performances to inclusive training and outreach, we make dance accessible to all. Join us—experience, learn, and connect through Dance for All."@en,
+    "Jörgen Dance partage la joie de la danse à travers le Canada. De spectacles de calibre mondial à des programmes inclusifs, nous rendons la danse accessible à tous. Joignez-vous à nous pour vivre, apprendre et partager la Danse pour tous."@fr .
 
 member:101 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -148,6 +150,7 @@ member:107 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.kingstheatre.ca/upcoming-events/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "King’s Theatre, has been operated continously as a both a performing arts hub and cinema for over 100 years.The 220-seat gathering space, located at the heart of Annapolis Royal, presents live performances year-round in all genres, including music, theatre, dance, comedy, spoken word, and more. On screen there’s every kind of cinema, including stage-to-screen works of theatre, opera and ballet. With more than 200 events a year, the aim is to ensure that everyone there is something for everyone. We work with community groups and organizations to provide a venue that is shaped by and for the community. King’s Theatre is also an education and outreach organization, delivering programming for school groups, as well as outreach throughout the community.  King’s has a mandate to ensure that barriers are removed and doors are opened so that everyone in the community feels welcome. King’s offers state-of-the-art stage lighting, sound, and cinematic projection. We value diversity, equity, justice and inclusion, as well as excellence, tradition and innovation."@en;
   wikidata_property:\/P8860 "118981901" .
 
 member:109 a <https://schema.org/Organization>;
@@ -1098,7 +1101,7 @@ member:15 a <https://schema.org/Organization>;
 member:150 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1108,7 +1111,7 @@ member:150 a <https://schema.org/Person>;
   schema:hasOccupation wikidata_entity:Q483501;
   schema:identifier "Q114868316";
   schema:name "Rhodnie Désir";
-  schema:url <http://rhodniedesir.com/>;
+  schema:url <https://rhodniedesir.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
     "Rhodnie Désir a créé une quinzaine d’œuvres chorégraphiques. Sa pièce phare BOW’T TRAIL Rétrospek et son parcours de mémoire pionnier BOW’T TRAIL  lui ont valu deux Prix de la danse de Montréal (2020) : le Prix Envol et le convoité Grand Prix de la danse."@fr .
 
@@ -1776,8 +1779,7 @@ member:179 a <https://schema.org/Organization>;
   schema:name "Le Regroupement artistique francophone de l'Alberta"@en,
     "Le Regroupement artistique francophone de l'Alberta";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-134>;
-  schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "received PCBP in 23/24 season."@en .
+  schema:url <http://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php> .
 
 member:18 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
@@ -2058,7 +2060,10 @@ member:194 a <https://schema.org/Organization>;
   schema:name "Cowichan Performing Arts Centre"@en,
     "Cowichan Performing Arts Centre";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-186>;
-  schema:url <https://cowichanpac.ca/> .
+  schema:url <https://cowichanpac.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Since 1978, the Cowichan Performing Arts Centre (formerly known as the Cowichan Theatre) has been the premier entertainment venue in the Cowichan Region welcoming tens of thousands of visitors, patrons, performers and artists to this exceptional 731-seat, proscenium arch theatre. 
+
+The Cowichan Performing Arts Centre serves the Cowichan Region as a community theatre for local groups, as a roadhouse for touring professional artists, and as a conference facility. The CPAC has an annual, award winning Presenting Series curated by Arts and Culture Division Manager, Patrick LeBlanc."""@en .
 
 member:195 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -3242,7 +3247,9 @@ member:251 a <https://schema.org/Person>;
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Victoria Steele";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-220>;
-  schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/?originalSubdomain=ca> .
+  schema:url <https://www.linkedin.com/in/victoria-steele-cmc-a135721/?originalSubdomain=ca>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Victoria Steele is a bilingual, certified arts and non-profit management consultant with 40 years’ experience managing Canadian arts organizations in presenting, producing, community engagement and advocacy."@en,
+    "Victoria Steele est une consultante bilingue et certifiée en gestion des arts et des OBNLs."@fr .
 
 member:252 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
@@ -3475,7 +3482,9 @@ member:260 a <https://schema.org/Person>;
     capacoa:PresenterType_Specialized;
   schema:hasOccupation wikidata_entity:Q64825398;
   schema:name "Lynne Bailey";
-  schema:sameAs <http://kg.artsdata.ca/resource/K14-219> .
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-219>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Lynne Bailey was Executive Director of Prairie Debut since its inception in 1997 until her retirement in 2017.  Based in Manitoba and incorporated in Manitoba, Saskatchewan and Alberta, this non-profit organization regional touring network has thus far presented over 400 full length performances to communities of all sizes throughout the Prairie Provinces and in the Yukon. The goal of Prairie Debut has been twofold:  to present professional Canadian world and classical music artists; and work collaboratively with existing provincial networks / organizations in the presentation of artistic excellence.  Lynne previously held the position as Administrator of the Eckhardt-Gramatté National Music Competition and has been active as a Board member for numerous arts organizations and Community Foundations in Manitoba."@en,
+    "Lynne Bailey a été directrice générale de Prairie Debut depuis sa création en 1997 jusqu'à sa retraite en 2017. Basé au Manitoba et incorporé au Manitoba, en Saskatchewan et en Alberta, cet organisme de tournée régionale sans but lucratif a présenté plus de 400 performances à des communautés de tout format à travers les provinces des prairies et au Yukon. Le but de Prairie Debut et en deux partit : de présenter des artistes classiques professionnels canadiens et mondiaux et de travailler collaborativement avec les réseaux régionaux/organisations existants dans la présentation de l’excellence artistique. Dans le passé, Lynne a occupé la position d’administrateur au  Eckhardt-Gramatté National Music Competition et est active comme membre du C.A. pour de nombreuses organisations artistique et fondations communautaires au Manitoba."@fr .
 
 member:261 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -3597,6 +3606,12 @@ member:265 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://capitol.nb.ca/en/tickets-events>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Capitol is a vibrant member of our community. We are proud to partner with other cultural organizations, educational institutions, governments and businesses to ensure the continuation of live performing arts in our region.
+
+Our mandate allows us to preserve one of our community’s most significant and beloved heritage buildings, while also preserving the building’s original purpose as a popular community venue for the presentation of arts, entertainment and cultural events."""@en,
+    """Le Capitol est un membre dynamique de notre communauté. Nous sommes fier·ère·s de collaborer avec d'autres organismes culturels, établissements d'enseignement, gouvernements et entreprises afin d'assurer la pérennité des arts de la scène dans notre région.
+
+Notre mandat nous permet de préserver l’un des bâtiments patrimoniaux les plus emblématiques et appréciés de notre communauté, tout en maintenant sa vocation d’origine : celle d’un lieu de rassemblement populaire pour la présentation de spectacles, d’événements culturels et de divertissement."""@fr;
   wikidata_property:\/P8860 "135529949" .
 
 member:266 a <https://schema.org/Organization>;
@@ -4284,6 +4299,9 @@ member:289 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://digitalartsresourcecentre.ca/events/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Digital Arts Resource Centre (formerly SAW Video) is a not-for-profit, artist-run media art centre that fosters the growth and development of artists through access to equipment, training, mentorship, and programming. Our mission is to support a diverse community of media artists empowered by technology, programming and the exchange of ideas.
+
+Our core principles are independence of expression, affordable access to all, and paying artists for their work. Digital Arts Resource Centre values diversity and actively promotes equity for all artists regardless of race, age, class, gender, sexual orientation, language, or ability."""@en;
   wikidata_property:\/P8860 "867857641" .
 
 member:29 a <https://schema.org/Organization>;
@@ -4770,6 +4788,7 @@ member:311 a <https://schema.org/Organization>;
     "RAPAIL";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5548>;
   schema:url <https://www.rapail.ca>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Le Réseau des arts de la parole et des arts et initiatives littéraires (RAPAIL) est un organisme à but non lucratif qui fédère des artistes et des organismes professionnels pancanadiens francophones des arts littéraires et des arts de la parole à travers un réseau d’échanges, de réflexions et d’actions collectives."@fr;
   wikidata_property:\/P8860 "732655477" .
 
 member:312 a <https://schema.org/Organization>;
@@ -5260,8 +5279,8 @@ member:326 a <https://schema.org/Organization>;
     "Ballet Kelowna";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5377>;
   schema:url <https://www.balletkelowna.ca/>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Test \"Member Description (English)\"."@en,
-    "Test « Member Description (français) »."@fr;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Test WP Biographical Info."@en,
+    "Test WP Biographical Info - Français."@fr;
   wikidata_property:\/P8860 "855746244" .
 
 member:327 a <https://schema.org/Person>;
@@ -5353,6 +5372,10 @@ member:329 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.surrey.ca/arts-culture/surrey-civic-theatres/surrey-civic-theatres-presentation-series>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
+Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0–Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
+Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0-12 and their families. Performances include a range of music, theatre, puppetry, storytelling and circus performances from a range of diverse cultures, including Indigenous, Australian, African, Asian and South-East Asian presenters.
+All performances and activities take place at the Surrey Arts Centre Main Stage, Studio Theatre and Program Room, as well as Centre Stage at City Hall and Clayton Community Centre Performing Arts Studio."""@en;
   wikidata_property:\/P8860 "121391882" .
 
 member:33 a <https://schema.org/Organization>;
@@ -5413,7 +5436,13 @@ member:330 a <https://schema.org/Organization>;
   schema:hasOccupation wikidata_entity:Q483501;
   schema:identifier "Q109018886";
   schema:name "Compagnie La Otra Orilla";
-  schema:url <https://laotraorilla.net> .
+  schema:url <https://laotraorilla.net>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Founded by Quebec choreographer and dancer Myriam Allard and Franco-Tunisian director and singer Hedi Graja, La Otra Orilla (“the other shore”) creates captivating works that foster a sensory dialogue among diverse artistic languages. The company delves into the essence of flamenco, weaving it with an array of cultural and artistic influences to produce innovative, hybrid performances.
+
+Established in 2006, La Otra Orilla stands as a bold and distinctive voice dedicated to invigorating the tradition of flamenco, infusing it with contemporary relevance. Its performances resonate with ancient echoes while remaining attuned to the calls of the present day."""@en,
+    """ompagnie de création montréalaise, fondée par la chorégraphe et danseuse québécoise Myriam Allard et le metteur en scène et chanteur franco-tunisien Hedi Graja, La Otra Orilla (l’autre rive) propose des oeuvres d’où émerge un dialogue sensoriel entre divers langages. La compagnie puise dans les racines du flamenco pour créer des performances hybrides, le réinterprétant, et le transformant, sous le prisme de multiples influences culturelles et artistiques.
+
+Fondée en 2006, La Otra Orilla est une voix audacieuse, unique et engagée à faire vibre run flamenco dont les échos anciens répondent sans relâche aux appels du présent."""@fr .
 
 member:331 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -5433,7 +5462,8 @@ member:331 a <https://schema.org/Organization>;
   schema:name "Truant Artist Management"@en,
     "Truant Artist Management";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6083>;
-  schema:url <https://www.truantartistmanagement.com/> .
+  schema:url <https://www.truantartistmanagement.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Truant Artist Management (TAM) is a dynamic agency dedicated to amplifying the voices of living composers in the classical music world. Founded by Stefani Truant, TAM is built on a deep commitment to championing living composers and fostering meaningful artistic collaborations, offering a fresh approach to composer advocacy, strategic career guidance, and artistic partnerships."@en .
 
 member:332 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
@@ -5449,7 +5479,19 @@ member:332 a <https://schema.org/Person>;
   schema:identifier "Q126952762";
   schema:name "Lisa Langley";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6089>;
-  schema:url <https://phin.ca> .
+  schema:url <https://phin.ca>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """A dancer, choreographer, producer and educator with a background in scientific research, Lisa Phinney Langley’s explorations in both the arts and science are driven by a curiosity about the fabric of our existence and the threads that connect our experiences with the natural laws of the universe. Often collaborative and multi-disciplinary, Lisa’s work is dynamic, precise, and rich in visual imagery, with undertones in mystery and spirituality.
+
+Lisa’s choreographic process has been shaped through generous mentorship from Crystal Pite, Susie Burpee, Lesandra Dodson, Véronique MacKenzie, and the late Tedd Robinson; through her work with Corpus and Kaeja d’Dance; and through training at the School of TDT, and via independent practice in Halifax and Toronto. 
+
+Lisa is co-founder and Artistic Director of Phin Performing Arts in Kjipuktuk/Halifax. 
+Prior to her dedication to her choreographic practice, Lisa was founding co-artistic director of Mocean Dance, now Nova Scotia’s longest-lived contemporary dance company."""@en,
+    """Danseuse, chorégraphe, productrice et éducatrice, issue de la recherche scientifique, Lisa Phinney Langley explore les arts et les sciences avec une curiosité pour la trame de notre existence et les liens qui relient nos expériences aux lois naturelles de l'univers. Souvent collaborative et multidisciplinaire, son travail est dynamique, précis et riche en images visuelles, teinté de mystère et de spiritualité.
+
+Le processus chorégraphique de Lisa a été façonné par le mentorat généreux de Crystal Pite, Susie Burpee, Lesandra Dodson, Véronique MacKenzie et le regretté Tedd Robinson ; par son travail avec Corpus et Kaeja d’Dance ; par sa formation à l'École de TDT et par ses pratiques indépendantes à Halifax et à Toronto.
+
+Lisa est cofondatrice et directrice artistique de Phin Performing Arts à Kjipuktuk/Halifax.
+Avant de se consacrer à sa pratique chorégraphique, Lisa était codirectrice artistique fondatrice de Mocean Dance, aujourd’hui la compagnie de danse contemporaine la plus ancienne de la Nouvelle-Écosse."""@fr .
 
 member:333 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
@@ -5467,7 +5509,12 @@ member:333 a <https://schema.org/Person>;
   schema:hasOccupation wikidata_entity:Q483501;
   schema:identifier "Q136085288";
   schema:name "Meghan Moe Beitiks";
-  schema:url <https://www.meghanmoebeitiks.com/> .
+  schema:url <https://www.meghanmoebeitiks.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """My work investigates uncomfortable edges. Context shapes its materiality. Through performances, installations, videos and other forms, I respond to site, people, and research. 
+Connection, as an idea, is essential and flawed. Though inherent and ubiquitous, it suggests understanding where there may not be any. I sit with this lack of understanding, this trouble, and tug at it with earnest knowledge and embodied gestures. The most urgent edges for me are between the human and the non-human, the emotional and the material, the descriptive and the embodied, my positionality and its limits. I hope, perpetually, to articulate connection, despite the impossibility of total and mutual understanding between entities."""@en,
+    """Mon travail explore les limites inconfortables. Le contexte façonne sa matérialité. À travers des performances, des installations, des vidéos et d'autres formes, je réagis au lieu, aux personnes et à la recherche.
+
+La connexion, en tant qu'idée, est essentielle et imparfaite. Bien qu'inhérente et omniprésente, elle suggère une compréhension là où il n'y en a peut-être pas. Je m'assois avec ce manque de compréhension, ce trouble, et je l'exploite avec une connaissance sincère et des gestes incarnés. Les limites les plus urgentes pour moi sont entre l'humain et le non-humain, l'émotionnel et le matériel, le descriptif et l'incarné, ma positionnalité et ses limites. J'espère, perpétuellement, articuler la connexion, malgré l'impossibilité d'une compréhension totale et mutuelle entre les entités."""@fr .
 
 member:335 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
@@ -5499,6 +5546,9 @@ member:335 a <https://schema.org/Organization>;
     "Resource Centre for the Arts";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5231>;
   schema:url <http://www.lspuhall.ca>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Resource Centre for the Arts (RCA) operates from the historic LSPU Hall (formerly the Longshoremen’s Protective Union), affectionately referred to as The Hall – which houses a 175-198 seat theatre. Downstairs houses the Cox &amp; Palmer Second Space where a bar and smaller event space can be found. The Hall is located in the heart of downtown St. John’s, Newfoundland.
+
+RCA aims to provide accessible, supportive and well-resourced programs and venues, with a primary focus on the creation, development, and advancement of the performing arts in Newfoundland and Labrador. RCA Theatre Company (RCAT), the Hall’s in house theatre company, provides resources and a supportive environment for the production and promotion of theatre in St. John’s and throughout Newfoundland and Labrador."""@en;
   wikidata_property:\/P8860 "119117349" .
 
 member:336 a <https://schema.org/Organization>;
@@ -5529,6 +5579,16 @@ member:336 a <https://schema.org/Organization>;
     "Le Petit Théâtre de Sherbrooke";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-425>;
   schema:url <https://www.petittheatre.qc.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The mission of Le Petit Théâtre de Sherbrooke is to develop the practice and attendance of theatre in children and youth by placing words and dramatic art at the heart of research and by offering multidisciplinary teams the creative environment that allows them to experiment with the musical, visual and physical languages.
+
+A theatre that defies convention, always looking for new ways to tell a story and make it blossom and to grab young audiences attention by playing with the codes of performance, inviting them to visit a universe that ignites imagination. A theatre that allows for greater freedom of interpretation, giving young audiences’ sensibilities and intelligence a different perspective and trusting their ability to discover new versions of a story. A theatre that cares about showcasing the talent of local artists while establishing new collaborations with companies from abroad, thus multiplying exchange opportunities between creators from different artistic scopes and disciplines.
+
+Since its founding in 1973, Le Petit Théâtre has created more than 90 plays presented in Québec, Canada, United States, France, South Korea, Scotland, Belgium, Switzerland and South America."""@en,
+    """Le Petit Théâtre de Sherbrooke a pour mission de développer la pratique et la fréquentation du théâtre pour les jeunes publics en plaçant les mots et la dramaturgie au centre de chacune de ses recherches et en donnant à des équipes multidisciplinaires les conditions de création leur permettant d’expérimenter un dialogue entre les langages musical, visuel et corporel.
+
+Un théâtre qui crée, produit et diffuse des oeuvres qui permettent une grande liberté de lecture, qui laissent à la sensibilité et à l’intelligence de chaque jeune spectateur·rice un espace d’interprétation et qui font confiance à sa capacité d’aller à la rencontre de formes nouvelles. Un théâtre de formes hybrides qui décloisonne les pratiques, toujours à la recherche de nouvelles façons de raconter, d’éclater le récit, d’interpeller son public en jouant avec les codes de la représentation, en l’invitant à plonger dans des univers où il doit investir son imaginaire. Un théâtre soucieux de faire rayonner le talent des artistes de sa région, tout en créant de nouvelles collaborations avec des compagnies étrangères, multipliant ainsi les occasions d’échanges entre créateur·rices d’autres horizons et d’autres disciplines artistiques.
+
+Depuis sa fondation en 1973, Le Petit Théâtre de Sherbrooke a créé plus de 90 spectacles, en français et en anglais, présentés au Québec, au Canada, aux États-Unis, en France, en Corée du Sud, en Écosse, en Belgique, en Suisse et en Amérique du Sud."""@fr;
   wikidata_property:\/P8860 "123045510" .
 
 member:337 a <https://schema.org/Organization>;
@@ -5579,7 +5639,8 @@ member:338 a <https://schema.org/Person>;
   schema:identifier "Q136680919";
   schema:name "Aleem Zafar";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6181>;
-  schema:url <https://aleemzafar.com> .
+  schema:url <https://aleemzafar.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Aleem Zafar is a Pakistani singer, artist, and creative strategist known for blending South Asian culture with global sounds. He began his musical journey in 2019 and gained recognition with songs like Rehna Yun, Raaste, and Mere Khuda. Featured in several media outlets, Aleem has over 4 million streams across platforms and serves as a brand ambassador for Sveston Watches. His track Raaste was nominated at the International Influencer Award 2025 in Bahrain."@en .
 
 member:339 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -5622,7 +5683,16 @@ member:339 a <https://schema.org/Organization>;
     a schema:Role;
     schema:roleName "Events Webpage";
     schema:url <https://centreinthesquare.com/event/>
-  ] .
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Centre In The Square Inc. (CITS Inc.) is a not-for-profit corporation, and registered charity, established in 1981 to maintain, operate and manage the 2,000 seat state-of-the art  performing arts theatre situated in the Civic District of Downtown Kitchener. The theatre building, owned by the City of Kitchener, is also known as the Centre In The Square (CITS).
+
+CITS Inc.  works in the public interest as a presenter and arts enabler, playing a leading role in showcasing the best in local, national and international performers, with over 140 shows and concerts a year for the benefit of our entire region and beyond. Concerts, plays, lectures and comedy are but a few of the genres featured regularly throughout the year. Family programming is a priority, providing wonderful opportunities to introduce children to their first experiences with performing arts.
+
+Housed in the CITS building is also the independently operated Kitchener Waterloo Art Gallery. Local cultural groups such as the Grand Philharmonic Choir, who present their own programs at CITS, are valued partners.
+
+CITS Inc. also values opportunities for non-traditional partnerships and is committed to providing access in and around the theatre, and expert technical support, for rehearsals, workshops, displays, exhibits, and special events, in order to empower and enable artists of all ages and experience levels.
+
+As a charitable organization, CITS Inc. receives an annual operating grant from the City of Kitchener that covers a portion of its expenses. Other revenue is self-generated through ticket sales, rentals, concessions, sponsorships, fundraising and grants from foundations and other levels of government.  It is the vision of this organization to engage the community and bridge the space between artist and audience in a dynamic and sustainable way."""@en .
 
 member:340 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
@@ -5667,6 +5737,14 @@ member:340 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://levivier.ca/fr/concerts/saison-2025-26>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Le Vivier is a major organization for the dissemination of new music in Canada. Since its foundation in 2007, the organization has evolved into an essential rallying point for contemporary music creation, while actively committing to the artistic community and supporting emerging talent. New music is a multi-faceted world that Le Vivier has already been promoting for 20 years thanks to its strong support for innovation, accessibility, wide-ranging musical expression, and resource pooling. Across its many mandates, the organization places great importance on its impact on and commitment to the artistic and social communities it supports. Le Vivier plays a unifying role by bringing together 26 ensembles, 15 emerging collectives or artists, 21 individual creators, 7 presenting organizations, 3 publishers: in all, 72 members to whom Le Vivier commits by ensuring the presentation of some 60 events each year and providing structural support by making venues, financial and technical resources, and spaces for incubation and reflection available, thereby fostering experimentation and exchange with audiences. Staying connected to the world, fighting against insularity: the benefits of the arts on mental health are vital, and Le Vivier understands this. Our aim is to make the most of our role as a catalyst in the service of society, while fostering artistic boldness and innovation in creative music! The organization is fully committed to providing an essential showcase for contemporary Quebec and Canadian repertoire."@en,
+    """Scène contemporaine en musique de création fondée en 2007, Le Vivier présente chaque année une sélection de concerts interprétés par des artistes qui témoignent de la richesse, de la diversité et de l’effervescence du répertoire d’aujourd’hui.
+
+Pôle de création et d’expérimentation porté par 67 membres issus d’expressions musicales éclectiques et de haute tenue, Le Vivier contribue à l’essor d’une communauté fédérée de créateur·trice·s québécois·e·s et canadien·ne·s, ouverte et engagée envers le développement des nouvelles pratiques.
+
+Situé en plein cœur de Montréal, Le Vivier met le public au centre de ses activités, un public curieux et à l’affût d’expériences musicales insolites. Soucieux d’entretenir un dialogue actif avec les spectateurs et de multiplier les occasions de rencontres en ligne et en salle, Le Vivier inscrit l’accessibilité à la culture au cœur de ses préoccupations.
+
+Tourné vers la création musicale internationale, Le Vivier favorise la circulation des œuvres et des artistes par la tenue de résidences croisées sur le territoire canadien et à l’international et la mise en place de projets de toutes sortes qui vont à la rencontre des publics et promeuvent notre discipline artistique."""@fr;
   wikidata_property:\/P8860 "892658253" .
 
 member:341 a <https://schema.org/Organization>;
@@ -5687,7 +5765,9 @@ member:341 a <https://schema.org/Organization>;
   schema:name "Percumédia"@fr,
     "Percumédia";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-218>;
-  schema:url <https://percumedia.com/fr> .
+  schema:url <https://percumedia.com/fr>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Percumédia is a Quebec-based company that offers a complete service for creating, hosting and maintaining dynamic websites, primarily for SMEs, artists and cultural organizations. The organization uses Drupal, a robust technology used by large organizations, to set up transactional portals and management support solutions. Percumédia has firmly committed to integrating comprehensive structured data and metadata into its clients' websites."@en,
+    "Percumédia est une entreprise québécoise qui offre un service complet de création, d'hébergement et de maintenance de sites web dynamiques, principalement destiné aux PME, artistes et organismes culturels. L'organisation utilise Drupal, une technologie robuste utilisée par de grandes organisations, pour mettre en place des portails transactionnels et des solutions d'aide à la gestion. Percumédia a résolument pris le parti d'intégrer des données et métadonnées structurées complètes aux sites wen de ses clients."@fr .
 
 member:342 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
@@ -5729,6 +5809,14 @@ member:342 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://tidemarktheatre.com/events/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Tidemark Theatre is located on the traditional unceded territory of the Ligwiłda’xw people: the We Wai Kai, Wei Wai Kum, and Kwiakah First Nations.
+
+History of the Tidemark Theatre
+The Tidemark Theatre is an art deco, 467 seat performing arts venue located in Campbell River, British Columbia on Northern Vancouver Island.  The Tidemark Theatre is located at 1220 Shoppers Row in downtown Campbell River, and is notably one the most prominent buildings downtown as depicted by its bright pink exterior.
+
+The Tidemark Theatre, originally the Van Isle Theatre, was built in 1946. The official opening was celebrated on January 2, 1947. In 1985, the City of Campbell River purchased the property and converted the Van Isle Theatre into the Tidemark Theatre; the grand opening was held October 1987. Soon afterwards the Tidemark Theatre Society was created and a management agreement between the Tidemark Theatre Society and the City of Campbell River was signed.
+
+The Tidemark Theatre has been operating as a community theatre and presenter since 1987, and is one of seven heritage sites identified by the City of Campbell River proposed to receive heritage designation. The primary activities undertaken by the Tidemark Theatre Society are focused on the presentation of performing arts, visual arts, media arts, as well as preservation and exhibition of heritage through the revitalization of the Tidemark Theatre."""@en;
   wikidata_property:\/P8860 "121711725" .
 
 member:343 a <https://schema.org/Organization>;
@@ -5759,6 +5847,8 @@ member:343 a <https://schema.org/Organization>;
     "Menno Plukker Theatre Agent, Inc.";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6224>;
   schema:url <https://www.mennoplukker.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Menno Plukker Theatre Agent Inc. is an agency and management company representing theatre, dance and music artists globally. Founded in 1997 by Menno Plukker, the company has earned a reputation on the national and international scene as an agency that has effectively broadened touring markets for its artists and their companies. The agency’s mandate is to develop and expand touring opportunities (internationally and locally), to increase the visibility and presence of the artists, and to offer opportunities for artistic and creative development. Working collaboratively with artists, the agency seeks to create a working environment that allows the artists to develop and maintain international carreers."@en,
+    "Créée en 1997 par Menno Plukker, Menno Plukker Theatre Agent, Inc. a rapidement acquis une solide réputation à l’échelle nationale et internationale en tant qu’agent dont la mission est d’assurer le rayonnement de compagnies de théâtre et de danse. Le mandat de l’agence consiste plus spécifiquement à développer des tournées à l’étranger et à assurer la tenue de représentations d’artistes et compagnies en théâtre, danse et musique. L’agence vise ainsi à rehausser la visibilité et le rayonnement des artistes et des compagnies qu’elle représente, afin de créer un environnement de travail stable et durable qui leur permettra de poursuivre le développement de leur œuvre à l’échelle internationale."@fr;
   wikidata_property:\/P8860 "881124168" .
 
 member:344 a <https://schema.org/Organization>;
@@ -5787,7 +5877,9 @@ member:344 a <https://schema.org/Organization>;
   schema:name "CAPAS"@fr,
     "CAPAS";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6223>;
-  schema:url <https://www.capas.ca/> .
+  schema:url <https://www.capas.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Founded by Lydie Revez and Mickaël Spinnhirny, CAPAS is the first dance label in Canada. Proud of its French-speaking roots and its independence in North America, CAPAS operates at the heart of the choreographic ecosystem by combining representation, production, distribution, programming, and professional services. CAPAS embodies a broad vision of dance. It supports artists whose signature is part of a strong approach, supporting them in the conception, structuring, marketing, and distribution of their works. It designs creative projects and programs performances that bring the discipline to life in all its diversity. A transversal structure, CAPAS also offers concrete solutions to institutions, companies, and other organizations in the sector, meeting their administrative, strategic, and communication needs. By combining artistic action, active engagement, and a systemic vision, CAPAS embodies a new way of doing things: flexible, ambitious, and bold, at the service of dance in all its forms."@en,
+    "Fondé par Lydie Revez et Mickaël Spinnhirny, CAPAS est le premier label de danse au Canada. Fier de ses racines francophones et de son indépendance en Amérique du Nord, CAPAS agit au cœur de l’écosystème chorégraphique en combinant représentation, production, diffusion, programmation et services professionnels. CAPAS incarne une vision élargie de la danse. Il accompagne des artistes dont la signature s’inscrit dans une démarche forte, en les soutenant dans la conception, la structuration, la mise en marché et la diffusion de leurs œuvres. Il conçoit des projets de création et programme des spectacles qui font vibrer la discipline dans sa pluralité. Acteur transversal, CAPAS propose aussi des solutions concrètes aux institutions, compagnies et autres organisations du secteur, en répondant à leurs besoins administratifs, stratégiques et communicationnels. En conjuguant action artistique, engagement terrain et vision systémique, CAPAS incarne une nouvelle façon de faire : souple, ambitieuse, audacieuse, au service de la danse sous toutes ses formes."@fr .
 
 member:345 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
@@ -5801,7 +5893,9 @@ member:345 a <https://schema.org/Person>;
   ];
   schema:hasOccupation wikidata_entity:Q483501;
   schema:name "Chairman George";
-  schema:url <https://chairmangeorge.com/> .
+  schema:url <https://chairmangeorge.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "George Sapounidis, known as Chairman George, is a Greek-Canadian musician celebrated for his diverse talents. He's captivated audiences worldwide, including 40 tours of China, and his performances have reached millions. A two-time Olympic torchbearer, he sings in over 15 languages and holds a Ph.D. in mathematical statistics."@en,
+    "George Sapounidis, connu sous le nom de Chairman George, est un musicien gréco-canadien célébré pour ses talents variés. Il a captivé des publics à travers le monde, notamment au cours de 40 tournées en Chine. Ses prestations ont touché des millions de personnes. Porteur de la flamme olympique à deux reprises, il chante dans plus de 15 langues et est titulaire d’un doctorat en statistiques mathématiques."@fr .
 
 member:346 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
@@ -5816,7 +5910,8 @@ member:346 a <https://schema.org/Person>;
   ];
   schema:hasOccupation wikidata_entity:Q483501;
   schema:name "Yasmina Ramzy";
-  schema:url <https://www.yasminaramzyarts.com/> .
+  schema:url <https://www.yasminaramzyarts.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Described as a visionary, a pioneer, and a disrupter, Yasmina Ramzy has created 10 films (including immersive), 12 theatrical dance and music productions, 300 choreographies for international ensembles, taught in over 80 cities on five continents, performed in four Middle Eastern countries for royalty and heads of state, produced ten dance and music festivals, and written 26 dance magazine articles and 58 blog posts. Her memoir is currently being edited. Yasmina is the longest-standing member of the Board of Directors for Dance Ontario, 1999-2024, where she founded and chaired the Justice, Equity, Diversity & Inclusion Committee."@en .
 
 member:347 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_cir,
@@ -5832,7 +5927,13 @@ member:347 a <https://schema.org/Person>;
   ];
   schema:hasOccupation wikidata_entity:Q483501;
   schema:name "Mathilde Heuzé";
-  schema:url <https://mathildeheuze.com/> .
+  schema:url <https://mathildeheuze.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """A graduate of the École de danse contemporaine de Montréal (EDCM) in 2018, Mathilde is an artistic director, choreographer-performer, and instructor in both circus arts and gymnastics. Originally from France and trained as a gymnast, she has since established herself as a performer within Montréal’s contemporary dance and circus communities.
+
+Mathilde delves into themes of transhumanism and its influence on human evolution, crafting short choreographic works that integrate a variety of suspended and non-suspended media as well as technological tools. Her early creations have been presented at venues including the Chalet du Mont-Royal, Sainte-Émélie-de-l’Énergie, Témiscouata, and Lachine. She is currently developing larger-scale productions such as Antilope: What Remains of Our Humanity?, Le dernier flocon—a duet with Daphnée Sergerie—and new works in collaboration with the collective Mouvement Vertical."""@en,
+    """Diplômée de l'École de danse contemporaine de Montréal (EDCM) depuis 2018, Mathilde est directrice artistique, chorégraphe-interprète aussi enseignante en cirque et gymnastique. Née en France et à l'origine gymnaste, elle oeuvre en tant qu’interprète dans les milieux de la danse contemporaine et du cirque à Montréal.   
+
+Mathilde révèle ses réflexions sur la notion du transhumanisme et de son impact sur l’évolution humaine avec de courtes formes chorégraphique teintés par l’intégration de différents médiums en suspension ou non et d’outils technologiques. Ses premières oeuvres sont présentés notamment au Chalet du Mont-Royal, à Sainte-Émélie-de-l'Énergie, au Témiscouata et à Lachine. Elle travaille maintenant sur la création de plus grandes productions tel que le spectacle Antilope : que reste-t-il de notre humanité ?, Le dernier flocon en duo avec Daphnée Sergerie ainsi qu'auprès du collectif Mouvement Vertical."""@fr .
 
 member:348 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -7063,6 +7164,7 @@ member:75 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://chesterplayhouse.ca/upcoming-events/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Since 1939, the Chester Playhouse has been the site of artistic presentations in the seaside village of Chester,  Nova Scotia.  Re-opened in 2023 after a devastating fire in 2021, the Playhouse is a 175 soft seat theatre that presents a wide range of programming for the surrounding community, including concerts, theatre, variety performances, movies, community events and more, as well as arts education programs for children and adults. We strive to be a community hub that is accessible, equitable, and welcoming to all. Come join us!"@en;
   wikidata_property:\/P8860 "127727444" .
 
 member:76 a <https://schema.org/Organization>;
@@ -7661,6 +7763,10 @@ capacoa:PrimaryActivity_asso a skos:Concept;
   skos:prefLabel "providing services to individual and/or organizational members"@en,
     "fourniture de services aux membres individuels et/ou organisationnels"@fr .
 
+capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy terms basic consent"@en .
+
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
     "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
@@ -7669,10 +7775,6 @@ capacoa:PrimaryActivity_agen a skos:Concept;
   skos:note "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en;
   skos:prefLabel "representing performing artists, groups or companies"@en,
     "représentation d'artistes, de groupes ou de compagnies"@fr .
-
-capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy terms basic consent"@en .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
