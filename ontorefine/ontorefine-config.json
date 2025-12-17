@@ -966,7 +966,7 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - usermeta - member_description_en"
+                      "columnName": "_ - usermeta - description"
                     },
                     "valueType": {
                       "type": "language_literal",
@@ -981,7 +981,7 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - usermeta - member_description_fr"
+                      "columnName": "_ - usermeta - description_fr"
                     },
                     "valueType": {
                       "type": "language_literal",
