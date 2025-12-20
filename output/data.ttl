@@ -72,6 +72,15 @@ member:102 a <https://schema.org/Organization>;
   schema:url <https://www.aimbookingagency.com/>;
   wikidata_property:\/P8860 "751675695" .
 
+member:103 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_agen,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:identifier "Q112570691";
+  schema:name "Kids and Then Some (KATS)"@en,
+    "Kids and Then Some (KATS)";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-87>;
+  schema:url <https://www.katskids.com/> .
+
 member:104 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -88,6 +97,16 @@ member:104 a <https://schema.org/Organization>;
   schema:name "Riverfront InterArts"@en,
     "Riverfront InterArts";
   schema:url <https://www.riverfrontinterarts.ca/> .
+
+member:105 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_festival-series,
+    capacoa:PresenterType_Specialized;
+  schema:legalName "Alianait Entertainment Group"@en;
+  schema:name "Alianait Arts Festival"@en,
+    "Alianait Arts Festival";
+  schema:url <https://alianait.ca/> .
 
 member:106 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -265,6 +284,18 @@ member:111 a <https://schema.org/Organization>;
     "New Works";
   schema:url <https://www.newworks.ca/>;
   wikidata_property:\/P8860 "890250178" .
+
+member:112 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_the,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:alternateName "New Vintage Theatre Society";
+  schema:identifier "Q112572963";
+  schema:name "New Vintage Theatre"@en,
+    "New Vintage Theatre";
+  schema:url <https://newvintagetheatre.com/>;
+  wikidata_property:\/P8860 "808134241" .
 
 member:114 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -5892,7 +5923,9 @@ member:345 a <https://schema.org/Person>;
     schema:addressRegion "ON"
   ];
   schema:hasOccupation wikidata_entity:Q483501;
+  schema:identifier "Q16151486";
   schema:name "Chairman George";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6323>;
   schema:url <https://chairmangeorge.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "George Sapounidis, known as Chairman George, is a Greek-Canadian musician celebrated for his diverse talents. He's captivated audiences worldwide, including 40 tours of China, and his performances have reached millions. A two-time Olympic torchbearer, he sings in over 15 languages and holds a Ph.D. in mathematical statistics."@en,
     "George Sapounidis, connu sous le nom de Chairman George, est un musicien gréco-canadien célébré pour ses talents variés. Il a captivé des publics à travers le monde, notamment au cours de 40 tournées en Chine. Ses prestations ont touché des millions de personnes. Porteur de la flamme olympique à deux reprises, il chante dans plus de 15 langues et est titulaire d’un doctorat en statistiques mathématiques."@fr .
@@ -5909,9 +5942,11 @@ member:346 a <https://schema.org/Person>;
     schema:addressRegion "ON"
   ];
   schema:hasOccupation wikidata_entity:Q483501;
+  schema:identifier "Q137463597";
   schema:name "Yasmina Ramzy";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6324>;
   schema:url <https://www.yasminaramzyarts.com/>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Described as a visionary, a pioneer, and a disrupter, Yasmina Ramzy has created 10 films (including immersive), 12 theatrical dance and music productions, 300 choreographies for international ensembles, taught in over 80 cities on five continents, performed in four Middle Eastern countries for royalty and heads of state, produced ten dance and music festivals, and written 26 dance magazine articles and 58 blog posts. Her memoir is currently being edited. Yasmina is the longest-standing member of the Board of Directors for Dance Ontario, 1999-2024, where she founded and chaired the Justice, Equity, Diversity & Inclusion Committee."@en .
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Described as a visionary, a pioneer, and a disrupter, Yasmina Ramzy has created 10 films (including immersive), 12 theatrical dance and music productions, 300 choreographies for international ensembles, taught in over 80 cities on five continents, performed in four Middle Eastern countries for royalty and heads of state, produced ten dance and music festivals, and written 26 dance magazine articles and 58 blog posts. Her memoir is currently being edited. Yasmina is the longest-standing member of the Board of Directors for Dance Ontario, 1999-2024, where she founded and chaired the Justice, Equity, Diversity &amp; Inclusion Committee."@en .
 
 member:347 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_cir,
@@ -5926,7 +5961,9 @@ member:347 a <https://schema.org/Person>;
     schema:addressRegion "QC"
   ];
   schema:hasOccupation wikidata_entity:Q483501;
+  schema:identifier "Q112602848";
   schema:name "Mathilde Heuzé";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-4450>;
   schema:url <https://mathildeheuze.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """A graduate of the École de danse contemporaine de Montréal (EDCM) in 2018, Mathilde is an artistic director, choreographer-performer, and instructor in both circus arts and gymnastics. Originally from France and trained as a gymnast, she has since established herself as a performer within Montréal’s contemporary dance and circus communities.
 
@@ -5950,18 +5987,21 @@ member:348 a <https://schema.org/Organization>;
     schema:addressLocality "Coquitlam";
     schema:addressRegion "BC"
   ];
+  schema:identifier "Q127278988";
   schema:legalName "re:Naissance Opera"@en;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "K2-6326";
       schema:name "DigiBC Creative Tech Studio"
     ];
     schema:roleName "Resident organization"
   ];
   schema:name "re:Naissance"@en,
     "re:Naissance";
-  schema:url <HTTP://www.reopera.com> .
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5146>;
+  schema:url <https://reopera.ca> .
 
 member:35 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
@@ -6052,7 +6092,7 @@ member:39 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
