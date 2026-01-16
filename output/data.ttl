@@ -6726,6 +6726,8 @@ member:58 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://calendar.sandersoncentre.ca>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "This is a description."@en,
+    "Ceci est une description."@fr;
   wikidata_property:\/P8860 "122686793" .
 
 member:60 a <https://schema.org/Organization>;
