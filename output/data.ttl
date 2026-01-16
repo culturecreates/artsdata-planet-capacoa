@@ -6726,8 +6726,8 @@ member:58 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://calendar.sandersoncentre.ca>
   ];
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "This is a description."@en,
-    "Ceci est une description."@fr;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Sanderson Centre for the Performing Arts is presenting organization in Brantford, Ontario, Canada. The organization is a division of the City of Brantford. It manages the Sanderson Centre for the Performing Arts, a former movie theatre and designated heritage site in downtown Bantford."@en,
+    "Le Sanderson Centre for the Performing Arts est un diffuseur de spectacle à Brantford, en Ontario, au Canada. L'organisme est une division de la ville de Brantford. Il gère le Sanderson Centre for the Performing Arts, un ancien cinéma classé site patrimonial situé dans le centre-ville de Brantford."@fr;
   wikidata_property:\/P8860 "122686793" .
 
 member:60 a <https://schema.org/Organization>;
