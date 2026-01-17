@@ -14,9 +14,10 @@ loop do
   request = Net::HTTP::Get.new(uri)
   request['User-Agent'] = 'artsdata-crawler (compatible; +https://kg.artsdata.ca/doc/artsdata-crawler)'
 
-  response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
-    http.request(request)
-  end
+  http = Net::HTTP.new(uri.hostname, uri.port)
+  http.use_ssl = true
+  http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+  response = http.request(request)
 
   unless response.is_a?(Net::HTTPSuccess)
     puts "Error fetching data: #{response.code} message: #{response.message}"
