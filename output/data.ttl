@@ -1358,7 +1358,7 @@ member:16 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -7797,6 +7797,10 @@ capacoa:LegalForm_Municipal-corporation a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "municipal organization"@en .
 
+capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy terms basic consent"@en .
+
 capacoa:PrimaryActivity_asso a skos:Concept;
   skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
     "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
@@ -7804,10 +7808,6 @@ capacoa:PrimaryActivity_asso a skos:Concept;
   skos:inScheme capacoa:PrimaryActivity;
   skos:prefLabel "providing services to individual and/or organizational members"@en,
     "fourniture de services aux membres individuels et/ou organisationnels"@fr .
-
-capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy terms basic consent"@en .
 
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
