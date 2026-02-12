@@ -1240,39 +1240,6 @@ member:155 a <https://schema.org/Organization>;
   schema:url <https://artsnetottawa.ca/>;
   wikidata_property:\/P8860 "121777023" .
 
-member:156 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_cir,
-    capacoa:PrimaryActivity_pres,
-    capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.2,
-    capacoa:PresentingFormat_festival-series,
-    capacoa:Genres_com,
-    capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
-    capacoa:Genres_mus-th,
-    capacoa:Genres_oth,
-    capacoa:Genres_the,
-    capacoa:Genres_var,
-    capacoa:Genres_vis,
-    capacoa:Genres_you,
-    capacoa:PresenterType_Multidisciplinary;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Sault Ste. Marie";
-    schema:addressRegion "ON"
-  ];
-  schema:alternateName "Fringe North Festival, Sault Fringe";
-  schema:identifier "Q132151445";
-  schema:legalName "Fringe North (International Theatre) Festival"@en;
-  schema:name "Fringe North"@en,
-    "Fringe North";
-  schema:sameAs <http://kg.artsdata.ca/resource/K14-126>;
-  schema:url <https://www.saultfringe.com>;
-  wikidata_property:\/P8860 "773424726" .
-
 member:157 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
@@ -3141,26 +3108,6 @@ member:243 a <https://schema.org/Organization>;
   schema:url <https://www.dancevictoria.com>;
   wikidata_property:\/P8860 "873775522" .
 
-member:247 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_you,
-    capacoa:PrimaryActivity_agen,
-    capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-\(for-profit\),
-    capacoa:TermsConditions_agree-v1\.2;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Vancouver";
-    schema:addressRegion "BC"
-  ];
-  schema:alternateName "PSA";
-  schema:identifier "Q123119603";
-  schema:legalName "Pebble Star Artists Inc."@en;
-  schema:name "Pebble Star Artists"@en,
-    "Pebble Star Artists";
-  schema:url <https://www.pebblestarartists.com>;
-  wikidata_property:\/P8860 "724758925" .
-
 member:248 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -3846,20 +3793,6 @@ member:271 a <https://schema.org/Organization>;
     schema:url <https://www.rythmesetcourant.ca>
   ];
   wikidata_property:\/P8860 "840401749" .
-
-member:272 a <https://schema.org/Person>;
-  schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1\.2;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Regina";
-    schema:addressRegion "SK"
-  ];
-  schema:hasOccupation wikidata_entity:Q483501;
-  schema:identifier "Q128035471";
-  schema:name "Dara Schindelka";
-  schema:url <https://www.daraschindelka.com> .
 
 member:273 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
@@ -6753,7 +6686,7 @@ member:61 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Corporation-\(for-profit\),
-    capacoa:TermsConditions_agree-and-disclose-v1\.0,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
     capacoa:Genres_you;
@@ -7724,13 +7657,13 @@ capacoa:LegalForm_Other-type-of-legal-entity a skos:Concept;
 capacoa:PresenterType a skos:ConceptScheme;
   skos:prefLabel "Presenter Type"@en .
 
-capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy terms basic consent"@en .
-
 capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
+
+capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy terms basic consent"@en .
 
 capacoa:LegalForm_Educational-organization a skos:Concept;
   skos:inScheme capacoa:LegalForm;
