@@ -7466,27 +7466,6 @@ member:90 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "107566218" .
 
-member:91 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_mus,
-    capacoa:PrimaryActivity_agen,
-    capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-\(for-profit\),
-    capacoa:TermsConditions_agree-and-disclose-v1\.0;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Montreal";
-    schema:addressRegion "QC"
-  ];
-  schema:alternateName "Fleming Artist Management";
-  schema:identifier "FAMGroup";
-  schema:legalName "9021-3109 Québec Inc"@fr;
-  schema:name "Famgroup"@en,
-    "Direction d'Artistes Fleming"@fr,
-    "Famgroup";
-  schema:url <https://famgroup.ca>;
-  wikidata_property:\/P8860 "895399756" .
-
 member:92 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -7734,14 +7713,6 @@ capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
-capacoa:PrimaryActivity_asso a skos:Concept;
-  skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
-    "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
-  skos:hiddenLabel "asso";
-  skos:inScheme capacoa:PrimaryActivity;
-  skos:prefLabel "providing services to individual and/or organizational members"@en,
-    "fourniture de services aux membres individuels et/ou organisationnels"@fr .
-
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
     "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
@@ -7750,6 +7721,14 @@ capacoa:PrimaryActivity_agen a skos:Concept;
   skos:note "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en;
   skos:prefLabel "representing performing artists, groups or companies"@en,
     "représentation d'artistes, de groupes ou de compagnies"@fr .
+
+capacoa:PrimaryActivity_asso a skos:Concept;
+  skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
+    "Vous fournissez des services aux individuels ou organisations dans une industrie/un secteur (tels que la promotion de leurs intérêts)"@fr;
+  skos:hiddenLabel "asso";
+  skos:inScheme capacoa:PrimaryActivity;
+  skos:prefLabel "providing services to individual and/or organizational members"@en,
+    "fourniture de services aux membres individuels et/ou organisationnels"@fr .
 
 capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
