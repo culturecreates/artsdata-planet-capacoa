@@ -5459,6 +5459,7 @@ Avant de se consacrer à sa pratique chorégraphique, Lisa était codirectrice a
 
 member:333 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_oth,
