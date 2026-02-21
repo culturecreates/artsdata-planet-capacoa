@@ -5973,6 +5973,43 @@ member:35 a <https://schema.org/Organization>;
   schema:url <https://www.harbourfronttheatre.com/>;
   wikidata_property:\/P8860 "887829463" .
 
+member:351 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Educational-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Vancouver";
+    schema:addressRegion "BC"
+  ];
+  schema:alternateName "Chan Centre";
+  schema:legalName "Chan Centre for the Performing Arts"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Chan Centre for the Performing Arts"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Chan Centre for the Performing Arts"@en,
+    "Chan Centre for the Performing Arts";
+  schema:url <https://chancentre.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Chan Centre for the Performing Arts is the home of possibility. A conduit for artists and communities to connect and engage, it is a vital space to explore, question, and dream; offering a place where minds are provoked, tears are shed, and the spirit is nourished.  
+
+Situated on the traditional, ancestral, and unceded territory of the Musqueam people, the Chan Centre honours their enduring role as caretakers of this land, while embracing the diverse voices who share it."""@en;
+  wikidata_property:\/P8860 "108161779" .
+
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
@@ -7645,12 +7682,12 @@ capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
+capacoa:TermsConditions a skos:ConceptScheme;
+  skos:prefLabel "Open Data Strategy Consent Options"@en .
+
 capacoa:LegalForm_Educational-organization a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "educational organization"@en .
-
-capacoa:TermsConditions a skos:ConceptScheme;
-  skos:prefLabel "Open Data Strategy Consent Options"@en .
 
 capacoa:PresentingFormat a skos:ConceptScheme;
   skos:prefLabel "If a presenting organization, how are your arts presenting activities organized?"@en .
