@@ -1,0 +1,14 @@
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+CONSTRUCT {
+  ?wdid wdt:P2002 ?twitterUsername ;
+        wdt:P2013 ?facebookId ;
+        wdt:P2003 ?instagramUsername .
+}
+WHERE {
+  VALUES ?wdid { {{wikidata_ids}} }
+  OPTIONAL { ?wdid wdt:P2002 ?twitterUsername . }
+  OPTIONAL { ?wdid wdt:P2013 ?facebookId . }
+  OPTIONAL { ?wdid wdt:P2003 ?instagramUsername . }
+}

@@ -1,0 +1,38 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+CONSTRUCT {
+  ?org schema:location ?role .
+  ?role schema:roleName "item operated P121" ;
+        schema:location ?itemOperated .
+  ?itemOperated schema:name ?itemOperatedLab ;
+                rdfs:label ?itemOperatedLab ;
+                schema:geoCoordinates ?geo ;
+                schema:address ?street_address ;
+                schema:additionalType ?itemOperatedType ;
+                schema:image ?image ;
+                schema:creditedTo ?creditedTo ;
+                schema:containsPlace ?parts .
+  ?itemOperatedType rdfs:label ?itemOperatedTypeLab .
+}
+WHERE {
+  VALUES ?org { {{wikidata_ids}} }
+  ?org wdt:P121/wdt:P527* ?itemOperated .
+  ?itemOperated rdfs:label ?itemOperatedLab .
+  FILTER(LANG(?itemOperatedLab) = "en" || LANG(?itemOperatedLab) = "fr")
+  ?itemOperated wdt:P31 ?itemOperatedType .
+  ?itemOperatedType rdfs:label ?itemOperatedTypeLab .
+  FILTER(LANG(?itemOperatedTypeLab) = "en" || LANG(?itemOperatedTypeLab) = "fr")
+  OPTIONAL { ?itemOperated wdt:P625 ?geo . }
+  OPTIONAL {
+    ?itemOperated wdt:P18 ?image .
+    BIND(URI(REPLACE(STR(?image), "Special:FilePath/", "File:")) AS ?creditedTo)
+  }
+  OPTIONAL { ?itemOperated wdt:P6375 ?street_address . }  
+  OPTIONAL {
+    ?org wdt:P121 ?itemOperated .
+    ?itemOperated wdt:P527 ?parts .
+  }
+  BIND(URI(CONCAT(STR(?org), "-ITEM_OPERATED_P121-", STR(?itemOperated))) AS ?role)
+}
