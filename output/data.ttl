@@ -5951,17 +5951,20 @@ member:351 a <https://schema.org/Organization>;
     schema:addressRegion "BC"
   ];
   schema:alternateName "Chan Centre";
+  schema:identifier "Q128243175";
   schema:legalName "Chan Centre for the Performing Arts"@en;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q4231899";
       schema:name "Chan Centre for the Performing Arts"
     ];
     schema:roleName "Manager/Operator"
   ];
   schema:name "Chan Centre for the Performing Arts"@en,
     "Chan Centre for the Performing Arts";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-346>;
   schema:url <https://chancentre.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Chan Centre for the Performing Arts is the home of possibility. A conduit for artists and communities to connect and engage, it is a vital space to explore, question, and dream; offering a place where minds are provoked, tears are shed, and the spirit is nourished.  
 
@@ -6000,6 +6003,41 @@ member:352 a <https://schema.org/Organization>;
     schema:url <https://flatomarkhamtheatre.ca/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B6A7D9D4-197C-4CF9-BE66-D08E47B5F6F1>
   ];
   wikidata_property:\/P8860 "122702319" .
+
+member:353 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:PresenterType_Specialized;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Halifax";
+    schema:addressRegion "NS"
+  ];
+  schema:legalName "Live Art Productions Society"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Sr. James Dunn Theatre, Spatz Theatre, Other"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ];
+  schema:name "Live Art Dance"@en,
+    "-"@en,
+    "Live Art Dance";
+  schema:url <https://liveartdance.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://liveartdance.ca/>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Based in Kjipuktuk/Halifax, Live Art Dance is a hub of the arts on the East Coast. We programme local, national, and international work, offering our artists and audiences a diverse and rich season of contemporary dance. Our presentations are accompanied by deep and carefully considered outreach, programmed with an eye to increasing engagement with artistic voices, building connections, and celebrating the diversity of artistic practice."@en,
+    "-"@fr;
+  wikidata_property:\/P8860 "131908550" .
 
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
@@ -7847,15 +7885,15 @@ capacoa:Genres_you a skos:Concept;
   skos:prefLabel "young audience/family"@en,
     "jeune public/famille"@fr .
 
-capacoa:CharitableStatus_Charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "charitable organization"@en .
-
 capacoa:Genres_the a skos:Concept;
   skos:hiddenLabel "the";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "theatre/spoken word"@en,
     "théâtre/arts de la parole"@fr .
+
+capacoa:CharitableStatus_Charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "charitable organization"@en .
 
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
