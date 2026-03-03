@@ -5985,6 +5985,7 @@ member:352 a <https://schema.org/Organization>;
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:alternateName "Flato Markham Theatre";
+  schema:identifier "Q113488560";
   schema:legalName "The Corporation of the City of Markham"@en;
   schema:location [
     a schema:Role;
@@ -5997,6 +5998,7 @@ member:352 a <https://schema.org/Organization>;
   ];
   schema:name "Flato Markham Theatre"@en,
     "Flato Markham Theatre";
+  schema:sameAs <http://kg.artsdata.ca/resource/K14-115>;
   schema:url <https://flatomarkhamtheatre.ca>, [
     a schema:Role;
     schema:roleName "Events Webpage";
@@ -6018,18 +6020,29 @@ member:353 a <https://schema.org/Organization>;
     schema:addressLocality "Halifax";
     schema:addressRegion "NS"
   ];
+  schema:identifier "Q129448582";
   schema:legalName "Live Art Productions Society"@en;
   schema:location [
     a schema:Role;
     schema:location [
       a schema:Place;
-      schema:name "Sr. James Dunn Theatre, Spatz Theatre, Other"
+      schema:identifier "Q124473687";
+      schema:name "Sr. James Dunn Theatre"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q138542411";
+      schema:name "Spatz Theatre"
     ];
     schema:roleName "Main presentation venue (as rental client)"
   ];
   schema:name "Live Art Dance"@en,
     "-"@en,
     "Live Art Dance";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-323>;
   schema:url <https://liveartdance.ca/>, [
     a schema:Role;
     schema:roleName "Events Webpage";
