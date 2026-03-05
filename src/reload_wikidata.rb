@@ -1,6 +1,7 @@
 require 'net/http'
 require 'json'
 require 'uri'
+require 'logger'
 require 'rdf'
 require 'rdf/turtle'
 require 'rdf/ntriples'
@@ -10,13 +11,19 @@ require 'json/ld'
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 WIKIDATA_ENTITY   = "http://www.wikidata.org/entity/"
+SPARQL_PLACEHOLDER = "<http://placeholder>"
 SCHEMA            = RDF::Vocabulary.new("http://schema.org/")
 
 REPO_ROOT   = File.expand_path("../..", __FILE__)
 SPARQL_DIR  = File.join(REPO_ROOT, "sparql", "wikidata")
 OUTPUT_FILE = File.join(REPO_ROOT, "output", "capacoa-wikidata.jsonld")
 
-BATCH_SIZE  = 50
+BATCH_SIZE = 50
+
+LOG = Logger.new($stdout).tap do |l|
+  l.level = Object.const_get("Logger::#{(ENV['LOG_LEVEL'] || 'info').upcase}")
+  l.formatter = proc { |severity, _, _, msg| "#{severity}: #{msg}\n" }
+end
 
 
 def read_sparql(filename)
@@ -34,7 +41,7 @@ def http_get(url, accept)
     http.read_timeout = 120
     res = http.request(req)
     unless res.is_a?(Net::HTTPSuccess)
-      puts "  HTTP #{res.code}: #{res.body[0..300]}"
+      LOG.error "HTTP #{res.code}: #{res.body[0..300]}"
       raise "HTTP #{res.code} #{res.message}"
     end
     res.body
@@ -47,7 +54,7 @@ def sparql_select(endpoint, query)
   body = http_get(uri.to_s, "application/sparql-results+json")
   JSON.parse(body)["results"]["bindings"]
 rescue => e
-  puts "  SPARQL SELECT error: #{e.message}"
+  LOG.error "SPARQL SELECT error: #{e.message}"
   []
 end
 
@@ -59,7 +66,7 @@ def sparql_construct(query)
   RDF::NTriples::Reader.new(body) { |r| r.each_statement { |s| graph << s } }
   graph
 rescue => e
-  puts "  SPARQL CONSTRUCT error: #{e.message}"
+  LOG.error "SPARQL CONSTRUCT error: #{e.message}"
   RDF::Graph.new
 end
 
@@ -68,10 +75,10 @@ def construct_batched(sparql_template, wikidata_ids)
   total  = (wikidata_ids.size.to_f / BATCH_SIZE).ceil
   wikidata_ids.each_slice(BATCH_SIZE).with_index(1) do |batch, i|
     values = batch.map { |id| "<#{WIKIDATA_ENTITY}#{id}>" }.join(" ")
-    query  = sparql_template.gsub("{{wikidata_ids}}", values)
-    print "    batch #{i}/#{total} ..."
+    query  = sparql_template.gsub(SPARQL_PLACEHOLDER, values)
+    LOG.info "  batch #{i}/#{total} ..."
     g = sparql_construct(query)
-    puts " #{g.count} triples"
+    LOG.info "  #{g.count} triples"
     result << g
     sleep(1)
   end
@@ -99,7 +106,7 @@ def replace_images(graph)
     stmt.object.uri? && stmt.object.to_s.include?("Special:FilePath")
   end
 
-  puts "  Found #{images_to_process.size} images to process"
+  LOG.info "Found #{images_to_process.size} images to process"
 
   images_to_process.each do |stmt|
     place_uri = stmt.subject
@@ -125,12 +132,12 @@ def replace_images(graph)
       if thumburl
         graph.delete(stmt)
         graph << RDF::Statement(place_uri, SCHEMA.image, RDF::URI(thumburl))
-        puts "  OK #{filename[0..60]}"
+        LOG.info "OK #{filename[0..60]}"
       else
-        puts "  SKIP No thumburl for: #{filename[0..60]}"
+        LOG.warn "SKIP No thumburl for: #{filename[0..60]}"
       end
     rescue => e
-      puts "  ERROR #{filename[0..60]}: #{e.message}"
+      LOG.error "ERROR #{filename[0..60]}: #{e.message}"
     end
 
     sleep(0.5)
@@ -152,36 +159,36 @@ def serialize(graph)
   }
   Dir.mkdir(File.dirname(OUTPUT_FILE)) unless Dir.exist?(File.dirname(OUTPUT_FILE))
   File.write(OUTPUT_FILE, JSON.pretty_generate(output))
-  puts "  Saved #{graph.count} triples -> #{OUTPUT_FILE}"
+  LOG.info "Saved #{graph.count} triples -> #{OUTPUT_FILE}"
 end
 
 
 def main
-  puts "\n── Step 1: Fetch CAPACOA members from Artsdata ──"
+  LOG.info "── Step 1: Fetch CAPACOA members from Artsdata ──"
   wikidata_ids = fetch_members
-  puts "  Found #{wikidata_ids.size} members with Wikidata IDs"
+  LOG.info "Found #{wikidata_ids.size} members with Wikidata IDs"
   raise "No Wikidata IDs found" if wikidata_ids.empty?
 
-  puts "\n── Step 2: Fetch social media from Wikidata ──"
+  LOG.info "── Step 2: Fetch social media from Wikidata ──"
   social_graph = fetch_social_media(wikidata_ids)
-  puts "  Total triples: #{social_graph.count}"
+  LOG.info "Total triples: #{social_graph.count}"
 
-  puts "\n── Step 3: Fetch venues from Wikidata ──"
+  LOG.info "── Step 3: Fetch venues from Wikidata ──"
   venues_graph = fetch_venues(wikidata_ids)
-  puts "  Total triples: #{venues_graph.count}"
+  LOG.info "Total triples: #{venues_graph.count}"
 
   graph = RDF::Graph.new
   graph << social_graph
   graph << venues_graph
-  puts "\n  Combined graph: #{graph.count} triples"
+  LOG.info "Combined graph: #{graph.count} triples"
 
-  puts "\n── Step 4: Replace images with Wikimedia thumbnails ──"
+  LOG.info "── Step 4: Replace images with Wikimedia thumbnails ──"
   replace_images(graph)
 
-  puts "\n── Step 5: Serialize to JSON-LD ──"
+  LOG.info "── Step 5: Serialize to JSON-LD ──"
   serialize(graph)
 
-  puts "\nDone"
+  LOG.info "Done"
 end
 
 main if __FILE__ == $0
