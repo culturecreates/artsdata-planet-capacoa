@@ -22,6 +22,8 @@ Here is a summary of the workflow fetch-and-push-data.yml
 1. Upload dump to Artsdata (culturecreates/artsdata-pipeline-action@v3)
 
 ## How to test locally
+
+### Pipeline 1 — CAPACOA member data
 1. Clone and cd into the project directory
 1. `bundle install`
 1. `ruby src/fetch_data.rb`
@@ -33,6 +35,20 @@ Here is a summary of the workflow fetch-and-push-data.yml
         - filter by facet to delete members
     - export the changes in OpenRefine projet settings and replace `ontorefine-config.json` in Github.
 1. `ruby src/run_sparql.rb`
+
+### Pipeline 2 — Fetch Wikidata for CAPACOA Members
+1. Clone and cd into the project directory
+1. `bundle install`
+1. `bundle exec ruby src/reload_wikidata.rb`
+    - fetches CAPACOA members with Wikidata IDs from Artsdata
+    - queries Wikidata for social media handles and venue details in batches
+    - replaces venue image URLs with 300px Wikimedia thumbnails
+    - serializes the result to `output/capacoa-wikidata.jsonld`
+
+### Unit tests
+```bash
+bundle exec rake test
+```
 
 # Wordpress plugins
 
