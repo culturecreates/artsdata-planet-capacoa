@@ -23,9 +23,12 @@ Here is a summary of the workflow fetch-and-push-data.yml
 
 ## How to test locally
 
-### Pipeline 1 — CAPACOA member data
+### Setup 
 1. Clone and cd into the project directory
 1. `bundle install`
+
+### Pipeline 1 — CAPACOA member data
+
 1. `ruby src/fetch_data.rb`
 1. `./run_ontorefine.sh`
     - launches your browser to OpenRefine (Docker must be running) with the data loaded
@@ -37,8 +40,6 @@ Here is a summary of the workflow fetch-and-push-data.yml
 1. `ruby src/run_sparql.rb`
 
 ### Pipeline 2 — Fetch Wikidata for CAPACOA Members
-1. Clone and cd into the project directory
-1. `bundle install`
 1. `bundle exec ruby src/reload_wikidata.rb`
     - fetches CAPACOA members with Wikidata IDs from Artsdata
     - queries Wikidata for social media handles and venue details in batches
