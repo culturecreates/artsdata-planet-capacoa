@@ -1,0 +1,9 @@
+PREFIX schema: <http://schema.org/>
+
+SELECT ?org ?wikidata_id WHERE {
+  GRAPH <http://kg.artsdata.ca/culture-creates/artsdata-planet-capacoa/capacoa-members> {
+    ?org a ?type ;
+         schema:identifier ?wikidata_id .
+    VALUES ?type { schema:Organization schema:Person }
+  }
+}
