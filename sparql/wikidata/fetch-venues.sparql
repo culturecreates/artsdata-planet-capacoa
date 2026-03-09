@@ -17,7 +17,7 @@ CONSTRUCT {
   ?itemOperatedType rdfs:label ?itemOperatedTypeLab .
 }
 WHERE {
-  VALUES ?org { <http://placeholder> }
+  VALUES ?org { <WIKIDATA_IDS_PLACEHOLDER> }
   ?org wdt:P121/wdt:P527* ?itemOperated .
   ?itemOperated rdfs:label ?itemOperatedLab .
   FILTER(LANG(?itemOperatedLab) = "en" || LANG(?itemOperatedLab) = "fr")

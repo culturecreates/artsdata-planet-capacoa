@@ -11,7 +11,7 @@ require 'json/ld'
 ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
 WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
 WIKIDATA_ENTITY   = "http://www.wikidata.org/entity/"
-SPARQL_PLACEHOLDER = "<http://placeholder>"
+SPARQL_PLACEHOLDER = "<WIKIDATA_IDS_PLACEHOLDER>"
 SCHEMA            = RDF::Vocabulary.new("http://schema.org/")
 
 REPO_ROOT   = File.expand_path("../..", __FILE__)

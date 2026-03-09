@@ -7,7 +7,7 @@ CONSTRUCT {
         wdt:P2003 ?instagramUsername .
 }
 WHERE {
-  VALUES ?wdid { <http://placeholder> }
+  VALUES ?wdid { <WIKIDATA_IDS_PLACEHOLDER> }
   OPTIONAL { ?wdid wdt:P2002 ?twitterUsername . }
   OPTIONAL { ?wdid wdt:P2013 ?facebookId . }
   OPTIONAL { ?wdid wdt:P2003 ?instagramUsername . }
