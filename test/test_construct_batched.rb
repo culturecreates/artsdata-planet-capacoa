@@ -8,6 +8,10 @@ NT
 
 class TestConstructBatched < Minitest::Test
   
+  # Override sleep to no-op for faster tests
+  def sleep(*)
+  end
+
   def test_merges_results_from_all_batches
     stub_request(:get, /query\.wikidata\.org/)
       .to_return(status: 200, body: NTRIPLES_BATCH)
@@ -45,7 +49,7 @@ class TestConstructBatched < Minitest::Test
       captured_query = URI.decode_www_form(URI(req.uri).query).to_h["query"]
       { status: 200, body: NTRIPLES_BATCH }
     end
-    construct_batched("VALUES ?s { {{wikidata_ids}} }", ["Q4851638"])
+    construct_batched("VALUES ?s { <WIKIDATA_IDS_PLACEHOLDER> }", ["Q4851638"])
     assert_includes captured_query, "<http://www.wikidata.org/entity/Q4851638>"
   end
 end
