@@ -1,6 +1,6 @@
 require 'rake/testtask'
 
-ENV['LOG_LEVEL'] ||= 'error'
+ENV['LOG_LEVEL'] ||= 'UNKNOWN'
 
 Rake::TestTask.new(:test) do |t|
   t.libs << 'test'
