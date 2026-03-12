@@ -3652,12 +3652,12 @@ member:269 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "119232965" .
 
-member:27 a <https://schema.org/Person>;
+member:27 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.1;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6040,7 +6040,7 @@ member:353 a <https://schema.org/Organization>;
     schema:roleName "Main presentation venue (as rental client)"
   ];
   schema:name "Live Art Dance"@en,
-    "-"@en,
+    "Live Art Dance"@fr,
     "Live Art Dance";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-323>;
   schema:url <https://liveartdance.ca/>, [
@@ -6187,7 +6187,7 @@ member:40 a <https://schema.org/Organization>;
 
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
-    capacoa:PrimaryActivity_prod,
+    capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.2,
@@ -6195,7 +6195,8 @@ member:42 a <https://schema.org/Organization>;
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
-    capacoa:Genres_var;
+    capacoa:Genres_var,
+    capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6479,13 +6480,12 @@ member:51 a <https://schema.org/Organization>;
   wikidata_property:\/P8860 "857100556" .
 
 member:52 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_cir,
+  schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
-    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
-    capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6502,7 +6502,7 @@ member:52 a <https://schema.org/Organization>;
     schema:addressLocality "St. Catharines";
     schema:addressRegion "ON"
   ];
-  schema:alternateName "FirstOntario PAC . Corporation of the City of St. Catherine";
+  schema:alternateName "FirstOntario PAC, Corporation of the City of St. Catharines";
   schema:identifier "Q112690192";
   schema:legalName "FirstOntario Performing Arts Centre Board"@en;
   schema:location [
@@ -6785,14 +6785,15 @@ member:61 a <https://schema.org/Organization>;
 
 member:62 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod,
+    capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
-    capacoa:Genres_you;
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6805,6 +6806,7 @@ member:62 a <https://schema.org/Organization>;
     a schema:Role;
     schema:location [
       a schema:Place;
+      schema:identifier "Q111747963";
       schema:name "Riverview Arts Centre"
     ];
     schema:roleName "Main presentation venue (as rental client)"
@@ -7544,6 +7546,7 @@ member:90 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://ticket.keyano.ca>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Keyano Theatre is a department of Keyano College.  We produce 3 plays each year with our community members.  A touring season of professional artists and various community and visiting events round out our activities."@en;
   wikidata_property:\/P8860 "107566218" .
 
 member:92 a <https://schema.org/Organization>;
@@ -7837,15 +7840,15 @@ capacoa:Genres_vis a skos:Concept;
   skos:prefLabel "visual arts"@en,
     "arts visuels"@fr .
 
+capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "not a charitable organization"@en .
+
 capacoa:Genres_film a skos:Concept;
   skos:hiddenLabel "film";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "film"@en,
     "film"@fr .
-
-capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "not a charitable organization"@en .
 
 capacoa:Genres_cir a skos:Concept;
   skos:hiddenLabel "cir";
