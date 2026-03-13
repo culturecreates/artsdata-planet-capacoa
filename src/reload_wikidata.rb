@@ -8,11 +8,12 @@ require 'rdf/ntriples'
 require 'json/ld'
 
 
-ARTSDATA_ENDPOINT = "https://db.artsdata.ca/repositories/artsdata"
-WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
-WIKIDATA_ENTITY   = "http://www.wikidata.org/entity/"
+ARTSDATA_ENDPOINT  = "https://db.artsdata.ca/repositories/artsdata"
+WIKIDATA_ENDPOINT  = "https://query.wikidata.org/sparql"
+WIKIDATA_ENTITY    = "http://www.wikidata.org/entity/"
 SPARQL_PLACEHOLDER = "<WIKIDATA_IDS_PLACEHOLDER>"
-SCHEMA            = RDF::Vocabulary.new("http://schema.org/")
+SCHEMA             = RDF::Vocabulary.new("http://schema.org/")
+RDF_TYPE           = RDF.type
 
 REPO_ROOT   = File.expand_path("../..", __FILE__)
 SPARQL_DIR  = File.join(REPO_ROOT, "sparql", "wikidata")
@@ -85,12 +86,42 @@ def construct_batched(sparql_template, wikidata_ids)
   result
 end
 
+# Rewrite Wikidata URI subjects to CAPACOA URIs using the member map
+# member_map: { "Q112510060" => { uri: "https://capacoa.ca/member/65", type: "http://schema.org/Organization" } }
+def rewrite_subjects(graph, member_map)
+  result = RDF::Graph.new
+
+  # Build reverse lookup: wikidata_uri => capacoa_uri + type
+  wd_to_capacoa = member_map.transform_keys { |id| RDF::URI("#{WIKIDATA_ENTITY}#{id}") }
+
+  graph.each_statement do |stmt|
+    if (member = wd_to_capacoa[stmt.subject])
+      capacoa_uri = RDF::URI(member[:uri])
+      result << RDF::Statement(capacoa_uri, stmt.predicate, stmt.object)
+    else
+      result << stmt
+    end
+  end
+
+  # Add rdf:type for each org/person
+  wd_to_capacoa.each do |_, member|
+    result << RDF::Statement(RDF::URI(member[:uri]), RDF_TYPE, RDF::URI(member[:type]))
+  end
+
+  result
+end
+
 
 def fetch_members
   rows = sparql_select(ARTSDATA_ENDPOINT, read_sparql("fetch-members.sparql"))
-  rows.filter_map { |r| r.dig("wikidata_id", "value") }
-      .select { |id| id.match?(/^Q\d+$/) }
-      .uniq
+  # Returns: { "Q112510060" => { uri: "https://capacoa.ca/member/65", type: "http://schema.org/Organization" } }
+  rows.each_with_object({}) do |row, map|
+    id   = row.dig("wikidata_id", "value")
+    uri  = row.dig("org", "value")
+    type = row.dig("type", "value")
+    next unless id&.match?(/^Q\d+$/) && uri && type
+    map[id] = { uri: uri, type: type }
+  end
 end
 
 def fetch_social_media(wikidata_ids)
@@ -165,7 +196,8 @@ end
 
 def main
   LOG.info "── Step 1: Fetch CAPACOA members from Artsdata ──"
-  wikidata_ids = fetch_members
+  member_map   = fetch_members
+  wikidata_ids = member_map.keys
   LOG.info "Found #{wikidata_ids.size} members with Wikidata IDs"
   raise "No Wikidata IDs found" if wikidata_ids.empty?
 
@@ -177,15 +209,16 @@ def main
   venues_graph = fetch_venues(wikidata_ids)
   LOG.info "Total triples: #{venues_graph.count}"
 
+  LOG.info "── Step 4: Rewrite subjects to CAPACOA URIs and add rdf:type ──"
   graph = RDF::Graph.new
-  graph << social_graph
-  graph << venues_graph
+  graph << rewrite_subjects(social_graph, member_map)
+  graph << rewrite_subjects(venues_graph, member_map)
   LOG.info "Combined graph: #{graph.count} triples"
 
-  LOG.info "── Step 4: Replace images with Wikimedia thumbnails ──"
+  LOG.info "── Step 5: Replace images with Wikimedia thumbnails ──"
   replace_images(graph)
 
-  LOG.info "── Step 5: Serialize to JSON-LD ──"
+  LOG.info "── Step 6: Serialize to JSON-LD ──"
   serialize(graph)
 
   LOG.info "Done"
