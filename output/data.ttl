@@ -875,6 +875,7 @@ member:14 a <https://schema.org/Organization>;
   schema:name "DanceHouse"@en,
     "DanceHouse";
   schema:url <https://dancehouse.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "DanceHouse connects Vancouver audiences and the local arts community to the international world of dance by presenting exceptional companies that are recognized for their excellence, innovation, and international reputation. Since 2008, DanceHouse has presented vibrant and inspiring companies from Canada and around the world. In addition to the performances on stage, DanceHouse offers a suite of engagement opportunities and a chance for members of the general public and the local artistic community to engage with the presented artists and their work."@en;
   wikidata_property:\/P8860 "861284255" .
 
 member:141 a <https://schema.org/Organization>;
