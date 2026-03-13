@@ -2440,7 +2440,7 @@ member:213 a <https://schema.org/Organization>;
     a schema:Role;
     schema:location [
       a schema:Place;
-      schema:identifier "Q136708962";
+      schema:identifier "Q56187018";
       schema:name "John C Perlin Arts and Culture Centre"
     ];
     schema:roleName "Owner"
@@ -4124,6 +4124,10 @@ member:286 a <https://schema.org/Organization>;
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -4149,6 +4153,7 @@ member:286 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://marywinspear.ca/calendar-node-field-event-date/month>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Mary Winspear Centre is ideally located on southern Vancouver Island near the airport and ferry terminal. Our theatre is known regionally as a professionally staffed, well-equipped, performance theatre. It has 3 sections, 8 rows and 310 plush velvet chairs all with unobstructed views."@en;
   wikidata_property:\/P8860 "886363993" .
 
 member:287 a <https://schema.org/Organization>;
@@ -6052,6 +6057,16 @@ member:353 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Based in Kjipuktuk/Halifax, Live Art Dance is a hub of the arts on the East Coast. We programme local, national, and international work, offering our artists and audiences a diverse and rich season of contemporary dance. Our presentations are accompanied by deep and carefully considered outreach, programmed with an eye to increasing engagement with artistic voices, building connections, and celebrating the diversity of artistic practice."@en,
     "-"@fr;
   wikidata_property:\/P8860 "131908550" .
+
+member:354 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_soci,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:hasOccupation wikidata_entity:Q64825398;
+  schema:name "Peter Feldman";
+  schema:url <https://johnnyandthebacktobacks.weebly.com/about.html>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Peter Feldman was the founding Executive Director of CAPACOA,and served for 22 years. The 2013 NAC Award for Distinguished Contribution to Touring in the Performing Arts, recognized his achievements fostering a pan-Canadian live performing arts network, along with key programs, such as CAPF, and the Magnetic North Theatre Festival. Always active, he served as International Advisory Committee Member for the Esther Honens Piano Competition, President of the Cultural Trade Advisory Board, Director of the Cultural Human Resources Council, and as General Manager of the Ottawa Symphony Orchestra. Officially retired since 2013, he has returned to performing music."@en,
+    "Peter Feldman a été le directeur général fondateur de CAPACOA, poste qu’il a occupé pendant 22 ans. Le Prix du CNA 2013 pour contribution exceptionnelle aux tournées dans le domaine des arts de la scène a récompensé ses réalisations dans la mise en place d’un réseau pancanadien des arts de la scène, ainsi que de programmes phares tels que le FCPA et le Festival de théâtre Magnetic North. Toujours actif, il a été membre du comité consultatif international du Concours de piano Esther Honens, président du Conseil consultatif sur le commerce culturel, directeur du Conseil des ressources humaines du secteur culturel et directeur général de l’Orchestre symphonique d’Ottawa. Officiellement à la retraite depuis 2013, il s’est remis à jouer de la musique."@fr .
 
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
