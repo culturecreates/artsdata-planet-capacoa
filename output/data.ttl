@@ -3854,18 +3854,14 @@ member:276 a <https://schema.org/Organization>;
   wikidata_property:\/P8860 "851639054" .
 
 member:277 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_com,
+  schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
-    capacoa:Genres_dan,
-    capacoa:Genres_film,
-    capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
-    capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
@@ -3875,13 +3871,21 @@ member:277 a <https://schema.org/Organization>;
   ];
   schema:identifier "Q126370134";
   schema:legalName "SummerWorks Theatre Festival"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "The Theatre Centre"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ];
   schema:name "SummerWorks"@en,
     "SummerWorks";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-204>;
-  schema:url <http://summerworks.ca>, [
+  schema:url <https://summerworks.ca>, [
     a schema:Role;
     schema:roleName "Events Webpage";
-    schema:url <http://summerworks.ca>
+    schema:url <https://summerworks.ca>
   ];
   wikidata_property:\/P8860 "888532231" .
 
@@ -6714,6 +6718,8 @@ member:57 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://thecultch.com/whats-on/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "As Vancouver’s most diverse and innovative arts and cultural hub, The Cultch has created meaningful, impactful connections across communities for over 50 years. As a presenting theatre, we curate unique, intimate, and diverse performances from Vancouver, Canada, and across the globe — offering dynamic contemporary programming in theatre, dance, music, circus, and visual arts. We host vibrant gatherings and lively conversations around the issues, topics, and ideas that are presented in our shows. We remove barriers to access by providing ASL Interpretation performances and free tickets to those for whom cost is prohibitive."@en,
+    "En tant que pôle artistique et culturel le plus diversifié et le plus innovant de Vancouver, The Cultch tisse depuis plus de 50 ans des liens significatifs et porteurs d’impact entre les communautés. En tant que salle de spectacle, nous programmons des spectacles uniques, intimistes et variés provenant de Vancouver, du Canada et du monde entier, proposant ainsi une programmation contemporaine dynamique dans les domaines du théâtre, de la danse, de la musique, du cirque et des arts visuels. Nous organisons des rencontres animées et des discussions passionnantes autour des enjeux, des thèmes et des idées abordés dans nos spectacles. Nous réduisons les obstacles à l'accès en proposant des représentations avec interprétation en langue des signes américaine (ASL) et en offrant des billets gratuits à ceux pour qui le prix est prohibitif."@fr;
   wikidata_property:\/P8860 "119281574" .
 
 member:58 a <https://schema.org/Organization>;
@@ -7856,15 +7862,15 @@ capacoa:Genres_vis a skos:Concept;
   skos:prefLabel "visual arts"@en,
     "arts visuels"@fr .
 
-capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "not a charitable organization"@en .
-
 capacoa:Genres_film a skos:Concept;
   skos:hiddenLabel "film";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "film"@en,
     "film"@fr .
+
+capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "not a charitable organization"@en .
 
 capacoa:Genres_cir a skos:Concept;
   skos:hiddenLabel "cir";
