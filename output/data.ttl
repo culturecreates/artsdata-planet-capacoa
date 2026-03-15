@@ -6067,7 +6067,9 @@ member:354 a <https://schema.org/Person>;
     capacoa:PrimaryActivity_soci,
     capacoa:TermsConditions_agree-v1\.2;
   schema:hasOccupation wikidata_entity:Q64825398;
+  schema:identifier "Q138661728";
   schema:name "Peter Feldman";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-7014>;
   schema:url <https://johnnyandthebacktobacks.weebly.com/about.html>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Peter Feldman was the founding Executive Director of CAPACOA,and served for 22 years. The 2013 NAC Award for Distinguished Contribution to Touring in the Performing Arts, recognized his achievements fostering a pan-Canadian live performing arts network, along with key programs, such as CAPF, and the Magnetic North Theatre Festival. Always active, he served as International Advisory Committee Member for the Esther Honens Piano Competition, President of the Cultural Trade Advisory Board, Director of the Cultural Human Resources Council, and as General Manager of the Ottawa Symphony Orchestra. Officially retired since 2013, he has returned to performing music."@en,
     "Peter Feldman a été le directeur général fondateur de CAPACOA, poste qu’il a occupé pendant 22 ans. Le Prix du CNA 2013 pour contribution exceptionnelle aux tournées dans le domaine des arts de la scène a récompensé ses réalisations dans la mise en place d’un réseau pancanadien des arts de la scène, ainsi que de programmes phares tels que le FCPA et le Festival de théâtre Magnetic North. Toujours actif, il a été membre du comité consultatif international du Concours de piano Esther Honens, président du Conseil consultatif sur le commerce culturel, directeur du Conseil des ressources humaines du secteur culturel et directeur général de l’Orchestre symphonique d’Ottawa. Officiellement à la retraite depuis 2013, il s’est remis à jouer de la musique."@fr .
