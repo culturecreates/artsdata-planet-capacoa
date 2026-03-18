@@ -2727,6 +2727,9 @@ member:228 a <https://schema.org/Organization>;
     "The Only Animal";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-172>;
   schema:url <https://www.theonlyanimal.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Only Animal (TOA) is an interdisciplinary arts company whose mission is to bring art and artists to the heart of the climate crisis. To inspire commitment and action, we empower people to reconnect to the land they live on, using art and creative engagement that inspires hope and imagination for a more sustainable future. Our current projects explore how place-based creativity can set the stage for climate care and sensitize relationships between people and place. We prioritize long-term and porous relationships between the public and our artist collaborators, shifting what we do in response to local needs. 
+
+Our core activities include Live Performances, Community for Climate Public Engagement Activities, Research, and Artist Support. We provide flexible mentorship opportunities for emerging artists to take the lead on projects, supporting early career artists in a holistic relationship where they can learn arts administration skills, interface with the local arts community and gain knowledge about tangible practices that challenge climate anxiety. We embrace open-ended learning through research projects that bring diverse perspectives to the climate movement, changing the way we work."""@en;
   wikidata_property:\/P8860 "845261544" .
 
 member:229 a <https://schema.org/Organization>;
