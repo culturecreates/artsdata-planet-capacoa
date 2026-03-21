@@ -6085,6 +6085,38 @@ member:354 a <https://schema.org/Person>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Peter Feldman was the founding Executive Director of CAPACOA, and served for 22 years. The 2013 NAC Award for Distinguished Contribution to Touring in the Performing Arts, recognized his achievements fostering a pan-Canadian live performing arts network, along with key programs, such as CAPF, and the Magnetic North Theatre Festival. Always active, he served as International Advisory Committee Member for the Esther Honens Piano Competition, President of the Cultural Trade Advisory Board, Director of the Cultural Human Resources Council, and as General Manager of the Ottawa Symphony Orchestra. Officially retired since 2013, he has returned to performing music."@en,
     "Peter Feldman a été le directeur général fondateur de CAPACOA, poste qu’il a occupé pendant 22 ans. Le Prix du CNA 2013 pour contribution exceptionnelle aux tournées dans le domaine des arts de la scène a récompensé ses réalisations dans la mise en place d’un réseau pancanadien des arts de la scène, ainsi que de programmes phares tels que le FCPA et le Festival de théâtre Magnetic North. Toujours actif, il a été membre du comité consultatif international du Concours de piano Esther Honens, président du Conseil consultatif sur le commerce culturel, directeur du Conseil des ressources humaines du secteur culturel et directeur général de l’Orchestre symphonique d’Ottawa. Officiellement à la retraite depuis 2013, il s’est remis à jouer de la musique."@fr .
 
+member:355 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series-festival,
+    capacoa:PresenterType_Specialized;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "MIDLAND";
+    schema:addressRegion "ON"
+  ];
+  schema:alternateName "Brookside Music";
+  schema:legalName "Brookside Music Association Inc."@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Midland Cultural Centre"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ];
+  schema:name "Brookside Music Association"@en,
+    "Brookside Music Association";
+  schema:url <https://brooksidemusic.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Brookside Music Association is a community-focused arts organization dedicated to presenting high-quality live music performances in an intimate and welcoming setting. With a programming vision that spans classical, world, and cross-cultural genres, the Association seeks to connect audiences with outstanding Canadian and international artists while fostering a deeper appreciation of diverse musical traditions.
+
+Through thoughtfully curated concerts and special events, Brookside Music Association emphasizes artistic excellence, accessibility, and community engagement. Under the artistic direction of John French, the organization continues to expand its reach, offering enriching musical experiences that appeal to both seasoned concertgoers and new audiences alike."""@en;
+  wikidata_property:\/P8860 "837063916" .
+
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
