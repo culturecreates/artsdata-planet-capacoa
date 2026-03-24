@@ -6117,6 +6117,40 @@ member:355 a <https://schema.org/Organization>;
 Through thoughtfully curated concerts and special events, Brookside Music Association emphasizes artistic excellence, accessibility, and community engagement. Under the artistic direction of John French, the organization continues to expand its reach, offering enriching musical experiences that appeal to both seasoned concertgoers and new audiences alike."""@en;
   wikidata_property:\/P8860 "837063916" .
 
+member:356 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_othe,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_var;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Vernon";
+    schema:addressRegion "BC"
+  ];
+  schema:legalName "Okanagan Screen Arts Society"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Vernon Towne Theatre"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Vernon Towne Theatre"@en,
+    "Vernon Towne Theatre";
+  schema:url <http://www.thetowne.ca>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <http://www.thetowne.ca>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Okanagan Screen Arts Society operates the historic Vernon Towne Theatre which has been in operation as an entertainment venue in the North Okanagan since 1929."@en;
+  wikidata_property:\/P8860 "788404937" .
+
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
@@ -7814,14 +7848,6 @@ capacoa:LegalForm_Sole-proprietorship a skos:Concept;
 capacoa:PrimaryActivity a skos:ConceptScheme;
   skos:prefLabel "Primary Activity of Organization"@en .
 
-capacoa:PrimaryActivity_othe a skos:Concept;
-  skos:definition "You do not fit other primary activity descriptions"@en,
-    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
-  skos:hiddenLabel "othe";
-  skos:inScheme capacoa:PrimaryActivity;
-  skos:prefLabel "providing other arts services"@en,
-    "fourniture d'autres services des arts"@fr .
-
 capacoa:PresentingFormat_festival a skos:Concept;
   skos:hiddenLabel "festival";
   skos:inScheme capacoa:PresentingFormat;
@@ -7839,6 +7865,14 @@ capacoa:PresentingFormat_series-festival-equal a skos:Concept;
   skos:inScheme capacoa:PresentingFormat;
   skos:prefLabel "series and festival, equally"@en,
     "série et festival, également"@fr .
+
+capacoa:PrimaryActivity_othe a skos:Concept;
+  skos:definition "You do not fit other primary activity descriptions"@en,
+    "Vous ne correspondez à aucune des descriptions des activités principales"@fr;
+  skos:hiddenLabel "othe";
+  skos:inScheme capacoa:PrimaryActivity;
+  skos:prefLabel "providing other arts services"@en,
+    "fourniture d'autres services des arts"@fr .
 
 capacoa:Genres a skos:ConceptScheme;
   skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
