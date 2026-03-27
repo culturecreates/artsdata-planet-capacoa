@@ -6636,6 +6636,7 @@ member:53 a <https://schema.org/Organization>;
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_var,
+    capacoa:Genres_vis,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -6651,7 +6652,7 @@ member:53 a <https://schema.org/Organization>;
     schema:location [
       a schema:Place;
       schema:identifier "Q7374917";
-      schema:name "Royal Theatre and McPherson Playhouse"
+      schema:name "Royal Theatre"
     ];
     schema:roleName "Manager/Operator"
   ], [
