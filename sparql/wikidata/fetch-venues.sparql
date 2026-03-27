@@ -4,9 +4,11 @@ PREFIX schema: <http://schema.org/>
 
 CONSTRUCT {
   ?org schema:location ?role .
-  ?role schema:roleName "item operated P121" ;
+  ?role a schema:Role ;
+        schema:roleName "item operated P121" ;
         schema:location ?itemOperated .
-  ?itemOperated schema:name ?itemOperatedLab ;
+  ?itemOperated a schema:Place ;
+                schema:name ?itemOperatedLab ;
                 rdfs:label ?itemOperatedLab ;
                 schema:geoCoordinates ?geo ;
                 schema:address ?street_address ;
