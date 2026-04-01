@@ -660,7 +660,7 @@ member:132 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1085,7 +1085,7 @@ member:15 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Corporation-\(for-profit\),
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -7895,13 +7895,13 @@ capacoa:PresentingFormat_festival-series a skos:Concept;
   skos:prefLabel "festival (mainly) plus series"@en,
     "festival (principalement) et série"@fr .
 
-capacoa:LegalForm_Municipal-corporation a skos:Concept;
-  skos:inScheme capacoa:LegalForm;
-  skos:prefLabel "municipal organization"@en .
-
 capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
+
+capacoa:LegalForm_Municipal-corporation a skos:Concept;
+  skos:inScheme capacoa:LegalForm;
+  skos:prefLabel "municipal organization"@en .
 
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
