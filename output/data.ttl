@@ -6156,6 +6156,50 @@ member:356 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Okanagan Screen Arts Society operates the historic Vernon Towne Theatre which has been in operation as an entertainment venue in the North Okanagan since 1929."@en;
   wikidata_property:\/P8860 "788404937" .
 
+member:359 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_film,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Calgary";
+    schema:addressRegion "AB"
+  ];
+  schema:alternateName "The Old Trouts";
+  schema:legalName "Old Trout Puppet Workshop Society"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Bonnyboom"
+    ];
+    schema:roleName "Resident organization"
+  ];
+  schema:name "Old Trout Puppet Workshop"@en,
+    "Old Trout Puppet Workshop";
+  schema:url <https://www.theoldtrouts.org>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Old Trout Puppet Workshop was founded on a ranch in southern Alberta back in the strange winter of 1999. They were a small gang of old buddies, with a fondness for beards and wood and wool and other old-fashioned and pleasant things; the world was uneasy with the threat of Y2K, and they felt an urge to huddle together for mutual protection, and to dedicate themselves to something fragile, ridiculous, and gentle, out on the edge of the world. 
+
+So they learned to carve puppets, and paid their rent through wholesome labour; they collected eggs, fed the pigs, cooked big stews, and premiered their first show to a bunkhouse full of cowboys and Hutterites.
+
+For the record, the Hutterites were more impressed than the cowboys. 
+
+They took that show into Calgary to the legendary alt-theatre festival known as the High Performance Rodeo, and people clapped; in that moment, an insatiable craving for applause was born in them, and the warm contentment of their ranch camaraderie turned into mean and craven Ambition. Inevitably, they moved into town, and now they’re based out of a workshop just off Ogden Road in Calgary.
+
+They've toured their productions across Canada and into the United States and Europe. They've mounted ten mainstage shows, most of which are lurking in crates at the workshop, ready to deploy: The Unlikely Birth of Istvan, The Tooth Fairy, Beowulf, The Last Supper of Antonin Carême, Pinocchio, Famous Puppet Death Scenes, The Erotic Anguish of Don Juan, Ignorance, Jabberwocky, &amp; Ghost Opera. They’re currently working on a new piece that will answer ALL your questions about the meaning of life called The End.
+  
+But that’s not all: they also make sculptures, films, children’s books, music, and paintings. The Trouts run workshops year-round, and deeply harrowing puppetry intensives in Banff and New England every few years.   Recently they’ve taken to designing shows as well: Twelfth Night for the National Arts Centre and Theatre Calgary, Peter &amp; the Wolf for the Fort Worth Symphony Orchestra, Frozen for Regina's Globe Theatre, and Hansel &amp; Gretel – originally commissioned by Vancouver Opera. They recently premiered at Alberta Theatre Projects a work they designed and co-wrote with Anna Cummer, a production of The Legend of Sleepy Hollow.
+
+In 2024 The Old Trouts were finalists for the Siminovitch Prize for Theatre."""@en;
+  wikidata_property:\/P8860 "867021529" .
+
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
@@ -7947,15 +7991,15 @@ capacoa:Genres_vis a skos:Concept;
   skos:prefLabel "visual arts"@en,
     "arts visuels"@fr .
 
+capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "not a charitable organization"@en .
+
 capacoa:Genres_film a skos:Concept;
   skos:hiddenLabel "film";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "film"@en,
     "film"@fr .
-
-capacoa:CharitableStatus_Not-a-charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "not a charitable organization"@en .
 
 capacoa:Genres_cir a skos:Concept;
   skos:hiddenLabel "cir";
