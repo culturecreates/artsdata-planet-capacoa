@@ -1050,36 +1050,6 @@ member:148 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-124>;
   schema:url <https://vimhouse.ca> .
 
-member:149 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_com,
-    capacoa:PrimaryActivity_prod,
-    capacoa:CharitableStatus_Charitable-organization,
-    capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.2,
-    capacoa:Genres_the,
-    capacoa:Genres_you;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Vancouver";
-    schema:addressRegion "BC"
-  ];
-  schema:identifier "Q75388541";
-  schema:legalName "Neworld Theatre Society"@en;
-  schema:location [
-    a schema:Role;
-    schema:location [
-      a schema:Place;
-      schema:identifier "Q132152008";
-      schema:name "Progress Lab 1422"
-    ];
-    schema:roleName "Resident organization"
-  ];
-  schema:name "Neworld Theatre"@en,
-    "Neworld Theatre";
-  schema:url <https://neworldtheatre.com>;
-  wikidata_property:\/P8860 "866434699" .
-
 member:15 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
@@ -1115,21 +1085,6 @@ member:150 a <https://schema.org/Person>;
   schema:url <https://rhodniedesir.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Rhodnie Désir has created about fifteen choreographic works. Her flagship piece BOW'T TRAIL Retrospek and her pioneering memoir journey BOW 'T TRAIL have earned her two awards from the Prix de la danse de Montréal (2020): The Prix Envol and the highly coveted Grand Prix de la danse."@en,
     "Rhodnie Désir a créé une quinzaine d’œuvres chorégraphiques. Sa pièce phare BOW’T TRAIL Rétrospek et son parcours de mémoire pionnier BOW’T TRAIL  lui ont valu deux Prix de la danse de Montréal (2020) : le Prix Envol et le convoité Grand Prix de la danse."@fr .
-
-member:151 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Toronto";
-    schema:addressRegion "ON"
-  ];
-  schema:name "CORPUS"@en,
-    "CORPUS";
-  schema:sameAs <http://kg.artsdata.ca/resource/K14-171>;
-  schema:url <https://www.corpus.ca/www.corpus.ca> .
 
 member:152 a <https://schema.org/Person>;
   schema:additionalType capacoa:PrimaryActivity_asso,
@@ -1572,7 +1527,7 @@ member:17 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1596,6 +1551,11 @@ member:17 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.osac.ca/performing-arts/performances-by-community>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Organization of Saskatchewan Arts Councils (OSAC) acts as an umbrella for community arts councils and schools across the province.  Across Saskatchewan, we bring people and the arts together. In more than 80 towns and cities, local arts councils and schools are keeping the arts alive.  Thanks to their efforts, those communities enjoy live musical and theatre performances, visual art exhibitions, workshops, and special events.
+In the 2024/25 season, OSAC presented 171 performances by 36 different artists in 37 communities.  
+OSAC’s work and support reach lands covered by Treaties 2, 4, 5, 6, 8 and 10, the traditional lands of the Cree, Dakota, Dene, Lakota, Nakota and Saulteaux peoples, as well as the homeland of the Métis Nation. We are dedicated to ensuring the spirit of Reconciliation and that these treaties are honoured and respected. This acknowledgement also reaffirms our relationship with one another.
+
+Diversity, Equity &amp; Inclusion (DEI) Statement: OSAC values diversity and equality.  OSAC will not discriminate against anyone based on race, colour, creed, sex, sexual orientation, gender identity or expression, age, religion, national origin, disability, ancestry, marital status, or any other applicable characteristics protected by law."""@en;
   wikidata_property:\/P8860 "107803389" .
 
 member:172 a <https://schema.org/Organization>;
@@ -3976,6 +3936,10 @@ member:28 a <https://schema.org/Organization>;
   schema:name "STO Union"@en,
     "STO Union";
   schema:url <https://stounion.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "STO Union is a professional, anglophone minority, artist-led producing company founded in 1992 based in Wakefield, Quebec. For over more than three decades, the organization has produced over 35 original multidisciplinary and theatre-based creations, alongside live art events, public workshop presentations, and video works. Its productions have toured extensively—locally, regionally, nationally, and internationally—appearing in major theatres and festivals across Canada, Europe, Asia, Australia, and the United States. The company’s work spans all-ages projects, community-engaged creations, and large-scale professional productions, balancing international presentation with local engagement. STO Union’s productions and collaborators have received major awards and recognition, including the Siminovitch Prize, the largest prize in Canada for STO Union's artistic director, Nadia Ross; as well as the Dora Award, the Chalmers Award, and the Contra-Guy Award."@en,
+    """STO Union est une compagnie de création professionnelle dirigée par des artistes, issue de la communauté anglophone en situation minoritaire, fondée en 1992 et désormais établie à Wakefield, au Québec. Depuis plus de trente ans, elle a créé plus de 35 œuvres originales, à la croisée du théâtre et des pratiques multidisciplinaires, tout en proposant des événements d’art vivant, des présentations publiques d’ateliers et des créations vidéo.
+Ses productions ont circulé largement, tant à l’échelle locale que régionale, nationale et internationale, étant présentées dans des théâtres et festivals d’envergure au Canada, en Europe, en Asie, en Australie et aux États-Unis. Le travail de la compagnie s’étend des projets tous publics aux créations ancrées dans les communautés, jusqu’aux productions professionnelles de grande envergure, en maintenant un équilibre entre diffusion internationale et engagement local.
+Les œuvres de STO Union ainsi que ses collaborateurs ont reçu d’importantes distinctions, dont le Siminovitch Prize — la plus prestigieuse récompense au Canada — décerné à sa directrice artistique Nadia Ross, ainsi que le Dora Award, le Chalmers Award et le Contra-Guy Award."""@fr;
   wikidata_property:\/P8860 "890739139" .
 
 member:280 a <https://schema.org/Organization>;
@@ -5694,13 +5658,12 @@ Situé en plein cœur de Montréal, Le Vivier met le public au centre de ses act
 Tourné vers la création musicale internationale, Le Vivier favorise la circulation des œuvres et des artistes par la tenue de résidences croisées sur le territoire canadien et à l’international et la mise en place de projets de toutes sortes qui vont à la rencontre des publics et promeuvent notre discipline artistique."""@fr;
   wikidata_property:\/P8860 "892658253" .
 
-member:341 a <https://schema.org/Organization>;
+member:341 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
     capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_mus-th,
-    capacoa:Genres_vis,
-    capacoa:Genres_you;
+    capacoa:Genres_vis;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5712,9 +5675,9 @@ member:341 a <https://schema.org/Organization>;
   schema:name "Percumédia"@fr,
     "Percumédia";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-218>;
-  schema:url <https://percumedia.com/fr>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Percumédia is a Quebec-based company that offers a complete service for creating, hosting and maintaining dynamic websites, primarily for SMEs, artists and cultural organizations. The organization uses Drupal, a robust technology used by large organizations, to set up transactional portals and management support solutions. Percumédia has firmly committed to integrating comprehensive structured data and metadata into its clients' websites."@en,
-    "Percumédia est une entreprise québécoise qui offre un service complet de création, d'hébergement et de maintenance de sites web dynamiques, principalement destiné aux PME, artistes et organismes culturels. L'organisation utilise Drupal, une technologie robuste utilisée par de grandes organisations, pour mettre en place des portails transactionnels et des solutions d'aide à la gestion. Percumédia a résolument pris le parti d'intégrer des données et métadonnées structurées complètes aux sites wen de ses clients."@fr .
+  schema:url <https://percumedia.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Percumédia is a Quebec-based company that offers a complete service for creating, hosting, and maintaining dynamic websites, primarily for SMEs, artists, and cultural organizations. The organization uses Drupal, a robust technology used by large organizations, to implement transactional portals and management support solutions. Percumédia has made a firm commitment to integrating comprehensive structured data and metadata into its clients' websites."@en,
+    "Percumédia est une entreprise québécoise qui offre un service complet de création, d'hébergement et de maintenance de sites web dynamiques, principalement destiné aux PME, artistes et organismes culturels. L'organisation utilise Drupal, une technologie robuste utilisée par de grandes organisations, pour mettre en place des portails transactionnels et des solutions d'aide à la gestion. Percumédia a résolument pris le parti d'intégrer des données et métadonnées structurées complètes aux sites web de ses clients."@fr .
 
 member:342 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
@@ -6008,6 +5971,12 @@ member:352 a <https://schema.org/Organization>;
     capacoa:Genres_mus-th,
     capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Markham";
+    schema:addressRegion "ON"
+  ];
   schema:alternateName "Flato Markham Theatre";
   schema:identifier "Q113488560";
   schema:legalName "The Corporation of the City of Markham"@en;
@@ -6155,6 +6124,52 @@ member:356 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Okanagan Screen Arts Society operates the historic Vernon Towne Theatre which has been in operation as an entertainment venue in the North Okanagan since 1929."@en;
   wikidata_property:\/P8860 "788404937" .
+
+member:358 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_the,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Lindsay";
+    schema:addressRegion "ON"
+  ];
+  schema:alternateName "Academy Theatre";
+  schema:legalName "Academy Theatre Foundation"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Flato Academy Theatre"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Flato Academy Theatre"@en,
+    "Flato Academy Theatre";
+  schema:url <https://www.flatoacademytheatre.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.flatoacademytheatre.com/whats-on>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The FLATO Academy Theatre was built in the spring of 1892. Designed by architect W. Blackwell of Peterborough, two citizens of the town, R. J. Matchett and Fred Knowlton, spearheaded its building.
+
+When the theatre doors opened in 1893, it was billed as the most technically perfect theatre in Canada. With seating for 900 people, there was one balcony and one dress circle, with VIP boxes on either side of the stage. The stage measured 38 by 44 feet, and the proscenium height was 28 feet. A fly gallery was 22 feet above the stage and a rigging gallery reached 48 feet.
+
+At that time, there were 3 furnaces in the building, which needed to be fed coal constantly. This required a couple to live in the theatre on the third floor, in an apartment. According to legend, it is said that one day, the lady of this couple rushed down from the third floor stairs and fell and sadly, died. It is said to be her spirit that inhabits the theatre. To this day, “Mary”, as she has affectionately been named, is a friendly but mischievous “ghost” who mysteriously moves things, then puts them back, lowers the lights or opens and closes doors. Staff and patrons alike often have their own “Mary” story to share.
+
+It was in this theatre that Marie Dressler made her first stage appearance at the age of 5, in an amateur play organized by her mother. As part of the vaudeville circuit in the early 1900s, the Academy hosted a young Sammy Davis Jr. and the Marx Brothers as well."""@en,
+    "NA"@fr;
+  wikidata_property:\/P8860 "119482719" .
 
 member:359 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
@@ -6375,6 +6390,7 @@ member:43 a <https://schema.org/Organization>;
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
+    capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -6404,6 +6420,11 @@ member:43 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://publicenergy.ca/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Public Energy Performing Arts supports the creation, touring, and presentation of innovative contemporary performing arts. Based in Peterborough, Ontario, we present a season of contemporary theatre, dance, and interdisciplinary performance, while building community through outreach programming and developing audiences that are knowledgeable and passionate. Through our programs, which include presentations, residencies, commissions, mentorships, and professional workshops and classes, we provide artists with a safe and supportive environment to create and perform new work and interact with a broad public.
+
+Public Energy Performing Arts supports diverse work, both in terms of cultural influences and artistic innovation. We prioritize Indigenous work through our performance curation and through partnerships with Indigenous organizations, such as the Chanie Wenjack School for Indigenous Studies at Trent University.
+
+Public Energy Performing Arts is committed to making art more accessible, more balanced in its representation, and more inclusive to all."""@en;
   wikidata_property:\/P8860 "894811058" .
 
 member:44 a <https://schema.org/Organization>;
