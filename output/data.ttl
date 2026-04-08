@@ -1500,7 +1500,7 @@ member:169 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4273,23 +4273,6 @@ member:292 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-216>;
   schema:url <https://apap365.org/> .
 
-member:293 a <https://schema.org/Person>;
-  schema:additionalType capacoa:Genres_mus-th,
-    capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
-    capacoa:Genres_the;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Markham";
-    schema:addressRegion "ON"
-  ];
-  schema:hasOccupation wikidata_entity:Q15978655;
-  schema:identifier "Q136471511";
-  schema:name "Derrick Chua Entertainment";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6126>;
-  schema:url <http://derrickchua.com/> .
-
 member:294 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:TermsConditions_agree-v1\.2,
@@ -6239,6 +6222,43 @@ member:36 a <https://schema.org/Organization>;
   schema:url <https://ontariopresents.ca/>;
   wikidata_property:\/P8860 "000775083" .
 
+member:360 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_vis,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:alternateName "Banff Centre for Continuing Education";
+  schema:identifier "Q4854863";
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q133872235";
+      schema:name "Banff Centre for Arts and Creativity"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Banff Centre for Arts & Creativity"@en,
+    "Banff Centre for Arts &amp; Creativity";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-18>;
+  schema:url <https://www.banffcentre.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.banffcentre.ca/events>
+  ];
+  wikidata_property:\/P8860 "11921 4955 RR0001" .
+
 member:38 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
@@ -7208,7 +7228,7 @@ member:70 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7968,6 +7988,10 @@ capacoa:LegalForm_Municipal-corporation a skos:Concept;
   skos:inScheme capacoa:LegalForm;
   skos:prefLabel "municipal organization"@en .
 
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
+  skos:inScheme capacoa:TermsConditions;
+  skos:prefLabel "open data strategy extended consent"@en .
+
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
     "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
@@ -7984,10 +8008,6 @@ capacoa:PrimaryActivity_asso a skos:Concept;
   skos:inScheme capacoa:PrimaryActivity;
   skos:prefLabel "providing services to individual and/or organizational members"@en,
     "fourniture de services aux membres individuels et/ou organisationnels"@fr .
-
-capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
-  skos:inScheme capacoa:TermsConditions;
-  skos:prefLabel "open data strategy extended consent"@en .
 
 capacoa:PresenterType_Specialized a skos:Concept;
   skos:inScheme capacoa:PresenterType;
