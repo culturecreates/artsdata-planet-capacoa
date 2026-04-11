@@ -4831,6 +4831,7 @@ member:317 a <https://schema.org/Organization>;
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you,
