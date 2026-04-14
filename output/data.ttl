@@ -2331,11 +2331,19 @@ member:209 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
-  schema:alternateName "TD Winnipeg International Jazz Festival";
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "WINNIPEG";
+    schema:addressRegion "MB"
+  ];
+  schema:alternateName "Winnipeg International Jazz Festival";
   schema:identifier "Q137041192";
+  schema:legalName "Jazz Winnipeg, Inc."@en;
   schema:name "Jazz Winnipeg"@en,
     "Jazz Winnipeg";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-154>;
@@ -2343,7 +2351,9 @@ member:209 a <https://schema.org/Organization>;
     a schema:Role;
     schema:roleName "Events Webpage";
     schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
-  ] .
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Jazz Winnipeg is a charitable, non-profit organization promoting the art of jazz and creative music through concert presentations and community engagement. As producers of the annual Winnipeg International Jazz Festival as well as concerts and workshops throughout the year, Jazz Winnipeg is a vibrant and essential organization dedicated to the enrichment of Winnipeg's cultural community."@en;
+  wikidata_property:\/P8860 "125835660" .
 
 member:210 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
@@ -6329,6 +6339,49 @@ member:39 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "839007432" .
 
+member:391 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Municipal-corporation,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_mus,
+    capacoa:Genres_the,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "MAPLE RIDGE";
+    schema:addressRegion "BC"
+  ];
+  schema:legalName "City of Maple Ridge"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "The ACT Art Centre & Theatre"
+    ];
+    schema:roleName "Manager/Operator"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Albion Community Centre"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "The ACT Art Centre"@en,
+    "The ACT Art Centre";
+  schema:url <https://www.mapleridge.ca/art-parks-rec/recreation-facilities/act-arts-centre>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.mapleridge.ca/art-parks-rec/arts-theatre/act-performances>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The ACT Arts Centre in Maple Ridge has a rich history of supporting the arts and culture in the community. Opened in 2003, it has been a hub for various events and programs, including local school bands, dance recitals, major productions, and concerts. The centre has also been instrumental in highlighting and cultivating local talent through art exhibitions and arts programs. The transition of the ACT Arts Centre to the City of Maple Ridge in 2026 marks a new chapter, with the city rolling out new programs and initiatives to strengthen arts and culture programming and ensure accessibility to everyone. The ACT Arts Centre continues to be a vibrant creative space for the community, offering a range of performances, classes, and exhibitions for all ages."@en;
+  wikidata_property:\/P8860 "106984271" .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -8067,6 +8120,12 @@ capacoa:Genres_com a skos:Concept;
   skos:prefLabel "comedy"@en,
     "humour"@fr .
 
+capacoa:Genres_mus-th a skos:Concept;
+  skos:hiddenLabel "mus-th";
+  skos:inScheme capacoa:Genres;
+  skos:prefLabel "musical theatre/opera"@en,
+    "théâtre musical/opéra"@fr .
+
 capacoa:PresenterType_Multidisciplinary a skos:Concept;
   skos:inScheme capacoa:PresenterType;
   skos:prefLabel "multi-disciplinary"@en,
@@ -8075,12 +8134,6 @@ capacoa:PresenterType_Multidisciplinary a skos:Concept;
     <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
-
-capacoa:Genres_mus-th a skos:Concept;
-  skos:hiddenLabel "mus-th";
-  skos:inScheme capacoa:Genres;
-  skos:prefLabel "musical theatre/opera"@en,
-    "théâtre musical/opéra"@fr .
 
 capacoa:Genres_oth a skos:Concept;
   skos:hiddenLabel "oth";
