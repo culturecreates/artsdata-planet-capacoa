@@ -6382,6 +6382,45 @@ member:391 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The ACT Arts Centre in Maple Ridge has a rich history of supporting the arts and culture in the community. Opened in 2003, it has been a hub for various events and programs, including local school bands, dance recitals, major productions, and concerts. The centre has also been instrumental in highlighting and cultivating local talent through art exhibitions and arts programs. The transition of the ACT Arts Centre to the City of Maple Ridge in 2026 marks a new chapter, with the city rolling out new programs and initiatives to strengthen arts and culture programming and ensure accessibility to everyone. The ACT Arts Centre continues to be a vibrant creative space for the community, offering a range of performances, classes, and exhibitions for all ages."@en;
   wikidata_property:\/P8860 "106984271" .
 
+member:394 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Municipal-corporation,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Guelph";
+    schema:addressRegion "ON"
+  ];
+  schema:legalName "City of Guelph"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "River Run Centre"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "River Run Centre"@en,
+    "River Run Centre";
+  schema:url <https://riverrun.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://riverrun.ca/events/whats-on/>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Guelph’s signature performing arts centre overlooks the picturesque Speed River in the City’s historic downtown core near the site where Guelph was founded.
+
+River Run Centre was conceived and built by the people of Guelph for the benefit of the community and designed to serve as a premier stage for concerts, musicals, plays, dance, family shows and much more. Hundreds of volunteers and donors were involved in bringing the dream to reality."""@en .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
