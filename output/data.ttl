@@ -6421,6 +6421,51 @@ member:394 a <https://schema.org/Organization>;
 
 River Run Centre was conceived and built by the people of Guelph for the benefit of the community and designed to serve as a premier stage for concerts, musicals, plays, dance, family shows and much more. Hundreds of volunteers and donors were involved in bringing the dream to reality."""@en .
 
+member:395 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Municipal-corporation,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_var,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Chatham";
+    schema:addressRegion "ON"
+  ];
+  schema:legalName "The Corporation of the Municipality of Chatham-Kent"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Chatham Capitol Theatre"
+    ];
+    schema:roleName "Owner"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Kiwanis Theatre"
+    ];
+    schema:roleName "Owner"
+  ];
+  schema:name "Chatham Capitol Theatre"@en,
+    "Chatham Capitol Theatre";
+  schema:url <https://www.cktheatres.ca>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Chatham Capitol Theatre is a vibrant 1,208-seat entertainment gem located at 238 King Street West in the lively downtown Chatham, Ontario. This beloved venue is the go-to spot for concerts and events, attracting both national and international touring artists.
+
+Originally a bustling movie theatre from the 1930s, the Capitol Theatre boasts beautiful Art Deco details, gilded decor, charming opera boxes, and a stunning ornate ceiling, all of which add to its historical charm.
+
+The theatre features 756 seats on the orchestra level and 452 seats in the balcony, which can be closed off for a cozier performance atmosphere. With a 65-foot fly tower and state-of-the-art rigging, it can host large-scale, technically impressive productions. The orchestra pit is designed for optimal acoustics and can be adjusted to floor or stage level to enhance your experience."""@en;
+  wikidata_property:\/P8860 "866337058" .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -8077,13 +8122,13 @@ capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
-capacoa:LegalForm_Municipal-corporation a skos:Concept;
-  skos:inScheme capacoa:LegalForm;
-  skos:prefLabel "municipal organization"@en .
-
 capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
+
+capacoa:LegalForm_Municipal-corporation a skos:Concept;
+  skos:inScheme capacoa:LegalForm;
+  skos:prefLabel "municipal organization"@en .
 
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
