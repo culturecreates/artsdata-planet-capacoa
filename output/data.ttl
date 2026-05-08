@@ -4045,7 +4045,7 @@ member:284 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:Genres_mus-th,
