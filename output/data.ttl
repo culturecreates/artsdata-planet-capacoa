@@ -3134,7 +3134,7 @@ member:25 a <https://schema.org/Organization>;
   schema:url <https://www.canadianstage.com>;
   wikidata_property:\/P8860 "119220028" .
 
-member:250 a <https://schema.org/Organization>;
+member:250 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:TermsConditions_agree-v1\.2,
@@ -3153,7 +3153,14 @@ member:250 a <https://schema.org/Organization>;
   schema:name "Scrap Arts Music"@en,
     "Scrap Arts Music";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6118>;
-  schema:url <https://scrapartsmusic.com> .
+  schema:url <https://scrapartsmusic.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Justine Murdy 
+Co-Founder &amp; Co-Artistic Director, Scrap Arts Music
+Victoria, BC
+
+Justine Murdy is co-founder and co-artistic director of Scrap Arts Music (SAM), a Canadian avant-garde percussion ensemble based in Victoria, BC. For 28 years she has led SAM’s strategic direction, touring development, presenter relations, and communications, bringing the ensemble to stages in 17 countries including the 2010 Winter Olympics Closing Ceremonies. She is currently completing an MBA in Sustainable Innovation at the University of Victoria, deepening her practice at the intersection of cultural enterprise and sustainability.
+
+Murdy handles all booking inquiries and presenter partnerships for SAM, whose five-piece ensemble performsu on 145+ hand-built instruments made from reclaimed industrial materials. SAM’s current production, Children of Metropolis — an original work inspired by Fritz Lang’s 1927 film — anchors an international touring campaign timed to the Metropolis centenary, with a confirmed 2027 engagement at United Palace, New York City.​​​​​​​​​​​​​​​, among others."""@en .
 
 member:251 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_oth,
@@ -5038,6 +5045,8 @@ member:321 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.chilliwackculturalcentre.ca/upcoming-events/>
   ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Chilliwack Arts &amp; Cultural Centre Society is dedicated to fostering a vibrant and thriving arts community in Chilliwack, BC. Through innovative programming, cultural events, and educational opportunities, the Society enriches lives by connecting people with the transformative power of the arts. From captivating performances to engaging workshops, our mission is to inspire creativity and celebrate artistic expression in all its forms."@en,
+    "La Chilliwack Arts & Cultural Centre Society a pour mission de favoriser une communauté artistique dynamique et florissante à Chilliwack, en Colombie-Britannique. Grâce à une programmation novatrice, à des événements culturels et à des occasions éducatives, la Société enrichit la vie des gens en les mettant en contact avec le pouvoir transformateur des arts. Qu’il s’agisse de spectacles captivants ou d’ateliers stimulants, notre mission est d’inspirer la créativité et de célébrer l’expression artistique sous toutes ses formes."@fr;
   wikidata_property:\/P8860 "805742897" .
 
 member:322 a <https://schema.org/Organization>;
