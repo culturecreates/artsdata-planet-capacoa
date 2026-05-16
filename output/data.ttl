@@ -358,8 +358,9 @@ member:119 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-and-disclose-v1\.1,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
+    capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -371,6 +372,7 @@ member:119 a <https://schema.org/Organization>;
   schema:name "Maverick Cooperative"@en,
     "Maverick Cooperative";
   schema:url <https://maverickcooperative.com/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Maverick Cooperative is a partnership of Margot Holmes of Caline Artists International and Debbie Peters of Magnum Opus Management to promote their rosters together and bring unique talent to stages, screens and hearts in Canada and around the world."@en;
   wikidata_property:\/P8860 "854413374" .
 
 member:12 a <https://schema.org/Organization>;
@@ -6052,6 +6054,12 @@ member:354 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_soci,
     capacoa:TermsConditions_agree-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Ottawa";
+    schema:addressRegion "ON"
+  ];
   schema:hasOccupation wikidata_entity:Q64825398;
   schema:identifier "Q138661728";
   schema:name "Peter Feldman";
