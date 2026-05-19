@@ -5778,7 +5778,7 @@ member:344 a <https://schema.org/Organization>;
     schema:addressLocality "Montréal";
     schema:addressRegion "QC"
   ];
-  schema:alternateName "CAPAS";
+  schema:alternateName "Maison Verso";
   schema:identifier "Q136816348";
   schema:legalName "CAPAS (COMMUNICATION, ADMINISTRATION ET PRODUCTION DES ARTS DE LA SCENE) INC.,"@fr;
   schema:location [
@@ -5789,12 +5789,12 @@ member:344 a <https://schema.org/Organization>;
     ];
     schema:roleName "None"
   ];
-  schema:name "CAPAS"@fr,
-    "CAPAS";
+  schema:name "Maison Verso"@fr,
+    "Maison Verso";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6223>;
-  schema:url <https://www.capas.ca/>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Founded by Lydie Revez and Mickaël Spinnhirny, CAPAS is the first dance label in Canada. Proud of its French-speaking roots and its independence in North America, CAPAS operates at the heart of the choreographic ecosystem by combining representation, production, distribution, programming, and professional services. CAPAS embodies a broad vision of dance. It supports artists whose signature is part of a strong approach, supporting them in the conception, structuring, marketing, and distribution of their works. It designs creative projects and programs performances that bring the discipline to life in all its diversity. A transversal structure, CAPAS also offers concrete solutions to institutions, companies, and other organizations in the sector, meeting their administrative, strategic, and communication needs. By combining artistic action, active engagement, and a systemic vision, CAPAS embodies a new way of doing things: flexible, ambitious, and bold, at the service of dance in all its forms."@en,
-    "Fondé par Lydie Revez et Mickaël Spinnhirny, CAPAS est le premier label de danse au Canada. Fier de ses racines francophones et de son indépendance en Amérique du Nord, CAPAS agit au cœur de l’écosystème chorégraphique en combinant représentation, production, diffusion, programmation et services professionnels. CAPAS incarne une vision élargie de la danse. Il accompagne des artistes dont la signature s’inscrit dans une démarche forte, en les soutenant dans la conception, la structuration, la mise en marché et la diffusion de leurs œuvres. Il conçoit des projets de création et programme des spectacles qui font vibrer la discipline dans sa pluralité. Acteur transversal, CAPAS propose aussi des solutions concrètes aux institutions, compagnies et autres organisations du secteur, en répondant à leurs besoins administratifs, stratégiques et communicationnels. En conjuguant action artistique, engagement terrain et vision systémique, CAPAS incarne une nouvelle façon de faire : souple, ambitieuse, audacieuse, au service de la danse sous toutes ses formes."@fr .
+  schema:url <https://www.maisonverso.com>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Maison Verso is a Montreal-based creative house supporting artistic projects from their earliest spark to their encounter with the public. Here, ideas are shaped like bodies in motion: with rigor, precision, and a sense of rhythm that allows them to go far without ever losing connection. Rooted in dance and the performing arts, Maison Verso brings together administration, production, touring, communications, and public relations under one roof. Balancing mastery with accessibility, Maison Verso champions projects that embrace their virtuosity while remaining open, embodied, and alive. Projects that move toward audiences with generosity and emotion."@en,
+    "Maison Verso est une maison créative montréalaise qui accompagne les projets artistiques, de leur première impulsion jusqu’à leur rencontre avec le public. Ici, les idées se travaillent comme des corps en mouvement : avec exigence, précision et un sens du rythme qui permet d’aller loin, sans jamais perdre le lien. Ancrée dans la danse et les arts de la scène, Maison Verso réunit sous un même toit l’administration, la production, la diffusion, les communications et les relations publiques. Entre maîtrise et accessibilité, Maison Verso défend des projets qui assument leur virtuosité tout en restant ouverts, incarnés, vivants. Des projets qui avancent vers le public, avec générosité et émotion."@fr .
 
 member:345 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
