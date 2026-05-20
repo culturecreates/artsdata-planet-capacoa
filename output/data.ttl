@@ -4292,6 +4292,23 @@ member:292 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K14-216>;
   schema:url <https://apap365.org/> .
 
+member:293 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus-th,
+    capacoa:PrimaryActivity_asso,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:Genres_the;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Markham";
+    schema:addressRegion "ON"
+  ];
+  schema:hasOccupation wikidata_entity:Q15978655;
+  schema:identifier "Q136471511";
+  schema:name "Derrick Chua Entertainment";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6126>;
+  schema:url <http://derrickchua.com/> .
+
 member:294 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:TermsConditions_agree-v1\.2,
