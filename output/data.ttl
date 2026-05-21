@@ -6500,6 +6500,52 @@ Originally a bustling movie theatre from the 1930s, the Capitol Theatre boasts b
 The theatre features 756 seats on the orchestra level and 452 seats in the balcony, which can be closed off for a cozier performance atmosphere. With a 65-foot fly tower and state-of-the-art rigging, it can host large-scale, technically impressive productions. The orchestra pit is designed for optimal acoustics and can be adjusted to floor or stage level to enhance your experience."""@en;
   wikidata_property:\/P8860 "866337058" .
 
+member:396 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_vis,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Toronto";
+    schema:addressRegion "ON"
+  ];
+  schema:legalName "Harbourfront Corporation (1990)"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Harbourfront Centre Theatre"
+    ];
+    schema:roleName "Owner"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Harbourfront Centre Main Building"
+    ];
+    schema:roleName "Owner"
+  ];
+  schema:name "Harbourfront Centre"@en,
+    "Harbourfront Centre";
+  schema:url <https://harbourfrontcentre.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://harbourfrontcentre.com/whats-on/>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Harbourfront Centre is Toronto’s waterfront community campus for arts, culture, learning and recreation.  Spanning a 10-acre campus at the heart of Toronto’s central waterfront, it is a registered, charitable not-for-profit cultural organization that offers year-round programs and events accessible to all audiences. The organization champions established and emerging Canadian artists across varied disciplines and serves as a recreational hub for more than 6.3 million annual visitors. Whether hailing from across the street or around the globe, Harbourfront Centre offers memorable and meaningful experiences for all who visit."@en .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -8265,15 +8311,15 @@ capacoa:Genres_you a skos:Concept;
   skos:prefLabel "young audience/family"@en,
     "jeune public/famille"@fr .
 
+capacoa:CharitableStatus_Charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "charitable organization"@en .
+
 capacoa:Genres_the a skos:Concept;
   skos:hiddenLabel "the";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "theatre/spoken word"@en,
     "théâtre/arts de la parole"@fr .
-
-capacoa:CharitableStatus_Charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "charitable organization"@en .
 
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
