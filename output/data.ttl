@@ -6546,6 +6546,21 @@ member:396 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Harbourfront Centre is Toronto’s waterfront community campus for arts, culture, learning and recreation.  Spanning a 10-acre campus at the heart of Toronto’s central waterfront, it is a registered, charitable not-for-profit cultural organization that offers year-round programs and events accessible to all audiences. The organization champions established and emerging Canadian artists across varied disciplines and serves as a recreational hub for more than 6.3 million annual visitors. Whether hailing from across the street or around the globe, Harbourfront Centre offers memorable and meaningful experiences for all who visit."@en .
 
+member:397 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_the,
+    capacoa:PrimaryActivity_prod,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Toronto";
+    schema:addressRegion "ON"
+  ];
+  schema:hasOccupation wikidata_entity:Q483501;
+  schema:name "John Doyle";
+  schema:url <https://www.facebook.com/JohnDoyleWriterFella/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Playwright."@en .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
