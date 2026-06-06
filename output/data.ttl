@@ -6272,19 +6272,24 @@ member:360 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
-    capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
-    capacoa:Genres_var,
     capacoa:Genres_vis,
-    capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Banff";
+    schema:addressRegion "AB"
+  ];
   schema:alternateName "Banff Centre for Continuing Education";
   schema:identifier "Q4854863";
+  schema:legalName "Banff Centre for Arts and Creativity"@en;
   schema:location [
     a schema:Role;
     schema:location [
@@ -6292,7 +6297,7 @@ member:360 a <https://schema.org/Organization>;
       schema:identifier "Q133872235";
       schema:name "Banff Centre for Arts and Creativity"
     ];
-    schema:roleName "Manager/Operator"
+    schema:roleName "Owner"
   ];
   schema:name "Banff Centre for Arts & Creativity"@en,
     "Banff Centre for Arts &amp; Creativity";
@@ -6302,7 +6307,8 @@ member:360 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.banffcentre.ca/events>
   ];
-  wikidata_property:\/P8860 "11921 4955 RR0001" .
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Founded in 1933, Banff Centre for Arts and Creativity is a learning organization built upon an extraordinary legacy of excellence in artistic and creative development. We are a global organization leading in arts, culture, and creativity across all disciplines. At our home in the stunning Canadian Rocky Mountains, we offer residential creative learning and professional development programs, creative residencies and, under the banner, Banff Centre Presents, we present work year round in our spaces."@en;
+  wikidata_property:\/P8860 "119214555" .
 
 member:38 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
