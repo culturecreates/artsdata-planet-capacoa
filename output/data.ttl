@@ -5578,6 +5578,7 @@ member:338 a <https://schema.org/Person>;
 member:339 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
@@ -5625,7 +5626,8 @@ Housed in the CITS building is also the independently operated Kitchener Waterlo
 
 CITS Inc. also values opportunities for non-traditional partnerships and is committed to providing access in and around the theatre, and expert technical support, for rehearsals, workshops, displays, exhibits, and special events, in order to empower and enable artists of all ages and experience levels.
 
-As a charitable organization, CITS Inc. receives an annual operating grant from the City of Kitchener that covers a portion of its expenses. Other revenue is self-generated through ticket sales, rentals, concessions, sponsorships, fundraising and grants from foundations and other levels of government.  It is the vision of this organization to engage the community and bridge the space between artist and audience in a dynamic and sustainable way."""@en .
+As a charitable organization, CITS Inc. receives an annual operating grant from the City of Kitchener that covers a portion of its expenses. Other revenue is self-generated through ticket sales, rentals, concessions, sponsorships, fundraising and grants from foundations and other levels of government.  It is the vision of this organization to engage the community and bridge the space between artist and audience in a dynamic and sustainable way."""@en;
+  wikidata_property:\/P8860 "119221703" .
 
 member:340 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
