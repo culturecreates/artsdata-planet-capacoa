@@ -79,7 +79,7 @@ jobs:
     needs: commit-and-push
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v3
+        uses: culturecreates/artsdata-pipeline-action@v4
         with:
             artifact: capacoa-members
             publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
