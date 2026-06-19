@@ -60,7 +60,7 @@ jobs:
 
     steps:
       - name: Push to Artsdata Databus
-        uses: culturecreates/artsdata-pipeline-action@v3
+        uses: culturecreates/artsdata-pipeline-action@v4
         with:
           artifact: capacoa-wikidata
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
