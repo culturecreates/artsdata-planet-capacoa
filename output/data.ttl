@@ -6569,6 +6569,46 @@ member:397 a <https://schema.org/Person>;
   schema:url <https://www.facebook.com/JohnDoyleWriterFella/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Playwright."@en .
 
+member:399 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Municipal-corporation,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_vis,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "New Glasgow";
+    schema:addressRegion "NS"
+  ];
+  schema:legalName "Glasgow Square Theatre"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Glasgow Square Theatre"
+    ];
+    schema:roleName "Owner"
+  ];
+  schema:name "Glasgow Square Theatre"@en,
+    "Glasgow Square Theatre";
+  schema:url <https://www.glasgowsquare.com>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://tprogst.ticketpro.ca/en/pages>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Situated on the beautiful East River of Pictou in New Glasgow's downtown core, Glasgow Square Theatre provides year-round entertainment with its award-winning indoor and outdoor stage. Since its opening in September of 2001, Glasgow Square has flourished and evolved, presenting a wide variety of performing arts including contemporary music, comedy, dance, live theatre, and more. In addition to hosting national and international touring acts, Glasgow Square proudly emphasizes and presents local and regional performers. As a proud member of Music Nova Scotia, East Coast Music Association and The Atlantic Presenters Association, Glasgow Square also plays an active presenting role in the music industry.
+
+Glasgow Square has also hosted many major events and festivals such as the New Glasgow Riverfront Music Jubilee, New Glasgow’s Race on the River Dragon Boat Festival, Johnny Miles running events, and Pictou County Ribfest."""@en;
+  wikidata_property:\/P8860 "108128539" .
+
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
@@ -8289,17 +8329,17 @@ capacoa:Genres_cir a skos:Concept;
   skos:prefLabel "circus"@en,
     "cirque"@fr .
 
-capacoa:PresentingFormat_series a skos:Concept;
-  skos:hiddenLabel "series";
-  skos:inScheme capacoa:PresentingFormat;
-  skos:prefLabel "series/season/regular presentations"@en,
-    "série/saison régulière de spectacles"@fr .
-
 capacoa:Genres_var a skos:Concept;
   skos:hiddenLabel "var";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "variety"@en,
     "variétés"@fr .
+
+capacoa:PresentingFormat_series a skos:Concept;
+  skos:hiddenLabel "series";
+  skos:inScheme capacoa:PresentingFormat;
+  skos:prefLabel "series/season/regular presentations"@en,
+    "série/saison régulière de spectacles"@fr .
 
 capacoa:Genres_com a skos:Concept;
   skos:hiddenLabel "com";
