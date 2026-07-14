@@ -976,6 +976,44 @@ member:143 a <https://schema.org/Organization>;
   schema:url <https://ottawafringe.com/>;
   wikidata_property:\/P8860 "897771721" .
 
+member:144 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_the,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Peterborough";
+    schema:addressRegion "ON"
+  ];
+  schema:identifier "Q115689020";
+  schema:legalName "Market Hall Performing Arts Centre Inc."@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:identifier "Q80864432";
+      schema:name "Market Hall"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Market Hall Performing Arts Centre"@en,
+    "Market Hall Performing Arts Centre";
+  schema:url <https://www.markethall.org>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://tickets.markethall.org>
+  ];
+  wikidata_property:\/P8860 "867267692" .
+
 member:145 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
