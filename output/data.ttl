@@ -2594,17 +2594,21 @@ member:22 a <https://schema.org/Organization>;
   wikidata_property:\/P8860 "880787213" .
 
 member:220 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_dan,
+  schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
     capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
+    capacoa:Genres_com,
+    capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the,
+    capacoa:Genres_var,
     capacoa:Genres_vis,
+    capacoa:Genres_you,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
     a schema:PostalAddress;
