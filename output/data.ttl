@@ -6691,6 +6691,37 @@ member:40 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "106930258" .
 
+member:400 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_festival-series,
+    capacoa:Genres_film,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Toronto,";
+    schema:addressRegion "ON"
+  ];
+  schema:alternateName "princess productions";
+  schema:legalName "tiger princess dance projects"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Betty Oliphant Theatre"
+    ];
+    schema:roleName "Main presentation venue (as rental client)"
+  ];
+  schema:name "dance: made in/fait au canada Festival"@en,
+    "dance: made in/fait au canada Festival";
+  schema:url <https://dancemadeincanada.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "dance: made in canada / fait au canada (d:mic/fac) is Canada’s biennial repertory festival dedicated to championing contemporary dance created in Canada. By bringing together choreographers from across the country, d/fac celebrates the breadth of Canadian artistic voices while creating opportunities for artists, audiences, and communities to engage with the remarkable diversity of contemporary dance practice."@en;
+  wikidata_property:\/P8860 "865122493" .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -8416,15 +8447,15 @@ capacoa:Genres_you a skos:Concept;
   skos:prefLabel "young audience/family"@en,
     "jeune public/famille"@fr .
 
-capacoa:CharitableStatus_Charitable-organization a skos:Concept;
-  skos:inScheme capacoa:CharitableStatus;
-  skos:prefLabel "charitable organization"@en .
-
 capacoa:Genres_the a skos:Concept;
   skos:hiddenLabel "the";
   skos:inScheme capacoa:Genres;
   skos:prefLabel "theatre/spoken word"@en,
     "théâtre/arts de la parole"@fr .
+
+capacoa:CharitableStatus_Charitable-organization a skos:Concept;
+  skos:inScheme capacoa:CharitableStatus;
+  skos:prefLabel "charitable organization"@en .
 
 capacoa:PrimaryActivity_pres a skos:Concept;
   skos:definition "You organize and/or promote performances created by others, either in your own facilities or in facilities operated by others"@en,
