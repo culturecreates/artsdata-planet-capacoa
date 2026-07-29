@@ -2827,25 +2827,6 @@ member:230 a <https://schema.org/Person>;
   schema:name "Melanie Dekker";
   schema:url <https://www.melaniedekker.com> .
 
-member:231 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_com,
-    capacoa:PrimaryActivity_agen,
-    capacoa:TermsConditions_agree-v1\.2,
-    capacoa:Genres_mus;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Burlington";
-    schema:addressRegion "ON"
-  ];
-  schema:identifier "Q128211353";
-  schema:legalName "6Dynamix Inc."@en;
-  schema:name "Six Dynamix Agency"@en,
-    "Six Dynamix Agency";
-  schema:sameAs <http://kg.artsdata.ca/resource/K14-174>;
-  schema:url <https://www.sixdynamix.com>;
-  wikidata_property:\/P8860 "848993184" .
-
 member:232 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:TermsConditions_agree-v1\.2,
@@ -8342,10 +8323,6 @@ capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
-capacoa:LegalForm_Municipal-corporation a skos:Concept;
-  skos:inScheme capacoa:LegalForm;
-  skos:prefLabel "municipal organization"@en .
-
 capacoa:PrimaryActivity_agen a skos:Concept;
   skos:definition "You represent performing arts clients in contract negotiations, manage or organize their financial affairs, and generally promote their work"@en,
     "Vous represéntez vos clients dans la négociation des contrats, gèrez ou organisez leurs finances, et vous occupez habituellement de promouvoir leur travail"@fr;
@@ -8354,6 +8331,10 @@ capacoa:PrimaryActivity_agen a skos:Concept;
   skos:note "There are different types of agents: agents representing individual artists on the labour market and touring agents representing productions on the touring market. In economic classifications, they are the same. Do we need to treat differently for use cases in the performing arts?"@en;
   skos:prefLabel "representing performing artists, groups or companies"@en,
     "représentation d'artistes, de groupes ou de compagnies"@fr .
+
+capacoa:LegalForm_Municipal-corporation a skos:Concept;
+  skos:inScheme capacoa:LegalForm;
+  skos:prefLabel "municipal organization"@en .
 
 capacoa:PrimaryActivity_asso a skos:Concept;
   skos:definition "You provide services to individuals and/or organizations within an industry/sector (such as promoting their interests)"@en,
