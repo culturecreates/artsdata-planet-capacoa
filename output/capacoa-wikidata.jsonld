@@ -493,6 +493,12 @@
           "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q105547738"
         },
         {
+          "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730745"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111724573"
+        },
+        {
           "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q109326244"
         },
         {
@@ -500,12 +506,6 @@
         },
         {
           "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q106625804"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111724573"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730745"
         }
       ]
     },
@@ -519,6 +519,32 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q105547738"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730745",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q111730745"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111724573",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q111724573"
         }
       ]
     },
@@ -558,32 +584,6 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q106625804"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111724573",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q111724573"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q2945952-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730745",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q111730745"
         }
       ]
     },
@@ -1338,10 +1338,10 @@
           "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126487164"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126487103"
+          "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126485938"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126485938"
+          "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126487103"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126598816"
@@ -1420,19 +1420,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126487103",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q126487103"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126485938",
       "http://schema.org/roleName": [
         {
@@ -1442,6 +1429,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q126485938"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q14875166-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126487103",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q126487103"
         }
       ]
     },
@@ -1674,9 +1674,6 @@
           "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q545543"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38267535"
-        },
-        {
           "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126365821"
         },
         {
@@ -1690,6 +1687,9 @@
         },
         {
           "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126364684"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38267535"
         }
       ]
     },
@@ -1703,19 +1703,6 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q545543"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38267535",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q38267535"
         }
       ]
     },
@@ -1781,6 +1768,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q126364684"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q117090701-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38267535",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q38267535"
         }
       ]
     },
@@ -3018,6 +3018,445 @@
       ]
     },
     {
+      "@id": "http://www.wikidata.org/entity/Q113016181",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Canadian Stage Berkeley Street Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Berkeley Street Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Canadian Stage Berkeley Street Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Berkeley Street Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-79.36405 43.65062)"
+        },
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-79.364055 43.650622)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "26 Berkeley Street, Toronto, ON, M5A 2W3"
+        },
+        {
+          "@language": "en",
+          "@value": "26 Berkeley Street"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q57660343"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q24354"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q113016248"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q113016248",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Marilyn and Charles Baillie Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Marilyn and Charles Baillie Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Marilyn and Charles Baillie Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Marilyn and Charles Baillie Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-79.36405 43.65062)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "26 Berkeley St, Toronto, ON, M5A 2W3"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q104820244",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "The Scott MacAulay Performing Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "The Scott MacAulay Performing Arts Centre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "The Scott MacAulay Performing Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "The Scott MacAulay Performing Arts Centre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-63.76704 46.39486)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "619 Water Street East, Summerside, PE, C1N 2J2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q3469910"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q135998015"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q135998015",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Scott MacAulay Performing Arts Centre Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Scott MacAulay Performing Arts Centre Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Scott MacAulay Performing Arts Centre Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Scott MacAulay Performing Arts Centre Theatre"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "619 Water St E, Summerside, PE, C1N 4H8"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q105547738",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "National Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Centre national des Arts"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "National Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Centre national des Arts"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.69329 45.42319)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "1 Elgin Street, Ottawa, ON, K1P 5W1"
+        },
+        {
+          "@language": "fr",
+          "@value": "1, rue Elgin, Ottawa, (Ontario), K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q3469910"
+        }
+      ],
+      "http://schema.org/creditedTo": [
+        {
+          "@id": "http://commons.wikimedia.org/wiki/File:NAC-CNA-2019.jpg"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q106625804"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q109326244"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q111668873"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q111724573"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q111730745"
+        }
+      ],
+      "http://schema.org/image": [
+        {
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NAC-CNA-2019.jpg/330px-NAC-CNA-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q106625804",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Babs Asper Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre Babs Asper"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Babs Asper Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre Babs Asper"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "1 Elgin Street, Ottawa, ON, K1P 5W1"
+        },
+        {
+          "@language": "fr",
+          "@value": "1, rue Elgin, Ottawa, ON, K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q109326244",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Studio Azrieli"
+        },
+        {
+          "@language": "en",
+          "@value": "Azrieli Studio"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Studio Azrieli"
+        },
+        {
+          "@language": "en",
+          "@value": "Azrieli Studio"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "fr",
+          "@value": "1 rue Elgin, Ottawa, Ontario, K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q111668873",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Fourth Stage"
+        },
+        {
+          "@language": "fr",
+          "@value": "Quatrième Salle"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Fourth Stage"
+        },
+        {
+          "@language": "fr",
+          "@value": "Quatrième Salle"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.69356 45.42341)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "fr",
+          "@value": "1, rue Elgin, Ottawa, Ontario, K1P 5W1"
+        },
+        {
+          "@language": "en",
+          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q111724573",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Salle Southam"
+        },
+        {
+          "@language": "en",
+          "@value": "Southam Hall"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Salle Southam"
+        },
+        {
+          "@language": "en",
+          "@value": "Southam Hall"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.69383 45.42316)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q111730745",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Place Peter A. Herrndorf"
+        },
+        {
+          "@language": "en",
+          "@value": "Peter A. Herrndorf Place"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Place Peter A. Herrndorf"
+        },
+        {
+          "@language": "en",
+          "@value": "Peter A. Herrndorf Place"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q15206795"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q18674739"
+        }
+      ]
+    },
+    {
       "@id": "http://www.wikidata.org/entity/Q79483625",
       "http://schema.org/name": [
         {
@@ -4204,441 +4643,41 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q113016181",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Canadian Stage Berkeley Street Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Berkeley Street Theatre"
-        }
-      ],
+      "@id": "http://www.wikidata.org/entity/Q15206795",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
+          "@language": "en",
+          "@value": "exhibition space"
+        },
+        {
           "@language": "fr",
-          "@value": "Canadian Stage Berkeley Street Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Berkeley Street Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-79.36405 43.65062)"
-        },
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-79.364055 43.650622)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "26 Berkeley Street, Toronto, ON, M5A 2W3"
-        },
-        {
-          "@language": "en",
-          "@value": "26 Berkeley Street"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q24354"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q113016248"
+          "@value": "salle d'expositions"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q113016248",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Marilyn and Charles Baillie Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Marilyn and Charles Baillie Theatre"
-        }
-      ],
+      "@id": "http://www.wikidata.org/entity/Q18674739",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
           "@language": "fr",
-          "@value": "Marilyn and Charles Baillie Theatre"
+          "@value": "espace événementiel"
         },
         {
           "@language": "en",
-          "@value": "Marilyn and Charles Baillie Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-79.36405 43.65062)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "26 Berkeley St, Toronto, ON, M5A 2W3"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
+          "@value": "event venue"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q104820244",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "The Scott MacAulay Performing Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "The Scott MacAulay Performing Arts Centre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "The Scott MacAulay Performing Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "The Scott MacAulay Performing Arts Centre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-63.76704 46.39486)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "619 Water Street East, Summerside, PE, C1N 2J2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q3469910"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q135998015"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q135998015",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Scott MacAulay Performing Arts Centre Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Scott MacAulay Performing Arts Centre Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Scott MacAulay Performing Arts Centre Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Scott MacAulay Performing Arts Centre Theatre"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "619 Water St E, Summerside, PE, C1N 4H8"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q105547738",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "National Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Centre national des Arts"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "National Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Centre national des Arts"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.69329 45.42319)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "1 Elgin Street, Ottawa, ON, K1P 5W1"
-        },
-        {
-          "@language": "fr",
-          "@value": "1, rue Elgin, Ottawa, (Ontario), K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q3469910"
-        }
-      ],
-      "http://schema.org/creditedTo": [
-        {
-          "@id": "http://commons.wikimedia.org/wiki/File:NAC-CNA-2019.jpg"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q106625804"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q109326244"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q111668873"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q111724573"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q111730745"
-        }
-      ],
-      "http://schema.org/image": [
-        {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NAC-CNA-2019.jpg/330px-NAC-CNA-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q106625804",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Babs Asper Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre Babs Asper"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Babs Asper Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre Babs Asper"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "1 Elgin Street, Ottawa, ON, K1P 5W1"
-        },
-        {
-          "@language": "fr",
-          "@value": "1, rue Elgin, Ottawa, ON, K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q109326244",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Studio Azrieli"
-        },
-        {
-          "@language": "en",
-          "@value": "Azrieli Studio"
-        }
-      ],
+      "@id": "http://www.wikidata.org/entity/Q112688641",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
           "@language": "fr",
-          "@value": "Studio Azrieli"
+          "@value": "salle de spectacle"
         },
         {
           "@language": "en",
-          "@value": "Azrieli Studio"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "fr",
-          "@value": "1 rue Elgin, Ottawa, Ontario, K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q111668873",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Fourth Stage"
-        },
-        {
-          "@language": "fr",
-          "@value": "Quatrième Salle"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Fourth Stage"
-        },
-        {
-          "@language": "fr",
-          "@value": "Quatrième Salle"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.69356 45.42341)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "fr",
-          "@value": "1, rue Elgin, Ottawa, Ontario, K1P 5W1"
-        },
-        {
-          "@language": "en",
-          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q111724573",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Southam Hall"
-        },
-        {
-          "@language": "fr",
-          "@value": "Salle Southam"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Southam Hall"
-        },
-        {
-          "@language": "fr",
-          "@value": "Salle Southam"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.69383 45.42316)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q111730745",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Place Peter A. Herrndorf"
-        },
-        {
-          "@language": "en",
-          "@value": "Peter A. Herrndorf Place"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Place Peter A. Herrndorf"
-        },
-        {
-          "@language": "en",
-          "@value": "Peter A. Herrndorf Place"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "1 Elgin St, Ottawa, ON, K1P 5W1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q15206795"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q18674739"
+          "@value": "performance hall"
         }
       ]
     },
@@ -5751,19 +5790,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q112688641",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "salle de spectacle"
-        },
-        {
-          "@language": "en",
-          "@value": "performance hall"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q111725914",
       "http://schema.org/name": [
         {
@@ -6162,19 +6188,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q18674739",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "event venue"
-        },
-        {
-          "@language": "fr",
-          "@value": "espace événementiel"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q1007870",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
@@ -6261,19 +6274,6 @@
         {
           "@language": "fr",
           "@value": "hall d'entrée"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q15206795",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "exhibition space"
-        },
-        {
-          "@language": "fr",
-          "@value": "salle d'expositions"
         }
       ]
     },
@@ -7512,13 +7512,13 @@
           "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q25110767"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394801"
-        },
-        {
           "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394971"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394939"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394801"
         }
       ]
     },
@@ -7532,19 +7532,6 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q25110767"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394801",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q124394801"
         }
       ]
     },
@@ -7571,6 +7558,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q124394939"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q124389163-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124394801",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q124394801"
         }
       ]
     },
@@ -8711,6 +8711,237 @@
       ]
     },
     {
+      "@id": "http://www.wikidata.org/entity/Q7109177",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730728"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730728",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q111730728"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606047"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q111730728",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Arts Court Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre de la Cour des Arts"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Arts Court Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre de la Cour des Arts"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.68865 45.42543)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "2 Daly Avenue"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q127606047",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Arts Court Studio Black Box"
+        },
+        {
+          "@language": "fr",
+          "@value": "Arts Court Studio Black Box"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Arts Court Studio Black Box"
+        },
+        {
+          "@language": "fr",
+          "@value": "Arts Court Studio Black Box"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.68865 45.42543)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "2 Daly Avenue"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q201946"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q6058625",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115439892"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115440751"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115439892",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q115439892"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115440751",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q115440751"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q115439892",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Metro Studio Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Metro Studio Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Metro Studio Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Metro Studio Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-123.35863 48.42672)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "1411 Quadra St, Victoria, BC V8W 2L2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q201946"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q115440751",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Intrepid Studio"
+        },
+        {
+          "@language": "fr",
+          "@value": "Intrepid Studio"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Intrepid Studio"
+        },
+        {
+          "@language": "fr",
+          "@value": "Intrepid Studio"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-123.36156 48.42903)"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
       "@id": "http://www.wikidata.org/entity/Q113329578",
       "http://schema.org/name": [
         {
@@ -8950,237 +9181,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q7109177",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730728"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730728",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q111730728"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q7109177-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606047"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q111730728",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Arts Court Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre de la Cour des Arts"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Arts Court Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre de la Cour des Arts"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.68865 45.42543)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "2 Daly Avenue"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q127606047",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Arts Court Studio Black Box"
-        },
-        {
-          "@language": "fr",
-          "@value": "Arts Court Studio Black Box"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Arts Court Studio Black Box"
-        },
-        {
-          "@language": "fr",
-          "@value": "Arts Court Studio Black Box"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.68865 45.42543)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "2 Daly Avenue"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q201946"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q6058625",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115439892"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115440751"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115439892",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q115439892"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q6058625-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q115440751",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q115440751"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q115439892",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Metro Studio Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Metro Studio Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Metro Studio Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Metro Studio Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-123.35863 48.42672)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "1411 Quadra St, Victoria, BC V8W 2L2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q201946"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q115440751",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Intrepid Studio"
-        },
-        {
-          "@language": "fr",
-          "@value": "Intrepid Studio"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Intrepid Studio"
-        },
-        {
-          "@language": "fr",
-          "@value": "Intrepid Studio"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-123.36156 48.42903)"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q99984516",
       "http://schema.org/location": [
         {
@@ -9381,21 +9381,21 @@
       "@id": "http://www.wikidata.org/entity/Q1326219",
       "http://schema.org/name": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Place des Arts"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Place des Arts"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Place des Arts"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Place des Arts"
         }
       ],
@@ -9426,16 +9426,7 @@
       ],
       "http://schema.org/containsPlace": [
         {
-          "@id": "http://www.wikidata.org/entity/Q42986539"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q98271286"
-        },
-        {
           "@id": "http://www.wikidata.org/entity/Q116240406"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q132323644"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q3280275"
@@ -9448,91 +9439,20 @@
         },
         {
           "@id": "http://www.wikidata.org/entity/Q3527509"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q42986539"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q132323644"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q98271286"
         }
       ],
       "http://schema.org/image": [
         {
           "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Place_des_Arts_Entree_01.jpg/330px-Place_des_Arts_Entree_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q42986539",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Cinquième salle at the Place des Arts"
-        },
-        {
-          "@language": "fr",
-          "@value": "Cinquième salle de la Place des Arts"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Cinquième salle at the Place des Arts"
-        },
-        {
-          "@language": "fr",
-          "@value": "Cinquième salle de la Place des Arts"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-73.567286 45.507973)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "fr",
-          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 1Z8"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q98271286",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "salle Claude-Léveillée"
-        },
-        {
-          "@language": "en",
-          "@value": "Salle Claude-Léveillée"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "salle Claude-Léveillée"
-        },
-        {
-          "@language": "en",
-          "@value": "Salle Claude-Léveillée"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-73.565698 45.508373)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "fr",
-          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 3X5"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
         }
       ]
     },
@@ -9573,46 +9493,6 @@
       "http://schema.org/additionalType": [
         {
           "@id": "http://www.wikidata.org/entity/Q117187730"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q132323644",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Espace culturel Georges-Émile-Lapalme"
-        },
-        {
-          "@language": "en",
-          "@value": "Espace culturel Georges-Émile-Lapalme"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Espace culturel Georges-Émile-Lapalme"
-        },
-        {
-          "@language": "en",
-          "@value": "Espace culturel Georges-Émile-Lapalme"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-73.566248 45.508379)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "fr",
-          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 1Z8"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q18674739"
         }
       ]
     },
@@ -9818,6 +9698,126 @@
       "http://schema.org/image": [
         {
           "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Th%C3%A9%C3%A2tre_Maisonneuve.jpg/330px-Th%C3%A9%C3%A2tre_Maisonneuve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q42986539",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Cinquième salle at the Place des Arts"
+        },
+        {
+          "@language": "fr",
+          "@value": "Cinquième salle de la Place des Arts"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Cinquième salle at the Place des Arts"
+        },
+        {
+          "@language": "fr",
+          "@value": "Cinquième salle de la Place des Arts"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-73.567286 45.507973)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "fr",
+          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 1Z8"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q132323644",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Espace culturel Georges-Émile-Lapalme"
+        },
+        {
+          "@language": "en",
+          "@value": "Espace culturel Georges-Émile-Lapalme"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Espace culturel Georges-Émile-Lapalme"
+        },
+        {
+          "@language": "en",
+          "@value": "Espace culturel Georges-Émile-Lapalme"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-73.566248 45.508379)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "fr",
+          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 1Z8"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q18674739"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q98271286",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "salle Claude-Léveillée"
+        },
+        {
+          "@language": "en",
+          "@value": "Salle Claude-Léveillée"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "salle Claude-Léveillée"
+        },
+        {
+          "@language": "en",
+          "@value": "Salle Claude-Léveillée"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-73.565698 45.508373)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "fr",
+          "@value": "175, rue Sainte-Catherine Ouest, Montréal, QC, H2X 3X5"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
         }
       ]
     },
@@ -10092,22 +10092,22 @@
       "@id": "http://www.wikidata.org/entity/Q3527534",
       "http://schema.org/name": [
         {
-          "@language": "en",
-          "@value": "Outremont Theatre"
-        },
-        {
           "@language": "fr",
           "@value": "théâtre Outremont"
+        },
+        {
+          "@language": "en",
+          "@value": "Outremont Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "en",
-          "@value": "Outremont Theatre"
-        },
-        {
           "@language": "fr",
           "@value": "théâtre Outremont"
+        },
+        {
+          "@language": "en",
+          "@value": "Outremont Theatre"
         }
       ],
       "http://schema.org/geoCoordinates": [
@@ -10124,10 +10124,10 @@
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q41253"
+          "@id": "http://www.wikidata.org/entity/Q57660343"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
+          "@id": "http://www.wikidata.org/entity/Q41253"
         }
       ],
       "http://schema.org/creditedTo": [
@@ -10538,18 +10538,6 @@
           "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q118096240"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606175"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606057"
-        },
-        {
           "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606033"
         },
         {
@@ -10559,16 +10547,28 @@
           "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126407679"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126406963"
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126398326"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126398326"
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126406963"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126401089"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111730728"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606057"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606175"
         }
       ]
     },
@@ -10612,58 +10612,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606214"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606175",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606175"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606047"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606057",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606057"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606033",
       "http://schema.org/roleName": [
         {
@@ -10703,19 +10651,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126406963",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q126406963"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126398326",
       "http://schema.org/roleName": [
         {
@@ -10725,6 +10660,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q126398326"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q126406963",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q126406963"
         }
       ]
     },
@@ -10751,6 +10699,58 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q111730728"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606047",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606047"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606057",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606057"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606214"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126394311-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606175",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606175"
         }
       ]
     },
@@ -10893,142 +10893,16 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q120625885",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120626869"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120628734"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120626869",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q120626869"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120628734",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q120628734"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120626869",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Lawrence O'Brien Arts Centre"
-        },
-        {
-          "@language": "en",
-          "@value": "Lawrence O'Brien Arts Centre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Lawrence O'Brien Arts Centre"
-        },
-        {
-          "@language": "en",
-          "@value": "Lawrence O'Brien Arts Centre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-60.34849 53.30589)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "21 Voisey Dr #15, Happy Valley-Goose Bay, NL A0P 1E0"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
-        }
-      ],
-      "http://schema.org/creditedTo": [
-        {
-          "@id": "http://commons.wikimedia.org/wiki/File:Lawrence%20O%27Brien%20Arts%20Centre.jpg"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q120628734"
-        }
-      ],
-      "http://schema.org/image": [
-        {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Lawrence_O%27Brien_Arts_Centre.jpg/330px-Lawrence_O%27Brien_Arts_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120628734",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
-        },
-        {
-          "@language": "fr",
-          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
-        },
-        {
-          "@language": "fr",
-          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "21 Voisey Dr #15, Happy Valley-Goose Bay, NL, A0P 1E0"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q121360256",
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q7074252"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361615"
+          "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361528"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361528"
+          "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361615"
         }
       ]
     },
@@ -11046,19 +10920,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361615",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q121361615"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361528",
       "http://schema.org/roleName": [
         {
@@ -11068,6 +10929,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q121361528"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q121360256-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q121361615",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q121361615"
         }
       ]
     },
@@ -11205,10 +11079,10 @@
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
+          "@id": "http://www.wikidata.org/entity/Q131183"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q131183"
+          "@id": "http://www.wikidata.org/entity/Q112688641"
         }
       ]
     },
@@ -11407,6 +11281,132 @@
       ]
     },
     {
+      "@id": "http://www.wikidata.org/entity/Q120625885",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120626869"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120628734"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120626869",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q120626869"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120625885-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q120628734",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q120628734"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120626869",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Lawrence O'Brien Arts Centre"
+        },
+        {
+          "@language": "en",
+          "@value": "Lawrence O'Brien Arts Centre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Lawrence O'Brien Arts Centre"
+        },
+        {
+          "@language": "en",
+          "@value": "Lawrence O'Brien Arts Centre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-60.34849 53.30589)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "21 Voisey Dr #15, Happy Valley-Goose Bay, NL A0P 1E0"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q57660343"
+        }
+      ],
+      "http://schema.org/creditedTo": [
+        {
+          "@id": "http://commons.wikimedia.org/wiki/File:Lawrence%20O%27Brien%20Arts%20Centre.jpg"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q120628734"
+        }
+      ],
+      "http://schema.org/image": [
+        {
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Lawrence_O%27Brien_Arts_Centre.jpg/330px-Lawrence_O%27Brien_Arts_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120628734",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
+        },
+        {
+          "@language": "fr",
+          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
+        },
+        {
+          "@language": "fr",
+          "@value": "Lawrence O'Brien Arts Centre Theatre Space"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "21 Voisey Dr #15, Happy Valley-Goose Bay, NL, A0P 1E0"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
       "@id": "http://www.wikidata.org/entity/Q50160371",
       "http://schema.org/name": [
         {
@@ -11586,21 +11586,21 @@
       "@id": "http://www.wikidata.org/entity/Q127606057",
       "http://schema.org/name": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Club Saw"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Club Saw"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Club Saw"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Club Saw"
         }
       ],
@@ -11698,10 +11698,10 @@
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q41253"
+          "@id": "http://www.wikidata.org/entity/Q112688641"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
+          "@id": "http://www.wikidata.org/entity/Q41253"
         }
       ]
     },
@@ -11929,144 +11929,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q118096240",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Shenkman Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Centre des Arts Shenkman"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Shenkman Arts Centre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Centre des Arts Shenkman"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.51134 45.48066)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "245 Centrum Boulevard, Ottawa, ON, K1E 0A1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q2190251"
-        }
-      ],
-      "http://schema.org/creditedTo": [
-        {
-          "@id": "http://commons.wikimedia.org/wiki/File:Centre%20des%20arts%20Shenkman.jpg"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q126406963"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q126407679"
-        }
-      ],
-      "http://schema.org/image": [
-        {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Centre_des_arts_Shenkman.jpg/330px-Centre_des_arts_Shenkman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126406963",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Harold Shenkman Hall"
-        },
-        {
-          "@language": "fr",
-          "@value": "Salle Harold-Shenkman"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Harold Shenkman Hall"
-        },
-        {
-          "@language": "fr",
-          "@value": "Salle Harold-Shenkman"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.51134 45.48066)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "245 Centrum Boulevard, Ottawa, ON, K1E 0A1"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126407679",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Richcraft Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre Richcraft"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Richcraft Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Théâtre Richcraft"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-75.51134 45.48066)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "245 Centrum Boulevard, Ottawa, ON"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q201946"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q127414380",
       "http://schema.org/location": [
         {
@@ -12197,21 +12059,21 @@
       "@id": "http://www.wikidata.org/entity/Q127414756",
       "http://schema.org/name": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Gordon Lightfoot Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Gordon Lightfoot Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Gordon Lightfoot Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Gordon Lightfoot Theatre"
         }
       ],
@@ -12224,11 +12086,11 @@
       "http://schema.org/address": [
         {
           "@language": "en",
-          "@value": "1 West Street N, Orillia, ON, L3V 3A6"
+          "@value": "20 Mississaga Street West, Orillia, ON, L3V 3A6"
         },
         {
           "@language": "en",
-          "@value": "20 Mississaga Street West, Orillia, ON, L3V 3A6"
+          "@value": "1 West Street N, Orillia, ON, L3V 3A6"
         }
       ],
       "http://schema.org/additionalType": [
@@ -12241,21 +12103,21 @@
       "@id": "http://www.wikidata.org/entity/Q127414801",
       "http://schema.org/name": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Studio Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Studio Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Studio Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Studio Theatre"
         }
       ],
@@ -12472,6 +12334,144 @@
       "http://schema.org/additionalType": [
         {
           "@id": "http://www.wikidata.org/entity/Q1420179"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q118096240",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Shenkman Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Centre des Arts Shenkman"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Shenkman Arts Centre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Centre des Arts Shenkman"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.51134 45.48066)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "245 Centrum Boulevard, Ottawa, ON, K1E 0A1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q2190251"
+        }
+      ],
+      "http://schema.org/creditedTo": [
+        {
+          "@id": "http://commons.wikimedia.org/wiki/File:Centre%20des%20arts%20Shenkman.jpg"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q126406963"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q126407679"
+        }
+      ],
+      "http://schema.org/image": [
+        {
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Centre_des_arts_Shenkman.jpg/330px-Centre_des_arts_Shenkman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126406963",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Harold Shenkman Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "Salle Harold-Shenkman"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Harold Shenkman Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "Salle Harold-Shenkman"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.51134 45.48066)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "245 Centrum Boulevard, Ottawa, ON, K1E 0A1"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126407679",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Richcraft Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre Richcraft"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Richcraft Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Théâtre Richcraft"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-75.51134 45.48066)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "245 Centrum Boulevard, Ottawa, ON"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q201946"
         }
       ]
     },
@@ -12722,13 +12722,13 @@
           "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q4135315"
         },
         {
+          "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q72194547"
+        },
+        {
           "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q124473687"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q128796922"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q72194547"
         }
       ]
     },
@@ -12742,6 +12742,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q4135315"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q72194547",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q72194547"
         }
       ]
     },
@@ -12768,19 +12781,6 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q128796922"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q128259888-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q72194547",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q72194547"
         }
       ]
     },
@@ -12975,13 +12975,13 @@
           "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111746052"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q137915468"
+          "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111746268"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q130480093"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111746268"
+          "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q137915468"
         }
       ]
     },
@@ -13012,7 +13012,7 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q137915468",
+      "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111746268",
       "http://schema.org/roleName": [
         {
           "@value": "item operated P121"
@@ -13020,7 +13020,7 @@
       ],
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q137915468"
+          "@id": "http://www.wikidata.org/entity/Q111746268"
         }
       ]
     },
@@ -13038,7 +13038,7 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q111746268",
+      "@id": "http://www.wikidata.org/entity/Q129448877-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q137915468",
       "http://schema.org/roleName": [
         {
           "@value": "item operated P121"
@@ -13046,7 +13046,7 @@
       ],
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q111746268"
+          "@id": "http://www.wikidata.org/entity/Q137915468"
         }
       ]
     },
@@ -13112,21 +13112,21 @@
       "@id": "http://www.wikidata.org/entity/Q111746268",
       "http://schema.org/name": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Sobey Family Theatre"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Sobey Family Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Sobey Family Theatre"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Sobey Family Theatre"
         }
       ],
@@ -13557,10 +13557,10 @@
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q1497364"
+          "@id": "http://www.wikidata.org/entity/Q3469910"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q3469910"
+          "@id": "http://www.wikidata.org/entity/Q1497364"
         }
       ],
       "http://schema.org/creditedTo": [
@@ -14232,6 +14232,309 @@
       ]
     },
     {
+      "@id": "http://www.wikidata.org/entity/Q123080445",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Lester B. Pearson Memorial Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Lester B. Pearson Memorial Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Lester B. Pearson Memorial Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Lester B. Pearson Memorial Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-79.71909 43.71815)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "150 Central Park Drive, Brampton, Ontario"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q126365821",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Capitol Theatre Academy"
+        },
+        {
+          "@language": "fr",
+          "@value": "Académie de théâtre du Capitol"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Capitol Theatre Academy"
+        },
+        {
+          "@language": "fr",
+          "@value": "Académie de théâtre du Capitol"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-64.779088888 46.088319444)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "33 Church Street, Moncton, NB"
+        },
+        {
+          "@language": "fr",
+          "@value": "33, rue Church, Moncton, NB"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q24354"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q131183",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "cabaret"
+        },
+        {
+          "@language": "en",
+          "@value": "cabaret"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120637515",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q54336881"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38371928"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q54336881",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q54336881"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38371928",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q38371928"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q54336881",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Majestic Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Majestic Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Majestic Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Majestic Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-52.71075 47.56242)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "390 Duckworth Street, St. John’s, NL A1C 1H8"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q57660343"
+        }
+      ],
+      "http://schema.org/creditedTo": [
+        {
+          "@id": "http://commons.wikimedia.org/wiki/File:050903-1642%20%28Queens%20Rd%2C%20St.Johns%29.jpg"
+        }
+      ],
+      "http://schema.org/image": [
+        {
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/050903-1642_%28Queens_Rd%2C_St.Johns%29.jpg/330px-050903-1642_%28Queens_Rd%2C_St.Johns%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q38371928",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Regent Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Regent Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Regent Theatre"
+        },
+        {
+          "@language": "fr",
+          "@value": "Regent Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-79.38787 43.703)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "555 Mount Pleasant Road, Toronto, ON M4S 2M5"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q57660343"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q24354"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q41253"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q124254132",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q124254132-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38395203"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q124254132-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38395203",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q38395203"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q38395203",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Phoenix Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Phoenix Theatre"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Phoenix Theatre"
+        },
+        {
+          "@language": "en",
+          "@value": "Phoenix Theatre"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-122.70672 58.80414)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "5319 50th Avenue"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q41253"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q1872261",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "lounge"
+        }
+      ]
+    },
+    {
       "@id": "http://www.wikidata.org/entity/Q253893",
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
@@ -14526,309 +14829,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q131183",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "cabaret"
-        },
-        {
-          "@language": "en",
-          "@value": "cabaret"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q123080445",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Lester B. Pearson Memorial Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Lester B. Pearson Memorial Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Lester B. Pearson Memorial Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Lester B. Pearson Memorial Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-79.71909 43.71815)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "150 Central Park Drive, Brampton, Ontario"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120637515",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38371928"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q54336881"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38371928",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q38371928"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q120637515-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q54336881",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q54336881"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q38371928",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Regent Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Regent Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Regent Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Regent Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-79.38787 43.703)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "555 Mount Pleasant Road, Toronto, ON M4S 2M5"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q24354"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q41253"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q126365821",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Capitol Theatre Academy"
-        },
-        {
-          "@language": "fr",
-          "@value": "Académie de théâtre du Capitol"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Capitol Theatre Academy"
-        },
-        {
-          "@language": "fr",
-          "@value": "Académie de théâtre du Capitol"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-64.779088888 46.088319444)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "33 Church Street, Moncton, NB"
-        },
-        {
-          "@language": "fr",
-          "@value": "33, rue Church, Moncton, NB"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q24354"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q124254132",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q124254132-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38395203"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q124254132-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q38395203",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q38395203"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q38395203",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Phoenix Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Phoenix Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Phoenix Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Phoenix Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-122.70672 58.80414)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "5319 50th Avenue"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q41253"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q54336881",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Majestic Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Majestic Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Majestic Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Majestic Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-52.71075 47.56242)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "390 Duckworth Street, St. John’s, NL A1C 1H8"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
-        }
-      ],
-      "http://schema.org/creditedTo": [
-        {
-          "@id": "http://commons.wikimedia.org/wiki/File:050903-1642%20%28Queens%20Rd%2C%20St.Johns%29.jpg"
-        }
-      ],
-      "http://schema.org/image": [
-        {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/050903-1642_%28Queens_Rd%2C_St.Johns%29.jpg/330px-050903-1642_%28Queens_Rd%2C_St.Johns%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q1872261",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "lounge"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q126369546",
       "http://schema.org/location": [
         {
@@ -14958,109 +14958,6 @@
         {
           "@language": "en",
           "@value": "multipurpose room"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q50418254",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "outdoor concert venue"
-        },
-        {
-          "@language": "fr",
-          "@value": "parc de concert en plein air"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q138495718",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Peace Park"
-        },
-        {
-          "@language": "en",
-          "@value": "Peace Park"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Peace Park"
-        },
-        {
-          "@language": "en",
-          "@value": "Peace Park"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-113.303136374 53.527321313)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "100 Festival Way, Sherwood Park, AB T8A 5T2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q18674739"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q22698"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q22698",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "park"
-        },
-        {
-          "@language": "fr",
-          "@value": "parc"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q127606091",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606091-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q127606091-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q127606214"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q2099281",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "plenary hall"
-        },
-        {
-          "@language": "fr",
-          "@value": "salle des séances"
         }
       ]
     },
@@ -15223,6 +15120,109 @@
       "http://schema.org/additionalType": [
         {
           "@id": "http://www.wikidata.org/entity/Q112688641"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q50418254",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "outdoor concert venue"
+        },
+        {
+          "@language": "fr",
+          "@value": "parc de concert en plein air"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q127606091",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606091-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q127606091-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q127606214",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q127606214"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q2099281",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "plenary hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "salle des séances"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q138495718",
+      "http://schema.org/name": [
+        {
+          "@language": "fr",
+          "@value": "Peace Park"
+        },
+        {
+          "@language": "en",
+          "@value": "Peace Park"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "fr",
+          "@value": "Peace Park"
+        },
+        {
+          "@language": "en",
+          "@value": "Peace Park"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-113.303136374 53.527321313)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "100 Festival Way, Sherwood Park, AB T8A 5T2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q18674739"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q22698"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q22698",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "park"
+        },
+        {
+          "@language": "fr",
+          "@value": "parc"
         }
       ]
     },
@@ -15727,6 +15727,213 @@
       ]
     },
     {
+      "@id": "http://www.wikidata.org/entity/Q129448069",
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q15241073"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306432"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306449"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q15241073",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q15241073"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306432",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q136306432"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306449",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q136306449"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q15241073",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "LSPU Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "salle LSPU"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "LSPU Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "salle LSPU"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-52.706491 47.566151)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q57660343"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q1103285"
+        }
+      ],
+      "http://schema.org/creditedTo": [
+        {
+          "@id": "http://commons.wikimedia.org/wiki/File:StJohns%20LSPUHall.jpg"
+        }
+      ],
+      "http://schema.org/containsPlace": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q136306432"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q136306449"
+        }
+      ],
+      "http://schema.org/image": [
+        {
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/StJohns_LSPUHall.jpg/330px-StJohns_LSPUHall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q1103285",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "clubhouse"
+        },
+        {
+          "@language": "fr",
+          "@value": "maison de club"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q136306432",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "The Main Stage Theatre at the LSPU Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "The Main Stage Theatre at the LSPU Hall"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "The Main Stage Theatre at the LSPU Hall"
+        },
+        {
+          "@language": "fr",
+          "@value": "The Main Stage Theatre at the LSPU Hall"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-52.706491 47.566151)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q201946"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q136306449",
+      "http://schema.org/name": [
+        {
+          "@language": "en",
+          "@value": "Cox & Palmer Second Space"
+        },
+        {
+          "@language": "fr",
+          "@value": "Cox & Palmer Second Space"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        {
+          "@language": "en",
+          "@value": "Cox & Palmer Second Space"
+        },
+        {
+          "@language": "fr",
+          "@value": "Cox & Palmer Second Space"
+        }
+      ],
+      "http://schema.org/geoCoordinates": [
+        {
+          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
+          "@value": "Point(-52.706491 47.566151)"
+        }
+      ],
+      "http://schema.org/address": [
+        {
+          "@language": "en",
+          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+        }
+      ],
+      "http://schema.org/additionalType": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q115868934"
+        }
+      ]
+    },
+    {
       "@id": "http://www.wikidata.org/entity/Q113488560",
       "http://schema.org/location": [
         {
@@ -16042,21 +16249,21 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448069",
+      "@id": "http://www.wikidata.org/entity/Q128278487",
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q15241073"
+          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q7737500"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306432"
+          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135446874"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306449"
+          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135500176"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q15241073",
+      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q7737500",
       "http://schema.org/roleName": [
         {
           "@value": "item operated P121"
@@ -16064,12 +16271,12 @@
       ],
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q15241073"
+          "@id": "http://www.wikidata.org/entity/Q7737500"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306432",
+      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135446874",
       "http://schema.org/roleName": [
         {
           "@value": "item operated P121"
@@ -16077,12 +16284,12 @@
       ],
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q136306432"
+          "@id": "http://www.wikidata.org/entity/Q135446874"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q129448069-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q136306449",
+      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135500176",
       "http://schema.org/roleName": [
         {
           "@value": "item operated P121"
@@ -16090,47 +16297,47 @@
       ],
       "http://schema.org/location": [
         {
-          "@id": "http://www.wikidata.org/entity/Q136306449"
+          "@id": "http://www.wikidata.org/entity/Q135500176"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q15241073",
+      "@id": "http://www.wikidata.org/entity/Q7737500",
       "http://schema.org/name": [
         {
           "@language": "en",
-          "@value": "LSPU Hall"
+          "@value": "Grand Theatre"
         },
         {
           "@language": "fr",
-          "@value": "salle LSPU"
+          "@value": "Grand Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
           "@language": "en",
-          "@value": "LSPU Hall"
+          "@value": "Grand Theatre"
         },
         {
           "@language": "fr",
-          "@value": "salle LSPU"
+          "@value": "Grand Theatre"
         }
       ],
       "http://schema.org/geoCoordinates": [
         {
           "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-52.706491 47.566151)"
+          "@value": "Point(-76.486415 44.232086)"
         }
       ],
       "http://schema.org/address": [
         {
           "@language": "en",
-          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+          "@value": "218 Princess Street, Kingston, ON, K7L 1B2"
         }
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q1103285"
+          "@id": "http://www.wikidata.org/entity/Q41253"
         },
         {
           "@id": "http://www.wikidata.org/entity/Q57660343"
@@ -16138,68 +16345,55 @@
       ],
       "http://schema.org/creditedTo": [
         {
-          "@id": "http://commons.wikimedia.org/wiki/File:StJohns%20LSPUHall.jpg"
+          "@id": "http://commons.wikimedia.org/wiki/File:Leo%20the%20Royal%20Cadet%2C%20Grand%20Theatre%2C%20Kingston%20Jun%203-5%201915.jpg"
         }
       ],
       "http://schema.org/containsPlace": [
         {
-          "@id": "http://www.wikidata.org/entity/Q136306432"
+          "@id": "http://www.wikidata.org/entity/Q135446874"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q136306449"
+          "@id": "http://www.wikidata.org/entity/Q135500176"
         }
       ],
       "http://schema.org/image": [
         {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/StJohns_LSPUHall.jpg/330px-StJohns_LSPUHall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Leo_the_Royal_Cadet%2C_Grand_Theatre%2C_Kingston_Jun_3-5_1915.jpg/330px-Leo_the_Royal_Cadet%2C_Grand_Theatre%2C_Kingston_Jun_3-5_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         }
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q1103285",
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "clubhouse"
-        },
-        {
-          "@language": "fr",
-          "@value": "maison de club"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q136306432",
+      "@id": "http://www.wikidata.org/entity/Q135446874",
       "http://schema.org/name": [
         {
-          "@language": "en",
-          "@value": "The Main Stage Theatre at the LSPU Hall"
+          "@language": "fr",
+          "@value": "Baby Grand Theatre"
         },
         {
-          "@language": "fr",
-          "@value": "The Main Stage Theatre at the LSPU Hall"
+          "@language": "en",
+          "@value": "Baby Grand Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "en",
-          "@value": "The Main Stage Theatre at the LSPU Hall"
+          "@language": "fr",
+          "@value": "Baby Grand Theatre"
         },
         {
-          "@language": "fr",
-          "@value": "The Main Stage Theatre at the LSPU Hall"
+          "@language": "en",
+          "@value": "Baby Grand Theatre"
         }
       ],
       "http://schema.org/geoCoordinates": [
         {
           "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-52.706491 47.566151)"
+          "@value": "Point(-76.4864146 44.2320861)"
         }
       ],
       "http://schema.org/address": [
         {
           "@language": "en",
-          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+          "@value": "218 Princess St, Kingston, ON, K7L 1B2"
         }
       ],
       "http://schema.org/additionalType": [
@@ -16209,42 +16403,42 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q136306449",
+      "@id": "http://www.wikidata.org/entity/Q135500176",
       "http://schema.org/name": [
         {
           "@language": "en",
-          "@value": "Cox & Palmer Second Space"
+          "@value": "Regina Rosen Auditorium"
         },
         {
           "@language": "fr",
-          "@value": "Cox & Palmer Second Space"
+          "@value": "Regina Rosen Auditorium"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
           "@language": "en",
-          "@value": "Cox & Palmer Second Space"
+          "@value": "Regina Rosen Auditorium"
         },
         {
           "@language": "fr",
-          "@value": "Cox & Palmer Second Space"
+          "@value": "Regina Rosen Auditorium"
         }
       ],
       "http://schema.org/geoCoordinates": [
         {
           "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-52.706491 47.566151)"
+          "@value": "Point(-76.4865 44.232)"
         }
       ],
       "http://schema.org/address": [
         {
           "@language": "en",
-          "@value": "3 Victoria Street, St. John's, NL, A1C 3V2"
+          "@value": "218 Princess Street, Kingston, ON, K7L 1B2"
         }
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q115868934"
+          "@id": "http://www.wikidata.org/entity/Q112688641"
         }
       ]
     },
@@ -16733,200 +16927,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q128278487",
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q7737500"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135446874"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135500176"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q7737500",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q7737500"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135446874",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q135446874"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q128278487-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135500176",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q135500176"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q7737500",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Grand Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Grand Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Grand Theatre"
-        },
-        {
-          "@language": "fr",
-          "@value": "Grand Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-76.486415 44.232086)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "218 Princess Street, Kingston, ON, K7L 1B2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q41253"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
-        }
-      ],
-      "http://schema.org/creditedTo": [
-        {
-          "@id": "http://commons.wikimedia.org/wiki/File:Leo%20the%20Royal%20Cadet%2C%20Grand%20Theatre%2C%20Kingston%20Jun%203-5%201915.jpg"
-        }
-      ],
-      "http://schema.org/containsPlace": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q135446874"
-        },
-        {
-          "@id": "http://www.wikidata.org/entity/Q135500176"
-        }
-      ],
-      "http://schema.org/image": [
-        {
-          "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Leo_the_Royal_Cadet%2C_Grand_Theatre%2C_Kingston_Jun_3-5_1915.jpg/330px-Leo_the_Royal_Cadet%2C_Grand_Theatre%2C_Kingston_Jun_3-5_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q135446874",
-      "http://schema.org/name": [
-        {
-          "@language": "fr",
-          "@value": "Baby Grand Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Baby Grand Theatre"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "fr",
-          "@value": "Baby Grand Theatre"
-        },
-        {
-          "@language": "en",
-          "@value": "Baby Grand Theatre"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-76.4864146 44.2320861)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "218 Princess St, Kingston, ON, K7L 1B2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q201946"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.wikidata.org/entity/Q135500176",
-      "http://schema.org/name": [
-        {
-          "@language": "en",
-          "@value": "Regina Rosen Auditorium"
-        },
-        {
-          "@language": "fr",
-          "@value": "Regina Rosen Auditorium"
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#label": [
-        {
-          "@language": "en",
-          "@value": "Regina Rosen Auditorium"
-        },
-        {
-          "@language": "fr",
-          "@value": "Regina Rosen Auditorium"
-        }
-      ],
-      "http://schema.org/geoCoordinates": [
-        {
-          "@type": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "@value": "Point(-76.4865 44.232)"
-        }
-      ],
-      "http://schema.org/address": [
-        {
-          "@language": "en",
-          "@value": "218 Princess Street, Kingston, ON, K7L 1B2"
-        }
-      ],
-      "http://schema.org/additionalType": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q112688641"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q129448933",
       "http://schema.org/location": [
         {
@@ -16967,21 +16967,21 @@
       "@id": "http://www.wikidata.org/entity/Q135997450",
       "http://schema.org/name": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Kings Playhouse"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Kings Playhouse"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Kings Playhouse"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Kings Playhouse"
         }
       ],
@@ -16999,10 +16999,10 @@
       ],
       "http://schema.org/additionalType": [
         {
-          "@id": "http://www.wikidata.org/entity/Q77115"
+          "@id": "http://www.wikidata.org/entity/Q57660343"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q57660343"
+          "@id": "http://www.wikidata.org/entity/Q77115"
         }
       ],
       "http://schema.org/containsPlace": [
@@ -17015,21 +17015,21 @@
       "@id": "http://www.wikidata.org/entity/Q137041168",
       "http://schema.org/name": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Kings Playhouse Theatre"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Kings Playhouse Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Kings Playhouse Theatre"
         },
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Kings Playhouse Theatre"
         }
       ],
@@ -17061,10 +17061,10 @@
           "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135467014"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135467290"
+          "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135466638"
         },
         {
-          "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135466638"
+          "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135467290"
         }
       ]
     },
@@ -17095,19 +17095,6 @@
       ]
     },
     {
-      "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135467290",
-      "http://schema.org/roleName": [
-        {
-          "@value": "item operated P121"
-        }
-      ],
-      "http://schema.org/location": [
-        {
-          "@id": "http://www.wikidata.org/entity/Q135467290"
-        }
-      ]
-    },
-    {
       "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135466638",
       "http://schema.org/roleName": [
         {
@@ -17117,6 +17104,19 @@
       "http://schema.org/location": [
         {
           "@id": "http://www.wikidata.org/entity/Q135466638"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q128243389-ITEM_OPERATED_P121-http://www.wikidata.org/entity/Q135467290",
+      "http://schema.org/roleName": [
+        {
+          "@value": "item operated P121"
+        }
+      ],
+      "http://schema.org/location": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q135467290"
         }
       ]
     },
@@ -18491,21 +18491,21 @@
       "@id": "http://www.wikidata.org/entity/Q136663114",
       "http://schema.org/name": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Raffi Armenian Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Raffi Armenian Theatre"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": [
         {
-          "@language": "en",
+          "@language": "fr",
           "@value": "Raffi Armenian Theatre"
         },
         {
-          "@language": "fr",
+          "@language": "en",
           "@value": "Raffi Armenian Theatre"
         }
       ],
