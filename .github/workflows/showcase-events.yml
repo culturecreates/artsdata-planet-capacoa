@@ -1,5 +1,7 @@
 name: Fetch Showcase Events Entities
 
+# For more information about this workflow, see this CAPACOA GitHub repository: https://github.com/capacoa/showcase-events
+
 on:
   workflow_dispatch:
   schedule:
