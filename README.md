@@ -4,6 +4,8 @@ This repo runs a workflow on Github that fetches CAPACOA member data (from CAPAC
 
 It also contains the CAPACOA controlled vocabulary derived from the questionnaire when members create their account on the CAPACOA website. 
 
+It also contains a workflow script to push **Showcase Events** data to the [showcase-events graph](https://kg.artsdata.ca/en/query/show?title=Event%20entities%20in%20showcase-events&sparql=list_events&graph=http://kg.artsdata.ca/capacoa/artsdata-planet-capacoa/showcase-events) in Artsdata using a JSON-LD file in the [CAPACOA Github repo](https://github.com/capacoa/showcase-events). 
+
 # Controlled Vocabulary
 The controlled vocabulary, derived from the questionnaire when members create their account, is modeled using SKOS and the triples are stored in Github. To update the triples please use this [spreadsheet](https://docs.google.com/spreadsheets/d/1kzujMClBYcjWpoXJ2_fz30rrrKuGceqDE76rnjMNw_E/edit#gid=0) to edit the CAPACOA vocabulary and copy/paste the generated SKOS from the "Export" tab into the Github controlled-vocabulary directory. The commit will trigger a workflow to publish to Artsdata.
 
