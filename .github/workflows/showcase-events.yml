@@ -1,4 +1,4 @@
-name: Fetch Showcase Events Entities
+name: Push Showcase Events Entities
 
 # For more information about this workflow, see this CAPACOA GitHub repository: https://github.com/capacoa/showcase-events
 
@@ -14,6 +14,7 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v4
         with:
+          mode: push
           artifact: showcase-events
           publisher: "https://github.com/fjjulien#this"
           downloadUrl: "https://raw.githubusercontent.com/capacoa/showcase-events/refs/heads/main/output/showcase-events.json"
