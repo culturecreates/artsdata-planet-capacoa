@@ -4931,26 +4931,6 @@ member:317 a <https://schema.org/Organization>;
   ];
   wikidata_property:\/P8860 "107857146" .
 
-member:318 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:Genres_the,
-    capacoa:PrimaryActivity_prod,
-    capacoa:CharitableStatus_Charitable-organization,
-    capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1\.2;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Ottawa";
-    schema:addressRegion "ON"
-  ];
-  schema:identifier "Q134531841";
-  schema:legalName "Burning Passions Theatre"@en;
-  schema:name "Burning Passions Theatre"@en,
-    "Burning Passions Theatre";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-5877>;
-  schema:url <https://bptheatre.ca>;
-  wikidata_property:\/P8860 "890767924" .
-
 member:319 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
@@ -5855,24 +5835,6 @@ member:345 a <https://schema.org/Person>;
   schema:url <https://chairmangeorge.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "George Sapounidis, known as Chairman George, is a Greek-Canadian musician celebrated for his diverse talents. He's captivated audiences worldwide, including 40 tours of China, and his performances have reached millions. A two-time Olympic torchbearer, he sings in over 15 languages and holds a Ph.D. in mathematical statistics."@en,
     "George Sapounidis, connu sous le nom de Chairman George, est un musicien gréco-canadien célébré pour ses talents variés. Il a captivé des publics à travers le monde, notamment au cours de 40 tournées en Chine. Ses prestations ont touché des millions de personnes. Porteur de la flamme olympique à deux reprises, il chante dans plus de 15 langues et est titulaire d’un doctorat en statistiques mathématiques."@fr .
-
-member:346 a <https://schema.org/Person>;
-  schema:additionalType capacoa:Genres_dan,
-    capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-and-disclose-v1\.2,
-    capacoa:Genres_film;
-  schema:address [
-    a schema:PostalAddress;
-    schema:addressCountry "CA";
-    schema:addressLocality "Toronto";
-    schema:addressRegion "ON"
-  ];
-  schema:hasOccupation wikidata_entity:Q483501;
-  schema:identifier "Q137463597";
-  schema:name "Yasmina Ramzy";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6324>;
-  schema:url <https://www.yasminaramzyarts.com/>;
-  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Described as a visionary, a pioneer, and a disrupter, Yasmina Ramzy has created 10 films (including immersive), 12 theatrical dance and music productions, 300 choreographies for international ensembles, taught in over 80 cities on five continents, performed in four Middle Eastern countries for royalty and heads of state, produced ten dance and music festivals, and written 26 dance magazine articles and 58 blog posts. Her memoir is currently being edited. Yasmina is the longest-standing member of the Board of Directors for Dance Ontario, 1999-2024, where she founded and chaired the Justice, Equity, Diversity &amp; Inclusion Committee."@en .
 
 member:347 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_cir,
