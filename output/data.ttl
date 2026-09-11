@@ -72,15 +72,6 @@ member:102 a <https://schema.org/Organization>;
   schema:url <https://www.aimbookingagency.com/>;
   wikidata_property:\/P8860 "751675695" .
 
-member:103 a <https://schema.org/Organization>;
-  schema:additionalType capacoa:PrimaryActivity_agen,
-    capacoa:TermsConditions_agree-v1\.2;
-  schema:identifier "Q112570691";
-  schema:name "Kids and Then Some (KATS)"@en,
-    "Kids and Then Some (KATS)";
-  schema:sameAs <http://kg.artsdata.ca/resource/K14-87>;
-  schema:url <https://www.katskids.com/> .
-
 member:104 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
@@ -1036,6 +1027,20 @@ member:145 a <https://schema.org/Organization>;
   schema:name "FTA"@fr,
     "FTA";
   schema:url <https://fta.ca/>;
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Festival TransAmériques (FTA) is an international performing arts festival dedicated to the most contemporary expressions of dance and theatre. Since its first edition in 1985, it has sought out bold, distinctive artistic work and fresh perspectives
+
+Located in Montreal/Tio’tia:ke/Mooniyang, FTA pursues an ongoing dialogue with the city and its history, theatres, and neighbourhoods. It attracts and engages with diverse audiences, which it aims to expand and draw closer.
+
+As a coproducing festival, FTA supports the development and circulation of new work by Quebec, Canadian, and Indigenous artists, striving to establish the best possible conditions for it to flourish. The Festival aims to strengthen local artistic communities by offering spaces for sharing and mutual inspiration.
+
+Through presenting shows from home and abroad, FTA fosters the growth of our imagination and honours the complexity of the world. The Festival initiates memorable discoveries and powerful experiences that connect emotion with knowledge. FTA is a celebration of the performing arts taking place at springtime each year."""@en,
+    """Le Festival TransAmériques (FTA) est un festival international d’arts vivants dédié à la danse et au théâtre dans leurs expressions les plus actuelles. Depuis sa première édition en 1985, il est en quête de créations courageuses et singulières, et de perspectives nouvelles.
+
+Situé à Montréal/Tio’tia:ke/Mooniyang, le FTA dialogue avec sa ville, son histoire, ses scènes et ses quartiers. Il convie et engage des publics diversifiés, qu’il souhaite élargir et enthousiasmer.
+
+Festival de création, le FTA soutient le développement et la circulation d’œuvres inédites d’artistes québécois·e·s, canadien·ne·s et autochtones. Avec son équipe, le FTA travaille à réunir les meilleures conditions possibles pour l’émergence des créations. Solidaire des communautés artistiques, le FTA cherche à les fortifier en offrant des espaces de partage et d’émulation.
+
+À travers l’accueil de spectacles d’ici et d’ailleurs, le FTA cultive l’expansion des imaginaires et célèbre la complexité du monde. Le Festival provoque des rencontres fortes et des expériences profondes qui relient l’émotion à la connaissance. De retour à tous les printemps, le FTA est une grande fête des arts vivants."""@fr;
   wikidata_property:\/P8860 "101787554" .
 
 member:147 a <https://schema.org/Organization>;
