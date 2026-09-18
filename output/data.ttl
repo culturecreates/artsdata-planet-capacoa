@@ -6712,6 +6712,45 @@ As a mature organization with a clear mission, Music Toronto embraces both tradi
 Through its three pillars—Concerts, Artist Development, and Community Engagement and Education —Music Toronto enriches the cultural fabric of Toronto and ensures that the beauty and depth of chamber music continue to inspire and connect generations."""@en;
   wikidata_property:\/P8860 "119049849" .
 
+member:405 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_film,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_oth,
+    capacoa:Genres_vis,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Toronto";
+    schema:addressRegion "ON"
+  ];
+  schema:alternateName "TSV";
+  schema:legalName "Trinity Square Video"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "401 Richmond"
+    ];
+    schema:roleName "Resident organization"
+  ];
+  schema:name "Trinity Square Video"@en,
+    "Trinity Square Video";
+  schema:url <https://trinitysquarevideo.com>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://trinitysquarevideo.com/all-trinity-square-events/>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Trinity Square Video (TSV) is an artist-run centre supporting media artists, independent filmmakers, and digital creators. Members gain access to professional production equipment, facilities, education, presentation opportunities, and a diverse creative community. Through inclusive programming, advocacy, and sector partnerships, TSV champions underrepresented voices, encourages artistic experimentation, and connects Canadian media artists with national and international opportunities."@en,
+    """Trinity Square Video (TSV) est un centre d’artistes autogéré qui soutient les artistes en arts médiatiques, les cinéastes indépendants et les créateur·rice·s numériques. Ses membres ont accès à de l’équipement de production professionnel, à des installations spécialisées, à des activités de formation, à des possibilités de diffusion ainsi qu’à une communauté créative diversifiée.
+
+Grâce à une programmation inclusive, à son travail de représentation et à ses partenariats avec le milieu, TSV valorise les voix sous-représentées, encourage l’expérimentation artistique et crée des liens entre les artistes canadien·ne·s en arts médiatiques et des possibilités de diffusion et de développement à l’échelle nationale et internationale."""@fr;
+  wikidata_property:\/P8860 "108141201" .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
