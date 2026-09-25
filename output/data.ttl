@@ -6751,6 +6751,45 @@ member:405 a <https://schema.org/Organization>;
 Grâce à une programmation inclusive, à son travail de représentation et à ses partenariats avec le milieu, TSV valorise les voix sous-représentées, encourage l’expérimentation artistique et crée des liens entre les artistes canadien·ne·s en arts médiatiques et des possibilités de diffusion et de développement à l’échelle nationale et internationale."""@fr;
   wikidata_property:\/P8860 "108141201" .
 
+member:406 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Bonnyville";
+    schema:addressRegion "AB"
+  ];
+  schema:alternateName "Strathcona Performing Arts Centre";
+  schema:legalName "Clayton Bellamy Foundation for the Arts"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Strathcona Performing Arts Centre"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Clayton Bellamy Foundation for the Arts"@en,
+    "Clayton Bellamy Foundation for the Arts";
+  schema:url <https://claytonbellamyfoundation.org>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://bonnyvilletheatre.com>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Strathcona Performing Arts Centre(SPAC), operated by The Clayton Bellamy Foundation for the Arts, is a 340 seat, state of the art theatre and cultural hub serving the Lakeland region.  SPAC provides a welcoming space where audiences experience diverse live performances, community events, workshops and arts programming.
+Our mission is to enrich the lives of community members and visitors by creating opportunities to experience, participate in, and connect through the arts. SPAC presents a range of professional touring artists alongside emerging local talent, supporting vibrant and accessible arts community.  As the region's dedicated performing arts venue, SPAC plays an important role in fostering cultural connection, supporting artists and providing meaningful experiences for audiences of all ages."""@en;
+  wikidata_property:\/P8860 "774435069" .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -8455,6 +8494,12 @@ capacoa:Genres_mus-th a skos:Concept;
   skos:prefLabel "musical theatre/opera"@en,
     "théâtre musical/opéra"@fr .
 
+capacoa:Genres_oth a skos:Concept;
+  skos:hiddenLabel "oth";
+  skos:inScheme capacoa:Genres;
+  skos:prefLabel "other performing arts"@en,
+    "autres arts de la scène"@fr .
+
 capacoa:PresenterType_Multidisciplinary a skos:Concept;
   skos:inScheme capacoa:PresenterType;
   skos:prefLabel "multi-disciplinary"@en,
@@ -8463,12 +8508,6 @@ capacoa:PresenterType_Multidisciplinary a skos:Concept;
     <http://www.w3.org/ns/prov#label> "Infer presenter type SPARQL"@en;
     <http://www.w3.org/ns/prov#used> <https://github.com/culturecreates/artsdata-planet-capacoa/blob/main/capacoa-infer-presenter-type.sparql>
   ] .
-
-capacoa:Genres_oth a skos:Concept;
-  skos:hiddenLabel "oth";
-  skos:inScheme capacoa:Genres;
-  skos:prefLabel "other performing arts"@en,
-    "autres arts de la scène"@fr .
 
 capacoa:Genres_you a skos:Concept;
   skos:hiddenLabel "you";
