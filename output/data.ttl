@@ -6790,6 +6790,69 @@ member:406 a <https://schema.org/Organization>;
 Our mission is to enrich the lives of community members and visitors by creating opportunities to experience, participate in, and connect through the arts. SPAC presents a range of professional touring artists alongside emerging local talent, supporting vibrant and accessible arts community.  As the region's dedicated performing arts venue, SPAC plays an important role in fostering cultural connection, supporting artists and providing meaningful experiences for audiences of all ages."""@en;
   wikidata_property:\/P8860 "774435069" .
 
+member:407 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_com,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-v1\.2,
+    capacoa:PresentingFormat_series,
+    capacoa:Genres_dan,
+    capacoa:Genres_film,
+    capacoa:Genres_mus,
+    capacoa:Genres_mus-th,
+    capacoa:Genres_oth,
+    capacoa:Genres_the,
+    capacoa:Genres_var,
+    capacoa:Genres_you,
+    capacoa:PresenterType_Multidisciplinary;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Airdrie";
+    schema:addressRegion "AB"
+  ];
+  schema:legalName "The City of Airdrie"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Bert Church LIVE Theatre"
+    ];
+    schema:roleName "Manager/Operator"
+  ], [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Inspire"
+    ];
+    schema:roleName "Manager/Operator"
+  ];
+  schema:name "Bert Church LIVE Theatre"@en,
+    "Bert Church LIVE Theatre";
+  schema:url <https://www.airdrie.ca/index.cfm?serviceID=5> .
+
+member:408 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_cir,
+    capacoa:PrimaryActivity_agen,
+    capacoa:CharitableStatus_Not-a-charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Montreal";
+    schema:addressRegion "QC"
+  ];
+  schema:legalName "En piste inc."@fr;
+  schema:name "En piste"@fr,
+    "En piste";
+  schema:url <https://enpiste.qc.ca/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://enpiste.qc.ca/evenements/>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "En Piste, un allié incontournable dans le développement durable des arts du cirque, promeut une identité culturelle distinctive à l’échelle mondiale en partenariat avec les politiques gouvernementales."@en,
+    "En Piste, an essential ally in the sustainable development of circus arts, promotes a distinctive cultural identity on a global scale in partnership with government policies."@fr .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
