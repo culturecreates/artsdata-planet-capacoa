@@ -3,14 +3,14 @@
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wikidata_entity: <http://www.wikidata.org/entity/> .
-@prefix wikidata_property: <http://www.wikidata.org/prop/direct/> .
+@prefix wikidata_property: <http://www.wikidata.org/prop/direct> .
 
 member:100 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -32,7 +32,7 @@ member:101 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -55,8 +55,8 @@ member:102 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -70,12 +70,12 @@ member:102 a <https://schema.org/Organization>;
     "AIM Booking Agency";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-167>;
   schema:url <https://www.aimbookingagency.com/>;
-  wikidata_property:P8860 "751675695" .
+  wikidata_property:\/P8860 "751675695" .
 
 member:104 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_oth,
     capacoa:PresenterType_Multidisciplinary;
   schema:address [
@@ -91,7 +91,7 @@ member:104 a <https://schema.org/Organization>;
 
 member:105 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:legalName "Alianait Entertainment Group"@en;
@@ -104,7 +104,7 @@ member:106 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -118,13 +118,13 @@ member:106 a <https://schema.org/Organization>;
   schema:name "Springboard Performance"@en,
     "Springboard Performance";
   schema:url <https://springboardperformance.com>;
-  wikidata_property:P8860 "888267242" .
+  wikidata_property:\/P8860 "888267242" .
 
 member:107 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -161,14 +161,14 @@ member:107 a <https://schema.org/Organization>;
     schema:url <https://www.kingstheatre.ca/upcoming-events/>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "King’s Theatre, has been operated continously as a both a performing arts hub and cinema for over 100 years.The 220-seat gathering space, located at the heart of Annapolis Royal, presents live performances year-round in all genres, including music, theatre, dance, comedy, spoken word, and more. On screen there’s every kind of cinema, including stage-to-screen works of theatre, opera and ballet. With more than 200 events a year, the aim is to ensure that everyone there is something for everyone. We work with community groups and organizations to provide a venue that is shaped by and for the community. King’s Theatre is also an education and outreach organization, delivering programming for school groups, as well as outreach throughout the community.  King’s has a mandate to ensure that barriers are removed and doors are opened so that everyone in the community feels welcome. King’s offers state-of-the-art stage lighting, sound, and cinematic projection. We value diversity, equity, justice and inclusion, as well as excellence, tradition and innovation."@en;
-  wikidata_property:P8860 "118981901" .
+  wikidata_property:\/P8860 "118981901" .
 
 member:109 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival-equal;
   schema:address [
     a schema:PostalAddress;
@@ -181,14 +181,14 @@ member:109 a <https://schema.org/Organization>;
   schema:name "MT Space"@en,
     "MT Space";
   schema:url <https://mtspace.ca/>;
-  wikidata_property:P8860 "862192291" .
+  wikidata_property:\/P8860 "862192291" .
 
 member:11 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -223,14 +223,14 @@ member:11 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.theplayhouse.ca/en/schedule-and-tickets>
   ];
-  wikidata_property:P8860 "866721566" .
+  wikidata_property:\/P8860 "866721566" .
 
 member:110 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -252,14 +252,14 @@ member:110 a <https://schema.org/Organization>;
   schema:name "Aramusique"@fr,
     "Aramusique";
   schema:url <https://www.aramusique.org/>;
-  wikidata_property:P8860 "125111781" .
+  wikidata_property:\/P8860 "125111781" .
 
 member:111 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -274,24 +274,24 @@ member:111 a <https://schema.org/Organization>;
   schema:name "New Works"@en,
     "New Works";
   schema:url <https://www.newworks.ca/>;
-  wikidata_property:P8860 "890250178" .
+  wikidata_property:\/P8860 "890250178" .
 
 member:112 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:alternateName "New Vintage Theatre Society";
   schema:identifier "Q112572963";
   schema:name "New Vintage Theatre"@en,
     "New Vintage Theatre";
   schema:url <https://newvintagetheatre.com/>;
-  wikidata_property:P8860 "808134241" .
+  wikidata_property:\/P8860 "808134241" .
 
 member:114 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -316,7 +316,7 @@ member:114 a <https://schema.org/Organization>;
 
 member:117 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_agen,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:identifier "Q112570694";
   schema:name "Bailiwick Booking Agency and Arts Management"@en,
     "Bailiwick Booking Agency and Arts Management";
@@ -326,7 +326,7 @@ member:118 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -343,13 +343,13 @@ member:118 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://pratibhaarts.com/events>
   ];
-  wikidata_property:P8860 "814654406" .
+  wikidata_property:\/P8860 "814654406" .
 
 member:119 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -364,14 +364,14 @@ member:119 a <https://schema.org/Organization>;
     "Maverick Cooperative";
   schema:url <https://maverickcooperative.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Maverick Cooperative is a partnership of Margot Holmes of Caline Artists International and Debbie Peters of Magnum Opus Management to promote their rosters together and bring unique talent to stages, screens and hearts in Canada and around the world."@en;
-  wikidata_property:P8860 "854413374" .
+  wikidata_property:\/P8860 "854413374" .
 
 member:12 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -408,14 +408,14 @@ member:12 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.fortsask.ca/en/things-to-do/events.aspx>
   ];
-  wikidata_property:P8860 "124060203" .
+  wikidata_property:\/P8860 "124060203" .
 
 member:120 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-and-disclose-v1.1;
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -428,14 +428,14 @@ member:120 a <https://schema.org/Organization>;
     "Porter Music Management";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-104>;
   schema:url <https://portermusic.ca/>;
-  wikidata_property:P8860 "853524544" .
+  wikidata_property:\/P8860 "853524544" .
 
 member:121 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_gran,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Provincial-or-territorial-government,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -456,14 +456,14 @@ member:121 a <https://schema.org/Organization>;
   schema:name "Arts Culture NB"@en,
     "Arts Culture NB";
   schema:url <https://www2.gnb.ca/content/gnb/en/departments/thc/culture.html>;
-  wikidata_property:P8860 "107863888" .
+  wikidata_property:\/P8860 "107863888" .
 
 member:122 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -482,14 +482,14 @@ member:122 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.ceciliaconcerts.ca/concerts>
   ];
-  wikidata_property:P8860 "894903012" .
+  wikidata_property:\/P8860 "894903012" .
 
 member:123 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -502,14 +502,14 @@ member:123 a <https://schema.org/Organization>;
   schema:name "Jazz Festivals Canada"@en,
     "Jazz Festivals Canada";
   schema:url <http://www.jazzfestivalscanada.ca>;
-  wikidata_property:P8860 "863614558" .
+  wikidata_property:\/P8860 "863614558" .
 
 member:126 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -544,14 +544,14 @@ member:126 a <https://schema.org/Organization>;
     "Intrepid Theatre";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-110>;
   schema:url <https://intrepidtheatre.com/>;
-  wikidata_property:P8860 "123822777" .
+  wikidata_property:\/P8860 "123822777" .
 
 member:13 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -589,14 +589,14 @@ member:13 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://yukonartscentre.com/exhibitions_events>
   ];
-  wikidata_property:P8860 "132938655" .
+  wikidata_property:\/P8860 "132938655" .
 
 member:130 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -627,14 +627,14 @@ member:130 a <https://schema.org/Organization>;
     "Werklund Centre";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-111>;
   schema:url <https://werklundcentre.ca/>;
-  wikidata_property:P8860 "118823269" .
+  wikidata_property:\/P8860 "118823269" .
 
 member:131 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -647,13 +647,13 @@ member:131 a <https://schema.org/Organization>;
     "adelheid";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-112>;
   schema:url <https://adelheid.ca>;
-  wikidata_property:P8860 "819056888" .
+  wikidata_property:\/P8860 "819056888" .
 
 member:132 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -689,14 +689,14 @@ member:132 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://burlingtonpac.ca/events/>
   ];
-  wikidata_property:P8860 "824613020" .
+  wikidata_property:\/P8860 "824613020" .
 
 member:133 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -741,14 +741,14 @@ member:133 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://tickets.stalbert.ca>
   ];
-  wikidata_property:P8860 "122012735" .
+  wikidata_property:\/P8860 "122012735" .
 
 member:134 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -773,14 +773,14 @@ member:134 a <https://schema.org/Organization>;
     "Canadian Music Centre in BC";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-114>;
   schema:url <https://bc.cmccanada.org>;
-  wikidata_property:P8860 "118834563" .
+  wikidata_property:\/P8860 "118834563" .
 
 member:138 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -812,14 +812,14 @@ member:138 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.porttheatre.com/tickets/spotlight/>
   ];
-  wikidata_property:P8860 "130318330" .
+  wikidata_property:\/P8860 "130318330" .
 
 member:139 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -832,14 +832,14 @@ member:139 a <https://schema.org/Organization>;
   schema:name "Mundial Montréal"@fr,
     "Mundial Montréal";
   schema:url <http://www.mundialmontreal.com>;
-  wikidata_property:P8860 "802447300" .
+  wikidata_property:\/P8860 "802447300" .
 
 member:14 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -872,14 +872,14 @@ member:14 a <https://schema.org/Organization>;
     "DanceHouse";
   schema:url <https://dancehouse.ca/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "DanceHouse connects Vancouver audiences and the local arts community to the international world of dance by presenting exceptional companies that are recognized for their excellence, innovation, and international reputation. Since 2008, DanceHouse has presented vibrant and inspiring companies from Canada and around the world. In addition to the performances on stage, DanceHouse offers a suite of engagement opportunities and a chance for members of the general public and the local artistic community to engage with the presented artists and their work."@en;
-  wikidata_property:P8860 "861284255" .
+  wikidata_property:\/P8860 "861284255" .
 
 member:141 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -893,14 +893,14 @@ member:141 a <https://schema.org/Organization>;
     "Andrew Kwan Artists Management Inc.";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-119>;
   schema:url <https://www.andrewkwanartists.com/>;
-  wikidata_property:P8860 "130867971" .
+  wikidata_property:\/P8860 "130867971" .
 
 member:142 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -924,14 +924,14 @@ member:142 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://www.kidsfest.ca>
   ];
-  wikidata_property:P8860 "119301091" .
+  wikidata_property:\/P8860 "119301091" .
 
 member:143 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -965,14 +965,14 @@ member:143 a <https://schema.org/Organization>;
     "Ottawa Fringe Festival";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-121>;
   schema:url <https://ottawafringe.com/>;
-  wikidata_property:P8860 "897771721" .
+  wikidata_property:\/P8860 "897771721" .
 
 member:144 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1003,14 +1003,14 @@ member:144 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://tickets.markethall.org>
   ];
-  wikidata_property:P8860 "867267692" .
+  wikidata_property:\/P8860 "867267692" .
 
 member:145 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -1041,14 +1041,14 @@ Situé à Montréal/Tio’tia:ke/Mooniyang, le FTA dialogue avec sa ville, son h
 Festival de création, le FTA soutient le développement et la circulation d’œuvres inédites d’artistes québécois·e·s, canadien·ne·s et autochtones. Avec son équipe, le FTA travaille à réunir les meilleures conditions possibles pour l’émergence des créations. Solidaire des communautés artistiques, le FTA cherche à les fortifier en offrant des espaces de partage et d’émulation.
 
 À travers l’accueil de spectacles d’ici et d’ailleurs, le FTA cultive l’expansion des imaginaires et célèbre la complexité du monde. Le Festival provoque des rencontres fortes et des expériences profondes qui relient l’émotion à la connaissance. De retour à tous les printemps, le FTA est une grande fête des arts vivants."""@fr;
-  wikidata_property:P8860 "101787554" .
+  wikidata_property:\/P8860 "101787554" .
 
 member:147 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1071,14 +1071,14 @@ member:147 a <https://schema.org/Organization>;
     "The CanDance Network";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-68>;
   schema:url <https://www.candance.ca/>;
-  wikidata_property:P8860 "885724419" .
+  wikidata_property:\/P8860 "885724419" .
 
 member:148 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -1099,8 +1099,8 @@ member:15 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus;
   schema:address [
     a schema:PostalAddress;
@@ -1112,12 +1112,12 @@ member:15 a <https://schema.org/Organization>;
   schema:name "Eponymous"@en,
     "Eponymous";
   schema:url <https://www.eponymous.ca/>;
-  wikidata_property:P8860 "870305067" .
+  wikidata_property:\/P8860 "870305067" .
 
 member:150 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1133,7 +1133,7 @@ member:150 a <https://schema.org/Person>;
 
 member:152 a <https://schema.org/Person>;
   schema:additionalType capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:hasOccupation wikidata_entity:Q15978655;
   schema:name "Richard Stoker";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-141>;
@@ -1143,7 +1143,7 @@ member:152 a <https://schema.org/Person>;
 member:153 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -1160,7 +1160,7 @@ member:153 a <https://schema.org/Person>;
 member:154 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -1179,7 +1179,7 @@ member:155 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -1208,14 +1208,14 @@ member:155 a <https://schema.org/Organization>;
     "Arts Network Ottawa";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-125>;
   schema:url <https://artsnetottawa.ca/>;
-  wikidata_property:P8860 "121777023" .
+  wikidata_property:\/P8860 "121777023" .
 
 member:157 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -1238,12 +1238,12 @@ member:157 a <https://schema.org/Organization>;
   schema:name "Eastern Front Theatre"@en,
     "Eastern Front Theatre";
   schema:url <http://www.easternfronttheatre.com>;
-  wikidata_property:P8860 "140150772" .
+  wikidata_property:\/P8860 "140150772" .
 
 member:158 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -1260,7 +1260,7 @@ member:159 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1288,14 +1288,14 @@ member:159 a <https://schema.org/Organization>;
     "Uma Nota Culture";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-128>;
   schema:url <https://umanota.ca>;
-  wikidata_property:P8860 "766101935" .
+  wikidata_property:\/P8860 "766101935" .
 
 member:16 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -1321,14 +1321,14 @@ member:16 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.newmusic.org/events>
   ];
-  wikidata_property:P8860 "119281988" .
+  wikidata_property:\/P8860 "119281988" .
 
 member:160 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1341,14 +1341,14 @@ member:160 a <https://schema.org/Organization>;
   schema:name "Parts+Labour_Danse"@en,
     "Parts+Labour_Danse";
   schema:url <https://www.pldanse.com>;
-  wikidata_property:P8860 "741460083" .
+  wikidata_property:\/P8860 "741460083" .
 
 member:162 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -1365,14 +1365,14 @@ member:162 a <https://schema.org/Organization>;
     "Kaleidoscope Theatre for Young People";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-129>;
   schema:url <https://kaleidoscope.bc.ca>;
-  wikidata_property:P8860 "118976885" .
+  wikidata_property:\/P8860 "118976885" .
 
 member:163 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1408,14 +1408,14 @@ member:163 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://imperialtheatre.ca/events/>
   ];
-  wikidata_property:P8860 "100504687" .
+  wikidata_property:\/P8860 "100504687" .
 
 member:164 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -1444,14 +1444,14 @@ member:164 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://vanrecital.com/concerts/>
   ];
-  wikidata_property:P8860 "119282150" .
+  wikidata_property:\/P8860 "119282150" .
 
 member:165 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -1480,14 +1480,14 @@ member:165 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://thedancecentre.ca/performances-events/>
   ];
-  wikidata_property:P8860 "119258754" .
+  wikidata_property:\/P8860 "119258754" .
 
 member:166 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1504,14 +1504,14 @@ member:166 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://www.punctuatetheatre.com/>
   ];
-  wikidata_property:P8860 "836199976" .
+  wikidata_property:\/P8860 "836199976" .
 
 member:167 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -1545,7 +1545,7 @@ member:169 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -1572,7 +1572,7 @@ member:17 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -1601,14 +1601,14 @@ In the 2024/25 season, OSAC presented 171 performances by 36 different artists i
 OSAC’s work and support reach lands covered by Treaties 2, 4, 5, 6, 8 and 10, the traditional lands of the Cree, Dakota, Dene, Lakota, Nakota and Saulteaux peoples, as well as the homeland of the Métis Nation. We are dedicated to ensuring the spirit of Reconciliation and that these treaties are honoured and respected. This acknowledgement also reaffirms our relationship with one another.
 
 Diversity, Equity &amp; Inclusion (DEI) Statement: OSAC values diversity and equality.  OSAC will not discriminate against anyone based on race, colour, creed, sex, sexual orientation, gender identity or expression, age, religion, national origin, disability, ancestry, marital status, or any other applicable characteristics protected by law."""@en;
-  wikidata_property:P8860 "107803389" .
+  wikidata_property:\/P8860 "107803389" .
 
 member:172 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1648,13 +1648,13 @@ member:172 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://confederationcentre.com/whats-on/>
   ];
-  wikidata_property:P8860 "121807929" .
+  wikidata_property:\/P8860 "121807929" .
 
 member:174 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1698,7 +1698,7 @@ member:175 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1743,11 +1743,11 @@ member:175 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.tolive.com/Events-Page>
   ];
-  wikidata_property:P8860 "119216406" .
+  wikidata_property:\/P8860 "119216406" .
 
 member:179 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:identifier "Q125564604";
   schema:name "Le Regroupement artistique francophone de l'Alberta"@en,
     "Le Regroupement artistique francophone de l'Alberta";
@@ -1759,7 +1759,7 @@ member:18 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -1807,7 +1807,7 @@ member:181 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus-th,
     capacoa:PresenterType_Multidisciplinary;
@@ -1841,7 +1841,7 @@ member:186 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1880,7 +1880,7 @@ member:186 a <https://schema.org/Organization>;
 
 member:188 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresenterType_Specialized;
   schema:identifier "Q129448933";
   schema:name "Kings Playhouse"@en,
@@ -1892,8 +1892,8 @@ member:19 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -1908,13 +1908,13 @@ member:19 a <https://schema.org/Organization>;
     "Danielle Lefebvre Agency (ADL)";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-49>;
   schema:url <http://www.agencedlefebvre.com/fr>;
-  wikidata_property:P8860 "829653682" .
+  wikidata_property:\/P8860 "829653682" .
 
 member:192 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1955,7 +1955,7 @@ member:193 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -1993,13 +1993,13 @@ member:193 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://evergreenculturalcentre.ca/entertain>
   ];
-  wikidata_property:P8860 "893668491" .
+  wikidata_property:\/P8860 "893668491" .
 
 member:194 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2043,7 +2043,7 @@ member:195 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_oth,
@@ -2075,12 +2075,12 @@ member:195 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://lediamant.ca/programmation>
   ];
-  wikidata_property:P8860 "843116484" .
+  wikidata_property:\/P8860 "843116484" .
 
 member:196 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_you;
@@ -2093,7 +2093,7 @@ member:196 a <https://schema.org/Organization>;
 member:197 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:alternateName "Made in BC - Dance on Tour";
   schema:identifier "Q126952126";
   schema:name "Dance West Network"@en,
@@ -2106,7 +2106,7 @@ member:199 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2130,14 +2130,14 @@ member:199 a <https://schema.org/Organization>;
     "Sursaut";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-148>;
   schema:url <https://sursaut.ca/>;
-  wikidata_property:P8860 "132417098" .
+  wikidata_property:\/P8860 "132417098" .
 
 member:200 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Other-type-of-legal-entity,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2164,7 +2164,7 @@ member:201 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2190,12 +2190,12 @@ member:201 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.artstouring.com/>
   ];
-  wikidata_property:P8860 "127116242" .
+  wikidata_property:\/P8860 "127116242" .
 
 member:202 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:alternateName "Debut Atlantic";
   schema:identifier "Q129448503";
   schema:name "Debut Atlantic Society"@en,
@@ -2210,7 +2210,7 @@ member:202 a <https://schema.org/Organization>;
 member:203 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2242,7 +2242,7 @@ member:204 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2280,13 +2280,13 @@ member:204 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://theatrecentre.org/whats-on/>
   ];
-  wikidata_property:P8860 "118798024" .
+  wikidata_property:\/P8860 "118798024" .
 
 member:205 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -2319,7 +2319,7 @@ member:205 a <https://schema.org/Organization>;
 member:207 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -2339,7 +2339,7 @@ member:208 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2377,7 +2377,7 @@ member:209 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -2398,11 +2398,11 @@ member:209 a <https://schema.org/Organization>;
     schema:url <https://www.jazzwinnipeg.com/calendar?view=calendar&month=>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Jazz Winnipeg is a charitable, non-profit organization promoting the art of jazz and creative music through concert presentations and community engagement. As producers of the annual Winnipeg International Jazz Festival as well as concerts and workshops throughout the year, Jazz Winnipeg is a vibrant and essential organization dedicated to the enrichment of Winnipeg's cultural community."@en;
-  wikidata_property:P8860 "125835660" .
+  wikidata_property:\/P8860 "125835660" .
 
 member:210 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:identifier "Q137178794";
@@ -2424,7 +2424,7 @@ member:210 a <https://schema.org/Organization>;
 member:212 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_var,
@@ -2452,7 +2452,7 @@ member:212 a <https://schema.org/Organization>;
 member:213 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -2479,7 +2479,7 @@ member:213 a <https://schema.org/Organization>;
 member:215 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2506,7 +2506,7 @@ member:217 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2520,13 +2520,13 @@ member:217 a <https://schema.org/Organization>;
     "Re:Sound";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-164>;
   schema:url <https://www.resound.ca/>;
-  wikidata_property:P8860 "877510586" .
+  wikidata_property:\/P8860 "877510586" .
 
 member:218 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth,
     capacoa:Genres_the;
   schema:address [
@@ -2542,12 +2542,12 @@ member:218 a <https://schema.org/Organization>;
     "Indigenous Performing Arts Alliance";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-165>;
   schema:url <https://ipaa.ca/>;
-  wikidata_property:P8860 "834480675" .
+  wikidata_property:\/P8860 "834480675" .
 
 member:219 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film,
     capacoa:PresenterType_Multidisciplinary;
@@ -2569,7 +2569,7 @@ member:22 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -2596,14 +2596,14 @@ member:22 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://smallworldmusic.com/events/>
   ];
-  wikidata_property:P8860 "880787213" .
+  wikidata_property:\/P8860 "880787213" .
 
 member:220 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2628,14 +2628,14 @@ member:220 a <https://schema.org/Organization>;
     "Luminato Festival";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-95>;
   schema:url <https://luminatofestival.com>;
-  wikidata_property:P8860 "811637347" .
+  wikidata_property:\/P8860 "811637347" .
 
 member:222 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2668,13 +2668,13 @@ member:222 a <https://schema.org/Organization>;
   schema:name "Lawrence O'Brien Arts Centre"@en,
     "Lawrence O'Brien Arts Centre";
   schema:url <http://www.obrienartscentre.ca>;
-  wikidata_property:P8860 "860473479" .
+  wikidata_property:\/P8860 "860473479" .
 
 member:224 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -2697,8 +2697,8 @@ member:225 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2728,13 +2728,13 @@ member:225 a <https://schema.org/Organization>;
     "Terra Bruce Productions";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-170>;
   schema:url <https://terrabruce.com>;
-  wikidata_property:P8860 "765940515" .
+  wikidata_property:\/P8860 "765940515" .
 
 member:228 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -2752,14 +2752,14 @@ member:228 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Only Animal (TOA) is an interdisciplinary arts company whose mission is to bring art and artists to the heart of the climate crisis. To inspire commitment and action, we empower people to reconnect to the land they live on, using art and creative engagement that inspires hope and imagination for a more sustainable future. Our current projects explore how place-based creativity can set the stage for climate care and sensitize relationships between people and place. We prioritize long-term and porous relationships between the public and our artist collaborators, shifting what we do in response to local needs. 
 
 Our core activities include Live Performances, Community for Climate Public Engagement Activities, Research, and Artist Support. We provide flexible mentorship opportunities for emerging artists to take the lead on projects, supporting early career artists in a holistic relationship where they can learn arts administration skills, interface with the local arts community and gain knowledge about tangible practices that challenge climate anxiety. We embrace open-ended learning through research projects that bring diverse perspectives to the climate movement, changing the way we work."""@en;
-  wikidata_property:P8860 "845261544" .
+  wikidata_property:\/P8860 "845261544" .
 
 member:229 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -2796,14 +2796,14 @@ member:229 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.oakvillecentre.ca/whats-on/upcoming-events/>
   ];
-  wikidata_property:P8860 "121742456" .
+  wikidata_property:\/P8860 "121742456" .
 
 member:23 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.1;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.1;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2816,11 +2816,11 @@ member:23 a <https://schema.org/Organization>;
   schema:name "Belsher Arts Management"@en,
     "Belsher Arts Management";
   schema:url <https://www.belsherartsmanagement.com/>;
-  wikidata_property:P8860 "851579706" .
+  wikidata_property:\/P8860 "851579706" .
 
 member:230 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2834,7 +2834,7 @@ member:230 a <https://schema.org/Person>;
 
 member:232 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth;
   schema:address [
     a schema:PostalAddress;
@@ -2852,7 +2852,7 @@ member:234 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_oth;
   schema:address [
@@ -2867,11 +2867,11 @@ member:234 a <https://schema.org/Organization>;
     "Andréane Leclerc / Nadere arts vivants";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5178>;
   schema:url <https://nadereartsvivants.com/>;
-  wikidata_property:P8860 "834007775" .
+  wikidata_property:\/P8860 "834007775" .
 
 member:236 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -2885,7 +2885,7 @@ member:236 a <https://schema.org/Person>;
 
 member:237 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_oth;
   schema:address [
@@ -2902,7 +2902,7 @@ member:237 a <https://schema.org/Person>;
 member:238 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth;
   schema:address [
     a schema:PostalAddress;
@@ -2921,7 +2921,7 @@ member:239 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -2943,14 +2943,14 @@ member:239 a <https://schema.org/Organization>;
     "Regroupement des festivals régionaux artistiques indépendants";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-176>;
   schema:url <https://lerefrain.com/fr>;
-  wikidata_property:P8860 "794800862" .
+  wikidata_property:\/P8860 "794800862" .
 
 member:24 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_the,
     capacoa:PresenterType_Multidisciplinary;
@@ -2978,14 +2978,14 @@ member:24 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.gatewaytheatre.com/events/>
   ];
-  wikidata_property:P8860 "119118875" .
+  wikidata_property:\/P8860 "119118875" .
 
 member:241 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -3003,14 +3003,14 @@ member:241 a <https://schema.org/Organization>;
   schema:name "MASC"@en,
     "MASC";
   schema:url <https://masconline.ca>;
-  wikidata_property:P8860 "880561832" .
+  wikidata_property:\/P8860 "880561832" .
 
 member:242 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_dan,
     capacoa:Genres_you,
@@ -3040,14 +3040,14 @@ member:242 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://femmesdufeu.com/>
   ];
-  wikidata_property:P8860 "713583086" .
+  wikidata_property:\/P8860 "713583086" .
 
 member:243 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -3079,14 +3079,14 @@ member:243 a <https://schema.org/Organization>;
     "Dance Victoria";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-308>;
   schema:url <https://www.dancevictoria.com>;
-  wikidata_property:P8860 "873775522" .
+  wikidata_property:\/P8860 "873775522" .
 
 member:248 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -3138,7 +3138,7 @@ member:25 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
     capacoa:Genres_the;
@@ -3162,12 +3162,12 @@ member:25 a <https://schema.org/Organization>;
   schema:name "Canadian Stage"@en,
     "Canadian Stage";
   schema:url <https://www.canadianstage.com>;
-  wikidata_property:P8860 "119220028" .
+  wikidata_property:\/P8860 "119220028" .
 
 member:250 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus,
     capacoa:Genres_var,
@@ -3195,7 +3195,7 @@ Murdy handles all booking inquiries and presenter partnerships for SAM, whose fi
 member:251 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3211,7 +3211,7 @@ member:251 a <https://schema.org/Person>;
 
 member:252 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3228,7 +3228,7 @@ member:253 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -3258,14 +3258,14 @@ member:253 a <https://schema.org/Organization>;
   schema:name "Aurora Cultural Centre"@en,
     "Aurora Cultural Centre";
   schema:url <https://auroraculturalcentre.ca/>;
-  wikidata_property:P8860 "808239693" .
+  wikidata_property:\/P8860 "808239693" .
 
 member:255 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3290,14 +3290,14 @@ member:255 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.taiwanfest.ca>
   ];
-  wikidata_property:P8860 "856311907" .
+  wikidata_property:\/P8860 "856311907" .
 
 member:256 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -3334,13 +3334,13 @@ member:256 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.fortnelsonshow.com/liveshows>
   ];
-  wikidata_property:P8860 "137467403" .
+  wikidata_property:\/P8860 "137467403" .
 
 member:257 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -3381,7 +3381,7 @@ member:258 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3394,14 +3394,14 @@ member:258 a <https://schema.org/Organization>;
     "SQx Dance Company";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-194>;
   schema:url <https://sqxdance.org>;
-  wikidata_property:P8860 "813604683" .
+  wikidata_property:\/P8860 "813604683" .
 
 member:26 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:PresenterType_Multidisciplinary;
@@ -3431,12 +3431,12 @@ member:26 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.centrekabir.com/events/>
   ];
-  wikidata_property:P8860 "809771470" .
+  wikidata_property:\/P8860 "809771470" .
 
 member:260 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresenterType_Specialized;
   schema:hasOccupation wikidata_entity:Q64825398;
   schema:name "Lynne Bailey";
@@ -3449,7 +3449,7 @@ member:261 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -3483,14 +3483,14 @@ member:261 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://kaymeek.com/events>
   ];
-  wikidata_property:P8860 "119296010" .
+  wikidata_property:\/P8860 "119296010" .
 
 member:262 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -3509,11 +3509,11 @@ member:262 a <https://schema.org/Organization>;
     "PuSh International Performing Arts Festival";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-190>;
   schema:url <https://pushfestival.ca/>;
-  wikidata_property:P8860 "829549948" .
+  wikidata_property:\/P8860 "829549948" .
 
 member:264 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:identifier "Q100523742";
   schema:name "CINARS"@fr,
     "CINARS";
@@ -3525,7 +3525,7 @@ member:265 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -3570,14 +3570,14 @@ Our mandate allows us to preserve one of our community’s most significant and 
     """Le Capitol est un membre dynamique de notre communauté. Nous sommes fier·ère·s de collaborer avec d'autres organismes culturels, établissements d'enseignement, gouvernements et entreprises afin d'assurer la pérennité des arts de la scène dans notre région.
 
 Notre mandat nous permet de préserver l’un des bâtiments patrimoniaux les plus emblématiques et appréciés de notre communauté, tout en maintenant sa vocation d’origine : celle d’un lieu de rassemblement populaire pour la présentation de spectacles, d’événements culturels et de divertissement."""@fr;
-  wikidata_property:P8860 "135529949" .
+  wikidata_property:\/P8860 "135529949" .
 
 member:266 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -3600,14 +3600,14 @@ member:266 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.childrensfestival.ca/calendar/festival-schedule/>
   ];
-  wikidata_property:P8860 "118833532" .
+  wikidata_property:\/P8860 "118833532" .
 
 member:267 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -3632,14 +3632,14 @@ member:267 a <https://schema.org/Organization>;
   schema:name "Boca del Lupo"@en,
     "Boca del Lupo";
   schema:url <https://bocadellupo.com/>;
-  wikidata_property:P8860 "899497127" .
+  wikidata_property:\/P8860 "899497127" .
 
 member:269 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -3672,14 +3672,14 @@ member:269 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://www.firehallartscentre.ca>
   ];
-  wikidata_property:P8860 "119232965" .
+  wikidata_property:\/P8860 "119232965" .
 
 member:27 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3696,14 +3696,14 @@ member:27 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://prairiedebut.com>
   ];
-  wikidata_property:P8860 "867993495" .
+  wikidata_property:\/P8860 "867993495" .
 
 member:270 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -3732,14 +3732,14 @@ member:270 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.citadelcie.com/citadel-live-23-24/>
   ];
-  wikidata_property:P8860 "822475729" .
+  wikidata_property:\/P8860 "822475729" .
 
 member:271 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:Genres_film,
@@ -3772,11 +3772,11 @@ member:271 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.rythmesetcourant.ca>
   ];
-  wikidata_property:P8860 "840401749" .
+  wikidata_property:\/P8860 "840401749" .
 
 member:273 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_var;
@@ -3797,7 +3797,7 @@ member:275 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_film,
     capacoa:Genres_oth,
@@ -3830,14 +3830,14 @@ member:275 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://milezerodance.com/season/>
   ];
-  wikidata_property:P8860 "120549795" .
+  wikidata_property:\/P8860 "120549795" .
 
 member:276 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -3872,14 +3872,14 @@ member:276 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://theatreoutremont.ca/spectacles/>
   ];
-  wikidata_property:P8860 "851639054" .
+  wikidata_property:\/P8860 "851639054" .
 
 member:277 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -3908,13 +3908,13 @@ member:277 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://summerworks.ca>
   ];
-  wikidata_property:P8860 "888532231" .
+  wikidata_property:\/P8860 "888532231" .
 
 member:278 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -3935,7 +3935,7 @@ member:279 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_you;
   schema:address [
@@ -3960,14 +3960,14 @@ member:279 a <https://schema.org/Organization>;
     "Three Left Feet";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-205>;
   schema:url <https://threeleftfeet.ca/index.html>;
-  wikidata_property:P8860 "867083859" .
+  wikidata_property:\/P8860 "867083859" .
 
 member:28 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_oth,
     capacoa:Genres_the,
     capacoa:Genres_vis;
@@ -3987,12 +3987,12 @@ member:28 a <https://schema.org/Organization>;
     """STO Union est une compagnie de création professionnelle dirigée par des artistes, issue de la communauté anglophone en situation minoritaire, fondée en 1992 et désormais établie à Wakefield, au Québec. Depuis plus de trente ans, elle a créé plus de 35 œuvres originales, à la croisée du théâtre et des pratiques multidisciplinaires, tout en proposant des événements d’art vivant, des présentations publiques d’ateliers et des créations vidéo.
 Ses productions ont circulé largement, tant à l’échelle locale que régionale, nationale et internationale, étant présentées dans des théâtres et festivals d’envergure au Canada, en Europe, en Asie, en Australie et aux États-Unis. Le travail de la compagnie s’étend des projets tous publics aux créations ancrées dans les communautés, jusqu’aux productions professionnelles de grande envergure, en maintenant un équilibre entre diffusion internationale et engagement local.
 Les œuvres de STO Union ainsi que ses collaborateurs ont reçu d’importantes distinctions, dont le Siminovitch Prize — la plus prestigieuse récompense au Canada — décerné à sa directrice artistique Nadia Ross, ainsi que le Dora Award, le Chalmers Award et le Contra-Guy Award."""@fr;
-  wikidata_property:P8860 "890739139" .
+  wikidata_property:\/P8860 "890739139" .
 
 member:280 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4009,7 +4009,7 @@ member:281 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4032,14 +4032,14 @@ member:281 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://harbourfrontcentre.com/whats-on/>
   ];
-  wikidata_property:P8860 "107466575" .
+  wikidata_property:\/P8860 "107466575" .
 
 member:282 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth;
@@ -4055,14 +4055,14 @@ member:282 a <https://schema.org/Organization>;
     "The Frank theatre";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-206>;
   schema:url <https://www.thefranktheatre.com/>;
-  wikidata_property:P8860 "861728061" .
+  wikidata_property:\/P8860 "861728061" .
 
 member:283 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_oth,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -4082,7 +4082,7 @@ member:284 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_dan,
     capacoa:Genres_mus-th,
@@ -4101,14 +4101,14 @@ member:284 a <https://schema.org/Organization>;
     "Carrefour international de théâtre";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-211>;
   schema:url <https://carrefourtheatre.qc.ca/>;
-  wikidata_property:P8860 "131668766" .
+  wikidata_property:\/P8860 "131668766" .
 
 member:285 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -4142,14 +4142,14 @@ member:285 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://darkehall.ca/events>
   ];
-  wikidata_property:P8860 "773201306" .
+  wikidata_property:\/P8860 "773201306" .
 
 member:286 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4183,13 +4183,13 @@ member:286 a <https://schema.org/Organization>;
     schema:url <https://marywinspear.ca/calendar-node-field-event-date/month>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Mary Winspear Centre is ideally located on southern Vancouver Island near the airport and ferry terminal. Our theatre is known regionally as a professionally staffed, well-equipped, performance theatre. It has 3 sections, 8 rows and 310 plush velvet chairs all with unobstructed views."@en;
-  wikidata_property:P8860 "886363993" .
+  wikidata_property:\/P8860 "886363993" .
 
 member:287 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4229,7 +4229,7 @@ member:289 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2;
+    capacoa:TermsConditions_agree-and-disclose-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4259,14 +4259,14 @@ member:289 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Digital Arts Resource Centre (formerly SAW Video) is a not-for-profit, artist-run media art centre that fosters the growth and development of artists through access to equipment, training, mentorship, and programming. Our mission is to support a diverse community of media artists empowered by technology, programming and the exchange of ideas.
 
 Our core principles are independence of expression, affordable access to all, and paying artists for their work. Digital Arts Resource Centre values diversity and actively promotes equity for all artists regardless of race, age, class, gender, sexual orientation, language, or ability."""@en;
-  wikidata_property:P8860 "867857641" .
+  wikidata_property:\/P8860 "867857641" .
 
 member:29 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-and-disclose-v1.1;
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4285,7 +4285,7 @@ member:291 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4308,11 +4308,11 @@ member:291 a <https://schema.org/Organization>;
     "Les Violons du Roy";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-94>;
   schema:url <https://www.violonsduroy.com/fr/>;
-  wikidata_property:P8860 "103309431" .
+  wikidata_property:\/P8860 "103309431" .
 
 member:292 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:alternateName "APAP";
   schema:identifier "Q4809965";
   schema:name "Association of Performing Arts Professionals"@en,
@@ -4323,7 +4323,7 @@ member:292 a <https://schema.org/Organization>;
 member:293 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -4339,7 +4339,7 @@ member:293 a <https://schema.org/Person>;
 
 member:294 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_the;
   schema:address [
@@ -4358,7 +4358,7 @@ member:295 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -4373,14 +4373,14 @@ member:295 a <https://schema.org/Organization>;
     "Festival Quartiers Danses";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-334>;
   schema:url <https://quartiersdanses.com/>;
-  wikidata_property:P8860 "893331165" .
+  wikidata_property:\/P8860 "893331165" .
 
 member:297 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -4415,14 +4415,14 @@ member:297 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.wmca.ca/events>
   ];
-  wikidata_property:P8860 "122781040" .
+  wikidata_property:\/P8860 "122781040" .
 
 member:299 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -4447,14 +4447,14 @@ member:299 a <https://schema.org/Organization>;
     "Raag-Mala Toronto";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5752>;
   schema:url <https://raagmala.ca/>;
-  wikidata_property:P8860 "119108264" .
+  wikidata_property:\/P8860 "119108264" .
 
 member:30 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-and-disclose-v1.0,
+    capacoa:TermsConditions_agree-and-disclose-v1\.0,
     capacoa:Genres_mus,
     capacoa:Genres_the,
     capacoa:Genres_var,
@@ -4469,14 +4469,14 @@ member:30 a <https://schema.org/Organization>;
   schema:name "You Will Love it Live"@en,
     "You Will Love it Live";
   schema:url <https://www.youwillloveitlive.com>;
-  wikidata_property:P8860 "260719133" .
+  wikidata_property:\/P8860 "260719133" .
 
 member:300 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4490,13 +4490,13 @@ member:300 a <https://schema.org/Organization>;
     "Ottawa Music Industry Coalition";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5550>;
   schema:url <https://ottawamic.com>;
-  wikidata_property:P8860 "807305966" .
+  wikidata_property:\/P8860 "807305966" .
 
 member:301 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_var;
@@ -4513,12 +4513,12 @@ member:301 a <https://schema.org/Organization>;
     "Agence BAM";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5560>;
   schema:url <https://agencebam.ca/>;
-  wikidata_property:P8860 "829464122" .
+  wikidata_property:\/P8860 "829464122" .
 
 member:302 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4535,7 +4535,7 @@ member:303 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_the,
     capacoa:Genres_you;
   schema:address [
@@ -4568,14 +4568,14 @@ member:303 a <https://schema.org/Organization>;
     "Theatre SKAM";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5878>;
   schema:url <https://skam.ca>;
-  wikidata_property:P8860 "868484627" .
+  wikidata_property:\/P8860 "868484627" .
 
 member:304 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -4605,7 +4605,7 @@ member:304 a <https://schema.org/Organization>;
 
 member:305 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4619,7 +4619,7 @@ member:305 a <https://schema.org/Person>;
 
 member:306 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_com,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_var,
     capacoa:Genres_vis;
@@ -4636,7 +4636,7 @@ member:306 a <https://schema.org/Person>;
 
 member:307 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4652,7 +4652,7 @@ member:308 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus-th,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_the;
   schema:address [
     a schema:PostalAddress;
@@ -4667,11 +4667,11 @@ member:308 a <https://schema.org/Organization>;
     "Theaturtle";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5992>;
   schema:url <https://theaturtle.com>;
-  wikidata_property:P8860 "791975261" .
+  wikidata_property:\/P8860 "791975261" .
 
 member:309 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4688,7 +4688,7 @@ member:31 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_trai,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional;
   schema:address [
     a schema:PostalAddress;
@@ -4710,11 +4710,11 @@ member:31 a <https://schema.org/Organization>;
   schema:name "College of Piping and Celtic Performing Arts"@en,
     "College of Piping and Celtic Performing Arts";
   schema:url <https://example.com/base/collegeofpiping.com>;
-  wikidata_property:P8860 "124138520" .
+  wikidata_property:\/P8860 "124138520" .
 
 member:310 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4731,7 +4731,7 @@ member:311 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4746,14 +4746,14 @@ member:311 a <https://schema.org/Organization>;
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5548>;
   schema:url <https://www.rapail.ca>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Le Réseau des arts de la parole et des arts et initiatives littéraires (RAPAIL) est un organisme à but non lucratif qui fédère des artistes et des organismes professionnels pancanadiens francophones des arts littéraires et des arts de la parole à travers un réseau d’échanges, de réflexions et d’actions collectives."@fr;
-  wikidata_property:P8860 "732655477" .
+  wikidata_property:\/P8860 "732655477" .
 
 member:312 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -4792,12 +4792,12 @@ member:312 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://lodgepolearts.ca/events/>
   ];
-  wikidata_property:P8860 "770577203" .
+  wikidata_property:\/P8860 "770577203" .
 
 member:313 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_soci,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -4823,7 +4823,7 @@ member:313 a <https://schema.org/Organization>;
 member:314 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "US";
@@ -4837,7 +4837,7 @@ member:314 a <https://schema.org/Organization>;
 
 member:315 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -4854,7 +4854,7 @@ member:316 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -4887,14 +4887,14 @@ member:316 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.queensu.ca/theisabel/>
   ];
-  wikidata_property:P8860 "107868705" .
+  wikidata_property:\/P8860 "107868705" .
 
 member:317 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -4934,12 +4934,12 @@ member:317 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.phtheatre.org/whats-on-at-pht/>
   ];
-  wikidata_property:P8860 "107857146" .
+  wikidata_property:\/P8860 "107857146" .
 
 member:319 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_oth;
   schema:address [
     a schema:PostalAddress;
@@ -4960,7 +4960,7 @@ member:32 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -4987,14 +4987,14 @@ member:32 a <https://schema.org/Organization>;
   schema:name "Under the Spire Music Festival"@en,
     "Under the Spire Music Festival";
   schema:url <https://underthespire.ca/>;
-  wikidata_property:P8860 "894496231" .
+  wikidata_property:\/P8860 "894496231" .
 
 member:320 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5028,14 +5028,14 @@ member:320 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.kingstongrand.ca/events>
   ];
-  wikidata_property:P8860 "873300495" .
+  wikidata_property:\/P8860 "873300495" .
 
 member:321 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5074,11 +5074,11 @@ member:321 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Chilliwack Arts &amp; Cultural Centre Society is dedicated to fostering a vibrant and thriving arts community in Chilliwack, BC. Through innovative programming, cultural events, and educational opportunities, the Society enriches lives by connecting people with the transformative power of the arts. From captivating performances to engaging workshops, our mission is to inspire creativity and celebrate artistic expression in all its forms."@en,
     "La Chilliwack Arts & Cultural Centre Society a pour mission de favoriser une communauté artistique dynamique et florissante à Chilliwack, en Colombie-Britannique. Grâce à une programmation novatrice, à des événements culturels et à des occasions éducatives, la Société enrichit la vie des gens en les mettant en contact avec le pouvoir transformateur des arts. Qu’il s’agisse de spectacles captivants ou d’ateliers stimulants, notre mission est d’inspirer la créativité et de célébrer l’expression artistique sous toutes ses formes."@fr;
-  wikidata_property:P8860 "805742897" .
+  wikidata_property:\/P8860 "805742897" .
 
 member:322 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
     capacoa:Genres_vis;
@@ -5098,7 +5098,7 @@ member:323 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5148,7 +5148,7 @@ member:324 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -5188,7 +5188,7 @@ member:325 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5206,7 +5206,7 @@ member:326 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5221,11 +5221,11 @@ member:326 a <https://schema.org/Organization>;
   schema:url <https://www.balletkelowna.ca/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Test WP Biographical Info."@en,
     "Test WP Biographical Info - Français."@fr;
-  wikidata_property:P8860 "855746244" .
+  wikidata_property:\/P8860 "855746244" .
 
 member:327 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_com,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_var,
     capacoa:Genres_you;
@@ -5242,7 +5242,7 @@ member:327 a <https://schema.org/Person>;
 
 member:328 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_cir,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5269,7 +5269,7 @@ member:329 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5316,14 +5316,14 @@ member:329 a <https://schema.org/Organization>;
 Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0–Surrey Civic Theatres (SCT) presents a full season of in-person live performing arts. Our SCT programming has two main streams. The Presentation Series focuses on professional presentations of theatre, music, comedy and dance for adults and families, offering a wide range of experiences to Surrey audiences. Surrey SPARK Stages presents a full season of live Performing Arts for Young Audiences (PYA) presentations and a SPARK Stages Celebration Weekend Festival providing affordable performing arts presentations and activities to children and families. In addition to season presentations, SCT hosts community engagement activities, professional mentorship opportunities and performing arts education classes on an ongoing basis throughout the year.
 Key activities in the Presentation Series include the Arts Club on Tour, classical music Coffee Concerts, a series featuring Indigenous creators, and a showcase presenting established and emerging local musicians. Surrey SPARK Stages activities include a weekend PYA festival celebration in May and year-round SPARK performances for children ages 0-12 and their families. Performances include a range of music, theatre, puppetry, storytelling and circus performances from a range of diverse cultures, including Indigenous, Australian, African, Asian and South-East Asian presenters.
 All performances and activities take place at the Surrey Arts Centre Main Stage, Studio Theatre and Program Room, as well as Centre Stage at City Hall and Clayton Community Centre Performing Arts Studio."""@en;
-  wikidata_property:P8860 "121391882" .
+  wikidata_property:\/P8860 "121391882" .
 
 member:33 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5361,12 +5361,12 @@ member:33 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.keycitytheatre.com/whatson-keycitytheatre>
   ];
-  wikidata_property:P8860 "132514829" .
+  wikidata_property:\/P8860 "132514829" .
 
 member:330 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5388,7 +5388,7 @@ member:331 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th;
   schema:address [
     a schema:PostalAddress;
@@ -5408,7 +5408,7 @@ member:331 a <https://schema.org/Organization>;
 member:332 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5436,7 +5436,7 @@ Avant de se consacrer à sa pratique chorégraphique, Lisa était codirectrice a
 member:333 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -5462,7 +5462,7 @@ member:335 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -5490,14 +5490,14 @@ member:335 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Resource Centre for the Arts (RCA) operates from the historic LSPU Hall (formerly the Longshoremen’s Protective Union), affectionately referred to as The Hall – which houses a 175-198 seat theatre. Downstairs houses the Cox &amp; Palmer Second Space where a bar and smaller event space can be found. The Hall is located in the heart of downtown St. John’s, Newfoundland.
 
 RCA aims to provide accessible, supportive and well-resourced programs and venues, with a primary focus on the creation, development, and advancement of the performing arts in Newfoundland and Labrador. RCA Theatre Company (RCAT), the Hall’s in house theatre company, provides resources and a supportive environment for the production and promotion of theatre in St. John’s and throughout Newfoundland and Labrador."""@en;
-  wikidata_property:P8860 "119117349" .
+  wikidata_property:\/P8860 "119117349" .
 
 member:336 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_you;
   schema:address [
     a schema:PostalAddress;
@@ -5530,13 +5530,13 @@ Since its founding in 1973, Le Petit Théâtre has created more than 90 plays pr
 Un théâtre qui crée, produit et diffuse des oeuvres qui permettent une grande liberté de lecture, qui laissent à la sensibilité et à l’intelligence de chaque jeune spectateur·rice un espace d’interprétation et qui font confiance à sa capacité d’aller à la rencontre de formes nouvelles. Un théâtre de formes hybrides qui décloisonne les pratiques, toujours à la recherche de nouvelles façons de raconter, d’éclater le récit, d’interpeller son public en jouant avec les codes de la représentation, en l’invitant à plonger dans des univers où il doit investir son imaginaire. Un théâtre soucieux de faire rayonner le talent des artistes de sa région, tout en créant de nouvelles collaborations avec des compagnies étrangères, multipliant ainsi les occasions d’échanges entre créateur·rices d’autres horizons et d’autres disciplines artistiques.
 
 Depuis sa fondation en 1973, Le Petit Théâtre de Sherbrooke a créé plus de 90 spectacles, en français et en anglais, présentés au Québec, au Canada, aux États-Unis, en France, en Corée du Sud, en Écosse, en Belgique, en Suisse et en Amérique du Sud."""@fr;
-  wikidata_property:P8860 "123045510" .
+  wikidata_property:\/P8860 "123045510" .
 
 member:337 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5569,7 +5569,7 @@ member:337 a <https://schema.org/Organization>;
 member:338 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "SA";
@@ -5588,7 +5588,7 @@ member:339 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -5635,14 +5635,14 @@ Housed in the CITS building is also the independently operated Kitchener Waterlo
 CITS Inc. also values opportunities for non-traditional partnerships and is committed to providing access in and around the theatre, and expert technical support, for rehearsals, workshops, displays, exhibits, and special events, in order to empower and enable artists of all ages and experience levels.
 
 As a charitable organization, CITS Inc. receives an annual operating grant from the City of Kitchener that covers a portion of its expenses. Other revenue is self-generated through ticket sales, rentals, concessions, sponsorships, fundraising and grants from foundations and other levels of government.  It is the vision of this organization to engage the community and bridge the space between artist and audience in a dynamic and sustainable way."""@en;
-  wikidata_property:P8860 "119221703" .
+  wikidata_property:\/P8860 "119221703" .
 
 member:340 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -5688,12 +5688,12 @@ Pôle de création et d’expérimentation porté par 67 membres issus d’expre
 Situé en plein cœur de Montréal, Le Vivier met le public au centre de ses activités, un public curieux et à l’affût d’expériences musicales insolites. Soucieux d’entretenir un dialogue actif avec les spectateurs et de multiplier les occasions de rencontres en ligne et en salle, Le Vivier inscrit l’accessibilité à la culture au cœur de ses préoccupations.
 
 Tourné vers la création musicale internationale, Le Vivier favorise la circulation des œuvres et des artistes par la tenue de résidences croisées sur le territoire canadien et à l’international et la mise en place de projets de toutes sortes qui vont à la rencontre des publics et promeuvent notre discipline artistique."""@fr;
-  wikidata_property:P8860 "892658253" .
+  wikidata_property:\/P8860 "892658253" .
 
 member:341 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_othe,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis;
   schema:address [
@@ -5716,7 +5716,7 @@ member:342 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -5759,14 +5759,14 @@ The Tidemark Theatre is an art deco, 467 seat performing arts venue located in C
 The Tidemark Theatre, originally the Van Isle Theatre, was built in 1946. The official opening was celebrated on January 2, 1947. In 1985, the City of Campbell River purchased the property and converted the Van Isle Theatre into the Tidemark Theatre; the grand opening was held October 1987. Soon afterwards the Tidemark Theatre Society was created and a management agreement between the Tidemark Theatre Society and the City of Campbell River was signed.
 
 The Tidemark Theatre has been operating as a community theatre and presenter since 1987, and is one of seven heritage sites identified by the City of Campbell River proposed to receive heritage designation. The primary activities undertaken by the Tidemark Theatre Society are focused on the presentation of performing arts, visual arts, media arts, as well as preservation and exhibition of heritage through the revitalization of the Tidemark Theatre."""@en;
-  wikidata_property:P8860 "121711725" .
+  wikidata_property:\/P8860 "121711725" .
 
 member:343 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_the;
   schema:address [
@@ -5791,14 +5791,14 @@ member:343 a <https://schema.org/Organization>;
   schema:url <https://www.mennoplukker.com/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Menno Plukker Theatre Agent Inc. is an agency and management company representing theatre, dance and music artists globally. Founded in 1997 by Menno Plukker, the company has earned a reputation on the national and international scene as an agency that has effectively broadened touring markets for its artists and their companies. The agency’s mandate is to develop and expand touring opportunities (internationally and locally), to increase the visibility and presence of the artists, and to offer opportunities for artistic and creative development. Working collaboratively with artists, the agency seeks to create a working environment that allows the artists to develop and maintain international carreers."@en,
     "Créée en 1997 par Menno Plukker, Menno Plukker Theatre Agent, Inc. a rapidement acquis une solide réputation à l’échelle nationale et internationale en tant qu’agent dont la mission est d’assurer le rayonnement de compagnies de théâtre et de danse. Le mandat de l’agence consiste plus spécifiquement à développer des tournées à l’étranger et à assurer la tenue de représentations d’artistes et compagnies en théâtre, danse et musique. L’agence vise ainsi à rehausser la visibilité et le rayonnement des artistes et des compagnies qu’elle représente, afin de créer un environnement de travail stable et durable qui leur permettra de poursuivre le développement de leur œuvre à l’échelle internationale."@fr;
-  wikidata_property:P8860 "881124168" .
+  wikidata_property:\/P8860 "881124168" .
 
 member:344 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2;
+    capacoa:TermsConditions_agree-and-disclose-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5826,7 +5826,7 @@ member:344 a <https://schema.org/Organization>;
 member:345 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-and-disclose-v1.2;
+    capacoa:TermsConditions_agree-and-disclose-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -5844,7 +5844,7 @@ member:345 a <https://schema.org/Person>;
 member:347 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_dan,
     capacoa:Genres_vis;
   schema:address [
@@ -5870,7 +5870,7 @@ member:348 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth;
@@ -5901,7 +5901,7 @@ member:35 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -5930,14 +5930,14 @@ member:35 a <https://schema.org/Organization>;
   schema:name "Harbourfront Theatre"@en,
     "Harbourfront Theatre";
   schema:url <https://www.harbourfronttheatre.com/>;
-  wikidata_property:P8860 "887829463" .
+  wikidata_property:\/P8860 "887829463" .
 
 member:351 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -5970,14 +5970,14 @@ member:351 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Chan Centre for the Performing Arts is the home of possibility. A conduit for artists and communities to connect and engage, it is a vital space to explore, question, and dream; offering a place where minds are provoked, tears are shed, and the spirit is nourished.  
 
 Situated on the traditional, ancestral, and unceded territory of the Musqueam people, the Chan Centre honours their enduring role as caretakers of this land, while embracing the diverse voices who share it."""@en;
-  wikidata_property:P8860 "108161779" .
+  wikidata_property:\/P8860 "108161779" .
 
 member:352 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6011,14 +6011,14 @@ member:352 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://flatomarkhamtheatre.ca/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B6A7D9D4-197C-4CF9-BE66-D08E47B5F6F1>
   ];
-  wikidata_property:P8860 "122702319" .
+  wikidata_property:\/P8860 "122702319" .
 
 member:353 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -6057,12 +6057,12 @@ member:353 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Based in Kjipuktuk/Halifax, Live Art Dance is a hub of the arts on the East Coast. We programme local, national, and international work, offering our artists and audiences a diverse and rich season of contemporary dance. Our presentations are accompanied by deep and carefully considered outreach, programmed with an eye to increasing engagement with artistic voices, building connections, and celebrating the diversity of artistic practice."@en,
     "-"@fr;
-  wikidata_property:P8860 "131908550" .
+  wikidata_property:\/P8860 "131908550" .
 
 member:354 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_soci,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6082,7 +6082,7 @@ member:355 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -6107,14 +6107,14 @@ member:355 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Brookside Music Association is a community-focused arts organization dedicated to presenting high-quality live music performances in an intimate and welcoming setting. With a programming vision that spans classical, world, and cross-cultural genres, the Association seeks to connect audiences with outstanding Canadian and international artists while fostering a deeper appreciation of diverse musical traditions.
 
 Through thoughtfully curated concerts and special events, Brookside Music Association emphasizes artistic excellence, accessibility, and community engagement. Under the artistic direction of John French, the organization continues to expand its reach, offering enriching musical experiences that appeal to both seasoned concertgoers and new audiences alike."""@en;
-  wikidata_property:P8860 "837063916" .
+  wikidata_property:\/P8860 "837063916" .
 
 member:356 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6143,14 +6143,14 @@ member:356 a <https://schema.org/Organization>;
     schema:url <https://www.thetowne.ca>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Okanagan Screen Arts Society operates the historic Vernon Towne Theatre which has been in operation as an entertainment venue in the North Okanagan since 1929."@en;
-  wikidata_property:P8860 "788404937" .
+  wikidata_property:\/P8860 "788404937" .
 
 member:358 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6189,14 +6189,14 @@ At that time, there were 3 furnaces in the building, which needed to be fed coal
 
 It was in this theatre that Marie Dressler made her first stage appearance at the age of 5, in an amateur play organized by her mother. As part of the vaudeville circuit in the early 1900s, the Academy hosted a young Sammy Davis Jr. and the Marx Brothers as well."""@en,
     "NA"@fr;
-  wikidata_property:P8860 "119482719" .
+  wikidata_property:\/P8860 "119482719" .
 
 member:359 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:Genres_film,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -6233,14 +6233,14 @@ They've toured their productions across Canada and into the United States and Eu
 But that’s not all: they also make sculptures, films, children’s books, music, and paintings. The Trouts run workshops year-round, and deeply harrowing puppetry intensives in Banff and New England every few years.   Recently they’ve taken to designing shows as well: Twelfth Night for the National Arts Centre and Theatre Calgary, Peter &amp; the Wolf for the Fort Worth Symphony Orchestra, Frozen for Regina's Globe Theatre, and Hansel &amp; Gretel – originally commissioned by Vancouver Opera. They recently premiered at Alberta Theatre Projects a work they designed and co-wrote with Anna Cummer, a production of The Legend of Sleepy Hollow.
 
 In 2024 The Old Trouts were finalists for the Siminovitch Prize for Theatre."""@en;
-  wikidata_property:P8860 "867021529" .
+  wikidata_property:\/P8860 "867021529" .
 
 member:36 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -6257,13 +6257,13 @@ member:36 a <https://schema.org/Organization>;
   schema:name "Ontario Presents"@en,
     "Ontario Presents";
   schema:url <https://ontariopresents.ca/>;
-  wikidata_property:P8860 "000775083" .
+  wikidata_property:\/P8860 "000775083" .
 
 member:360 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -6300,14 +6300,14 @@ member:360 a <https://schema.org/Organization>;
     schema:url <https://www.banffcentre.ca/events>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Founded in 1933, Banff Centre for Arts and Creativity is a learning organization built upon an extraordinary legacy of excellence in artistic and creative development. We are a global organization leading in arts, culture, and creativity across all disciplines. At our home in the stunning Canadian Rocky Mountains, we offer residential creative learning and professional development programs, creative residencies and, under the banner, Banff Centre Presents, we present work year round in our spaces."@en;
-  wikidata_property:P8860 "119214555" .
+  wikidata_property:\/P8860 "119214555" .
 
 member:38 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Other-type-of-legal-entity,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_var;
   schema:address [
@@ -6324,14 +6324,14 @@ member:38 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://example.com/base/whynot.theatre>
   ];
-  wikidata_property:P8860 "828087932" .
+  wikidata_property:\/P8860 "828087932" .
 
 member:39 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -6369,14 +6369,14 @@ member:39 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://camroselive.ca/shows-events/events>
   ];
-  wikidata_property:P8860 "839007432" .
+  wikidata_property:\/P8860 "839007432" .
 
 member:391 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_the,
@@ -6412,14 +6412,14 @@ member:391 a <https://schema.org/Organization>;
     schema:url <https://www.mapleridge.ca/art-parks-rec/arts-theatre/act-performances>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The ACT Arts Centre in Maple Ridge has a rich history of supporting the arts and culture in the community. Opened in 2003, it has been a hub for various events and programs, including local school bands, dance recitals, major productions, and concerts. The centre has also been instrumental in highlighting and cultivating local talent through art exhibitions and arts programs. The transition of the ACT Arts Centre to the City of Maple Ridge in 2026 marks a new chapter, with the city rolling out new programs and initiatives to strengthen arts and culture programming and ensure accessibility to everyone. The ACT Arts Centre continues to be a vibrant creative space for the community, offering a range of performances, classes, and exhibitions for all ages."@en;
-  wikidata_property:P8860 "106984271" .
+  wikidata_property:\/P8860 "106984271" .
 
 member:394 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6458,7 +6458,7 @@ member:395 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6496,12 +6496,12 @@ member:395 a <https://schema.org/Organization>;
 Originally a bustling movie theatre from the 1930s, the Capitol Theatre boasts beautiful Art Deco details, gilded decor, charming opera boxes, and a stunning ornate ceiling, all of which add to its historical charm.
 
 The theatre features 756 seats on the orchestra level and 452 seats in the balcony, which can be closed off for a cozier performance atmosphere. With a 65-foot fly tower and state-of-the-art rigging, it can host large-scale, technically impressive productions. The orchestra pit is designed for optimal acoustics and can be adjusted to floor or stage level to enhance your experience."""@en;
-  wikidata_property:P8860 "866337058" .
+  wikidata_property:\/P8860 "866337058" .
 
 member:396 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6547,7 +6547,7 @@ member:396 a <https://schema.org/Organization>;
 member:397 a <https://schema.org/Person>;
   schema:additionalType capacoa:Genres_the,
     capacoa:PrimaryActivity_prod,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6564,7 +6564,7 @@ member:399 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6597,14 +6597,14 @@ member:399 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """Situated on the beautiful East River of Pictou in New Glasgow's downtown core, Glasgow Square Theatre provides year-round entertainment with its award-winning indoor and outdoor stage. Since its opening in September of 2001, Glasgow Square has flourished and evolved, presenting a wide variety of performing arts including contemporary music, comedy, dance, live theatre, and more. In addition to hosting national and international touring acts, Glasgow Square proudly emphasizes and presents local and regional performers. As a proud member of Music Nova Scotia, East Coast Music Association and The Atlantic Presenters Association, Glasgow Square also plays an active presenting role in the music industry.
 
 Glasgow Square has also hosted many major events and festivals such as the New Glasgow Riverfront Music Jubilee, New Glasgow’s Race on the River Dragon Boat Festival, Johnny Miles running events, and Pictou County Ribfest."""@en;
-  wikidata_property:P8860 "108128539" .
+  wikidata_property:\/P8860 "108128539" .
 
 member:40 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6637,14 +6637,14 @@ member:40 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://maclabcentre.com/whats-on>
   ];
-  wikidata_property:P8860 "106930258" .
+  wikidata_property:\/P8860 "106930258" .
 
 member:400 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_film,
     capacoa:PresenterType_Multidisciplinary;
@@ -6668,14 +6668,14 @@ member:400 a <https://schema.org/Organization>;
     "dance: made in/fait au canada Festival";
   schema:url <https://dancemadeincanada.ca/>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "dance: made in canada / fait au canada (d:mic/fac) is Canada’s biennial repertory festival dedicated to championing contemporary dance created in Canada. By bringing together choreographers from across the country, d/fac celebrates the breadth of Canadian artistic voices while creating opportunities for artists, audiences, and communities to engage with the remarkable diversity of contemporary dance practice."@en;
-  wikidata_property:P8860 "865122493" .
+  wikidata_property:\/P8860 "865122493" .
 
 member:403 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresenterType_Specialized;
   schema:address [
     a schema:PostalAddress;
@@ -6710,14 +6710,14 @@ Music Toronto’s dedication extends beyond the concert hall through its Communi
 As a mature organization with a clear mission, Music Toronto embraces both tradition and innovation. While deeply respectful of the European chamber music tradition, the organization actively seeks to expand its repertoire by presenting artists and works of historical, cultural, and aesthetic diversity. This balance of reverence for the past and enthusiasm for the future positions Music Toronto as a leader in bringing chamber music into the 21st century with passion and commitment.
 
 Through its three pillars—Concerts, Artist Development, and Community Engagement and Education —Music Toronto enriches the cultural fabric of Toronto and ensures that the beauty and depth of chamber music continue to inspire and connect generations."""@en;
-  wikidata_property:P8860 "119049849" .
+  wikidata_property:\/P8860 "119049849" .
 
 member:405 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_film,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.2,
+    capacoa:TermsConditions_agree-and-disclose-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_oth,
     capacoa:Genres_vis,
@@ -6749,14 +6749,14 @@ member:405 a <https://schema.org/Organization>;
     """Trinity Square Video (TSV) est un centre d’artistes autogéré qui soutient les artistes en arts médiatiques, les cinéastes indépendants et les créateur·rice·s numériques. Ses membres ont accès à de l’équipement de production professionnel, à des installations spécialisées, à des activités de formation, à des possibilités de diffusion ainsi qu’à une communauté créative diversifiée.
 
 Grâce à une programmation inclusive, à son travail de représentation et à ses partenariats avec le milieu, TSV valorise les voix sous-représentées, encourage l’expérimentation artistique et crée des liens entre les artistes canadien·ne·s en arts médiatiques et des possibilités de diffusion et de développement à l’échelle nationale et internationale."""@fr;
-  wikidata_property:P8860 "108141201" .
+  wikidata_property:\/P8860 "108141201" .
 
 member:406 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6788,12 +6788,12 @@ member:406 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> """The Strathcona Performing Arts Centre(SPAC), operated by The Clayton Bellamy Foundation for the Arts, is a 340 seat, state of the art theatre and cultural hub serving the Lakeland region.  SPAC provides a welcoming space where audiences experience diverse live performances, community events, workshops and arts programming.
 Our mission is to enrich the lives of community members and visitors by creating opportunities to experience, participate in, and connect through the arts. SPAC presents a range of professional touring artists alongside emerging local talent, supporting vibrant and accessible arts community.  As the region's dedicated performing arts venue, SPAC plays an important role in fostering cultural connection, supporting artists and providing meaningful experiences for audiences of all ages."""@en;
-  wikidata_property:P8860 "774435069" .
+  wikidata_property:\/P8860 "774435069" .
 
 member:407 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6835,7 +6835,7 @@ member:408 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -6853,12 +6853,44 @@ member:408 a <https://schema.org/Organization>;
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "En Piste, un allié incontournable dans le développement durable des arts du cirque, promeut une identité culturelle distinctive à l’échelle mondiale en partenariat avec les politiques gouvernementales."@en,
     "En Piste, an essential ally in the sustainable development of circus arts, promotes a distinctive cultural identity on a global scale in partnership with government policies."@fr .
 
+member:409 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-v1\.2;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Edmonton";
+    schema:addressRegion "AB"
+  ];
+  schema:alternateName "FWCM";
+  schema:legalName "Francis Winspear Centre for Music"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Winspear Centre"
+    ];
+    schema:roleName "Owner"
+  ];
+  schema:name "Winspear Centre"@en,
+    "Winspear Centre";
+  schema:url <https://www.winspearcentre.com/>, [
+    a schema:Role;
+    schema:roleName "Events Webpage";
+    schema:url <https://www.winspearcentre.com/tickets/?eso=false>
+  ];
+  <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Winspear Centre is a premier, acoustically renowned concert hall located in downtown Edmonton, Alberta. It is home to the Edmonton Symphony Orchestra and the Tommy Banks Campus. Guided by its purpose to fulfill the human need to make and share music, the organization presents world-class performances, delivers music education and community programs for all ages, and creates meaningful opportunities for people to experience, learn, create, and connect through music."@en;
+  wikidata_property:\/P8860 "118893619" .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -6885,14 +6917,14 @@ member:42 a <https://schema.org/Organization>;
   schema:name "Welland Port Colborne Concert Association"@en,
     "Welland Port Colborne Concert Association";
   schema:url <http://www.wpccaconcert.org>;
-  wikidata_property:P8860 "122349186" .
+  wikidata_property:\/P8860 "122349186" .
 
 member:43 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -6930,14 +6962,14 @@ member:43 a <https://schema.org/Organization>;
 Public Energy Performing Arts supports diverse work, both in terms of cultural influences and artistic innovation. We prioritize Indigenous work through our performance curation and through partnerships with Indigenous organizations, such as the Chanie Wenjack School for Indigenous Studies at Trent University.
 
 Public Energy Performing Arts is committed to making art more accessible, more balanced in its representation, and more inclusive to all."""@en;
-  wikidata_property:P8860 "894811058" .
+  wikidata_property:\/P8860 "894811058" .
 
 member:44 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_film,
     capacoa:Genres_mus,
@@ -6959,14 +6991,14 @@ member:44 a <https://schema.org/Organization>;
     "Prismatic Arts Festival";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-30>;
   schema:url <http://www.prismaticfestival.com>;
-  wikidata_property:P8860 "832876916" .
+  wikidata_property:\/P8860 "832876916" .
 
 member:46 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_vis;
   schema:address [
     a schema:PostalAddress;
@@ -6984,14 +7016,14 @@ member:46 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://manitobaartsnetwork.ca/manitoba-arts-events/>
   ];
-  wikidata_property:P8860 "103480802" .
+  wikidata_property:\/P8860 "103480802" .
 
 member:47 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_dan;
   schema:address [
     a schema:PostalAddress;
@@ -7010,14 +7042,14 @@ member:47 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://danceumbrella.net>
   ];
-  wikidata_property:P8860 "123763625" .
+  wikidata_property:\/P8860 "123763625" .
 
 member:48 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -7055,7 +7087,7 @@ member:49 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7090,14 +7122,14 @@ member:49 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://artspring.ca>
   ];
-  wikidata_property:P8860 "132864414" .
+  wikidata_property:\/P8860 "132864414" .
 
 member:50 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -7122,14 +7154,14 @@ member:50 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://atlanticpresenters.ca>
   ];
-  wikidata_property:P8860 "886108919" .
+  wikidata_property:\/P8860 "886108919" .
 
 member:51 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional;
   schema:address [
     a schema:PostalAddress;
@@ -7151,14 +7183,14 @@ member:51 a <https://schema.org/Organization>;
   schema:name "Propeller Dance"@en,
     "Propeller Dance";
   schema:url <https://www.propellerdance.com>;
-  wikidata_property:P8860 "857100556" .
+  wikidata_property:\/P8860 "857100556" .
 
 member:52 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -7191,14 +7223,14 @@ member:52 a <https://schema.org/Organization>;
   schema:name "FirstOntario Performing Arts Centre"@en,
     "FirstOntario Performing Arts Centre";
   schema:url <https://www.firstontariopac.ca>;
-  wikidata_property:P8860 "775203672" .
+  wikidata_property:\/P8860 "775203672" .
 
 member:53 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -7241,14 +7273,14 @@ member:53 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.rmts.bc.ca/calendar/>
   ];
-  wikidata_property:P8860 "119036044" .
+  wikidata_property:\/P8860 "119036044" .
 
 member:55 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7281,14 +7313,14 @@ member:55 a <https://schema.org/Organization>;
     "Maison des arts Desjardins Drummondville";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-24>;
   schema:url <https://www.artsdrummondville.com/spectacles-drummondville/index.aspx>;
-  wikidata_property:P8860 "119382976" .
+  wikidata_property:\/P8860 "119382976" .
 
 member:56 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Federal-government,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7323,14 +7355,14 @@ member:56 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://nac-cna.ca/en/calendar>
   ];
-  wikidata_property:P8860 "119051407" .
+  wikidata_property:\/P8860 "119051407" .
 
 member:57 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7375,14 +7407,14 @@ member:57 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "As Vancouver’s most diverse and innovative arts and cultural hub, The Cultch has created meaningful, impactful connections across communities for over 50 years. As a presenting theatre, we curate unique, intimate, and diverse performances from Vancouver, Canada, and across the globe — offering dynamic contemporary programming in theatre, dance, music, circus, and visual arts. We host vibrant gatherings and lively conversations around the issues, topics, and ideas that are presented in our shows. We remove barriers to access by providing ASL Interpretation performances and free tickets to those for whom cost is prohibitive."@en,
     "En tant que pôle artistique et culturel le plus diversifié et le plus innovant de Vancouver, The Cultch tisse depuis plus de 50 ans des liens significatifs et porteurs d’impact entre les communautés. En tant que salle de spectacle, nous programmons des spectacles uniques, intimistes et variés provenant de Vancouver, du Canada et du monde entier, proposant ainsi une programmation contemporaine dynamique dans les domaines du théâtre, de la danse, de la musique, du cirque et des arts visuels. Nous organisons des rencontres animées et des discussions passionnantes autour des enjeux, des thèmes et des idées abordés dans nos spectacles. Nous réduisons les obstacles à l'accès en proposant des représentations avec interprétation en langue des signes américaine (ASL) et en offrant des billets gratuits à ceux pour qui le prix est prohibitif."@fr;
-  wikidata_property:P8860 "119281574" .
+  wikidata_property:\/P8860 "119281574" .
 
 member:58 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_com,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Municipal-corporation,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -7418,14 +7450,14 @@ member:58 a <https://schema.org/Organization>;
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "The Sanderson Centre for the Performing Arts is presenting organization in Brantford, Ontario, Canada. The organization is a division of the City of Brantford. It manages the Sanderson Centre for the Performing Arts, a former movie theatre and designated heritage site in downtown Bantford."@en,
     "Le Sanderson Centre for the Performing Arts est un diffuseur de spectacle à Brantford, en Ontario, au Canada. L'organisme est une division de la ville de Brantford. Il gère le Sanderson Centre for the Performing Arts, un ancien cinéma classé site patrimonial situé dans le centre-ville de Brantford."@fr;
-  wikidata_property:P8860 "122686793" .
+  wikidata_property:\/P8860 "122686793" .
 
 member:60 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.0;
+    capacoa:TermsConditions_agree-v1\.0;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7442,8 +7474,8 @@ member:61 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_mus-th,
     capacoa:Genres_vis,
     capacoa:Genres_you;
@@ -7458,14 +7490,14 @@ member:61 a <https://schema.org/Organization>;
   schema:name "Latitude 45 Arts"@en,
     "Latitude 45 Arts";
   schema:url <https://www.latitude45arts.com/>;
-  wikidata_property:P8860 "140017526" .
+  wikidata_property:\/P8860 "140017526" .
 
 member:62 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -7495,14 +7527,14 @@ member:62 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://riverviewartscentre.ca/>
   ];
-  wikidata_property:P8860 "856431564" .
+  wikidata_property:\/P8860 "856431564" .
 
 member:63 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -7525,14 +7557,14 @@ member:63 a <https://schema.org/Organization>;
     "Réseau SPARC"@fr,
     "Réseau SPARC Network";
   schema:url <https://www.sparcperformingarts.com>;
-  wikidata_property:P8860 "742972532" .
+  wikidata_property:\/P8860 "742972532" .
 
 member:64 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -7553,14 +7585,14 @@ member:64 a <https://schema.org/Organization>;
   schema:name "BC Live Performance Network"@en,
     "BC Live Performance Network";
   schema:url <https://bctouring.org/>;
-  wikidata_property:P8860 "106812223" .
+  wikidata_property:\/P8860 "106812223" .
 
 member:65 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7597,14 +7629,14 @@ member:65 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.thegrandyyc.ca/whats-on>
   ];
-  wikidata_property:P8860 "505029306" .
+  wikidata_property:\/P8860 "505029306" .
 
 member:66 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_agen,
     capacoa:CharitableStatus_Not-a-charitable-organization,
-    capacoa:LegalForm_Corporation-for-profit,
-    capacoa:TermsConditions_agree-and-disclose-v1.1;
+    capacoa:LegalForm_Corporation-\(for-profit\),
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7619,14 +7651,14 @@ member:66 a <https://schema.org/Organization>;
     "Boulev'Art";
   schema:sameAs <http://kg.artsdata.ca/resource/K14-40>;
   schema:url <https://www.boulevart.ca/>;
-  wikidata_property:P8860 "858175607" .
+  wikidata_property:\/P8860 "858175607" .
 
 member:68 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7666,14 +7698,14 @@ member:68 a <https://schema.org/Organization>;
   schema:name "SPEC du Haut-Richelieu"@fr,
     "SPEC du Haut-Richelieu";
   schema:url <https://example.com/base/www.spec.qc.ca>;
-  wikidata_property:P8860 "113117410" .
+  wikidata_property:\/P8860 "113117410" .
 
 member:69 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -7707,13 +7739,13 @@ member:69 a <https://schema.org/Organization>;
     "Crow's Theatre";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-42>;
   schema:url <http://www.crowstheatre.com>;
-  wikidata_property:P8860 "118880475" .
+  wikidata_property:\/P8860 "118880475" .
 
 member:70 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_othe,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Sole-proprietorship,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -7724,14 +7756,14 @@ member:70 a <https://schema.org/Organization>;
   schema:name "Strategic Moves"@en,
     "Strategic Moves";
   schema:url <https://strategicmoves.ca>;
-  wikidata_property:P8860 "827533761" .
+  wikidata_property:\/P8860 "827533761" .
 
 member:71 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -7755,13 +7787,13 @@ member:71 a <https://schema.org/Organization>;
   schema:name "Ottawa Chamberfest"@en,
     "Ottawa Chamberfest";
   schema:url <https://www.chamberfest.com/>;
-  wikidata_property:P8860 "897274437" .
+  wikidata_property:\/P8860 "897274437" .
 
 member:72 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -7790,14 +7822,14 @@ member:72 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.sfu.ca/woodwards-cultural-programs/art-performances.html>
   ];
-  wikidata_property:P8860 "118520725" .
+  wikidata_property:\/P8860 "118520725" .
 
 member:73 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_occasional,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -7828,14 +7860,14 @@ member:73 a <https://schema.org/Organization>;
   schema:name "NACC (Northern Arts and Cultural Centre)"@en,
     "NACC (Northern Arts and Cultural Centre)";
   schema:url <https://example.com/base/naccnt.ca>;
-  wikidata_property:P8860 "119059814" .
+  wikidata_property:\/P8860 "119059814" .
 
 member:74 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus-th,
     capacoa:Genres_oth,
@@ -7862,7 +7894,7 @@ member:75 a <https://schema.org/Organization>;
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_dan,
     capacoa:Genres_film,
@@ -7899,14 +7931,14 @@ member:75 a <https://schema.org/Organization>;
     schema:url <https://chesterplayhouse.ca/upcoming-events/>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Since 1939, the Chester Playhouse has been the site of artistic presentations in the seaside village of Chester,  Nova Scotia.  Re-opened in 2023 after a devastating fire in 2021, the Playhouse is a 175 soft seat theatre that presents a wide range of programming for the surrounding community, including concerts, theatre, variety performances, movies, community events and more, as well as arts education programs for children and adults. We strive to be a community hub that is accessible, equitable, and welcoming to all. Come join us!"@en;
-  wikidata_property:P8860 "127727444" .
+  wikidata_property:\/P8860 "127727444" .
 
 member:76 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.0,
+    capacoa:TermsConditions_agree-v1\.0,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_oth;
   schema:address [
@@ -7925,14 +7957,14 @@ member:76 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://www.linkedin.com/company/tempoconnect>
   ];
-  wikidata_property:P8860 "868387770" .
+  wikidata_property:\/P8860 "868387770" .
 
 member:77 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.0,
+    capacoa:TermsConditions_agree-and-disclose-v1\.0,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_var,
     capacoa:Genres_you,
@@ -7949,14 +7981,14 @@ member:77 a <https://schema.org/Organization>;
   schema:name "Mission Folk Music Festival"@en,
     "Mission Folk Music Festival";
   schema:url <https://example.com/base/www.missionfolkmusicfestival.ca>;
-  wikidata_property:P8860 "128544509" .
+  wikidata_property:\/P8860 "128544509" .
 
 member:78 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_mus,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series-festival,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -7976,14 +8008,14 @@ member:78 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://homeroutes.ca/concerts>
   ];
-  wikidata_property:P8860 "860891381" .
+  wikidata_property:\/P8860 "860891381" .
 
 member:80 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.0,
+    capacoa:TermsConditions_agree-v1\.0,
     capacoa:PresentingFormat_festival-series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -8005,14 +8037,14 @@ member:80 a <https://schema.org/Organization>;
   schema:name "Inner Fish Performance"@en,
     "Inner Fish Performance";
   schema:url <https://example.com/base/innerfishperformance.ca>;
-  wikidata_property:P8860 "000056551" .
+  wikidata_property:\/P8860 "000056551" .
 
 member:81 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series-festival,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -8050,14 +8082,14 @@ member:81 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://www.ticketseller.ca>
   ];
-  wikidata_property:P8860 "130877855" .
+  wikidata_property:\/P8860 "130877855" .
 
 member:84 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2;
+    capacoa:TermsConditions_agree-v1\.2;
   schema:address [
     a schema:PostalAddress;
     schema:addressCountry "CA";
@@ -8079,14 +8111,14 @@ member:84 a <https://schema.org/Organization>;
   schema:name "Decidedly Jazz Danceworks"@en,
     "Decidedly Jazz Danceworks";
   schema:url <https://www.decidedlyjazz.com>;
-  wikidata_property:P8860 "118883545" .
+  wikidata_property:\/P8860 "118883545" .
 
 member:86 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_prod,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:Genres_mus-th,
@@ -8105,14 +8137,14 @@ member:86 a <https://schema.org/Organization>;
   schema:name "Productions Strada"@fr,
     "Productions Strada";
   schema:url <https://www.strada.ca>;
-  wikidata_property:P8860 "123456789" .
+  wikidata_property:\/P8860 "123456789" .
 
 member:87 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -8150,14 +8182,14 @@ member:87 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://theactmapleridge.org/act-presents>
   ];
-  wikidata_property:P8860 "107336612" .
+  wikidata_property:\/P8860 "107336612" .
 
 member:89 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_asso,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-and-disclose-v1.1,
+    capacoa:TermsConditions_agree-and-disclose-v1\.1,
     capacoa:Genres_com,
     capacoa:Genres_dan,
     capacoa:Genres_mus,
@@ -8180,14 +8212,14 @@ member:89 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://www.radarts.ca/francofete>
   ];
-  wikidata_property:P8860 "857321242" .
+  wikidata_property:\/P8860 "857321242" .
 
 member:90 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Educational-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_series,
     capacoa:Genres_com,
     capacoa:Genres_dan,
@@ -8224,14 +8256,14 @@ member:90 a <https://schema.org/Organization>;
     schema:url <https://ticket.keyano.ca>
   ];
   <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#hasAgentBiography> "Keyano Theatre is a department of Keyano College.  We produce 3 plays each year with our community members.  A touring season of professional artists and various community and visiting events round out our activities."@en;
-  wikidata_property:P8860 "107566218" .
+  wikidata_property:\/P8860 "107566218" .
 
 member:92 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival,
     capacoa:Genres_var,
     capacoa:PresenterType_Multidisciplinary;
@@ -8259,14 +8291,14 @@ member:92 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <http://albertacircusarts.com>
   ];
-  wikidata_property:P8860 "880760913" .
+  wikidata_property:\/P8860 "880760913" .
 
 member:93 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.2,
+    capacoa:TermsConditions_agree-v1\.2,
     capacoa:PresentingFormat_festival-series,
     capacoa:PresenterType_Specialized;
   schema:address [
@@ -8282,14 +8314,14 @@ member:93 a <https://schema.org/Organization>;
     "Fall for Dance North";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-58>;
   schema:url <https://www.ffdnorth.com>;
-  wikidata_property:P8860 "842701179" .
+  wikidata_property:\/P8860 "842701179" .
 
 member:94 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series-festival-equal,
     capacoa:Genres_mus,
     capacoa:Genres_oth,
@@ -8305,14 +8337,14 @@ member:94 a <https://schema.org/Organization>;
   schema:name "Full Circle: First Nations Performance"@en,
     "Full Circle: First Nations Performance";
   schema:url <https://fullcircle.ca/>;
-  wikidata_property:P8860 "134191816" .
+  wikidata_property:\/P8860 "134191816" .
 
 member:96 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_dan,
     capacoa:PrimaryActivity_pres,
     capacoa:CharitableStatus_Not-a-charitable-organization,
     capacoa:LegalForm_Not-for-profit-organization,
-    capacoa:TermsConditions_agree-v1.1,
+    capacoa:TermsConditions_agree-v1\.1,
     capacoa:PresentingFormat_series,
     capacoa:Genres_oth,
     capacoa:Genres_the,
@@ -8332,11 +8364,11 @@ member:96 a <https://schema.org/Organization>;
     schema:roleName "Events Webpage";
     schema:url <https://windintheleavescollective.com/>
   ];
-  wikidata_property:P8860 "798264263" .
+  wikidata_property:\/P8860 "798264263" .
 
 member:98 a <https://schema.org/Organization>;
   schema:additionalType capacoa:PrimaryActivity_asso,
-    capacoa:TermsConditions_agree-and-disclose-v1.1;
+    capacoa:TermsConditions_agree-and-disclose-v1\.1;
   schema:alternateName "Association RIDEAU";
   schema:identifier "Q87727957";
   schema:name "RIDEAU"@fr,
@@ -8356,7 +8388,7 @@ capacoa:PrimaryActivity_labo a skos:Concept;
   skos:prefLabel "promoting employees' interests"@en,
     "promotion des intérêts d'employés"@fr .
 
-capacoa:TermsConditions_do-not-agree-v1.1 a skos:Concept;
+capacoa:TermsConditions_do-not-agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "did not agree with the terms of the open data strategy"@en .
 
@@ -8396,11 +8428,11 @@ capacoa:LegalForm_Other-type-of-legal-entity a skos:Concept;
 capacoa:PresenterType a skos:ConceptScheme;
   skos:prefLabel "Presenter Type"@en .
 
-capacoa:TermsConditions_agree-and-disclose-v1.0 a skos:Concept;
+capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
-capacoa:TermsConditions_agree-v1.0 a skos:Concept;
+capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
@@ -8465,11 +8497,11 @@ capacoa:PresentingFormat_festival-series a skos:Concept;
   skos:prefLabel "festival (mainly) plus series"@en,
     "festival (principalement) et série"@fr .
 
-capacoa:TermsConditions_agree-v1.1 a skos:Concept;
+capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
-capacoa:TermsConditions_agree-and-disclose-v1.1 a skos:Concept;
+capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
