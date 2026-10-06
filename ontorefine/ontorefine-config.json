@@ -547,7 +547,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value.replace(\"\\\\\", \"\").replace(\" \", \"-\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#Genres_\" + cells[\"_ - usermeta - discipline_genre - discipline_genre\"].value.replace(\" \", \"-\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -561,7 +561,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value.replace(\"\\\\\", \"\").replace(\" \", \"-\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#PrimaryActivity_\" + cells[\"_ - usermeta - primary_activity\"].value.replace(\" \", \"-\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -575,7 +575,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + replace(cells[\"_ - usermeta - charitable_status\"].value, \" \", \"-\").replace(\"\\\\\", \"\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#CharitableStatus_\" + cells[\"_ - usermeta - charitable_status\"].value.replace(\" \", \"-\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -589,7 +589,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + replace(cells[\"_ - usermeta - legal_form\"].value, \" \", \"-\").replace(\"\\\\\", \"\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#LegalForm_\" + cells[\"_ - usermeta - legal_form\"].value.replace(\" \", \"-\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -603,7 +603,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + replace(replace(replace(cells[\"_ - usermeta - terms_conditions\"].value, \")\", \"\"), \"(\", \"\"), \" \", \"-\").replace(\"\\\\\", \"\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#TermsConditions_\" + cells[\"_ - usermeta - terms_conditions\"].value.replace(\")\", \"\").replace(\"(\", \"\").replace(\" \", \"-\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
@@ -617,7 +617,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + replace(cells[\"_ - usermeta - presenting_format\"].value, \" \", \"-\").replace(\"\\\\\", \"\")"
+                      "expression": "\"https://capacoa.ca/vocabulary#PresentingFormat_\" + cells[\"_ - usermeta - presenting_format\"].value.replace(\" \", \"-\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\\\\", \"\")"
                     },
                     "valueType": {
                       "type": "iri",
