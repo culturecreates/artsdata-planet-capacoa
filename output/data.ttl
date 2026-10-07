@@ -8385,23 +8385,23 @@ capacoa:PrimaryActivity_labo a skos:Concept;
   skos:prefLabel "promoting employees' interests"@en,
     "promotion des intérêts d'employés"@fr .
 
-capacoa:TermsConditions_agree-and-disclose-v1\.0 a skos:Concept;
+capacoa:TermsConditions_agree-and-disclose-v1.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
-capacoa:TermsConditions_agree-and-disclose-v1\.1 a skos:Concept;
+capacoa:TermsConditions_agree-and-disclose-v1.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy extended consent"@en .
 
-capacoa:TermsConditions_agree-v1\.0 a skos:Concept;
+capacoa:TermsConditions_agree-v1.0 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
-capacoa:TermsConditions_agree-v1\.1 a skos:Concept;
+capacoa:TermsConditions_agree-v1.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "open data strategy terms basic consent"@en .
 
-capacoa:TermsConditions_do-not-agree-v1\.1 a skos:Concept;
+capacoa:TermsConditions_do-not-agree-v1.1 a skos:Concept;
   skos:inScheme capacoa:TermsConditions;
   skos:prefLabel "did not agree with the terms of the open data strategy"@en .
 
