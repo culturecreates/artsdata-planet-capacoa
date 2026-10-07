@@ -11,9 +11,9 @@ prefixes = {
   skos:     RDF::Vocabulary.new("http://www.w3.org/2004/02/skos/core#"),
   capacoa:  RDF::Vocabulary.new("https://capacoa.ca/vocabulary#"),
   member:  RDF::Vocabulary.new("https://capacoa.ca/member/"),
-  wikidata_property: RDF::Vocabulary.new("http://www.wikidata.org/prop/direct"),
+  wikidata_property: RDF::Vocabulary.new("http://www.wikidata.org/prop/direct/"),
   wikidata_entity: RDF::Vocabulary.new("http://www.wikidata.org/entity/"),
-  ebu_core: RDF::Vocabulary.new("https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"),
+  ebu_core: RDF::Vocabulary.new("http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"),
 }
 output_dir = "output"
 Dir.mkdir(output_dir) unless Dir.exist?(output_dir)
