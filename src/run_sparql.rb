@@ -18,13 +18,8 @@ prefixes = {
 output_dir = "output"
 Dir.mkdir(output_dir) unless Dir.exist?(output_dir)
 output_file = File.join(output_dir, "data.ttl")
-ttl = graph.dump(:ttl, prefixes: prefixes)
-# RDF::Turtle over-escapes interior dots in prefixed-name local parts
-# (e.g. capacoa:...v1\.0). A '.' is legal inside a Turtle PN_LOCAL, so
-# unescape it. The (?<!\\) guard leaves a literal backslash (\\.) untouched.
-ttl = ttl.gsub(/(?<!\\)\\\./, ".")
 File.open(output_file, "w") do |f|
-  f.write(ttl)
+  f.write(graph.dump(:ttl, prefixes: prefixes))
 end
 
 puts("File saved to #{output_file}")
