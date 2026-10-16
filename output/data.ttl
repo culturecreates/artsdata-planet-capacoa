@@ -6886,6 +6886,38 @@ member:409 a <https://schema.org/Organization>;
   ebu_core:hasAgentBiography "The Winspear Centre is a premier, acoustically renowned concert hall located in downtown Edmonton, Alberta. It is home to the Edmonton Symphony Orchestra and the Tommy Banks Campus. Guided by its purpose to fulfill the human need to make and share music, the organization presents world-class performances, delivers music education and community programs for all ages, and creates meaningful opportunities for people to experience, learn, create, and connect through music."@en;
   wikidata_property:P8860 "118893619" .
 
+member:410 a <https://schema.org/Organization>;
+  schema:additionalType capacoa:Genres_dan,
+    capacoa:PrimaryActivity_prod,
+    capacoa:CharitableStatus_Charitable-organization,
+    capacoa:LegalForm_Not-for-profit-organization,
+    capacoa:TermsConditions_agree-and-disclose-v12;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Calgary";
+    schema:addressRegion "AB"
+  ];
+  schema:legalName "Alberta Ballet Company"@en;
+  schema:location [
+    a schema:Role;
+    schema:location [
+      a schema:Place;
+      schema:name "Southern and Northern Alberta Jubilee Auditoria"
+    ];
+    schema:roleName "Resident organization"
+  ];
+  schema:name "Alberta Ballet"@en,
+    "Alberta Ballet";
+  schema:url <https://www.albertaballet.com/>;
+  ebu_core:hasAgentBiography """About Alberta Ballet 
+
+Established in 1966, Alberta Ballet is a leading Canadian performing arts institution with principal homes in Calgary and Edmonton. The organization brings together a professional ballet company, an internationally active school and provincial community programming. It presents full seasons in both cities while developing Canadian work, engaging international artists and repertoire, training emerging professionals and building cultural connections between Alberta and the world."""@en,
+    """À propos d’Alberta Ballet
+
+Fondé en 1966, Alberta Ballet est l’une des principales institutions canadiennes des arts de la scène, établie principalement à Calgary et à Edmonton. L’organisation réunit une compagnie professionnelle de ballet, une école à rayonnement international ainsi que des programmes communautaires déployés à l’échelle de la province. Elle présente des saisons complètes dans les deux villes tout en créant des œuvres canadiennes, en collaborant avec des artistes et des répertoires internationaux, en formant la relève professionnelle et en favorisant les échanges culturels entre l’Alberta et le monde."""@fr;
+  wikidata_property:P8860 "118780378" .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
