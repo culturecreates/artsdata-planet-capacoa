@@ -35,6 +35,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v5
 
+      - name: Sync with latest main
+        run: git pull --ff-only
+
       - name: Download artifact
         uses: actions/download-artifact@v5
         with:
@@ -43,12 +46,12 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git pull
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add output/capacoa-wikidata.jsonld
           if ! git diff --cached --quiet; then
             git commit -m "Update CAPACOA Wikidata graph (venues, social media, images)"
+            git pull --rebase
             git push
           else
             echo "No changes to commit."
