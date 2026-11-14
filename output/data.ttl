@@ -6918,6 +6918,33 @@ Established in 1966, Alberta Ballet is a leading Canadian performing arts instit
 Fondé en 1966, Alberta Ballet est l’une des principales institutions canadiennes des arts de la scène, établie principalement à Calgary et à Edmonton. L’organisation réunit une compagnie professionnelle de ballet, une école à rayonnement international ainsi que des programmes communautaires déployés à l’échelle de la province. Elle présente des saisons complètes dans les deux villes tout en créant des œuvres canadiennes, en collaborant avec des artistes et des répertoires internationaux, en formant la relève professionnelle et en favorisant les échanges culturels entre l’Alberta et le monde."""@fr;
   wikidata_property:P8860 "118780378" .
 
+member:412 a <https://schema.org/Person>;
+  schema:additionalType capacoa:Genres_mus,
+    capacoa:PrimaryActivity_pres,
+    capacoa:TermsConditions_agree-and-disclose-v12,
+    capacoa:PresentingFormat_series-festival-equal,
+    capacoa:PresenterType_Specialized;
+  schema:address [
+    a schema:PostalAddress;
+    schema:addressCountry "CA";
+    schema:addressLocality "Edmonton";
+    schema:addressRegion "AB"
+  ];
+  schema:hasOccupation wikidata_entity:Q15978655;
+  schema:name "BGB ENTERTAINMENT &amp; PROMOTIONS INC";
+  schema:url <https://www.bgbent.com/>;
+  ebu_core:hasAgentBiography """Professional Biography – Kunle Bishop Adelakun.
+
+Kunle Bishop Adelakun is a passionate entertainment entrepreneur, cultural advocate, and community leader based in Edmonton, Alberta. He is the Founder and CEO of BGB Entertainment &amp; Promotions Inc. and the Founder of BGB Culture &amp; Creative Alliance, a nonprofit organization dedicated to empowering communities through culture and creative expression.
+
+Through BGB Entertainment, Bishop has played a significant role in promoting African music, arts, and culture across Canada, producing concerts, live performances, and cultural experiences that connect diverse audiences. His work focuses on creating platforms for emerging and established artists, particularly within the Afrobeats, Amapiano, and African contemporary music scenes.
+
+Through BGB Culture &amp; Creative Alliance, he is committed to advancing cultural inclusion, supporting underrepresented artists, fostering youth engagement, and creating opportunities for cross-cultural collaboration through arts programming and community initiatives.
+
+With an extensive background in corporate leadership, strategic partnerships, and event management, Bishop brings a unique combination of business expertise and creative vision to Canada’s performing arts sector.
+
+He is passionate about strengthening Canada’s cultural landscape, amplifying diverse artistic voices, and building meaningful partnerships that contribute to a more inclusive and vibrant performing arts community."""@en .
+
 member:42 a <https://schema.org/Organization>;
   schema:additionalType capacoa:Genres_cir,
     capacoa:PrimaryActivity_pres,
@@ -8517,14 +8544,14 @@ capacoa:PresentingFormat_occasional a skos:Concept;
   skos:prefLabel "occasional presentations/one-offs"@en,
     "présentations occasionnelles/événements uniques"@fr .
 
+capacoa:Genres a skos:ConceptScheme;
+  skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
+
 capacoa:PresentingFormat_series-festival-equal a skos:Concept;
   skos:hiddenLabel "series-festival-equal";
   skos:inScheme capacoa:PresentingFormat;
   skos:prefLabel "series and festival, equally"@en,
     "série et festival, également"@fr .
-
-capacoa:Genres a skos:ConceptScheme;
-  skos:prefLabel "Main discipline(s) or genre(s) produced/presented/represented by the organization."@en .
 
 capacoa:PresentingFormat_series-festival a skos:Concept;
   skos:hiddenLabel "series-festival";
